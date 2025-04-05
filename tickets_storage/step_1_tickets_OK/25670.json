@@ -1,0 +1,58 @@
+[
+    {
+        "id": 78612,
+        "ticket_id": 25670,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Gustav Ravi Hjerting <grahj@dtu.dk>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Gustav (DTU) & Sara (Avicenna)",
+        "reply_to": null,
+        "message_id": "<AS2P192MB2266C762D680CAE272D87993C87F2@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "message_id_md5": "a15f545672482ce366fc2b2d15f6ca9b",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10055,
+        "created_by_id": 10055,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T17:09:20.479Z",
+        "updated_at": "2024-10-09T17:09:20.479Z",
+        "attachments": [
+            {
+                "id": 132625,
+                "store_file_id": 83060,
+                "filename": "message.html",
+                "size": "1152",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 132626,
+                "store_file_id": 104660,
+                "filename": "file",
+                "size": "1299",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "grahj@dtu.dk",
+        "updated_by": "grahj@dtu.dk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

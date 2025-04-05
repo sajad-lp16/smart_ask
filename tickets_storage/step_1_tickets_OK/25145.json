@@ -1,0 +1,76 @@
+[
+    {
+        "id": 76978,
+        "ticket_id": 25145,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Google Meet <meetings-noreply@google.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "Meeting records: “Alex Lucas <> Amin (Avicenna)” Sep 23, 2024",
+        "reply_to": null,
+        "message_id": "<autogen-java-13749620-5dee-4d44-91e2-7ab5ab097cc8@google.com>",
+        "message_id_md5": "7f42fcf8479a962651c916865697fa9e",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<div>\n<div>\n<div style=\"color: #202124;\">Meeting records from<br>“Alex Lucas &lt;&gt; Amin (Avicenna)”</div>\n<div style=\"color: #202124;\">The meeting records from your meeting have been uploaded to Drive.</div>\n</div>\n<div><table style=\"border-collapse: collapse; width: 100%;\"><tr>\n<td style=\"padding-right: 24px; vertical-align: middle;\"></td>\n<td style=\"width: 100%;\"><a href=\"https://drive.google.com/file/d/13_f9-nzXTGM85jkTJ8950bvBq4GtpYgW/view?usp=drive_web\" rel=\"nofollow noreferrer noopener\" title=\"https://drive.google.com/file/d/13_f9-nzXTGM85jkTJ8950bvBq4GtpYgW/view?usp=drive_web\" target=\"_blank\"><span style=\"color: #001d35;\">Recording</span></a></td>\n</tr></table></div>\n</div>\n<div style=\"color: #444746;\">\n<address>Google LLC, 1600 Ampitheatre Parkway, Mountain View, CA 94043, USA</address>\n<div>You have received this email because meeting artifacts were initiated in Google Meet.</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7028,
+        "created_by_id": 7028,
+        "origin_by_id": null,
+        "created_at": "2024-09-23T19:41:51.969Z",
+        "updated_at": "2024-09-23T19:41:51.969Z",
+        "attachments": [
+            {
+                "id": 130206,
+                "store_file_id": 102737,
+                "filename": "message.html",
+                "size": "2702",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "meetings-noreply@google.com",
+        "updated_by": "meetings-noreply@google.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 76986,
+        "ticket_id": 25145,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Sara Farnya",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "Moved to the client's folder.",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-09-23T21:26:09.757Z",
+        "updated_at": "2024-09-23T21:26:09.757Z",
+        "attachments": [],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

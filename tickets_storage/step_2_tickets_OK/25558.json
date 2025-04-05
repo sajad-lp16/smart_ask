@@ -1,0 +1,9 @@
+{
+    "conversations": "Avicenna Research <no-reply@avicennaresearch.com>:\nHooray, a new version of Discourse is available!Your version: 3.4.0.beta1-dev New version: 3.4.0.beta2 Update using our easy one-click browser update See what’s new in the release notes or view the raw GitHub changelog Visit meta.discourse.org for news, discussion, and support for Discourse Release notes Read about this release here:https://meta.discourse.org/t/3-4-0-beta2-better-pageview-metrics-multiple-category-moderator-groups-watch-chat-threads-and-more/329340Please update your site as it includes security updates.------\n\nAmin Ghaffari:\nFYI Bardia Salimi",
+    "all_emails": [
+        "amin.ghaffari@avicennaresearch.com",
+        "no-reply@avicennaresearch.com",
+        "support@avicennaresearch.com"
+    ],
+    "ticket_id": "25558"
+}

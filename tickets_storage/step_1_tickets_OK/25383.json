@@ -1,0 +1,75 @@
+[
+    {
+        "id": 77733,
+        "ticket_id": 25383,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Sarah Malamut <sarah.malamut@utu.fi>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Appointment booked: Meeting with Avicenna (Amin Tavassolian) (Sarah Malamut) @ Thu Oct 24, 2024 7am - 7:30am (PDT) (stmala@utu.fi)",
+        "reply_to": null,
+        "message_id": "<3f4ef05347774d4b96c5ed80bd29327c@utu.fi>",
+        "message_id_md5": "773aa489b3389ff6f165bf7dac9480b6",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9025,
+        "created_by_id": 9025,
+        "origin_by_id": null,
+        "created_at": "2024-10-02T06:43:53.098Z",
+        "updated_at": "2024-10-02T06:43:53.098Z",
+        "attachments": [
+            {
+                "id": 131318,
+                "store_file_id": 103652,
+                "filename": "file",
+                "size": "1317",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "sarah.malamut@utu.fi",
+        "updated_by": "sarah.malamut@utu.fi",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77734,
+        "ticket_id": 25383,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1131</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-08-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Presentation</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-02T06:43:56.782Z",
+        "updated_at": "2024-10-02T06:43:56.782Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

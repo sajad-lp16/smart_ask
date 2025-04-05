@@ -1,0 +1,35 @@
+[
+    {
+        "id": 79135,
+        "ticket_id": 25854,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "New demo booked",
+        "reply_to": null,
+        "message_id": "<010d019293431cf6-eeffb5fd-b4e9-4af4-95e8-f40d3627d234-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "d3f0529665857c35e83a2c1e44be68f0",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "ID: 329 - Wilford Streich (hugolehmann92@outlook.com) from Wilford Streich on 2024-10-16\nTopic: \n",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-10-16T02:58:49.830Z",
+        "updated_at": "2024-10-16T02:58:54.879Z",
+        "attachments": [],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

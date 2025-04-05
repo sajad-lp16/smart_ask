@@ -1,0 +1,397 @@
+[
+    {
+        "id": 78834,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <mohammad@avicennaresearch.com>",
+        "to": "m.borkowska@essex.ac.uk",
+        "cc": "Avicenna Sales <sales@avicennaresearch.com>",
+        "subject": "Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<CAB=qvUTpoQaFQu_S7iRt_HcTB5d8-LraDKbeaHzZccwCN75jrg@mail.gmail.com>",
+        "message_id_md5": "1d6dd1c6cb4ed9db52fc2c134d09ec5c",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<div>Hi Magda,</div>\n<div> </div>\n<div>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</div>\n<div> </div>\n<div>####################</div>\n<div>Hi Magda,<br><br>Hope you are having a great weekend. <br><br>Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br><br>We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br><br>On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br><br>Best,<br>Amin<br>\n</div>\n<div>####################<br>\n</div>\n<div> </div>\n<div>Best,</div>\n<div>Mohammad</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">\n<div dir=\"ltr\">Mohammad Hashemian<br>Founder, Chief Executive Officer, </div>\n<div>\n<a href=\"https://996b91bc.streaklinks.com/CJ5jgqGZGePa4OeAfAQhU6RB/https%3A%2F%2Favicennaresearch.com%2F\" rel=\"nofollow noreferrer noopener\" title=\"https://996b91bc.streaklinks.com/CJ5jgqGZGePa4OeAfAQhU6RB/https%3A%2F%2Favicennaresearch.com%2F\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</div>\n<div> </div>\n</div></div></div></div></div></div></div>\n</div><div>ᐧ</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-11T18:04:31.570Z",
+        "updated_at": "2024-10-11T18:04:31.570Z",
+        "attachments": [
+            {
+                "id": 133078,
+                "store_file_id": 104980,
+                "filename": "message.html",
+                "size": "3072",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            },
+            {
+                "id": 133079,
+                "store_file_id": 104175,
+                "filename": "TCs_Avicenna (UKHLS V0.3).docx",
+                "size": "104651",
+                "preferences": {
+                    "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; name=\"TCs_Avicenna (UKHLS V0.3).docx\"",
+                    "Content-ID": "f_m251dmd80",
+                    "X-Attachment-Id": "f_m251dmd80",
+                    "Mime-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78875,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>",
+        "to": "\"mohammad@avicennaresearch.com\" <mohammad@avicennaresearch.com>, \"Kneeshaw, Jack\" <kneejw@essex.ac.uk>",
+        "cc": "Amin Tavassolian <sales@avicennaresearch.com>, \"amin@avicennaresearch.com\" <amin@avicennaresearch.com>",
+        "subject": "FW: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<PAXPR06MB855313B95FC8933E0D17612BA87A2@PAXPR06MB8553.eurprd06.prod.outlook.com>",
+        "message_id_md5": "7816c17b01881837f77395136562a1c4",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p><span>Many thanks,<br> Magda</span></p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;mohammad@avicennaresearch.com&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;m.borkowska@essex.ac.uk&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;sales@avicennaresearch.com&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100.0%;\">\n<tbody>\n<tr>\n<td style=\"width:100.0%;background:#fdf2f4;padding:.5pt .5pt .5pt .5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><span><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p>ᐧ</p>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6487,
+        "created_by_id": 6487,
+        "origin_by_id": null,
+        "created_at": "2024-10-12T12:11:25.945Z",
+        "updated_at": "2024-10-12T12:11:25.945Z",
+        "attachments": [
+            {
+                "id": 133177,
+                "store_file_id": 105036,
+                "filename": "message.html",
+                "size": "9373",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 133178,
+                "store_file_id": 105037,
+                "filename": "TCs_Avicenna (UKHLS V0.3).docx",
+                "size": "103422",
+                "preferences": {
+                    "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; name=\"TCs_Avicenna (UKHLS V0.3).docx\"",
+                    "Content-Description": "TCs_Avicenna (UKHLS V0.3).docx",
+                    "Mime-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "m.borkowska@essex.ac.uk",
+        "updated_by": "m.borkowska@essex.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78876,
+        "ticket_id": 25751,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">829</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-07-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - More Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-12T12:11:29.418Z",
+        "updated_at": "2024-10-12T12:11:29.418Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 79165,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Kneeshaw, Jack\" <kneejw@essex.ac.uk>",
+        "to": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, \"mohammad@avicennaresearch.com\" <mohammad@avicennaresearch.com>",
+        "cc": "Amin Tavassolian <sales@avicennaresearch.com>, \"amin@avicennaresearch.com\" <amin@avicennaresearch.com>",
+        "subject": "RE: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<PAWPR06MB8833D1AEDBB574833D4C495E86462@PAWPR06MB8833.eurprd06.prod.outlook.com>",
+        "message_id_md5": "221fd40aa0a665f9ef5119024bd8bee3",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Re. the questions on insurance, it might be easiest to quickly set them down in writing and then I can work out whether I can answer them or whether I need to refer them to a colleague.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Borkowska, Magda &lt;m.borkowska@essex.ac.uk&gt; <br>\n<b>Sent:</b> Saturday, October 12, 2024 1:11 PM<br>\n<b>To:</b> mohammad@avicennaresearch.com; Kneeshaw, Jack &lt;kneejw@essex.ac.uk&gt;<br>\n<b>Cc:</b> Amin Tavassolian &lt;sales@avicennaresearch.com&gt;; amin@avicennaresearch.com<br>\n<b>Subject:</b> FW: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p><span>Many thanks,<br> Magda</span></p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100.0%;\">\n<tbody>\n<tr>\n<td style=\"width:100.0%;background:#fdf2f4;padding:.5pt .5pt .5pt .5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><span><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p>ᐧ</p>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10075,
+        "created_by_id": 10075,
+        "origin_by_id": null,
+        "created_at": "2024-10-16T09:53:04.516Z",
+        "updated_at": "2024-10-16T09:53:04.516Z",
+        "attachments": [
+            {
+                "id": 133751,
+                "store_file_id": 105408,
+                "filename": "message.html",
+                "size": "11487",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            }
+        ],
+        "created_by": "kneejw@essex.ac.uk",
+        "updated_by": "kneejw@essex.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 80182,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <mohammad@avicennaresearch.com>",
+        "to": "\"Kneeshaw, Jack\" <kneejw@essex.ac.uk>",
+        "cc": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, Amin Tavassolian <sales@avicennaresearch.com>",
+        "subject": "Re: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<CAB=qvUS7W0AdtUN2Y0JXmZwUDyy6xY3piMVHmzE8WH9ugxcyQw@mail.gmail.com>",
+        "message_id_md5": "8704c9b8e6dd65f207f9ec16fb0322e8",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<span style=\"color:rgb(88,88,86);\">Hi Jack,</span><div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">Sorry for my delayed reply. The concern regarding the Insurance clause is that we currently do not hold an insurance policy to meet the requirements mentioned in the contract (or even close to that).</div>\n<div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">Based on our previous experience, there are a few things making it very difficult to get such policy:</div>\n<div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">\n<ul>\n<li>We are a small company (less than 50 headcount, less than 5M CAD/2.5M £ ARR)</li>\n<li>The required limits are very high (1M to 5M £)</li>\n<li>There are cross-border liabilities involved.</li>\n<li>We are operating in a niche market and risk assessment for the insurance company is not easy.</li>\n</ul>\n<div>That's why many flat out reject providing a policy, or if they do, the premium is unreasonably high (25K CAD / 15K <span style=\"background-color:initial;\">£ or more annually). </span>\n</div>\n<div><span style=\"background-color:initial;\"><br></span></div>\n<div><span style=\"background-color:initial;\">The simplest solution would be to remove Clause 48. If this is absolutely not an option, then we insist the cost be covered by the client, but I understand this can be difficult to absorb on their end too. If you can think of an alternative, let me know.</span></div>\n<div><span style=\"background-color:initial;\"><br></span></div>\n<div><span style=\"background-color:initial;\">Best,</span></div>\n<div><span style=\"background-color:initial;\">Mohammad</span></div>\n</div>\n</div><div>ᐧ</div><br><div>\n<div dir=\"ltr\">On Wed, 16 Oct 2024 at 05:52, Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt; wrote:<br>\n</div>\n<blockquote><div><div lang=\"EN-GB\">\n<div>\n<p>Re. the questions on insurance, it might be easiest to quickly set them down in writing and then I can work out whether I can answer them or whether I need to refer them to a colleague.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt; <br>\n<b>Sent:</b> Saturday, October 12, 2024 1:11 PM<br>\n<b>To:</b> <a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>; Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt;<br>\n<b>Cc:</b> Amin Tavassolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;; <a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a><br>\n<b>Subject:</b> FW: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p><span>Many thanks,<br> Magda</span></p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100%;\">\n<tbody>\n<tr>\n<td style=\"width:100%;background:rgb(253,242,244);padding:0.5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><span><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p>ᐧ</p>\n</div>\n</div>\n</div>\n</div></div></blockquote>\n</div><br><div> </div>--<br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">\n<div dir=\"ltr\">Mohammad Hashemian<br>Founder, Chief Executive Officer, </div>\n<div>\n<a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://avicennaresearch.com/\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</div>\n<div> </div>\n</div></div></div></div></div></div></div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-23T15:43:00.584Z",
+        "updated_at": "2024-10-23T15:43:00.584Z",
+        "attachments": [
+            {
+                "id": 135365,
+                "store_file_id": 106560,
+                "filename": "message.html",
+                "size": "14070",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 81007,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Mohammad Hashemian <mohammad@avicennaresearch.com>",
+        "to": null,
+        "cc": "\"Kneeshaw, Jack\" <kneejw@essex.ac.uk>, \"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, Amin Tavassolian <sales@avicennaresearch.com>",
+        "subject": "Re: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<CAB=qvUSpfZPHsyxpdESK7_jodErP3v5MPmP2g8r8K3B_Bhi6xg@mail.gmail.com>",
+        "message_id_md5": "8a9c83c49659b461f2370a71dfe3db52",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<div>Hi Jack,</div>\n<div> </div>\n<div>I wanted to follow up with the email above. If you think it's easier to set a time to meet and discuss this, I am available any day after 12 pm.</div>\n<div> </div>\n<div>Best,</div>\n<div>Mohammad</div>\n</div><div>ᐧ</div><br><div>\n<div dir=\"ltr\">On Wed, 23 Oct 2024 at 11:42, Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; wrote:<br>\n</div>\n<blockquote>\n<div dir=\"ltr\">\n<span style=\"color:rgb(88,88,86);\">Hi Jack,</span><div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">Sorry for my delayed reply. The concern regarding the Insurance clause is that we currently do not hold an insurance policy to meet the requirements mentioned in the contract (or even close to that).</div>\n<div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">Based on our previous experience, there are a few things making it very difficult to get such policy:</div>\n<div style=\"color:rgb(88,88,86);\"><br></div>\n<div style=\"color:rgb(88,88,86);\">\n<ul>\n<li>We are a small company (less than 50 headcount, less than 5M CAD/2.5M £ ARR)</li>\n<li>The required limits are very high (1M to 5M £)</li>\n<li>There are cross-border liabilities involved.</li>\n<li>We are operating in a niche market and risk assessment for the insurance company is not easy.</li>\n</ul>\n<div>That's why many flat out reject providing a policy, or if they do, the premium is unreasonably high (25K CAD / 15K <span style=\"background-color:initial;\">£ or more annually). </span>\n</div>\n<div><span style=\"background-color:initial;\"><br></span></div>\n<div><span style=\"background-color:initial;\">The simplest solution would be to remove Clause 48. If this is absolutely not an option, then we insist the cost be covered by the client, but I understand this can be difficult to absorb on their end too. If you can think of an alternative, let me know.</span></div>\n<div><span style=\"background-color:initial;\"><br></span></div>\n<div><span style=\"background-color:initial;\">Best,</span></div>\n<div><span style=\"background-color:initial;\">Mohammad</span></div>\n</div>\n</div>\n<div>ᐧ</div>\n<br><div>\n<div dir=\"ltr\">On Wed, 16 Oct 2024 at 05:52, Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt; wrote:<br>\n</div>\n<blockquote><div><div lang=\"EN-GB\">\n<div>\n<p>Re. the questions on insurance, it might be easiest to quickly set them down in writing and then I can work out whether I can answer them or whether I need to refer them to a colleague.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt; <br>\n<b>Sent:</b> Saturday, October 12, 2024 1:11 PM<br>\n<b>To:</b> <a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>; Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt;<br>\n<b>Cc:</b> Amin Tavassolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;; <a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a><br>\n<b>Subject:</b> FW: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p><span>Many thanks,<br> Magda</span></p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100%;\">\n<tbody>\n<tr>\n<td style=\"width:100%;background:rgb(253,242,244);padding:0.5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><span><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p>ᐧ</p>\n</div>\n</div>\n</div>\n</div></div></blockquote>\n</div>\n<br><div> </div>--<br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">\n<div dir=\"ltr\">Mohammad Hashemian<br>Founder, Chief Executive Officer, </div>\n<div>\n<a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://avicennaresearch.com/\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</div>\n<div> </div>\n</div></div></div></div></div></div></div>\n</blockquote>\n</div><br><div> </div>--<br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">\n<div dir=\"ltr\">Mohammad Hashemian<br>Founder, Chief Executive Officer, </div>\n<div>\n<a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://avicennaresearch.com/\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</div>\n<div> </div>\n</div></div></div></div></div></div></div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-30T16:46:59.120Z",
+        "updated_at": "2024-10-30T16:46:59.120Z",
+        "attachments": [
+            {
+                "id": 136704,
+                "store_file_id": 107547,
+                "filename": "message.html",
+                "size": "15984",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 81072,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Kneeshaw, Jack\" <kneejw@essex.ac.uk>",
+        "to": "'Mohammad Hashemian' <mohammad@avicennaresearch.com>",
+        "cc": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, 'Amin Tavassolian' <sales@avicennaresearch.com>",
+        "subject": "RE: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<PAWPR06MB88337BBDC24C86A96F71A1A086552@PAWPR06MB8833.eurprd06.prod.outlook.com>",
+        "message_id_md5": "129e48ad30e5fde097a50ea32cfd4bb1",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi Mohammad</p>\n<p> </p>\n<p>Our insurance team has asked whether you could please confirm whether you have any exemption to holding these insurances or whether it is simply a cost issue.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;mohammad@avicennaresearch.com&gt; <br>\n<b>Sent:</b> Wednesday, October 30, 2024 4:47 PM<br>\n<b>Cc:</b> Kneeshaw, Jack &lt;kneejw@essex.ac.uk&gt;; Borkowska, Magda &lt;m.borkowska@essex.ac.uk&gt;; Amin Tavassolian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Subject:</b> Re: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100.0%;\">\n<tbody>\n<tr>\n<td style=\"width:100.0%;background:#fdf2f4;padding:.75pt .75pt .75pt .75pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Jack,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to follow up with the email above. If you think it's easier to set a time to meet and discuss this, I am available any day after 12 pm.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n</div>\n<div>\n<p><img style=\"max-width:100%;width:1.0416in;max-height:1.0416in;\" src=\"/api/v1/ticket_attachment/25751/81072/136779?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n<p> </p>\n<div>\n<div>\n<p>On Wed, 23 Oct 2024 at 11:42, Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; wrote:</p>\n</div>\n<blockquote>\n<div>\n<div>\n<p><span style=\"color:#585856;\">Hi Jack,</span>\n</p>\n<div>\n<p><span style=\"color:#585856;\"> </span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\">Sorry for my delayed reply. The concern regarding the Insurance clause is that we currently do not hold an insurance policy to meet the requirements mentioned in the contract (or even close to that).</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\"> </span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\">Based on our previous experience, there are a few things making it very difficult to get such policy:</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\"> </span></p>\n</div>\n<div>\n<ul type=\"disc\">\n<li> We are a small company (less than 50 headcount, less than 5M CAD/2.5M £ ARR) </li>\n<li> The required limits are very high (1M to 5M £) </li>\n<li> There are cross-border liabilities involved. </li>\n<li> We are operating in a niche market and risk assessment for the insurance company is not easy. </li>\n</ul>\n<div>\n<p><span style=\"color:#585856;\">That's why many flat out reject providing a policy, or if they do, the premium is unreasonably high (25K CAD / 15K £ or more annually). </span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\"><br>\n<br>\n</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\">The simplest solution would be to remove Clause 48. If this is absolutely not an option, then we insist the cost be covered by the client, but I understand this can be difficult to absorb on their end too. If you can think of an alternative, let me know.</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\"><br>\n<br>\n</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\">Best,</span></p>\n</div>\n<div>\n<p><span style=\"color:#585856;\">Mohammad</span></p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:1.0416in;max-height:1.0416in;\" src=\"/api/v1/ticket_attachment/25751/81072/136779?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n<p> </p>\n<div>\n<div>\n<p>On Wed, 16 Oct 2024 at 05:52, Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt; wrote:</p>\n</div>\n<blockquote>\n<div>\n<div>\n<div>\n<p>Re. the questions on insurance, it might be easiest to quickly set them down in writing and then I can work out whether I can answer them or whether I need to refer them to a colleague.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Borkowska, Magda &lt;</span><a href=\"mailto:m.borkowska@essex.ac.uk\"><span lang=\"EN-US\">m.borkowska@essex.ac.uk</span></a><span lang=\"EN-US\">&gt; <br>\n<b>Sent:</b> Saturday, October 12, 2024 1:11 PM<br>\n<b>To:</b> </span><a href=\"mailto:mohammad@avicennaresearch.com\"><span lang=\"EN-US\">mohammad@avicennaresearch.com</span></a><span lang=\"EN-US\">; Kneeshaw, Jack &lt;</span><a href=\"mailto:kneejw@essex.ac.uk\"><span lang=\"EN-US\">kneejw@essex.ac.uk</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Cc:</b> Amin Tavassolian &lt;</span><a href=\"mailto:sales@avicennaresearch.com\"><span lang=\"EN-US\">sales@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt;; </span><a href=\"mailto:amin@avicennaresearch.com\"><span lang=\"EN-US\">amin@avicennaresearch.com</span></a><span lang=\"EN-US\"><br>\n<b>Subject:</b> FW: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p>Many thanks,<br> Magda</p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;</span><a href=\"mailto:mohammad@avicennaresearch.com\"><span lang=\"EN-US\">mohammad@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;</span><a href=\"mailto:m.borkowska@essex.ac.uk\"><span lang=\"EN-US\">m.borkowska@essex.ac.uk</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;</span><a href=\"mailto:sales@avicennaresearch.com\"><span lang=\"EN-US\">sales@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100.0%;\">\n<tbody>\n<tr>\n<td style=\"width:100.0%;background:#fdf2f4;padding:.5pt .5pt .5pt .5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:.0104in;max-height:.0104in;\" src=\"/api/v1/ticket_attachment/25751/81072/136779?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<p><br>\n</p>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p><span>Mohammad Hashemian<br>\n</span>Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,0JLUKlApuQies3KgsPZGoQdyWHSaDAq8QtyVlPWiPLLCZQjDhdPd2bLDEzx3Pwr3qFONCvxx5xX5C0UYNQxiTzZCnuHTjCujFhAidzYYI9lPO6wn3Yf_Ng,,&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,0JLUKlApuQies3KgsPZGoQdyWHSaDAq8QtyVlPWiPLLCZQjDhdPd2bLDEzx3Pwr3qFONCvxx5xX5C0UYNQxiTzZCnuHTjCujFhAidzYYI9lPO6wn3Yf_Ng,,&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<p><br>\n</p>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p><span>Mohammad Hashemian<br>\n</span>Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,9Op136-H_vOcUn20GbuYwGMAxCWD6Y707MXwrZFKnSBZDRF-9ada1jrQjfzP1O0milv-7DVdGtknS32ZOLsg3BYM4StDc9gsrQlGr4uEB8B6qR9oDjo3oQg57TI,&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,9Op136-H_vOcUn20GbuYwGMAxCWD6Y707MXwrZFKnSBZDRF-9ada1jrQjfzP1O0milv-7DVdGtknS32ZOLsg3BYM4StDc9gsrQlGr4uEB8B6qR9oDjo3oQg57TI,&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10075,
+        "created_by_id": 10075,
+        "origin_by_id": null,
+        "created_at": "2024-10-31T09:44:45.749Z",
+        "updated_at": "2024-10-31T09:44:45.749Z",
+        "attachments": [
+            {
+                "id": 136778,
+                "store_file_id": 107615,
+                "filename": "message.html",
+                "size": "27082",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 136779,
+                "store_file_id": 37,
+                "filename": "~WRD0004.jpg",
+                "size": "823",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=~WRD0004.jpg",
+                    "Content-Description": "~WRD0004.jpg",
+                    "Content-ID": "~WRD0004.jpg",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "kneejw@essex.ac.uk",
+        "updated_by": "kneejw@essex.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 81076,
+        "ticket_id": 25751,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <mohammad@avicennaresearch.com>",
+        "to": "\"Kneeshaw, Jack\" <kneejw@essex.ac.uk>",
+        "cc": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, Amin Tavassolian <sales@avicennaresearch.com>",
+        "subject": "Re: Delivery of failed emails re. contract",
+        "reply_to": null,
+        "message_id": "<CAB=qvUQ6i=28=_zqXyo4g99YQJrjOhut_vR9WerTnPcVCjogdQ@mail.gmail.com>",
+        "message_id_md5": "7e6e5ed6a6d402240d50e89eebc0be3b",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<div>Good morning Jack,</div>\n<div> </div>\n<div>I listed the four reasons why insurance will be hard to get, and cost is one of them. Of course if we try to get insurance at any cost, it will be doable.</div>\n<div> </div>\n<div>We are not exempt from holding insurance.</div>\n<div> </div>\n<div>I would also argue considering the nature of the project, specially at its current stage, makes the insurance unnecessary. There is little to no risk to ISER from the work we are providing.</div>\n<div> </div>\n<div>Best,</div>\n<div>Mohammad</div>\n</div><div>ᐧ</div><br><div>\n<div dir=\"ltr\">On Thu, 31 Oct 2024 at 05:44, Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt; wrote:<br>\n</div>\n<blockquote><div><div lang=\"EN-GB\">\n<div>\n<p>Hi Mohammad</p>\n<p> </p>\n<p>Our insurance team has asked whether you could please confirm whether you have any exemption to holding these insurances or whether it is simply a cost issue.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> Wednesday, October 30, 2024 4:47 PM<br>\n<b>Cc:</b> Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt;; Borkowska, Magda &lt;<a href=\"mailto:m.borkowska@essex.ac.uk\">m.borkowska@essex.ac.uk</a>&gt;; Amin Tavassolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br>\n<b>Subject:</b> Re: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100%;\">\n<tbody>\n<tr>\n<td style=\"width:100%;background:rgb(253,242,244);padding:0.75pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Jack,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to follow up with the email above. If you think it's easier to set a time to meet and discuss this, I am available any day after 12 pm.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n</div>\n<div>\n<p><img style=\"max-width:100%;width: 1.0416in;max-height: 1.0416in;\" src=\"/api/v1/ticket_attachment/25751/81076/136786?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n<p> </p>\n<div>\n<div>\n<p>On Wed, 23 Oct 2024 at 11:42, Mohammad Hashemian &lt;<a href=\"mailto:mohammad@avicennaresearch.com\">mohammad@avicennaresearch.com</a>&gt; wrote:</p>\n</div>\n<blockquote>\n<div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">Hi Jack,</span>\n</p>\n<div>\n<p><span style=\"color:rgb(88,88,86);\"> </span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">Sorry for my delayed reply. The concern regarding the Insurance clause is that we currently do not hold an insurance policy to meet the requirements mentioned in the contract (or even close to that).</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\"> </span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">Based on our previous experience, there are a few things making it very difficult to get such policy:</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\"> </span></p>\n</div>\n<div>\n<ul type=\"disc\">\n<li> We are a small company (less than 50 headcount, less than 5M CAD/2.5M £ ARR) </li>\n<li> The required limits are very high (1M to 5M £) </li>\n<li> There are cross-border liabilities involved. </li>\n<li> We are operating in a niche market and risk assessment for the insurance company is not easy. </li>\n</ul>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">That's why many flat out reject providing a policy, or if they do, the premium is unreasonably high (25K CAD / 15K £ or more annually). </span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\"><br>\n<br>\n</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">The simplest solution would be to remove Clause 48. If this is absolutely not an option, then we insist the cost be covered by the client, but I understand this can be difficult to absorb on their end too. If you can think of an alternative, let me know.</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\"><br>\n<br>\n</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">Best,</span></p>\n</div>\n<div>\n<p><span style=\"color:rgb(88,88,86);\">Mohammad</span></p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width: 1.0416in;max-height: 1.0416in;\" src=\"/api/v1/ticket_attachment/25751/81076/136786?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n<p> </p>\n<div>\n<div>\n<p>On Wed, 16 Oct 2024 at 05:52, Kneeshaw, Jack &lt;<a href=\"mailto:kneejw@essex.ac.uk\">kneejw@essex.ac.uk</a>&gt; wrote:</p>\n</div>\n<blockquote>\n<div>\n<div>\n<div>\n<p>Re. the questions on insurance, it might be easiest to quickly set them down in writing and then I can work out whether I can answer them or whether I need to refer them to a colleague.</p>\n<p> </p>\n<p>Best wishes</p>\n<p> </p>\n<p>Jack</p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Borkowska, Magda &lt;</span><a href=\"mailto:m.borkowska@essex.ac.uk\"><span lang=\"EN-US\">m.borkowska@essex.ac.uk</span></a><span lang=\"EN-US\">&gt; <br>\n<b>Sent:</b> Saturday, October 12, 2024 1:11 PM<br>\n<b>To:</b> </span><a href=\"mailto:mohammad@avicennaresearch.com\"><span lang=\"EN-US\">mohammad@avicennaresearch.com</span></a><span lang=\"EN-US\">; Kneeshaw, Jack &lt;</span><a href=\"mailto:kneejw@essex.ac.uk\"><span lang=\"EN-US\">kneejw@essex.ac.uk</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Cc:</b> Amin Tavassolian &lt;</span><a href=\"mailto:sales@avicennaresearch.com\"><span lang=\"EN-US\">sales@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt;; </span><a href=\"mailto:amin@avicennaresearch.com\"><span lang=\"EN-US\">amin@avicennaresearch.com</span></a><span lang=\"EN-US\"><br>\n<b>Subject:</b> FW: Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>Many thanks for getting in touch and for explaining the delivery issues.</p>\n<p> </p>\n<p>I’m forwarding this email to Jack Kneeshaw, who deals with the contracts at our end.</p>\n<p> </p>\n<p>@Jack: are you able to answer the questions about the insurance? If not, could you please let Mohammad and Amin (CC’ed) know who they need to contact?</p>\n<p> </p>\n<p>Many thanks,<br> Magda</p>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Mohammad Hashemian &lt;</span><a href=\"mailto:mohammad@avicennaresearch.com\"><span lang=\"EN-US\">mohammad@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt; <br>\n<b>Sent:</b> 11 October 2024 19:04<br>\n<b>To:</b> Borkowska, Magda &lt;</span><a href=\"mailto:m.borkowska@essex.ac.uk\"><span lang=\"EN-US\">m.borkowska@essex.ac.uk</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Cc:</b> Avicenna Sales &lt;</span><a href=\"mailto:sales@avicennaresearch.com\"><span lang=\"EN-US\">sales@avicennaresearch.com</span></a><span lang=\"EN-US\">&gt;<br>\n<b>Subject:</b> Delivery of failed emails re. contract</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<table border=\"0\" cellspacing=\"1\" cellpadding=\"0\" style=\"width:100%;\">\n<tbody>\n<tr>\n<td style=\"width:100%;background:rgb(253,242,244);padding:0.5pt;\">\n<div>\n<p><strong>CAUTION:</strong> This email originated from outside our organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe. If you are not sure it is safe, please contact the IT Helpdesk.</p>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<p>Hi Magda,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Following my previous email just now re. email delivery issue, below is another email Amin had sent you on 2024-10-06 20:04 UTC:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p><span>Hi Magda,<br>\n<br> Hope you are having a great weekend. <br>\n<br> Apologies for not getting back to you on the contract. We reviewed the terms and filled out the important information, including the schedules. Please check the attached information. <br>\n<br> We also have a few questions about the insurance. If possible, it would be great to discuss these in a quick call. My schedule is a bit up in the air over the next two weeks, but I’ll ask our CEO to help us with this. Are you the best person to discuss this with? If not, could you please direct me to the right contact? After this call, we can finalize the contract and move forward with the signatures.<br>\n<br> On a different note, I’m heading to Europe tomorrow and am really looking forward to finally meeting you in person after a year of working together remotely. We'll arrange a more specific time when I'm closer to Macclesfield around Oct. 16-17.<br>\n<br> Best,<br> Amin</span></p>\n</div>\n<div>\n<p>####################</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Mohammad</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Mohammad Hashemian<br> Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2f996b91bc.streaklinks.com%2fCJ5jgqGZGePa4OeAfAQhU6RB%2fhttps%253A%252F%252Favicennaresearch.com%252F&amp;c=E,1,JT_2Fxe9CfMvGcBeO_w-CBcIyuy4rTRnqt2r9hBRNB9eMwCuS87QYjFjeBh0Q6Aqsuj3zwjKagqMAGCXBv8zHAz280fJtOjiff33FqM1dMW9U89V&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width: 0.0104in;max-height: 0.0104in;\" src=\"/api/v1/ticket_attachment/25751/81076/136786?view=inline\" alt=\"Image removed by sender.\">ᐧ</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<p><br>\n</p>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p><span>Mohammad Hashemian<br>\n</span>Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,0JLUKlApuQies3KgsPZGoQdyWHSaDAq8QtyVlPWiPLLCZQjDhdPd2bLDEzx3Pwr3qFONCvxx5xX5C0UYNQxiTzZCnuHTjCujFhAidzYYI9lPO6wn3Yf_Ng,,&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,0JLUKlApuQies3KgsPZGoQdyWHSaDAq8QtyVlPWiPLLCZQjDhdPd2bLDEzx3Pwr3qFONCvxx5xX5C0UYNQxiTzZCnuHTjCujFhAidzYYI9lPO6wn3Yf_Ng,,&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<p><br>\n</p>\n<div>\n<p> </p>\n</div>\n<p>--</p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p><span>Mohammad Hashemian<br>\n</span>Founder, Chief Executive Officer,</p>\n</div>\n</div>\n<div>\n<p><a href=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,9Op136-H_vOcUn20GbuYwGMAxCWD6Y707MXwrZFKnSBZDRF-9ada1jrQjfzP1O0milv-7DVdGtknS32ZOLsg3BYM4StDc9gsrQlGr4uEB8B6qR9oDjo3oQg57TI,&amp;typo=1\" rel=\"nofollow noreferrer noopener\" title=\"https://linkprotect.cudasvc.com/url?a=https%3a%2f%2favicennaresearch.com%2f&amp;c=E,1,9Op136-H_vOcUn20GbuYwGMAxCWD6Y707MXwrZFKnSBZDRF-9ada1jrQjfzP1O0milv-7DVdGtknS32ZOLsg3BYM4StDc9gsrQlGr4uEB8B6qR9oDjo3oQg57TI,&amp;typo=1\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</p>\n</div>\n<div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></blockquote>\n</div><br><div> </div>--<br><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\"><div dir=\"ltr\">\n<div dir=\"ltr\">Mohammad Hashemian<br>Founder, Chief Executive Officer, </div>\n<div>\n<a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://avicennaresearch.com/\" target=\"_blank\">Avicenna Research Inc.</a> (formerly Ethica Data)</div>\n<div> </div>\n</div></div></div></div></div></div></div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-31T10:15:50.036Z",
+        "updated_at": "2024-10-31T10:15:50.036Z",
+        "attachments": [
+            {
+                "id": 136785,
+                "store_file_id": 107621,
+                "filename": "message.html",
+                "size": "21355",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            },
+            {
+                "id": 136786,
+                "store_file_id": 37,
+                "filename": "~WRD0004.jpg",
+                "size": "823",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=~WRD0004.jpg",
+                    "Content-ID": "ii_192e20a671bbf1b4b821",
+                    "X-Attachment-Id": "ii_192e20a671bbf1b4b821",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

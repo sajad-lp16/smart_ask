@@ -1,0 +1,536 @@
+[
+    {
+        "id": 77300,
+        "ticket_id": 25258,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Roefs, Anne (PSYCHOLOGY)\" <a.roefs@maastrichtuniversity.nl>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": "\"Steenhuis, Maaike (PSYCHOLOGY)\" <maaike.steenhuis@maastrichtuniversity.nl>",
+        "subject": "Study for our license",
+        "reply_to": null,
+        "message_id": "<822E6C77-6E1B-4D2E-B7C2-BCF34D1B32B7@maastrichtuniversity.nl>",
+        "message_id_md5": "21acf797f345f42a03be7deb3a04d5b8",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Hi Mohammad,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Just wanted to let you know that our data collection is running smoothly again (the project of Eva/Jikke/Suzan/Codrin). Thank you for the good support!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I have another question. Maaike Steenhuis (cc) is one of the researchers on the NSMD-project (on which Alberto Jover Martinez worked), and she added a study to that account. Could you give that study the full license?</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b> </b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\"> </span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"> </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;width:1.8958in;max-height:1.7708in;\" src=\"/api/v1/ticket_attachment/25258/77300/130685?view=inline\" alt=\"signature_2206504312\"></span><img border=\"0\" style=\"max-width:100%;width:3.1354in;max-height:.4375in;\" src=\"/api/v1/ticket_attachment/25258/77300/130686?view=inline\" alt=\"signature_3747417319\"><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"></span></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span><span lang=\"EN-GB\"> </span><span style=\"color:#009cde;\"> <a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n<p><span style=\"color:#009cdf;\"> </span></p>\n</div>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 6
+        },
+        "updated_by_id": 46,
+        "created_by_id": 46,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T13:31:39.335Z",
+        "updated_at": "2024-09-26T13:31:49.697Z",
+        "attachments": [
+            {
+                "id": 130684,
+                "store_file_id": 103149,
+                "filename": "message.html",
+                "size": "6136",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130685,
+                "store_file_id": 59302,
+                "filename": "image001.png",
+                "size": "96170",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB1029.19B69020",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130686,
+                "store_file_id": 59303,
+                "filename": "image002.png",
+                "size": "8595",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1029.19B69020",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "a.roefs@maastrichtuniversity.nl",
+        "updated_by": "a.roefs@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77301,
+        "ticket_id": 25258,
+        "type_id": 10,
+        "sender_id": 2,
+        "from": "-",
+        "to": null,
+        "cc": null,
+        "subject": "Note added by Integrations App",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "'<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"Amin Ghaffari\">Amin Ghaffari</a>' The client for this ticket has more than 1 Study/ContractID/SPOC  as following, please check and correct Client field if necessary: <br><div><ol>\n<li>study_id: 3519 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3345 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n</ol></div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 1,
+        "created_at": "2024-09-26T13:31:42.806Z",
+        "updated_at": "2024-09-26T13:31:42.806Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Customer",
+        "origin_by": "-",
+        "time_unit": null
+    },
+    {
+        "id": 77319,
+        "ticket_id": 25258,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <sales@avicennaresearch.com>",
+        "to": "a.roefs@maastrichtuniversity.nl",
+        "cc": "maaike.steenhuis@maastrichtuniversity.nl",
+        "subject": "Study for our license",
+        "reply_to": null,
+        "message_id": "<20240926191858.25258.d6bb4ec1-db3e-49ba-a430-9aa97a357b51@zammad.avicennaresearch.com>",
+        "message_id_md5": "732c0d8326bc2c9198366ca1aa9b5711",
+        "in_reply_to": "<822E6C77-6E1B-4D2E-B7C2-BCF34D1B32B7@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "Hi Anne,<div><br></div><div>Glad to hear that the issues were sorted out. We are always here to help.</div><div><br></div><div>I'd be happy to do so. Would you mind sharing the study ID?</div><div><br></div><div>Thanks,</div><div>Mohammad<br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, September 26, 2024 at 9:31:39 AM, A Roefs wrote:<br><br><div>\n<p><span lang=\"EN-US\">Hi Mohammad,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Just wanted to let you know that our data collection is running smoothly again (the project of Eva/Jikke/Suzan/Codrin). Thank you for the good support!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I have another question. Maaike Steenhuis (cc) is one of the researchers on the NSMD-project (on which Alberto Jover Martinez worked), and she added a study to that account. Could you give that study the full license?</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b> </b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\"> </span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"> </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.8958in;max-height:1.7708in;\" src=\"/api/v1/ticket_attachment/25258/77319/130727?view=inline\" alt=\"signature_2206504312\"></span><img border=\"0\" style=\"max-width:100%;max-width:100%;width:3.1354in;max-height:.4375in;\" src=\"/api/v1/ticket_attachment/25258/77319/130728?view=inline\" alt=\"signature_3747417319\"><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"></span></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span><span lang=\"EN-GB\"> </span><span style=\"color:#009cde;\"> <a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n<p><span style=\"color:#009cdf;\"> </span></p>\n</div>\n</div>\n<p> </p>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T19:19:08.236Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:18:58.843Z",
+        "updated_at": "2024-09-26T19:19:08.248Z",
+        "attachments": [
+            {
+                "id": 130727,
+                "store_file_id": 77853,
+                "filename": "image1.png",
+                "size": "99410",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.f901c5e1-96fc-46e5-a1b6-155bc5f592a6@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130728,
+                "store_file_id": 94768,
+                "filename": "image2.png",
+                "size": "8421",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.eb051221-b73a-41d8-b99d-b47814eea376@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77320,
+        "ticket_id": 25258,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">113</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-10-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-05-27</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Lost</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">76</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-07-15</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-08-13</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">31</td>\n    </tr>\n  </tbody>\n</table><br><br><b>Contracts</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">End Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">P/W Usage (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">31</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-10-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-12-31</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">51.255828</td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:19:12.404Z",
+        "updated_at": "2024-09-26T19:19:12.404Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77321,
+        "ticket_id": 25258,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Roefs, Anne (PSYCHOLOGY)\" <a.roefs@maastrichtuniversity.nl>",
+        "to": "Mohammad Hashemian <sales@avicennaresearch.com>",
+        "cc": "\"Steenhuis, Maaike (PSYCHOLOGY)\" <maaike.steenhuis@maastrichtuniversity.nl>",
+        "subject": "Re: Study for our license",
+        "reply_to": null,
+        "message_id": "<1C9A6DA8-8DF0-4972-B1AD-6192BD635D2E@maastrichtuniversity.nl>",
+        "message_id_md5": "85a460befbf00365068ddc2e73cdc4d8",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Thank you Mohammad!</span></p>\n<p><span lang=\"EN-US\">@Maaike: can you share the study ID?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b> </b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\"> </span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"> </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;width:1.8958in;max-height:1.7708in;\" src=\"/api/v1/ticket_attachment/25258/77321/130732?view=inline\" alt=\"signature_3297107290\"></span><img border=\"0\" style=\"max-width:100%;width:3.1354in;max-height:.4375in;\" src=\"/api/v1/ticket_attachment/25258/77321/130733?view=inline\" alt=\"signature_3747417319\"><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"></span></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span><span lang=\"EN-GB\"> </span><span style=\"color:#009cde;\"> <a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n<p><span style=\"color:#009cdf;\"> </span></p>\n</div>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Thursday, 26 September 2024 at 21:19<br>\n<b>To: </b>\"Roefs, Anne (PSYCHOLOGY)\" &lt;a.roefs@maastrichtuniversity.nl&gt;<br>\n<b>Cc: </b>\"Steenhuis, Maaike (PSYCHOLOGY)\" &lt;maaike.steenhuis@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Study for our license</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Hi Anne,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Glad to hear that the issues were sorted out. We are always here to help.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I'd be happy to do so. Would you mind sharing the study ID?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thanks,</p>\n</div>\n<div>\n<p>Mohammad</p>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Thursday, September 26, 2024 at 9:31:39 AM, A Roefs wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Hi Mohammad,</span></p>\n<p><span lang=\"EN-US\">Just wanted to let you know that our data collection is running smoothly again (the project of Eva/Jikke/Suzan/Codrin). Thank you for the good support!</span></p>\n<p><span lang=\"EN-US\">I have another question. Maaike Steenhuis (cc) is one of the researchers on the NSMD-project (on which Alberto Jover Martinez worked), and she added a study to that account. Could you give that study the full license?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b>\n</b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\">\n</span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;width:8.2291in;max-height:7.6458in;\" src=\"/api/v1/ticket_attachment/25258/77321/130734?view=inline\" alt=\"signature_2206504312\"></span><img border=\"0\" style=\"max-width:100%;width:2.3854in;max-height:.3333in;\" src=\"/api/v1/ticket_attachment/25258/77321/130735?view=inline\" alt=\"signature_3747417319\"></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span>\n<span style=\"color:#009cde;\"><a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 46,
+        "created_by_id": 46,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:20:27.663Z",
+        "updated_at": "2024-09-26T19:20:27.663Z",
+        "attachments": [
+            {
+                "id": 130731,
+                "store_file_id": 103178,
+                "filename": "message.html",
+                "size": "10274",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130732,
+                "store_file_id": 59302,
+                "filename": "image001.png",
+                "size": "96170",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130733,
+                "store_file_id": 59303,
+                "filename": "image002.png",
+                "size": "8595",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130734,
+                "store_file_id": 95105,
+                "filename": "image003.png",
+                "size": "99411",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130735,
+                "store_file_id": 94780,
+                "filename": "image004.png",
+                "size": "8422",
+                "preferences": {
+                    "Content-Type": "image/png; name=image004.png",
+                    "Content-Description": "image004.png",
+                    "Content-ID": "image004.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "a.roefs@maastrichtuniversity.nl",
+        "updated_by": "a.roefs@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77326,
+        "ticket_id": 25258,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Steenhuis, Maaike (PSYCHOLOGY)\" <maaike.steenhuis@maastrichtuniversity.nl>",
+        "to": "\"Roefs, Anne (PSYCHOLOGY)\" <a.roefs@maastrichtuniversity.nl>, Mohammad Hashemian <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Study for our license",
+        "reply_to": null,
+        "message_id": "<PA4PR08MB615906C9AF43A2373B22A6C6966A2@PA4PR08MB6159.eurprd08.prod.outlook.com>",
+        "message_id_md5": "b0bbbf764f15ed28b932d60e1db1a307",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Mohammad and Anne, </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">The study ID 3933. Thank you!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best wishes, Maaike</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\"> </span></p>\n<div>\n<p><b><span lang=\"EN-US\" style=\"color:#eb5a18;\"> </span></b></p>\n<p><b><span lang=\"EN-US\" style=\"color:#eb5a18;\">Maaike Steenhuis</span></b></p>\n<p><i><span lang=\"EN-US\" style=\"color:#616363;\">PhD candidate</span></i></p>\n<p><i><span lang=\"EN-US\" style=\"color:#616363;\">Faculty of Psychology &amp; Neuroscience | Clinical Psychological Science</span></i></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\">New Science of Mental Disorders consortium </span></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\"> </span></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\">👋</span><span lang=\"EN-US\" style=\"color:#616363;\"> I’m the PhD representative at CPS. Feel free to contact me or walk into my office! </span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.761</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\" style=\"color:#616363;\"></span></p>\n<p><span style=\"color:#808285;\"> </span></p>\n<p><span style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n<p> </p>\n<p><img border=\"0\" style=\"max-width:100%;width:3.1666in;max-height:1.1041in;\" src=\"/api/v1/ticket_attachment/25258/77326/130759?view=inline\" alt=\"A logo for a graduate school\n\nDescription automatically generated\"></p>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Roefs, Anne (PSYCHOLOGY) &lt;a.roefs@maastrichtuniversity.nl&gt;<br>\n<b>Date: </b>Thursday, 26 September 2024 at 21:20<br>\n<b>To: </b>Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Cc: </b>Steenhuis, Maaike (PSYCHOLOGY) &lt;maaike.steenhuis@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>Re: Study for our license</span></p>\n</div>\n<div>\n<p><span lang=\"EN-US\">Thank you Mohammad!</span></p>\n<p><span lang=\"EN-US\">@Maaike: can you share the study ID?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b> </b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\"> </span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"> </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;width:1.8958in;max-height:1.7708in;\" src=\"/api/v1/ticket_attachment/25258/77326/130755?view=inline\" alt=\"signature_3297107290\"></span><img border=\"0\" style=\"max-width:100%;width:3.1354in;max-height:.4375in;\" src=\"/api/v1/ticket_attachment/25258/77326/130756?view=inline\" alt=\"signature_3747417319\"></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span><span lang=\"EN-GB\"> </span><span style=\"color:#009cde;\"> <a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n<p><span style=\"color:#009cdf;\"> </span></p>\n</div>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b><span>Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Thursday, 26 September 2024 at 21:19<br>\n<b>To: </b>\"Roefs, Anne (PSYCHOLOGY)\" &lt;a.roefs@maastrichtuniversity.nl&gt;<br>\n<b>Cc: </b>\"Steenhuis, Maaike (PSYCHOLOGY)\" &lt;maaike.steenhuis@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Study for our license</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Hi Anne,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Glad to hear that the issues were sorted out. We are always here to help.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I'd be happy to do so. Would you mind sharing the study ID?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thanks,</p>\n</div>\n<div>\n<p>Mohammad</p>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Thursday, September 26, 2024 at 9:31:39 AM, A Roefs wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Hi Mohammad,</span></p>\n<p><span lang=\"EN-US\">Just wanted to let you know that our data collection is running smoothly again (the project of Eva/Jikke/Suzan/Codrin). Thank you for the good support!</span></p>\n<p><span lang=\"EN-US\">I have another question. Maaike Steenhuis (cc) is one of the researchers on the NSMD-project (on which Alberto Jover Martinez worked), and she added a study to that account. Could you give that study the full license?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b>\n</b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\">\n</span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;width:8.2291in;max-height:7.6458in;\" src=\"/api/v1/ticket_attachment/25258/77326/130757?view=inline\" alt=\"signature_2206504312\"></span><img border=\"0\" style=\"max-width:100%;width:2.3854in;max-height:.3333in;\" src=\"/api/v1/ticket_attachment/25258/77326/130758?view=inline\" alt=\"signature_3747417319\"></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span>\n<span style=\"color:#009cde;\"><a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9989,
+        "created_by_id": 9989,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T21:49:45.839Z",
+        "updated_at": "2024-09-26T21:49:45.839Z",
+        "attachments": [
+            {
+                "id": 130754,
+                "store_file_id": 103187,
+                "filename": "message.html",
+                "size": "15113",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130755,
+                "store_file_id": 59302,
+                "filename": "image001.png",
+                "size": "96170",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130756,
+                "store_file_id": 59303,
+                "filename": "image002.png",
+                "size": "8595",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130757,
+                "store_file_id": 95105,
+                "filename": "image003.png",
+                "size": "99411",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130758,
+                "store_file_id": 94780,
+                "filename": "image004.png",
+                "size": "8422",
+                "preferences": {
+                    "Content-Type": "image/png; name=image004.png",
+                    "Content-Description": "image004.png",
+                    "Content-ID": "image004.png@01DB1059.D9AE8AB0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130759,
+                "store_file_id": 103188,
+                "filename": "image005.jpg",
+                "size": "79926",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image005.jpg",
+                    "Content-Description": "image005.jpg",
+                    "Content-ID": "image005.jpg@01DB106E.9298DC60",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "maaike.steenhuis@maastrichtuniversity.nl",
+        "updated_by": "maaike.steenhuis@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77340,
+        "ticket_id": 25258,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <sales@avicennaresearch.com>",
+        "to": "a.roefs@maastrichtuniversity.nl, maaike.steenhuis@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Study for our license",
+        "reply_to": null,
+        "message_id": "<20240927125009.25258.d2e0d99a-e223-431e-a267-06cb34d36c16@zammad.avicennaresearch.com>",
+        "message_id_md5": "b8c885f038e8d2c9b8cafb4b380e1773",
+        "in_reply_to": "<PA4PR08MB615906C9AF43A2373B22A6C6966A2@PA4PR08MB6159.eurprd08.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "Dear Maaike and Anne,<div><br></div><div>The study is set as licensed.</div><div><br></div><div>Please let me know if there is anything else.</div><div><br></div><div>Best,</div><div>Mohammad</div><div>\n<br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, September 26, 2024 at 5:49:45 PM, Maaike Steenhuis wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Mohammad and Anne, </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">The study ID 3933. Thank you!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best wishes, Maaike</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\"> </span></p>\n<div>\n<p><b><span lang=\"EN-US\" style=\"color:#eb5a18;\"> </span></b></p>\n<p><b><span lang=\"EN-US\" style=\"color:#eb5a18;\">Maaike Steenhuis</span></b></p>\n<p><i><span lang=\"EN-US\" style=\"color:#616363;\">PhD candidate</span></i></p>\n<p><i><span lang=\"EN-US\" style=\"color:#616363;\">Faculty of Psychology &amp; Neuroscience | Clinical Psychological Science</span></i></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\">New Science of Mental Disorders consortium </span></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\"> </span></p>\n<p><span lang=\"EN-US\" style=\"color:#616363;\">👋</span><span lang=\"EN-US\" style=\"color:#616363;\"> I’m the PhD representative at CPS. Feel free to contact me or walk into my office! </span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.761</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\" style=\"color:#616363;\"></span></p>\n<p><span style=\"color:#808285;\"> </span></p>\n<p><span style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n<p> </p>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:3.1666in;max-height:1.1041in;\" src=\"/api/v1/ticket_attachment/25258/77340/130782?view=inline\" alt=\"A logo for a graduate school\n\nDescription automatically generated\"></p>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Roefs, Anne (PSYCHOLOGY) &lt;a.roefs@maastrichtuniversity.nl&gt;<br>\n<b>Date: </b>Thursday, 26 September 2024 at 21:20<br>\n<b>To: </b>Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Cc: </b>Steenhuis, Maaike (PSYCHOLOGY) &lt;maaike.steenhuis@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>Re: Study for our license</span></p>\n</div>\n<div>\n<p><span lang=\"EN-US\">Thank you Mohammad!</span></p>\n<p><span lang=\"EN-US\">@Maaike: can you share the study ID?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b> </b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\"> </span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"> </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.8958in;max-height:1.7708in;\" src=\"/api/v1/ticket_attachment/25258/77340/130783?view=inline\" alt=\"signature_3297107290\"></span><img border=\"0\" style=\"max-width:100%;max-width:100%;width:3.1354in;max-height:.4375in;\" src=\"/api/v1/ticket_attachment/25258/77340/130784?view=inline\" alt=\"signature_3747417319\"></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span><span lang=\"EN-GB\"> </span><span style=\"color:#009cde;\"> <a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n<p><span style=\"color:#009cdf;\"> </span></p>\n</div>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b><span>Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Thursday, 26 September 2024 at 21:19<br>\n<b>To: </b>\"Roefs, Anne (PSYCHOLOGY)\" &lt;a.roefs@maastrichtuniversity.nl&gt;<br>\n<b>Cc: </b>\"Steenhuis, Maaike (PSYCHOLOGY)\" &lt;maaike.steenhuis@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Study for our license</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Hi Anne,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Glad to hear that the issues were sorted out. We are always here to help.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I'd be happy to do so. Would you mind sharing the study ID?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thanks,</p>\n</div>\n<div>\n<p>Mohammad</p>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Thursday, September 26, 2024 at 9:31:39 AM, A Roefs wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Hi Mohammad,</span></p>\n<p><span lang=\"EN-US\">Just wanted to let you know that our data collection is running smoothly again (the project of Eva/Jikke/Suzan/Codrin). Thank you for the good support!</span></p>\n<p><span lang=\"EN-US\">I have another question. Maaike Steenhuis (cc) is one of the researchers on the NSMD-project (on which Alberto Jover Martinez worked), and she added a study to that account. Could you give that study the full license?</span></p>\n<p><span lang=\"EN-US\">Best wishes, Anne</span></p>\n<p> </p>\n<div>\n<div>\n<p><span lang=\"EN-GB\" style=\"color:#009cdf;\">Anne Roefs, PhD<b>\n</b></span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| Professor of Psychology and Neuroscience of Abnormal Eating| Faculty of Psychology &amp; Neuroscience | Maastricht University | </span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">+31 (0)6 45 780733 | </span><span lang=\"EN-GB\" style=\"color:#029be0;\"><a href=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" title=\"http://eetonderzoek.nl/researchers/anne-roefs/?lang=en\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#029be0;\">http://eetonderzoek.nl/researchers/anne-roefs/?lang=en</span></a></span><span lang=\"EN-GB\" style=\"color:#ffbf00;\">\n</span><span lang=\"EN-GB\" style=\"color:#3f3f3f;\">| visiting address: Universiteitssingel 40 – A3.742</span></p>\n<p><span lang=\"EN-GB\" style=\"color:#3f3f3f;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:8.2291in;max-height:7.6458in;\" src=\"/api/v1/ticket_attachment/25258/77340/130785?view=inline\" alt=\"signature_2206504312\"></span><img border=\"0\" style=\"max-width:100%;max-width:100%;width:2.3854in;max-height:.3333in;\" src=\"/api/v1/ticket_attachment/25258/77340/130786?view=inline\" alt=\"signature_3747417319\"></p>\n<p><span style=\"color:#009cdf;\"><a href=\"https://theendofaverage.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cdf;\">https://theendofaverage.nl/</span></a></span>\n<span style=\"color:#009cde;\"><a href=\"https://www.nsmd.eu/\" title=\"https://www.nsmd.eu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#009cde;\">https://www.nsmd.eu/</span></a></span></p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-27T12:50:19.742Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-27T12:50:08.986Z",
+        "updated_at": "2024-09-27T12:50:19.765Z",
+        "attachments": [
+            {
+                "id": 130782,
+                "store_file_id": 103211,
+                "filename": "image1.png",
+                "size": "192085",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.58f638d6-797f-49ba-9c13-ffbd4400a55f@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130783,
+                "store_file_id": 77853,
+                "filename": "image2.png",
+                "size": "99410",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.ff9fab14-7b41-4c52-a0cd-c58f386cb8c5@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130784,
+                "store_file_id": 94768,
+                "filename": "image3.png",
+                "size": "8421",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.9123c9cf-ce55-44cf-afe7-5117e62b2977@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130785,
+                "store_file_id": 77853,
+                "filename": "image4.png",
+                "size": "99410",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.62067f9a-a160-49f1-8731-d61944083348@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130786,
+                "store_file_id": 94768,
+                "filename": "image5.png",
+                "size": "8421",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25258.fdc7f71a-6b08-45b6-9a3b-3ad783a5876f@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

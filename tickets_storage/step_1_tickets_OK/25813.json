@@ -1,0 +1,35 @@
+[
+    {
+        "id": 79035,
+        "ticket_id": 25813,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "New demo booked",
+        "reply_to": null,
+        "message_id": "<010d01928f26867b-51e21c94-73d5-4a4a-bd01-c60120b7c718-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "645ae105980e11168745c153e02b49c3",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "ID: 323 - Carmen van den Bulck (c.m.m.vandenbulck@uva.nl) from University of Amsterdam on 2024-10-15\nTopic: Using an Expercience Sampling Method design, we want to examine the experience of loneliness in daily life. Specifically, we aim to explore (a) whether experiences of loneliness are characterized by fluctuation or stability and (b) what are potential factors influencing this fluctuation or stability. In exploring these patterns, we will examine social cognitive biases, interpersonal behavior, social context, as well as symptoms of social anxiety and depression. Data will be collected through both a baseline assessment and momentary assessments over a two-week period. The insights gained from this study will contribute to the development of tailored interventions designed to effectively alleviate loneliness.\n",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-10-15T07:49:19.423Z",
+        "updated_at": "2024-10-15T07:49:25.996Z",
+        "attachments": [],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

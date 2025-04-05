@@ -1,0 +1,75 @@
+[
+    {
+        "id": 74176,
+        "ticket_id": 23991,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Marina Bornovalova <bornovalova@usf.edu>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Marina Bornovalova)",
+        "reply_to": null,
+        "message_id": "<BYAPR08MB5783454D6DE609DD62305C90BD992@BYAPR08MB5783.namprd08.prod.outlook.com>",
+        "message_id_md5": "ceb0f262567005ca63e965100b50d550",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9251,
+        "created_by_id": 9251,
+        "origin_by_id": null,
+        "created_at": "2024-09-09T15:14:54.239Z",
+        "updated_at": "2024-09-09T15:14:54.239Z",
+        "attachments": [
+            {
+                "id": 126616,
+                "store_file_id": 99566,
+                "filename": "file",
+                "size": "1310",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "bornovalova@usf.edu",
+        "updated_by": "bornovalova@usf.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 74178,
+        "ticket_id": 23991,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1103</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-06-11</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - Less Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-09T15:14:58.324Z",
+        "updated_at": "2024-09-09T15:14:58.324Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

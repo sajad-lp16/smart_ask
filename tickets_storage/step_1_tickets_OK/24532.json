@@ -1,0 +1,75 @@
+[
+    {
+        "id": 75376,
+        "ticket_id": 24532,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "David Blok <d.j.blok@essb.eur.nl>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Jonas Schlicht)",
+        "reply_to": null,
+        "message_id": "<PA4PR02MB10355CBF19CFBDB23AC57F7E4999B2@PA4PR02MB10355.eurprd02.prod.outlook.com>",
+        "message_id_md5": "df3e8e74b55b0ceaaece5470e86f1fc2",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9384,
+        "created_by_id": 9384,
+        "origin_by_id": null,
+        "created_at": "2024-09-11T10:06:21.678Z",
+        "updated_at": "2024-09-11T10:06:21.678Z",
+        "attachments": [
+            {
+                "id": 127996,
+                "store_file_id": 100845,
+                "filename": "file",
+                "size": "1300",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "d.j.blok@essb.eur.nl",
+        "updated_by": "d.j.blok@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 75377,
+        "ticket_id": 24532,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1074</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-04-23</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-08-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">441</td>\n    </tr>\n  </tbody>\n</table><br><br><b>Contracts</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">End Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">P/W Usage (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">441</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-09-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2025-09-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">0</td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-11T10:06:25.898Z",
+        "updated_at": "2024-09-11T10:06:25.898Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

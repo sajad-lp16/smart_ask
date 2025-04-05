@@ -1,0 +1,47 @@
+[
+    {
+        "id": 78484,
+        "ticket_id": 25640,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sara@avicennaresearch.com>",
+        "to": "Avicenna Product <product@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Fwd: Social Production Survey App",
+        "reply_to": null,
+        "message_id": "<CAKzbUwcHWwaP7RpB8VM4RL-Vnh+n38iN-2SNgtuEK_7GGX-S8w@mail.gmail.com>",
+        "message_id_md5": "bbb3b9663e1b2eba10bd3e5a2dbf8e5d",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<br><br><div>\n<div dir=\"ltr\">---------- Forwarded message ---------<br>From: <strong dir=\"auto\">Kristen Tran</strong> <span dir=\"auto\">&lt;<a href=\"mailto:kristen.tran@sydney.edu.au\">kristen.tran@sydney.edu.au</a>&gt;</span><br>Date: Wed, Oct 9, 2024 at 4:42 AM<br>Subject: Social Production Survey App<br>To: <a href=\"mailto:sara@avicennaresearch.com\">sara@avicennaresearch.com</a> &lt;<a href=\"mailto:sara@avicennaresearch.com\">sara@avicennaresearch.com</a>&gt;<br>\n</div>\n<br><br><div><div dir=\"ltr\">\n<div>Hi Sara</div>\n<div> </div>\n<div>Hope you are well.</div>\n<div> </div>\n<div>I have downloaded the Social Production Survey App from Playstore on Android and I am having trouble setting up an account.</div>\n<div> </div>\n<div> I am using the email address <a href=\"mailto:kristen.dh.tran@gmail.com\">kristen.dh.tran@gmail.com</a> to sign up but it shows me the message \"You are not invited to join this study\"</div>\n<div> </div>\n<div>Is there an alternate email that I should be using to sign on?</div>\n<div> </div>\n<div> Also for the Avicenna researcher page it looks like my email address <a href=\"mailto:kristen.tran@sydney.com.edu\">kristen.tran@sydney.com.edu</a> has been registered already I just need a registration code once I log in. Can you provide this please?</div>\n<div> </div>\n<div>Thanks,</div>\n<div> </div>\n<div>\n<p><span style=\"background-color:rgb(255,255,255);\"><b>Kristen Tran</b> | Research Associate </span></p>\n<p><span style=\"color:rgb(102,102,102);background-color:rgb(255,255,255);\"><b>Mental Wealth Initiative | The University of Sydney </b></span><b><br>\n</b><span style=\"color:rgb(102,102,102);background-color:rgb(255,255,255);\">Faculty of Medicine &amp; Health, Translational Research Collective </span></p>\n<p><span style=\"color:rgb(102,102,102);background-color:rgb(255,255,255);\">Brain and Mind Centre</span></p>\n<p><span style=\"color:rgb(102,102,102);background-color:rgb(255,255,255);\">94 Mallett St | The University of Sydney | NSW | 2006</span></p>\n<div>\n<p><span style=\"background-color:rgb(255,255,255);\">E <a href=\"mailto:kristen.tran@sydney.edu.au\">kristen.tran@sydney.edu.au</a> | W</span>\n<span style=\"color:rgb(204,51,0);\"><b><a href=\"http://sydney.edu.au/brain-mind/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">sydney.edu.au/brain-mind/</a></b></span></p>\n<p><span><br>\n</span></p>\n<p>CRICOS 00026A<span><br>\n</span>This email plus any attachments to it are confidential. Any unauthorised use is strictly prohibited.<span><br>\n</span><span>If you receive this email in error, please delete it and any attachments.<b> </b></span></p>\n</div>\n<p> </p>\n<p>Please think of our environment and only print this email if necessary.</p>\n</div>\n</div></div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T01:33:26.994Z",
+        "updated_at": "2024-10-09T01:33:26.994Z",
+        "attachments": [
+            {
+                "id": 132393,
+                "store_file_id": 104498,
+                "filename": "message.html",
+                "size": "5774",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

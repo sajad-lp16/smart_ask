@@ -1,0 +1,19 @@
+{
+    "conversations": "omri@bbdetector.com:\nPlease forward this email to your IT/Security team for their immediate attention. Dear IT/Security Team, I am a responsible bug bounty hunter with expertise in discovering and reporting cybersecurity issues on platforms such as HackerOne, BugCrowd, Intigriti and others. I am writing to notify you about a High-severity vulnerability in your organization’s domain. The vulnerability & Technical details: I have found a Subdomain Takeover on dgc.avicennaresearch.com - This vulnerability occurs when organizations fail to update or delete DNS records for inactive subdomains. The affected DNS record is an A record (18.207.50.109), on AWS, in the us-east-1 region. The Impact: An attacker can pose as a legitimate website within your organization. This pose a risk of data breaches, phishing attacks and cookie theft across all subdomains under avicennaresearch.com This could also enable the insertion of malicious JavaScript code (XSS attack). PoC: A screenshot demonstrating a successful subdomain takeover is provided below. Mitigation: To resolve this issue, we recommend reviewing your DNS records and ensuring all inactive subdomains are either removed or properly configured. Just to clarify: I no longer manage that subdomain. Upon discovering your DNS record linking it to IP 18.207.50.109, I promptly released my control over it. Severity: High - Score 7.5 - https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:NNetwork - no VPN needed Attack complexity is low. No privileges needed. User interation not required. Scope unchanged. Confidentiality: None (Potentially High, for stealing session tokens) Integrity: High (Attacker can manipulate website content the user visits) Availability: None (Potentially High, for password changes affecting user access) Payment and future collaboration together: If you found this report valuable, we accept payment via PayPal or bank transfer. Invoices are available upon request. For PayPal, please use the email omriman067@gmail.com - https://paypal.me/omriman067 If you decide to make a payment, we offer the following services to all your domains (Please send them over): Continuous monitoring for subdomain takeovers. Continuous Attack Surface Monitoring: This service does an active detection for OWASP Top 10 vulnerabilities, such as XSS, SQL Injection, SSRF, and more. You can decide on the payment based on the severity of the findings. Please let us know if you are interested in this service, and we will provide you with all the details. We assure you that our services are conducted with utmost professionalism and respect for your organization’s confidentiality. Sincerely, Omri. If you prefer not to receive notifications regarding potential vulnerabilities in the future, reply with \"Unsubscribe\" or unsubscribe here: https://bbdetector.com/unsubscribe.php------\n\nAmin Ghaffari:\nBardia Salimi sounds like a blatant cash grab, but I'll let you know about this as our DevSecOps manager regardless. I'm closing this with no actions.------\n\nBardia Salimi:\nAmin Ghaffari Thank you, I got back to him in https://zammad.avicennaresearch.com/#ticket/zoom/26042.",
+    "all_emails": [
+        "ciso@avicennaresearch.com",
+        "5a1f1.53d2SMTPIN_ADDED_MISSING@mx.google",
+        "omri@bbdetector.com",
+        "bardia@avicennaresearch.com",
+        "omriman067@gmail.com",
+        "help@avicennaresearch.com",
+        "amin.ghaffari@avicennaresearch.com",
+        "yourbbservice@gmail.com",
+        "info@avicennaresearch.com",
+        "contact@avicennaresearch.com",
+        "security@avicennaresearch.com",
+        "omri.bounty@gmail.com",
+        "support@avicennaresearch.com"
+    ],
+    "ticket_id": "26041"
+}

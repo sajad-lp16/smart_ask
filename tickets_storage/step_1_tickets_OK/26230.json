@@ -1,0 +1,46 @@
+[
+    {
+        "id": 80221,
+        "ticket_id": 26230,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Myers,Cassandra\" <cjm523@drexel.edu>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Appointment booked: Meeting with Avicenna (Janet Matthews) @ Mon Oct 28, 2024 11am - 11:30am (PDT) (jm834@drexel.edu)",
+        "reply_to": null,
+        "message_id": "<BL0PR01MB4100B3E18B22F6AE0550DAECF24D2@BL0PR01MB4100.prod.exchangelabs.com>",
+        "message_id_md5": "111f0950bb08522dc33ad2744733bf58",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10171,
+        "created_by_id": 10171,
+        "origin_by_id": null,
+        "created_at": "2024-10-23T19:36:03.571Z",
+        "updated_at": "2024-10-23T19:36:03.571Z",
+        "attachments": [
+            {
+                "id": 135422,
+                "store_file_id": 106613,
+                "filename": "winmail.dat",
+                "size": "16505",
+                "preferences": {
+                    "Content-Type": "application/ms-tnef; name=winmail.dat",
+                    "Mime-Type": "application/ms-tnef",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "cjm523@drexel.edu",
+        "updated_by": "cjm523@drexel.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

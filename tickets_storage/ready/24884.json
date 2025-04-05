@@ -1,0 +1,8 @@
+{
+    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[SAP CloudSupport Alerts] (Support Team, SAP SE) – [September 22, 2024]:**  \n  - Notification of planned downtime for SAP Business Network for Procurement.  \n  - Downtime scheduled from September 22, 2024, 12:00 AM UTC to September 22, 2024, 4:00 AM UTC.  \n  - *Key quote:* \"Our goal is to provide you with the highest level of service and support. In order to achieve that goal, we must occasionally interrupt service.\"  \n\n#### **2. Timeline**  \n- **[September 22, 2024]:** Planned downtime for SAP Business Network for Procurement from 12:00 AM UTC to 4:00 AM UTC.  \n\n#### **3. Key Events/Issues**  \n- **Planned Downtime:** Scheduled maintenance affecting SAP Business Network for Procurement.  \n\n#### **4. Action Items**  \n- **Pending:**  \n  - Update Network Service Subscription for notification preferences (assigned to recipient).  \n- **Completed:**  \n  - Notification sent to all affected users.  \n\n#### **5. Technical Details (if applicable)**  \n- **Account/Login Info:** Recipients configured in SAP Business Network accounts.  \n\n#### **6. Next Steps**  \n- **Action 1:** Contact SAP Support via Help Center for any questions (assigned to recipient).  \n- **Action 2:** Add SAP CloudSupport Alerts to safe senders list (assigned to recipient).",
+    "emails": [
+        "sapcloudsupport@alerts.ondemand.com"
+    ],
+    "person_ids": [],
+    "deal_ids": []
+}

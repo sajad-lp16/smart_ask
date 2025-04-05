@@ -1,0 +1,256 @@
+[
+    {
+        "id": 79907,
+        "ticket_id": 26102,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Petra Olsthoorn <olsthoorn@essb.eur.nl>",
+        "to": "Sara Farnya <sales@avicennaresearch.com>",
+        "cc": "Peng Wang <wang@essb.eur.nl>",
+        "subject": "ESM study",
+        "reply_to": null,
+        "message_id": "<DB5PR02MB102869AC54F57F217DA8EF40AED4C2@DB5PR02MB10286.eurprd02.prod.outlook.com>",
+        "message_id_md5": "e4f47b5472b86a0c0fe580fc2a5e876d",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Sara,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I would like to introduce you to my colleague Peng Wang, PhD candidate at our Educational Sciences team.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Peng would like to start a new multidisciplinary study of three weeks with a 100 up to 200 participants. Peng and his colleagues are in the recruitment phase of this study and depending on the success of the recruitment they will start in the coming months. For this study they may use the EUR credits for their data-collection, but I am not sure if we have enough credits left this year? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thanks in advance,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Petra</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p>Petra Olsthoorn</p>\n<p>Project Manager</p>\n<p><b>Rotterdam ESM Group</b></p>\n<p><span><br>\n</span><b><span lang=\"EN-US\" style=\"color:#0998ef;\">E</span></b><span lang=\"EN-US\"> </span><span lang=\"EN-US\"><a href=\"mailto:olsthoorn@essb.eur.nl\"><span style=\"color:windowtext;\">olsthoorn@essb.eur.nl</span></a></span><span lang=\"EN-US\"></span></p>\n<p><b><span lang=\"EN-US\" style=\"color:#0998ef;\">T</span></b><span lang=\"EN-US\"> +31 10 408 9927<br>\n<b><span style=\"color:#0998ef;\">Visiting address</span></b><span style=\"color:#0998ef;\">\n</span>Mandeville Building | Room T13-54</span></p>\n<p><span lang=\"EN-US\">Burgemeester Oudlaan 50 | 3062 PA Rotterdam</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Follow us </span><b><span style=\"color:#0998ef;\"><a href=\"https://www.linkedin.com/company/rotterdam-esm-group/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.linkedin.com/company/rotterdam-esm-group/\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:#0998ef;\">on LinkedIn</span></a></span></b><span lang=\"EN-US\"></span></p>\n<p><b><span style=\"color:#33e1ab;\"><a href=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" rel=\"nofollow noreferrer noopener\" title=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:windowtext;\">Visit </span><span lang=\"EN-US\" style=\"color:#33e1ab;\">our website</span></a></span></b><b><span lang=\"EN-US\" style=\"color:#33e1ab;\"></span></b></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><img border=\"0\" style=\"max-width:100%;width:1.2152in;max-height:1.2152in;\" src=\"/api/v1/ticket_attachment/26102/79907/134954?view=inline\"></p>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 10
+        },
+        "updated_by_id": 4917,
+        "created_by_id": 4917,
+        "origin_by_id": null,
+        "created_at": "2024-10-22T13:44:22.055Z",
+        "updated_at": "2024-10-22T13:44:33.967Z",
+        "attachments": [
+            {
+                "id": 134953,
+                "store_file_id": 106231,
+                "filename": "message.html",
+                "size": "6582",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 134954,
+                "store_file_id": 59887,
+                "filename": "image001.png",
+                "size": "35507",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB2499.2AC9B520",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "olsthoorn@essb.eur.nl",
+        "updated_by": "olsthoorn@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 79908,
+        "ticket_id": 26102,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1125</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-03-04</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-07-16</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">439</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">491</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-01-26</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-01-27</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">260</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">525</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-03-10</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-09-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">327</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">927</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-11-15</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-12-13</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">260</td>\n    </tr>\n  </tbody>\n</table><br><br><b>Contracts</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">End Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">P/W Usage (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">439</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2025-01-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2026-01-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">0.000000</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">260</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-03-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2025-03-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">65.999342</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">327</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-01-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2028-01-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">0.000000</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">260</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-03-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2025-03-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">65.999343</td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-22T13:44:30.303Z",
+        "updated_at": "2024-10-22T13:44:30.303Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 80116,
+        "ticket_id": 26102,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "olsthoorn@essb.eur.nl",
+        "cc": "wang@essb.eur.nl",
+        "subject": "ESM study",
+        "reply_to": null,
+        "message_id": "<20241023102144.26102.6661d0d6-0eef-404c-8bfa-1b0323f78586@zammad.avicennaresearch.com>",
+        "message_id_md5": "c8e284c2f61fbe3bddc6554c8f670814",
+        "in_reply_to": "<DB5PR02MB102869AC54F57F217DA8EF40AED4C2@DB5PR02MB10286.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<div>Hi Petra and Peng,</div><div><br></div><div>I hope you're both doing well.</div><div><br></div><div>Dear Petra,</div><div><br></div><div>Thank you very much for the introduction. Yes, you still have enough credits for this year to run the ESM study under the EUR license. I'd be happy to help Peng with his research.</div><div><br></div><div>Dear Peng,</div><div><br></div><div>You are more than welcome to use Avicenna for your ESM study. To proceed, kindly provide me with your study ID (more information can be found <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\">here</a>) along with a brief description or abstract of your project. This will allow me to add your study to the EUR subscription license. We request the abstract to be shared with the community and help other researchers with their work.</div><div><br></div><div>If you have any questions, please don't hesitate to contact me.</div><div><br></div><div>Best,</div><div>Sara</div><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Tuesday, October 22, 2024 at 5:14:22 PM, Petra Olsthoorn wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Sara,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I would like to introduce you to my colleague Peng Wang, PhD candidate at our Educational Sciences team.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Peng would like to start a new multidisciplinary study of three weeks with a 100 up to 200 participants. Peng and his colleagues are in the recruitment phase of this study and depending on the success of the recruitment they will start in the coming months. For this study they may use the EUR credits for their data-collection, but I am not sure if we have enough credits left this year? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thanks in advance,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Petra</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p>Petra Olsthoorn</p>\n<p>Project Manager</p>\n<p><b>Rotterdam ESM Group</b></p>\n<p><span><br>\n</span><b><span lang=\"EN-US\" style=\"color:#0998ef;\">E</span></b><span lang=\"EN-US\"> </span><span lang=\"EN-US\"><a href=\"mailto:olsthoorn@essb.eur.nl\"><span style=\"color:windowtext;\">olsthoorn@essb.eur.nl</span></a></span><span lang=\"EN-US\"></span></p>\n<p><b><span lang=\"EN-US\" style=\"color:#0998ef;\">T</span></b><span lang=\"EN-US\"> +31 10 408 9927<br>\n<b><span style=\"color:#0998ef;\">Visiting address</span></b><span style=\"color:#0998ef;\">\n</span>Mandeville Building | Room T13-54</span></p>\n<p><span lang=\"EN-US\">Burgemeester Oudlaan 50 | 3062 PA Rotterdam</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Follow us </span><b><span style=\"color:#0998ef;\"><a href=\"https://www.linkedin.com/company/rotterdam-esm-group/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.linkedin.com/company/rotterdam-esm-group/\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:#0998ef;\">on LinkedIn</span></a></span></b><span lang=\"EN-US\"></span></p>\n<p><b><span style=\"color:#33e1ab;\"><a href=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" rel=\"nofollow noreferrer noopener\" title=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:windowtext;\">Visit </span><span lang=\"EN-US\" style=\"color:#33e1ab;\">our website</span></a></span></b><b><span lang=\"EN-US\" style=\"color:#33e1ab;\"></span></b></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.2152in;max-height:1.2152in;\" src=\"/api/v1/ticket_attachment/26102/80116/135258?view=inline\"></p>\n<p> </p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-23T10:21:54.170Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-23T10:21:44.723Z",
+        "updated_at": "2024-10-23T10:21:54.185Z",
+        "attachments": [
+            {
+                "id": 135258,
+                "store_file_id": 66378,
+                "filename": "image1.png",
+                "size": "40059",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "26102.ae4ed39e-7f8b-4bb0-ae2c-71f1819e076b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 80123,
+        "ticket_id": 26102,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Peng Wang <wang@essb.eur.nl>",
+        "to": "Sara Farnya <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: ESM study",
+        "reply_to": null,
+        "message_id": "<GV1PR02MB8281AEB2F7BD2FA6D49B581C824D2@GV1PR02MB8281.eurprd02.prod.outlook.com>",
+        "message_id_md5": "a2ed118b4d5e792621efc86d3aeb3598",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi Sara,</p>\n<p> </p>\n<p>Many thanks for your help!</p>\n<p>As this study has not been initialized yet, I have just created an ID for it: <span style=\"background:white;\">4166. Does it matter for now if we haven’t set up the concrete questions and designs into it? What is the general procedure I have to do with your side for now? I’m new to this app but familiar with the method. A bit confusing but not much. Below is the abstract of the project:</span></p>\n<p> </p>\n<p>This study employs Ecological Momentary Assessment (EMA) to investigate the dynamic relationship between emotions and language learning in authentic settings. Through real-time data collection, the research examines how different emotional states interact and evolve during language learning activities, and how these emotional dynamics influence learning processes over time. The study aims to provide a comprehensive understanding of emotional patterns in language learning, contributing to both theoretical knowledge and practical applications in language education.</p>\n<p> </p>\n<p>Thanks for providing me with information in advance.</p>\n<p> </p>\n<p>Best</p>\n<p>Peng</p>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Sara Farnya &lt;sales@avicennaresearch.com&gt;<br>\n<b>Date: </b>Wednesday, 23 October 2024 at 12:22<br>\n<b>To: </b>Petra Olsthoorn &lt;olsthoorn@essb.eur.nl&gt;<br>\n<b>Cc: </b>Peng Wang &lt;wang@essb.eur.nl&gt;<br>\n<b>Subject: </b>RE: ESM study</span></p>\n</div>\n<div>\n<p>Hi Petra and Peng,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I hope you're both doing well.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Petra,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you very much for the introduction. Yes, you still have enough credits for this year to run the ESM study under the EUR license. I'd be happy to help Peng with his research.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Peng,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p><span>You are more than welcome to use Avicenna for your ESM study. To proceed, kindly provide me with your study ID (more information can be found <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">here</a>) along with a brief description or abstract of your project. This will allow me to add your study to the EUR subscription license. We request the abstract to be shared with the community and help other researchers with their work.</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>If you have any questions, please don't hesitate to contact me.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Sara</p>\n</div>\n<div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 22, 2024 at 5:14:22 PM, Petra Olsthoorn wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Sara,</span></p>\n<p><span lang=\"EN-US\">I would like to introduce you to my colleague Peng Wang, PhD candidate at our Educational Sciences team.</span></p>\n<p><span lang=\"EN-US\">Peng would like to start a new multidisciplinary study of three weeks with a 100 up to 200 participants. Peng and his colleagues are in the recruitment phase of this study and depending on the success of the recruitment they will start in the coming months. For this study they may use the EUR credits for their data-collection, but I am not sure if we have enough credits left this year? </span></p>\n<p><span lang=\"EN-US\">Thanks in advance,</span></p>\n<p><span lang=\"EN-US\">Petra</span></p>\n<p>Petra Olsthoorn</p>\n<p>Project Manager</p>\n<p><b>Rotterdam ESM Group</b></p>\n<p><span><br>\n</span><b><span lang=\"EN-US\" style=\"color:#0998ef;\">E</span></b><span lang=\"EN-US\">\n<a href=\"mailto:olsthoorn@essb.eur.nl\"><span style=\"color:windowtext;\">olsthoorn@essb.eur.nl</span></a></span></p>\n<p><b><span lang=\"EN-US\" style=\"color:#0998ef;\">T</span></b><span lang=\"EN-US\"> +31 10 408 9927<br>\n<b><span style=\"color:#0998ef;\">Visiting address</span></b><span style=\"color:#0998ef;\">\n</span>Mandeville Building | Room T13-54</span></p>\n<p><span lang=\"EN-US\">Burgemeester Oudlaan 50 | 3062 PA Rotterdam</span></p>\n<p><span lang=\"EN-US\">Follow us </span><b><span style=\"color:#0998ef;\"><a href=\"https://www.linkedin.com/company/rotterdam-esm-group/\" title=\"https://www.linkedin.com/company/rotterdam-esm-group/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:#0998ef;\">on LinkedIn</span></a></span></b></p>\n<p><b><span style=\"color:#33e1ab;\"><a href=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" title=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:windowtext;\">Visit </span><span lang=\"EN-US\" style=\"color:#33e1ab;\">our website</span></a></span></b></p>\n<p><img border=\"0\" style=\"max-width:100%;width:4.1666in;max-height:4.1875in;\" src=\"/api/v1/ticket_attachment/26102/80123/135267?view=inline\"></p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10160,
+        "created_by_id": 10160,
+        "origin_by_id": null,
+        "created_at": "2024-10-23T10:51:40.992Z",
+        "updated_at": "2024-10-23T10:51:40.992Z",
+        "attachments": [
+            {
+                "id": 135266,
+                "store_file_id": 106473,
+                "filename": "message.html",
+                "size": "13768",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "Windows-1252"
+                }
+            },
+            {
+                "id": 135267,
+                "store_file_id": 66378,
+                "filename": "ATT00001.png",
+                "size": "40059",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "26102.ae4ed39e-7f8b-4bb0-ae2c-71f1819e076b@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "wang@essb.eur.nl",
+        "updated_by": "wang@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 80150,
+        "ticket_id": 26102,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "wang@essb.eur.nl",
+        "cc": "",
+        "subject": "ESM study",
+        "reply_to": null,
+        "message_id": "<20241023125017.26102.14ccfddf-34b8-418f-8832-7c2510e9e036@zammad.avicennaresearch.com>",
+        "message_id_md5": "63c7302d080cb8824fb70b27b67b6c91",
+        "in_reply_to": "<GV1PR02MB8281AEB2F7BD2FA6D49B581C824D2@GV1PR02MB8281.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<div>Hi Peng,</div><div><br></div><div>It's my pleasure!</div><div><br></div><div>Thank you very much for providing the study ID and the abstract. We truly appreciate your contribution.</div><div><br></div><div>It's perfectly fine if you haven't set up the specific questions and designs yet. We need the study ID only to include it in the license and ensure everything is ready for your project on our end so that you can launch your study whenever you are prepared.</div><div><br></div><div>Study #4166 has now been added to the EUR license, and everything is set on our side. Please feel free to start adding your questions and configuring your protocol at your convenience. It's best to thoroughly test your study before you begin field deployment. You can find more details <a href=\"https://learn.avicennaresearch.com/getting-started/field-deployment\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/getting-started/field-deployment\">here</a>. Just remember to remove any test participants from the study before recruiting real participants.</div><div><br></div><div>Additionally, to learn more about our research tool, you can visit our documentation website <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/\">here</a>. Our <a href=\"mailto:support@avicennaresearch.com\">support team</a> is also available to help you with any technical questions you may have.</div><div><br></div><div>If you need anything else, please don’t hesitate to let me know.</div><div><br></div><div>Best,</div><div>Sara</div><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, October 23, 2024 at 2:21:40 PM, Peng Wang wrote:<br><br><div>\n<p>Hi Sara,</p>\n<p> </p>\n<p>Many thanks for your help!</p>\n<p>As this study has not been initialized yet, I have just created an ID for it: <span style=\"background:white;\">4166. Does it matter for now if we haven’t set up the concrete questions and designs into it? What is the general procedure I have to do with your side for now? I’m new to this app but familiar with the method. A bit confusing but not much. Below is the abstract of the project:</span></p>\n<p> </p>\n<p>This study employs Ecological Momentary Assessment (EMA) to investigate the dynamic relationship between emotions and language learning in authentic settings. Through real-time data collection, the research examines how different emotional states interact and evolve during language learning activities, and how these emotional dynamics influence learning processes over time. The study aims to provide a comprehensive understanding of emotional patterns in language learning, contributing to both theoretical knowledge and practical applications in language education.</p>\n<p> </p>\n<p>Thanks for providing me with information in advance.</p>\n<p> </p>\n<p>Best</p>\n<p>Peng</p>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Sara Farnya &lt;sales@avicennaresearch.com&gt;<br>\n<b>Date: </b>Wednesday, 23 October 2024 at 12:22<br>\n<b>To: </b>Petra Olsthoorn &lt;olsthoorn@essb.eur.nl&gt;<br>\n<b>Cc: </b>Peng Wang &lt;wang@essb.eur.nl&gt;<br>\n<b>Subject: </b>RE: ESM study</span></p>\n</div>\n<div>\n<p>Hi Petra and Peng,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I hope you're both doing well.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Petra,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you very much for the introduction. Yes, you still have enough credits for this year to run the ESM study under the EUR license. I'd be happy to help Peng with his research.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Peng,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p><span>You are more than welcome to use Avicenna for your ESM study. To proceed, kindly provide me with your study ID (more information can be found <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/create-new-study/#basics-page\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">here</a>) along with a brief description or abstract of your project. This will allow me to add your study to the EUR subscription license. We request the abstract to be shared with the community and help other researchers with their work.</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>If you have any questions, please don't hesitate to contact me.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Sara</p>\n</div>\n<div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 22, 2024 at 5:14:22 PM, Petra Olsthoorn wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Sara,</span></p>\n<p><span lang=\"EN-US\">I would like to introduce you to my colleague Peng Wang, PhD candidate at our Educational Sciences team.</span></p>\n<p><span lang=\"EN-US\">Peng would like to start a new multidisciplinary study of three weeks with a 100 up to 200 participants. Peng and his colleagues are in the recruitment phase of this study and depending on the success of the recruitment they will start in the coming months. For this study they may use the EUR credits for their data-collection, but I am not sure if we have enough credits left this year? </span></p>\n<p><span lang=\"EN-US\">Thanks in advance,</span></p>\n<p><span lang=\"EN-US\">Petra</span></p>\n<p>Petra Olsthoorn</p>\n<p>Project Manager</p>\n<p><b>Rotterdam ESM Group</b></p>\n<p><span><br>\n</span><b><span lang=\"EN-US\" style=\"color:#0998ef;\">E</span></b><span lang=\"EN-US\">\n<a href=\"mailto:olsthoorn@essb.eur.nl\"><span style=\"color:windowtext;\">olsthoorn@essb.eur.nl</span></a></span></p>\n<p><b><span lang=\"EN-US\" style=\"color:#0998ef;\">T</span></b><span lang=\"EN-US\"> +31 10 408 9927<br>\n<b><span style=\"color:#0998ef;\">Visiting address</span></b><span style=\"color:#0998ef;\">\n</span>Mandeville Building | Room T13-54</span></p>\n<p><span lang=\"EN-US\">Burgemeester Oudlaan 50 | 3062 PA Rotterdam</span></p>\n<p><span lang=\"EN-US\">Follow us </span><b><span style=\"color:#0998ef;\"><a href=\"https://www.linkedin.com/company/rotterdam-esm-group/\" title=\"https://www.linkedin.com/company/rotterdam-esm-group/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:#0998ef;\">on LinkedIn</span></a></span></b></p>\n<p><b><span style=\"color:#33e1ab;\"><a href=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" title=\"https://www.eur.nl/en/essb/research/research-themes/research-methods/measuring-daily-life\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"EN-US\" style=\"color:windowtext;\">Visit </span><span lang=\"EN-US\" style=\"color:#33e1ab;\">our website</span></a></span></b></p>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:4.1666in;max-height:4.1875in;\" src=\"/api/v1/ticket_attachment/26102/80150/135307?view=inline\"></p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-23T12:50:23.205Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-23T12:50:17.080Z",
+        "updated_at": "2024-10-23T12:50:23.230Z",
+        "attachments": [
+            {
+                "id": 135307,
+                "store_file_id": 66378,
+                "filename": "image1.png",
+                "size": "40059",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "26102.e88f35d6-080c-4009-9b88-a990b7792fc2@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "id": 76898,
+        "ticket_id": 25119,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Matthews,Janet\" <jm834@drexel.edu>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (John Thygeson)",
+        "reply_to": null,
+        "message_id": "<PH7PR01MB7798072A5FEABB9B7E4EEB3F9A6E2@PH7PR01MB7798.prod.exchangelabs.com>",
+        "message_id_md5": "fa5d6af64672d67e93bd631cc3a7e86e",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9940,
+        "created_by_id": 9940,
+        "origin_by_id": null,
+        "created_at": "2024-09-22T19:12:42.888Z",
+        "updated_at": "2024-09-22T19:12:42.888Z",
+        "attachments": [
+            {
+                "id": 130088,
+                "store_file_id": 102637,
+                "filename": "winmail.dat",
+                "size": "15965",
+                "preferences": {
+                    "Content-Type": "application/ms-tnef; name=winmail.dat",
+                    "Mime-Type": "application/ms-tnef",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "jm834@drexel.edu",
+        "updated_by": "jm834@drexel.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

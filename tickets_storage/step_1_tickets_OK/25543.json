@@ -1,0 +1,35 @@
+[
+    {
+        "id": 78209,
+        "ticket_id": 25543,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "New demo booked",
+        "reply_to": null,
+        "message_id": "<010d019265e46b48-315766e6-936d-48f9-86cb-48f7a8afb4a8-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "d39771fba518c8878664ad64dc3cca17",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "ID: 315 - Michaela Imhof (m.a.imhof@uva.nl) from University of Amsterdam on 2024-10-07\nTopic: The research project aims at collecting EMA data from older adults and people with Parkinson's disease. We would like to use the app to send morning and evening questionnaires on a fixed schedule and also send randomised beeps throughout the day for 14 days.\nIn our research we want to assess the activities that older people carry out on a regular basis. Additionally, we investigate how Parkinson's medication have an effect on mood and motivation throughout the day. Older adults serve as a control group to account for natural mood fluctuations.\n",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T07:32:13.478Z",
+        "updated_at": "2024-10-07T07:32:18.654Z",
+        "attachments": [],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "id": 76698,
+        "ticket_id": 25062,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>",
+        "to": "\"Borkowska, Magda\" <m.borkowska@essex.ac.uk>, \"G.L.Poerio@sussex.ac.uk\" <G.L.Poerio@sussex.ac.uk>, \"Jackle, Annette E\" <aejack@essex.ac.uk>, \"Burton, Jonathan D\" <jburton@essex.ac.uk>, \"Preston, Owen J\" <op16174@essex.ac.uk>, \"Vine, Jim\" <jim.vine@essex.ac.uk>, \"Wright, Sam J\" <sam.wright@essex.ac.uk>, \"Paul.Mccrorie@glasgow.ac.uk\" <Paul.Mccrorie@glasgow.ac.uk>, \"Fiona.Caryl@glasgow.ac.uk\" <Fiona.Caryl@glasgow.ac.uk>, Amin Tavassolian <sales@avicennaresearch.com>, \"amin@avicennaresearch.com\" <amin@avicennaresearch.com>, \"sara@avicennaresearch.com\" <sara@avicennaresearch.com>, \"faham@avicennaresearch.com\" <faham@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Activity trackers project; meeting with Avicenna and Understanding Society team",
+        "reply_to": null,
+        "message_id": "<PAXPR06MB85536E08EED9940CC795F036A8632@PAXPR06MB8553.eurprd06.prod.outlook.com>",
+        "message_id_md5": "260080f398135f38796d8ad8c746450d",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p> </p>\n<p><span> Join Zoom Meeting<br>\n<a href=\"https://essex-university.zoom.us/j/92541909749?from=addon\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://essex-university.zoom.us/j/92541909749?from=addon</a><br>\n<br> Meeting ID: 925 4190 9749<br><br>Join by Phone<br> These calls are charged, the cost per minute may vary. Please check your call plan to see the costs.<br>\n<br> One tap mobile<br> +442034815237,,92541909749# United Kingdom<br> +442034815240,,92541909749# United Kingdom<br>\n<br> Dial by your location<br> +44 203 481 5237 United Kingdom<br> +44 203 481 5240 United Kingdom<br> +44 208 080 6591 United Kingdom<br> +44 208 080 6592 United Kingdom<br> +44 330 088 5830 United Kingdom<br> +44 131 460 1196 United Kingdom<br> Meeting ID: 925 4190 9749<br> Find your local number: <a href=\"https://essex-university.zoom.us/u/asXIktabc\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://essex-university.zoom.us/u/asXIktabc</a></span></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6487,
+        "created_by_id": 6487,
+        "origin_by_id": null,
+        "created_at": "2024-09-19T11:34:50.651Z",
+        "updated_at": "2024-09-19T11:34:50.651Z",
+        "attachments": [
+            {
+                "id": 129809,
+                "store_file_id": 102393,
+                "filename": "message.html",
+                "size": "2616",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 129810,
+                "store_file_id": 102394,
+                "filename": "file",
+                "size": "4039",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REQUEST",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "m.borkowska@essex.ac.uk",
+        "updated_by": "m.borkowska@essex.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 76699,
+        "ticket_id": 25062,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">829</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-07-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - More Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-19T11:34:55.995Z",
+        "updated_at": "2024-09-19T11:34:55.995Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

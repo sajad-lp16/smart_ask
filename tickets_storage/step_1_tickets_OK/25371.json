@@ -1,0 +1,76 @@
+[
+    {
+        "id": 77699,
+        "ticket_id": 25371,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "billing@mailgun.net",
+        "to": "support@avicennaresearch.com",
+        "cc": null,
+        "subject": "Receipt for your purchase of Product Usage",
+        "reply_to": null,
+        "message_id": "<5d8fcc4e-803b-11ef-9031-02c49e8f27c3@mailer.chargify.com>",
+        "message_id_md5": "846fd578baaff0a496742b1360e62bc5",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<p>Hi Mohammad Hashemian,</p><p>Thanks for submitting your payment to Sinch Mailgun. A payment was made in the amount of $35.00 dollars for Product Usage. For a more detailed description of payments made, please refer to your invoice for this month.</p><p>Thanks again,</p><p>Mailgun Technologies, Inc.</p>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9514,
+        "created_by_id": 9514,
+        "origin_by_id": null,
+        "created_at": "2024-10-01T21:23:35.282Z",
+        "updated_at": "2024-10-01T21:23:35.282Z",
+        "attachments": [
+            {
+                "id": 131265,
+                "store_file_id": 103611,
+                "filename": "message.html",
+                "size": "707",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            }
+        ],
+        "created_by": "billing@mailgun.net",
+        "updated_by": "billing@mailgun.net",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77702,
+        "ticket_id": 25371,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Amin Ghaffari",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "Please review and close this ticket <a href=\"https://zammad.avicennaresearch.com/#user/profile/6\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/6\">Mohammad Hashemian</a>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-01T21:25:35.815Z",
+        "updated_at": "2024-10-01T21:25:35.815Z",
+        "attachments": [],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "id": 77249,
+        "ticket_id": 25242,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Ong, Clarissa\" <clarissa.ong@louisville.edu>",
+        "to": "\"sales@avicennaresearch.com\" <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Avicenna Security",
+        "reply_to": null,
+        "message_id": "<248d8bb0-77b9-413e-b8d8-7edf60d2b8be@Spark>",
+        "message_id_md5": "d7ead28a10956dfd221c377bd282212c",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<div dir=\"auto\">Hello,<br>\n<br> I would like to purchase Avicenna for use in a research study (I have used Avicenna previously; study IDs 3031, 3141, 3328, 3358, and 3704). However, my current institution has security concerns they need addressed.<br>\n<br> Here's their message:<br>\n<em>Based on the use and their storage of research data, the vendor will need to provide us with an assessment of their security controls and legal will need to review their terms and conditions to determine if any modifications are need and/or our terms and conditions need to be included. These activities occur as part of the purchasing process. While I did not note any significant issues in the review of the website and your information, there is no way to know if the vendor will provide security information or work with legal.</em><br>\n<br>\n<em>You can proactively reach out to your contact and ask if they will complete the HECVAT (attached) and if they would be willing to negotiate terms as we are a state agency and cannot agree to certain terms. If they are unwilling to respond to the HECVAT or negotiate, it may be difficult to move forward.</em><br>\n<br> Would you be able to let me know if Avicenna would be willing to work something out with my university, so I can figure out an appropriate solution? Thank you for any help you can provide.<br>\n<br> Best,</div>\n</div><div>\n<br>\n<div dir=\"auto\">Clarissa<br>\n<br> —<br>\n<br> Clarissa Ong, Ph.D. (<a href=\"https://www.mypronouns.org/what-and-why/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.mypronouns.org/what-and-why/\" target=\"_blank\">she/her</a>)<br> Assistant Professor<br> Department of Psychological &amp; Brain Sciences<br> University of Louisville<br> Email: clarissa.ong@louisville.edu<br>\n<a href=\"https://www.poislab.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.poislab.com/\" target=\"_blank\">Process-Oriented Intervention Science (POIS) Lab</a><span><br>\n</span><a href=\"https://fantastical.app/clarissaong/\" rel=\"nofollow noreferrer noopener\" title=\"https://fantastical.app/clarissaong/\" target=\"_blank\">Schedule a meeting with me</a>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9985,
+        "created_by_id": 9985,
+        "origin_by_id": null,
+        "created_at": "2024-09-25T22:47:18.048Z",
+        "updated_at": "2024-09-25T22:47:18.048Z",
+        "attachments": [
+            {
+                "id": 130611,
+                "store_file_id": 103090,
+                "filename": "message.html",
+                "size": "2286",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130612,
+                "store_file_id": 103091,
+                "filename": "hecvat306.xlsx",
+                "size": "1336863",
+                "preferences": {
+                    "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name=hecvat306.xlsx",
+                    "Content-Description": "hecvat306.xlsx",
+                    "Content-ID": "D6F2563FD196DA4BAAF44898619718CC@namprd03.prod.outlook.com",
+                    "Mime-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "clarissa.ong@louisville.edu",
+        "updated_by": "clarissa.ong@louisville.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77274,
+        "ticket_id": 25242,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <sales@avicennaresearch.com>",
+        "to": "clarissa.ong@louisville.edu",
+        "cc": "",
+        "subject": "Avicenna Security",
+        "reply_to": null,
+        "message_id": "<20240926094738.25242.1d0a0c9e-f1aa-428f-8a36-8bfa644d9ac0@zammad.avicennaresearch.com>",
+        "message_id_md5": "594ee12054bfcd6d664280cf3ee4c10b",
+        "in_reply_to": "<248d8bb0-77b9-413e-b8d8-7edf60d2b8be@Spark>",
+        "content_type": "text/html",
+        "body": "Dear Clarissa,<div><br></div><div>My name is Mohammad, CEO of Avicenna, and I will be more than happy to help you with this question.</div><div><br></div><div>We do have a copy of HECVAT completed around 4 months ago, that I attached here. In case it can help, we also comply with the following standards:</div><div><br></div><div>* GDPR &amp;<span style=\"background-color: initial; color: var(--text-normal);\"> HIPAA: Externally audited. Results will be available by the end of the year and can be shared upon request.</span>\n</div><div><span style=\"background-color: initial; color: var(--text-normal);\">* FDA 21 CFR Part 11</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\">* ISO/IEC 27001:2022</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\"><br></span></div><div><span style=\"background-color: initial; color: var(--text-normal);\">I'm sure this can help expedite the approval in your institution.</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\"><br></span></div><div><span style=\"background-color: initial; color: var(--text-normal);\">On a separate note, congratulations on your new position. Looking forward to seeing more exciting research from you there.</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\"><br></span></div><div><span style=\"background-color: initial; color: var(--text-normal);\">Best,</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\">Mohammad</span></div><div><span style=\"background-color: initial; color: var(--text-normal);\"><br></span></div><div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Wednesday, September 25, 2024 at 6:47:18 PM, Clarissa Ong wrote:<br><br><div>\n<div dir=\"auto\">Hello,<br>\n<br> I would like to purchase Avicenna for use in a research study (I have used Avicenna previously; study IDs 3031, 3141, 3328, 3358, and 3704). However, my current institution has security concerns they need addressed.<br>\n<br> Here's their message:<br>\n<em>Based on the use and their storage of research data, the vendor will need to provide us with an assessment of their security controls and legal will need to review their terms and conditions to determine if any modifications are need and/or our terms and conditions need to be included. These activities occur as part of the purchasing process. While I did not note any significant issues in the review of the website and your information, there is no way to know if the vendor will provide security information or work with legal.</em><br>\n<br>\n<em>You can proactively reach out to your contact and ask if they will complete the HECVAT (attached) and if they would be willing to negotiate terms as we are a state agency and cannot agree to certain terms. If they are unwilling to respond to the HECVAT or negotiate, it may be difficult to move forward.</em><br>\n<br> Would you be able to let me know if Avicenna would be willing to work something out with my university, so I can figure out an appropriate solution? Thank you for any help you can provide.<br>\n<br> Best,</div>\n</div>\n<div>\n<br>\n<div dir=\"auto\">Clarissa<br>\n<br> —<br>\n<br> Clarissa Ong, Ph.D. (<a href=\"https://www.mypronouns.org/what-and-why/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.mypronouns.org/what-and-why/\" target=\"_blank\">she/her</a>)<br> Assistant Professor<br> Department of Psychological &amp; Brain Sciences<br> University of Louisville<br> Email: clarissa.ong@louisville.edu<br>\n<a href=\"https://www.poislab.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.poislab.com/\" target=\"_blank\">Process-Oriented Intervention Science (POIS) Lab</a><span><br>\n</span><a href=\"https://fantastical.app/clarissaong/\" rel=\"nofollow noreferrer noopener\" title=\"https://fantastical.app/clarissaong/\" target=\"_blank\">Schedule a meeting with me</a>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T09:47:49.283Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T09:47:38.011Z",
+        "updated_at": "2024-09-26T09:47:49.304Z",
+        "attachments": [
+            {
+                "id": 130642,
+                "store_file_id": 81892,
+                "filename": "hecvat305-full.xlsx",
+                "size": "802421",
+                "preferences": {
+                    "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77294,
+        "ticket_id": 25242,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Ong, Clarissa\" <clarissa.ong@louisville.edu>",
+        "to": "Mohammad Hashemian <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "RE: Avicenna Security",
+        "reply_to": null,
+        "message_id": "<4c731f12-a2a2-4141-b393-feba4e0fa8d1@Spark>",
+        "message_id_md5": "b9426e73b6fa112bf62e13da0d0ecce3",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<div dir=\"auto\">Hi Mohammad,<br>\n<br> Thank you for the quick response. I relayed the information to our Information Security Office and will let you know if they come back with further questions.<br>\n<br> Best,</div>\n</div><div>\n<br>\n<div dir=\"auto\">Clarissa<br>\n<br> —<br>\n<br> Clarissa Ong, Ph.D. (<a href=\"https://www.mypronouns.org/what-and-why/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.mypronouns.org/what-and-why/\" target=\"_blank\">she/her</a>)<br> Assistant Professor<br> Department of Psychological &amp; Brain Sciences<br> University of Louisville<br> Email: clarissa.ong@louisville.edu<br>\n<a href=\"https://www.poislab.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.poislab.com/\" target=\"_blank\">Process-Oriented Intervention Science (POIS) Lab</a><span><br>\n</span><a href=\"https://fantastical.app/clarissaong/\" rel=\"nofollow noreferrer noopener\" title=\"https://fantastical.app/clarissaong/\" target=\"_blank\">Schedule a meeting with me</a>\n</div>\n</div><div>On Sep 26, 2024 at 5:49 AM -0400, Mohammad Hashemian &lt;sales@avicennaresearch.com&gt;, wrote:<br>\n<blockquote type=\"cite\">\n<p><b>CAUTION:</b> This email originated from outside of our organization. Do not click links, open attachments, or respond unless you recognize the sender's email address and know the contents are safe.</p>\n<div>Dear Clarissa,<div> </div>\n<div>My name is Mohammad, CEO of Avicenna, and I will be more than happy to help you with this question.</div>\n<div> </div>\n<div>We do have a copy of HECVAT completed around 4 months ago, that I attached here. In case it can help, we also comply with the following standards:</div>\n<div> </div>\n<div>* GDPR &amp;<span style=\"background-color: initial; color: var(--text-normal);\"> HIPAA: Externally audited. Results will be available by the end of the year and can be shared upon request.</span>\n</div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">* FDA 21 CFR Part 11</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">* ISO/IEC 27001:2022</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\"><br>\n</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">I'm sure this can help expedite the approval in your institution.</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\"><br>\n</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">On a separate note, congratulations on your new position. Looking forward to seeing more exciting research from you there.</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\"><br>\n</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">Best,</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\">Mohammad</span></div>\n<div><span style=\"background-color: initial; color: var(--text-normal);\"><br>\n</span></div>\n<div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Wednesday, September 25, 2024 at 6:47:18 PM, Clarissa Ong wrote:<br>\n<br>\n<div>\n<div dir=\"auto\">Hello,<br>\n<br> I would like to purchase Avicenna for use in a research study (I have used Avicenna previously; study IDs 3031, 3141, 3328, 3358, and 3704). However, my current institution has security concerns they need addressed.<br>\n<br> Here's their message:<br>\n<em>Based on the use and their storage of research data, the vendor will need to provide us with an assessment of their security controls and legal will need to review their terms and conditions to determine if any modifications are need and/or our terms and conditions need to be included. These activities occur as part of the purchasing process. While I did not note any significant issues in the review of the website and your information, there is no way to know if the vendor will provide security information or work with legal.</em><br>\n<br>\n<em>You can proactively reach out to your contact and ask if they will complete the HECVAT (attached) and if they would be willing to negotiate terms as we are a state agency and cannot agree to certain terms. If they are unwilling to respond to the HECVAT or negotiate, it may be difficult to move forward.</em><br>\n<br> Would you be able to let me know if Avicenna would be willing to work something out with my university, so I can figure out an appropriate solution? Thank you for any help you can provide.<br>\n<br> Best,</div>\n</div>\n<div>\n<br>\n<div dir=\"auto\">Clarissa<br>\n<br> —<br>\n<br> Clarissa Ong, Ph.D. (<a href=\"https://www.mypronouns.org/what-and-why/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.mypronouns.org/what-and-why/\" target=\"_blank\">she/her</a>)<br> Assistant Professor<br> Department of Psychological &amp; Brain Sciences<br> University of Louisville<br> Email: clarissa.ong@louisville.edu<br>\n<a href=\"https://www.poislab.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://www.poislab.com/\" target=\"_blank\">Process-Oriented Intervention Science (POIS) Lab</a><span><br>\n</span><a href=\"https://fantastical.app/clarissaong/\" rel=\"nofollow noreferrer noopener\" title=\"https://fantastical.app/clarissaong/\" target=\"_blank\">Schedule a meeting with me</a>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n</blockquote>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9985,
+        "created_by_id": 9985,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T11:55:45.698Z",
+        "updated_at": "2024-09-26T11:55:45.698Z",
+        "attachments": [
+            {
+                "id": 130675,
+                "store_file_id": 103140,
+                "filename": "message.html",
+                "size": "7069",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            }
+        ],
+        "created_by": "clarissa.ong@louisville.edu",
+        "updated_by": "clarissa.ong@louisville.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77295,
+        "ticket_id": 25242,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">865</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">380</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">872</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-15</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-16</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">384</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">458</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-09-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-11-05</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">249</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">823</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-06-28</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-06-29</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">370</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">4</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">664</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-10-19</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-01-26</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">351</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">5</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1081</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-05-10</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-05-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">370</td>\n    </tr>\n  </tbody>\n</table><br><br><b>Contracts</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">End Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">P/W Usage (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">380</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-09</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-09-09</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">41.035634</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">384</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-09-18</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-09-17</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">106.883988</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">249</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-09-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">5846.413914</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">370</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-07-03</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-09-30</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">89.083403</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">4</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">351</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-01-31</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-01-31</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">607.935268</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">5</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">370</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-07-03</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-09-30</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">89.083403</td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T11:55:49.120Z",
+        "updated_at": "2024-09-26T11:55:49.120Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

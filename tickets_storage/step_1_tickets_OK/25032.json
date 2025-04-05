@@ -1,0 +1,35 @@
+[
+    {
+        "id": 76613,
+        "ticket_id": 25032,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "New demo booked",
+        "reply_to": null,
+        "message_id": "<010d01920673ccd5-eaa3a058-5f58-4f2c-8f1c-bd0d0bc69e66-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "63837629b9def8a2e7b5e10d5869e6ac",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "ID: 308 - Enrique Garcia Ceja (enrique.gc@tec.mx) from Tecnologico de Monterrey University on 2024-09-18\nTopic: Hi, we want to collect mental state data from students. We want to send daily and monthly questions during 5 months.\n",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-09-18T18:45:39.922Z",
+        "updated_at": "2024-09-18T18:45:49.756Z",
+        "attachments": [],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

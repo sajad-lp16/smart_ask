@@ -1,0 +1,35 @@
+[
+    {
+        "id": 79131,
+        "ticket_id": 25850,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "New demo booked",
+        "reply_to": null,
+        "message_id": "<010d0192934103f2-92096cea-3bef-452f-a90a-feb710dddf2c-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "550a2d1306919ee2df904a441a4e660c",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "ID: 325 - Itzel Haley (danupton1@aol.com) from Itzel Haley on 2024-10-16\nTopic: \n",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-10-16T02:56:43.471Z",
+        "updated_at": "2024-10-16T02:56:49.922Z",
+        "attachments": [],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

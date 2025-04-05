@@ -1,0 +1,348 @@
+[
+    {
+        "id": 78010,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Dariya Ovsyannikova <dariya.ovsyannikova@mail.utoronto.ca>",
+        "to": "\"sales@avicennaresearch.com\" <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<YT3PR01MB107496BD5CF7BE13E3CEAD5F7D7712@YT3PR01MB10749.CANPRD01.PROD.OUTLOOK.COM>",
+        "message_id_md5": "b799d86ca730b79c1e2c1cd7ae4220f5",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Good afternoon, Avicenna Sales Department,</div><div> </div><div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div><div> </div><div>Warm regards,</div><div>\n<div> </div>\n<div style=\" color: rgb(23, 78, 134);\">\n<b>Dariya Ovsyannikova, HBSc</b>\n</div>\n<div> </div>\n<div> Laboratory Manager, <span style=\" background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><img style=\"max-width:100%;width: 146px;max-height: 65px;\" src=\"/api/v1/ticket_attachment/25492/78010/131720?view=inline\"></span>\n</div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><br>\n</span>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7558,
+        "created_by_id": 7558,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T17:49:43.480Z",
+        "updated_at": "2024-10-03T17:49:43.480Z",
+        "attachments": [
+            {
+                "id": 131719,
+                "store_file_id": 103993,
+                "filename": "message.html",
+                "size": "3619",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 131720,
+                "store_file_id": 103994,
+                "filename": "Outlook-skzulvvu.png",
+                "size": "8214",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-skzulvvu.png",
+                    "Content-Description": "Outlook-skzulvvu.png",
+                    "Content-ID": "b888e657-4414-41e8-8af5-fcbecb1e60b8",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "dariya.ovsyannikova@mail.utoronto.ca",
+        "updated_by": "dariya.ovsyannikova@mail.utoronto.ca",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78015,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavassolian <sales@avicennaresearch.com>",
+        "to": "dariya.ovsyannikova@mail.utoronto.ca",
+        "cc": "",
+        "subject": "inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<20241003181309.25492.6db04a15-2a5b-47a4-8768-6ec3ab00fa47@zammad.avicennaresearch.com>",
+        "message_id_md5": "cfb45177ccf22dcb689bc498632e1716",
+        "in_reply_to": "<YT3PR01MB107496BD5CF7BE13E3CEAD5F7D7712@YT3PR01MB10749.CANPRD01.PROD.OUTLOOK.COM>",
+        "content_type": "text/html",
+        "body": "Hi Dariya,<div><br></div><div>Hope all is well with you.</div><div><br></div><div>You can forward all the inquiries to the same email, sales@avicennaresearch.com, and we'd be more than happy to help.</div><div><br></div><div>Best,</div><div>Amin</div><div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 10:49:43 AM, Dariya Ovsyannikova wrote:<br><br><div>Good afternoon, Avicenna Sales Department,</div>\n<div> </div>\n<div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>\n<div> </div>\n<div style=\" color: rgb(23, 78, 134);\">\n<b>Dariya Ovsyannikova, HBSc</b>\n</div>\n<div> </div>\n<div> Laboratory Manager, <span style=\" background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><img style=\"max-width:100%;max-width:100%;width: 146px;max-height: 65px;\" src=\"/api/v1/ticket_attachment/25492/78015/131726?view=inline\"></span>\n</div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><br>\n</span>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-03T18:13:18.771Z"
+        },
+        "updated_by_id": 37,
+        "created_by_id": 37,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T18:13:09.781Z",
+        "updated_at": "2024-10-03T18:13:18.832Z",
+        "attachments": [
+            {
+                "id": 131726,
+                "store_file_id": 104000,
+                "filename": "image1.png",
+                "size": "23719",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25492.0c3be351-b59a-40d4-b56d-e8ac1ecd036a@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amin@avicennaresearch.com",
+        "updated_by": "amin@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78022,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Dariya Ovsyannikova <dariya.ovsyannikova@mail.utoronto.ca>",
+        "to": "Amin Tavassolian <sales@avicennaresearch.com>",
+        "cc": "Dasha Sandra <d.sandra@mail.utoronto.ca>",
+        "subject": "Re: inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<YT3PR01MB10749B0653F49E792CB2BEA92D7712@YT3PR01MB10749.CANPRD01.PROD.OUTLOOK.COM>",
+        "message_id_md5": "8bb3626207c039e5bae462e0c8d7f1be",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Hi Amin,</div><div> </div><div>Thank you so much for your help! I am ccing our graduate student, Dasha Sandra, in this email so that she could share her inquiry with you and the sales team directly. Thank you for the well wishes and I hope all is also well with you.</div><div> </div><div>Warm regards,</div><div>Dariya</div><div>\n<div> </div>\n<div style=\" color: rgb(23, 78, 134);\">\n<b>Dariya Ovsyannikova, HBSc</b>\n</div>\n<div> </div>\n<div> Laboratory Manager, <span style=\" background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><img style=\"max-width:100%;width: 146px;max-height: 65px;\" src=\"/api/v1/ticket_attachment/25492/78022/131741?view=inline\"></span>\n</div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><br>\n</span>\n</div>\n</div><hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavassolian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Sent:</b> October 3, 2024 2:13 PM<br>\n<b>To:</b> Dariya Ovsyannikova &lt;dariya.ovsyannikova@mail.utoronto.ca&gt;<br>\n<b>Subject:</b> RE: inquiry regarding contact information for individual in change of licensing questions <div> </div>\n</div><div>Hi Dariya,<div> </div>\n<div>Hope all is well with you.</div>\n<div> </div>\n<div>You can forward all the inquiries to the same email, sales@avicennaresearch.com, and we'd be more than happy to help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin</div>\n<div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, October 3, 2024 at 10:49:43 AM, Dariya Ovsyannikova wrote:<br>\n<br>\n<div>Good afternoon, Avicenna Sales Department,</div>\n<div> </div>\n<div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>\n<div> </div>\n<div style=\"color:rgb(23,78,134);\">\n<b>Dariya Ovsyannikova, HBSc</b> </div>\n<div> </div>\n<div>Laboratory Manager, <span style=\"background-color:rgb(255,255,255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color:rgb(255,255,255);\"><img style=\"max-width:100%;max-width:100%;width:146px;max-height:65px;\" src=\"/api/v1/ticket_attachment/25492/78022/131740?view=inline\"></span>\n</div>\n<div><span style=\"background-color:rgb(255,255,255);\"><br>\n</span></div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7558,
+        "created_by_id": 7558,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T18:20:57.333Z",
+        "updated_at": "2024-10-03T18:20:57.333Z",
+        "attachments": [
+            {
+                "id": 131739,
+                "store_file_id": 104009,
+                "filename": "message.html",
+                "size": "7116",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 131740,
+                "store_file_id": 104000,
+                "filename": "ATT00001.png",
+                "size": "23719",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "25492.0c3be351-b59a-40d4-b56d-e8ac1ecd036a@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131741,
+                "store_file_id": 103994,
+                "filename": "Outlook-1qtv5yux.png",
+                "size": "8214",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-1qtv5yux.png",
+                    "Content-Description": "Outlook-1qtv5yux.png",
+                    "Content-ID": "93d0d607-4df9-4ca4-93ae-681b68047c29",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "dariya.ovsyannikova@mail.utoronto.ca",
+        "updated_by": "dariya.ovsyannikova@mail.utoronto.ca",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78024,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavassolian <sales@avicennaresearch.com>",
+        "to": "dariya.ovsyannikova@mail.utoronto.ca",
+        "cc": "d.sandra@mail.utoronto.ca",
+        "subject": "inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<20241003184157.25492.cea5293c-8606-4951-be23-b220075ba252@zammad.avicennaresearch.com>",
+        "message_id_md5": "2fa929d8cd1625117f15f0c75329337e",
+        "in_reply_to": "<YT3PR01MB10749B0653F49E792CB2BEA92D7712@YT3PR01MB10749.CANPRD01.PROD.OUTLOOK.COM>",
+        "content_type": "text/html",
+        "body": "Dariya, <span style=\"background-color: initial; color: var(--text-normal);\">My pleasure! </span><div><br></div><div>Dear Dasha,</div><div>Hope all is well. Please let me know how we can help.</div><div><br></div><div>Best,</div><div>Amin<br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 11:20:57 AM, Dariya Ovsyannikova wrote:<br><br><div>Hi Amin,</div>\n<div> </div>\n<div>Thank you so much for your help! I am ccing our graduate student, Dasha Sandra, in this email so that she could share her inquiry with you and the sales team directly. Thank you for the well wishes and I hope all is also well with you.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>Dariya</div>\n<div>\n<div> </div>\n<div style=\" color: rgb(23, 78, 134);\">\n<b>Dariya Ovsyannikova, HBSc</b>\n</div>\n<div> </div>\n<div> Laboratory Manager, <span style=\" background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><img style=\"max-width:100%;max-width:100%;width: 146px;max-height: 65px;\" src=\"/api/v1/ticket_attachment/25492/78024/131743?view=inline\"></span>\n</div>\n<div>\n<span style=\"background-color: rgb(255, 255, 255);\"><br>\n</span>\n</div>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavassolian &lt;sales@avicennaresearch.com&gt;<br>\n<b>Sent:</b> October 3, 2024 2:13 PM<br>\n<b>To:</b> Dariya Ovsyannikova &lt;dariya.ovsyannikova@mail.utoronto.ca&gt;<br>\n<b>Subject:</b> RE: inquiry regarding contact information for individual in change of licensing questions <div> </div>\n</div>\n<div>Hi Dariya,<div> </div>\n<div>Hope all is well with you.</div>\n<div> </div>\n<div>You can forward all the inquiries to the same email, sales@avicennaresearch.com, and we'd be more than happy to help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin</div>\n<div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, October 3, 2024 at 10:49:43 AM, Dariya Ovsyannikova wrote:<br>\n<br>\n<div>Good afternoon, Avicenna Sales Department,</div>\n<div> </div>\n<div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>\n<div> </div>\n<div style=\"color:rgb(23,78,134);\">\n<b>Dariya Ovsyannikova, HBSc</b> </div>\n<div> </div>\n<div>Laboratory Manager, <span style=\"background-color:rgb(255,255,255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div>\n<span style=\"background-color:rgb(255,255,255);\"><img style=\"max-width:100%;max-width:100%;max-width:100%;width:146px;max-height:65px;\" src=\"/api/v1/ticket_attachment/25492/78024/131744?view=inline\"></span>\n</div>\n<div><span style=\"background-color:rgb(255,255,255);\"><br>\n</span></div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-03T18:42:03.219Z"
+        },
+        "updated_by_id": 37,
+        "created_by_id": 37,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T18:41:57.524Z",
+        "updated_at": "2024-10-03T18:42:03.229Z",
+        "attachments": [
+            {
+                "id": 131743,
+                "store_file_id": 104000,
+                "filename": "image1.png",
+                "size": "23719",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25492.3f9ed3a2-35a6-40ea-965f-c993bcf184f8@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131744,
+                "store_file_id": 104000,
+                "filename": "image2.png",
+                "size": "23719",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25492.080240be-621a-428f-9a0d-46ab77a0dd86@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amin@avicennaresearch.com",
+        "updated_by": "amin@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 80414,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Dasha Sandra <d.sandra@mail.utoronto.ca>",
+        "to": "Amin Tavassolian <sales@avicennaresearch.com>",
+        "cc": "Dariya Ovsyannikova <dariya.ovsyannikova@mail.utoronto.ca>",
+        "subject": "Re: inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<2F2FB47B-27A3-4569-B1DA-0BE86A0CA293@mail.utoronto.ca>",
+        "message_id_md5": "b2ecb154c21a2d7d80f13132b229a317",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "Hi Amin,<div> </div><div>Apologies for the delay in getting back. It would be great to add our new study 4090 code to the lab license.</div><div> </div><div>Thanks,</div><div> </div><div>Dasha<br><div>\n<br><span class=\"js-signatureMarker\"></span><blockquote type=\"cite\">\n<div>On Oct 3, 2024, at 2:42 PM, Amin Tavassolian &lt;sales@avicennaresearch.com&gt; wrote:</div>\n<br><div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\" style=\"border-collapse: collapse; border: 0px !important; margin: revert !important; color: revert !important; font-size: revert !important; text-align: revert !important; background: revert !important; padding: revert !important; vertical-align: revert !important; width: 500px; border-spacing: 0px !important;\"><tbody><tr style=\" background: revert !important; border: revert !important; color: revert !important; font-size: revert !important; margin: revert !important; padding: revert !important; text-align: revert !important; vertical-align: revert !important; width: revert !important;\">\n<td valign=\"middle\" style=\"padding: 7px 2px !important; border-collapse: collapse; border: revert !important; color: revert !important; font-size: revert !important; margin: revert !important; text-align: revert !important; vertical-align: revert !important; background-color: rgb(166, 166, 166) !important; width: 0px !important;\"></td>\n<td valign=\"middle\" style=\"padding: 7px 5px 7px 15px !important; border-collapse: collapse; border: revert !important; margin: revert !important; vertical-align: revert !important; width: 466px; background-color: rgb(234, 234, 234) !important; font-size: 12px !important; color: rgb(33, 33, 33) !important; text-align: left !important;\"><div style=\" color: revert !important;\">You don't often get email from <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>. <a href=\"https://aka.ms/LearnAboutSenderIdentification\" rel=\"nofollow noreferrer noopener\" title=\"https://aka.ms/LearnAboutSenderIdentification\" target=\"_blank\">Learn why this is important</a>\n</div></td>\n<td valign=\"middle\" align=\"left\" style=\"padding: 7px 5px !important; border-collapse: collapse; border: revert !important; margin: revert !important; vertical-align: revert !important; width: 75px !important; background-color: rgb(234, 234, 234) !important; font-size: 12px !important; color: rgb(33, 33, 33) !important; text-align: left !important;\"></td>\n</tr></tbody></table>\n<div>Dariya, <span style=\"background-color: initial; color: var(--text-normal);\">My pleasure! </span><div> </div>\n<div>Dear Dasha,</div>\n<div>Hope all is well. Please let me know how we can help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin<br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n<div>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272686859%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=6lQnIi6H0vRGc9UaOFq%2BGv2DVlmsIBp8oaMVBKGFoBc%3D&amp;reserved=0\" rel=\"nofollow noreferrer noopener\" title=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272686859%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=6lQnIi6H0vRGc9UaOFq%2BGv2DVlmsIBp8oaMVBKGFoBc%3D&amp;reserved=0\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div> </div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 11:20:57 AM, Dariya Ovsyannikova wrote:<br><br><div>Hi Amin,</div>\n<div> </div>\n<div>Thank you so much for your help! I am ccing our graduate student, Dasha Sandra, in this email so that she could share her inquiry with you and the sales team directly. Thank you for the well wishes and I hope all is also well with you.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>Dariya</div>\n<div>\n<div> </div>\n<div style=\"color: rgb(23, 78, 134);\"><b>Dariya Ovsyannikova, HBSc</b></div>\n<div> </div>\n<div>Laboratory Manager, <span style=\"background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div><span style=\"background-color: rgb(255, 255, 255);\">&lt;Mail Attachment.png&gt;</span></div>\n<div><span style=\"background-color: rgb(255, 255, 255);\"><br></span></div>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavassolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br><b>Sent:</b> October 3, 2024 2:13 PM<br><b>To:</b> Dariya Ovsyannikova &lt;<a href=\"mailto:dariya.ovsyannikova@mail.utoronto.ca\">dariya.ovsyannikova@mail.utoronto.ca</a>&gt;<br><b>Subject:</b> RE: inquiry regarding contact information for individual in change of licensing questions </div>\n<div>Hi Dariya,<div> </div>\n<div>Hope all is well with you.</div>\n<div> </div>\n<div>You can forward all the inquiries to the same email, <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>, and we'd be more than happy to help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin</div>\n<div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n<div>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272710025%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=pPWsABd5zPb641k%2F0uvwgLuakyRpoKsGl48x8mkipR8%3D&amp;reserved=0\" rel=\"nofollow noreferrer noopener\" title=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272710025%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=pPWsABd5zPb641k%2F0uvwgLuakyRpoKsGl48x8mkipR8%3D&amp;reserved=0\" target=\"_blank\">https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br>--</div>\n</div>\n<div> </div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 10:49:43 AM, Dariya Ovsyannikova wrote:<br><br><div>Good afternoon, Avicenna Sales Department,</div>\n<div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div>\n<div>Warm regards,</div>\n<div>\n<div style=\"color: rgb(23, 78, 134);\"><b>Dariya Ovsyannikova, HBSc</b></div>\n<div>Laboratory Manager, <span style=\"background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div><span style=\"background-color: rgb(255, 255, 255);\">&lt;Mail Attachment.png&gt;</span></div>\n<div><span style=\"background-color: rgb(255, 255, 255);\"><br></span></div>\n</div>\n<br>\n</blockquote></div>\n<div> </div>\n<br><br>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div> </div>\n<br><br>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7950,
+        "created_by_id": 7950,
+        "origin_by_id": null,
+        "created_at": "2024-10-24T19:13:24.485Z",
+        "updated_at": "2024-10-24T19:13:24.485Z",
+        "attachments": [
+            {
+                "id": 135678,
+                "store_file_id": 106805,
+                "filename": "message.html",
+                "size": "19643",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 135679,
+                "store_file_id": 106806,
+                "filename": "smime.p7s",
+                "size": "1400",
+                "preferences": {
+                    "Content-Type": "application/pkcs7-signature; name=smime.p7s",
+                    "Mime-Type": "application/pkcs7-signature",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "d.sandra@mail.utoronto.ca",
+        "updated_by": "d.sandra@mail.utoronto.ca",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 80417,
+        "ticket_id": 25492,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "d.sandra@mail.utoronto.ca",
+        "cc": "dariya.ovsyannikova@mail.utoronto.ca",
+        "subject": "inquiry regarding contact information for individual in change of licensing questions",
+        "reply_to": null,
+        "message_id": "<20241024193433.25492.499786c9-9ce7-4e5d-bd21-1184aed741ba@zammad.avicennaresearch.com>",
+        "message_id_md5": "af349bbcf9d5ee9719b271802b68fb0a",
+        "in_reply_to": "<2F2FB47B-27A3-4569-B1DA-0BE86A0CA293@mail.utoronto.ca>",
+        "content_type": "text/html",
+        "body": "<div>\n<div>Hi Dasha,</div>\n<div><br></div>\n<div>I hope you are doing well.</div>\n<div><br></div>\n<div>Thank you for reaching out to us. My name is Sara and I would be happy to help you with this matter.</div>\n<div><br></div>\n<div>Study ID: 4090 has been added to your lab license and it's all set on our end. It would be very helpful if you could provide a brief description or abstract of the study, if possible. We aim to share this information with the community to help other researchers with their work.</div>\n<div><br></div>\n<div>Please feel free to reach out if you need anything else.</div>\n<div><br></div>\n<div>Best,</div>\n<div>Sara</div>\n<br>\n</div><div><blockquote type=\"cite\">On Thursday, October 24, 2024 at 10:43:24 PM, D Sandra wrote:<br><br>Hi Amin,<div> </div>\n<div>Apologies for the delay in getting back. It would be great to add our new study 4090 code to the lab license.</div>\n<div> </div>\n<div>Thanks,</div>\n<div> </div>\n<div>Dasha<br><div>\n<br><span class=\"js-signatureMarker\"></span><blockquote type=\"cite\">\n<div>On Oct 3, 2024, at 2:42 PM, Amin Tavassolian &lt;sales@avicennaresearch.com&gt; wrote:</div>\n<br><div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\" style=\"border-collapse: collapse; border: 0px !important; margin: revert !important; color: revert !important; font-size: revert !important; text-align: revert !important; background: revert !important; padding: revert !important; vertical-align: revert !important; width: 500px; border-spacing: 0px !important;\"><tbody><tr style=\" background: revert !important; border: revert !important; color: revert !important; font-size: revert !important; margin: revert !important; padding: revert !important; text-align: revert !important; vertical-align: revert !important; width: revert !important;\">\n<td valign=\"middle\" style=\"padding: 7px 2px !important; border-collapse: collapse; border: revert !important; color: revert !important; font-size: revert !important; margin: revert !important; text-align: revert !important; vertical-align: revert !important; background-color: rgb(166, 166, 166) !important; width: 0px !important;\"></td>\n<td valign=\"middle\" style=\"padding: 7px 5px 7px 15px !important; border-collapse: collapse; border: revert !important; margin: revert !important; vertical-align: revert !important; width: 466px; background-color: rgb(234, 234, 234) !important; font-size: 12px !important; color: rgb(33, 33, 33) !important; text-align: left !important;\"><div style=\" color: revert !important;\">You don't often get email from <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>. <a href=\"https://aka.ms/LearnAboutSenderIdentification\" rel=\"nofollow noreferrer noopener\" title=\"https://aka.ms/LearnAboutSenderIdentification\" target=\"_blank\">Learn why this is important</a>\n</div></td>\n<td valign=\"middle\" align=\"left\" style=\"padding: 7px 5px !important; border-collapse: collapse; border: revert !important; margin: revert !important; vertical-align: revert !important; width: 75px !important; background-color: rgb(234, 234, 234) !important; font-size: 12px !important; color: rgb(33, 33, 33) !important; text-align: left !important;\"></td>\n</tr></tbody></table>\n<div>Dariya, <span style=\"background-color: initial; color: var(--text-normal);\">My pleasure! </span><div> </div>\n<div>Dear Dasha,</div>\n<div>Hope all is well. Please let me know how we can help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin<br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n<div>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272686859%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=6lQnIi6H0vRGc9UaOFq%2BGv2DVlmsIBp8oaMVBKGFoBc%3D&amp;reserved=0\" rel=\"nofollow noreferrer noopener\" title=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272686859%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=6lQnIi6H0vRGc9UaOFq%2BGv2DVlmsIBp8oaMVBKGFoBc%3D&amp;reserved=0\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div> </div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 11:20:57 AM, Dariya Ovsyannikova wrote:<br><br><div>Hi Amin,</div>\n<div> </div>\n<div>Thank you so much for your help! I am ccing our graduate student, Dasha Sandra, in this email so that she could share her inquiry with you and the sales team directly. Thank you for the well wishes and I hope all is also well with you.</div>\n<div> </div>\n<div>Warm regards,</div>\n<div>Dariya</div>\n<div>\n<div> </div>\n<div style=\"color: rgb(23, 78, 134);\"><b>Dariya Ovsyannikova, HBSc</b></div>\n<div> </div>\n<div>Laboratory Manager, <span style=\"background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div> </div>\n<div><span style=\"background-color: rgb(255, 255, 255);\">&lt;Mail Attachment.png&gt;</span></div>\n<div><span style=\"background-color: rgb(255, 255, 255);\"><br></span></div>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavassolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt;<br><b>Sent:</b> October 3, 2024 2:13 PM<br><b>To:</b> Dariya Ovsyannikova &lt;<a href=\"mailto:dariya.ovsyannikova@mail.utoronto.ca\">dariya.ovsyannikova@mail.utoronto.ca</a>&gt;<br><b>Subject:</b> RE: inquiry regarding contact information for individual in change of licensing questions </div>\n<div>Hi Dariya,<div> </div>\n<div>Hope all is well with you.</div>\n<div> </div>\n<div>You can forward all the inquiries to the same email, <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>, and we'd be more than happy to help.</div>\n<div> </div>\n<div>Best,</div>\n<div>Amin</div>\n<div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n<div>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272710025%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=pPWsABd5zPb641k%2F0uvwgLuakyRpoKsGl48x8mkipR8%3D&amp;reserved=0\" rel=\"nofollow noreferrer noopener\" title=\"https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Favicennaresearch.com%2F&amp;data=05%7C02%7Cd.sandra%40mail.utoronto.ca%7C7329a43e271f47aceaff08dce3db1320%7C78aac2262f034b4d9037b46d56c55210%7C0%7C0%7C638635777272710025%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=pPWsABd5zPb641k%2F0uvwgLuakyRpoKsGl48x8mkipR8%3D&amp;reserved=0\" target=\"_blank\">https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br>--</div>\n</div>\n<div> </div>\n<div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 10:49:43 AM, Dariya Ovsyannikova wrote:<br><br><div>Good afternoon, Avicenna Sales Department,</div>\n<div>I hope you're doing well! My name is Dariya Ovsyannikova and I am a lab manager for Dr. Michael Inzlicht's Social Neuroscience (Work and Play) Lab, which has an Avicenna account. I was wondering if you could kindly provide me with the contact information of the individual(s) in charge of responding to Avicenna licensing questions? One of our graduate students in the lab requested this information. Thank you in advance for any and all of your help, and I look forward to speaking with you soon.</div>\n<div>Warm regards,</div>\n<div>\n<div style=\"color: rgb(23, 78, 134);\"><b>Dariya Ovsyannikova, HBSc</b></div>\n<div>Laboratory Manager, <span style=\"background-color: rgb(255, 255, 255);\">Work and Play Lab</span>\n</div>\n<div>Toronto Laboratory for Social Neuroscience (SY162)</div>\n<div>University of Toronto Scarborough</div>\n<div>1265 Military Trail, Toronto ON M1C 1A4</div>\n<div><span style=\"background-color: rgb(255, 255, 255);\">&lt;Mail Attachment.png&gt;</span></div>\n<div><span style=\"background-color: rgb(255, 255, 255);\"><br></span></div>\n</div>\n<br>\n</blockquote></div>\n<div> </div>\n<br><br>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div> </div>\n<br><br>\n</div>\n</div>\n</div>\n</blockquote>\n</div>\n<br>\n</div>\n<br>\n</blockquote></div><div><br></div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-24T19:34:36.600Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-24T19:34:32.965Z",
+        "updated_at": "2024-10-24T19:34:36.621Z",
+        "attachments": [],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

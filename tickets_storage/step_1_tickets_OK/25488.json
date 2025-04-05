@@ -1,0 +1,48 @@
+[
+    {
+        "id": 78001,
+        "ticket_id": 25488,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "SMS Forwarder <no-reply@sms-forwarder.com>",
+        "to": "support@avicennaresearch.com",
+        "cc": null,
+        "subject": "You have a new SMS at the number SIM 1",
+        "reply_to": null,
+        "message_id": "<240c4fc6f0e1c15564183cf3448154d3@sms-forwarder.com>",
+        "message_id_md5": "713667d9a467b59e0e14010368861870",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<p>Incoming - 611 (Contact undefined)<br>Message: Freedom Mobile Billing Alert: We couldn't renew your Prepaid service this month. Your current balance is $0. To top up your account, please visit us at www.freedommobile.ca/pay, or call 611 from your Freedom phone. (2024-10-03 12:00 p.m.)</p><hr> <p>You received this letter because you set up SMS forwarding from your phone via the \"SMS to phone / mail - auto redirect application\" (<a href=\"https://play.google.com/store/apps/details?id=com.gawk.smsforwarder\" rel=\"nofollow noreferrer noopener\" title=\"https://play.google.com/store/apps/details?id=com.gawk.smsforwarder\" target=\"_blank\">https://play.google.com/store/apps/details?id=com.gawk.smsforwarder)</a> <br>If you don't want to receive such emails anymore - <a href=\"https://sms.forwarder.api/email/unsubscribe?email=support@avicennaresearch.com&amp;token=nOAuDWvIbr9o8xeYDMmqxf3MmsjIANqE9jfZs9T8VJDCmPXCc8PQGyEPwCAk\" rel=\"nofollow noreferrer noopener\" title=\"https://sms.forwarder.api/email/unsubscribe?email=support@avicennaresearch.com&amp;token=nOAuDWvIbr9o8xeYDMmqxf3MmsjIANqE9jfZs9T8VJDCmPXCc8PQGyEPwCAk\" target=\"_blank\">Unsubscribe</a> </p>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": false,
+            "is-auto-response": true,
+            "signature_detection": null
+        },
+        "updated_by_id": 9814,
+        "created_by_id": 9814,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T16:01:03.519Z",
+        "updated_at": "2024-10-03T16:01:18.766Z",
+        "attachments": [
+            {
+                "id": 131710,
+                "store_file_id": 103984,
+                "filename": "message.html",
+                "size": "1042",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            }
+        ],
+        "created_by": "no-reply@sms-forwarder.com",
+        "updated_by": "no-reply@sms-forwarder.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

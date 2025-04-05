@@ -1,0 +1,17 @@
+{
+    "summary": "---\n#### **1. Who Said What (Sort by Date & Time)**\n\n- **[Magda Borkowska] (Role not specified, Avicenna) – [Sep 10, 2024, 2:02 PM]:**\n  - Provided instructions for creating participant and researcher accounts for the Avicenna app.\n  - Shared Study ID (3950) and participant usernames.\n  - Offered assistance for account setup issues.\n  - *Key quote:* \"If you have troubles with setting app your accounts please contact sara@avicennaresearch.com and CC me.\"\n\n#### **2. Timeline**\n- **[Sep 10, 2024]:** Magda Borkowska sent instructions for Avicenna app testing.\n\n#### **3. Key Events/Issues**\n- **Account Setup:** Instructions provided for participant and researcher account creation.\n- **Study Access:** Study ID and participant usernames shared for testing.\n\n#### **4. Action Items**\n- **Pending:**\n  - Create researcher accounts (assigned to Paul and team).\n  - Notify Magda after researcher account creation (assigned to Paul and team).\n\n#### **5. Technical Details**\n- **Study ID:** 3950\n- **Participants’ Usernames:** participant1@essex.ac.uk to participant10@essex.ac.uk\n\n#### **6. Next Steps**\n- **Action 1:** Create researcher accounts and notify Magda (Paul and team).\n- **Action 2:** Test the Avicenna app as participants (Paul and team).",
+    "emails": [
+        "sara@avicennaresearch.com",
+        "Paul.McCrorie@glasgow.ac.uk",
+        "participant1@essex.ac.uk",
+        "participant2@essex.ac.uk",
+        "participant3@essex.ac.uk",
+        "participant4@essex.ac.uk",
+        "participant5@essex.ac.uk",
+        "participant6@essex.ac.uk",
+        "participant7@essex.ac.uk",
+        "participant8@essex.ac.uk",
+        "participant9@essex.ac.uk",
+        "participant10@essex.ac.uk"
+    ]
+}

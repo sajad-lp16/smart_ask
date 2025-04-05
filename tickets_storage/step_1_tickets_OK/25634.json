@@ -1,0 +1,570 @@
+[
+    {
+        "id": 78472,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavasolian <amin.tavassolian@avicennaresearch.com>",
+        "to": "grahj@dtu.dk",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241008214251.25634.b6dfe397-46ca-4210-be50-e76f0d375927@zammad.avicennaresearch.com>",
+        "message_id_md5": "109cafa2183992fff06f3571653557d5",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<p>Dear <span>Gustav</span>,</p><p><br></p><p>Thanks for reaching out.  My name is Amin from Avicenna. <span style=\"color:var(--text-normal);\">We'd love to collaborate in this research.</span></p><p><br></p><p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" target=\"_blank\">slide deck</a> to highlight some of the features of our product.</p><p><br></p><p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further.  Our <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/\">documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.<br></p><p><br></p><p><span style=\"color:var(--text-normal);\">You can check my calendar</span> <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\">here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until <span style=\"color:var(--text-normal);\">October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</span></p><p><span style=\"color:var(--text-normal);\"><br></span></p><p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app</a> and get started. <br></p><p><br></p><p>Looking forward to talking to you soon,</p><p>Amin</p><br><div data-signature=\"true\" data-signature-id=\"7\"><div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div></div>",
+        "internal": false,
+        "preferences": {
+            "email_address_id": 10,
+            "delivery_retry": 1,
+            "delivery_channel_id": 14,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T21:43:00.205Z"
+        },
+        "updated_by_id": 4039,
+        "created_by_id": 4039,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T21:42:51.617Z",
+        "updated_at": "2024-10-08T21:43:00.246Z",
+        "attachments": [],
+        "created_by": "amin.tavassolian+mohammad@avicennaresearch.com",
+        "updated_by": "amin.tavassolian+mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78494,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Gustav Ravi Hjerting <grahj@dtu.dk>",
+        "to": "Amin Tavasolian <amin.tavassolian@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<AS2P192MB2266A3AE4866F37A06E1AF26C87F2@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "message_id_md5": "c28486cf5c7efd130f32163fc4686629",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"auto\">Hi Amin,</div><div dir=\"auto\">\n<br>\n</div><div dir=\"auto\">I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</div><div dir=\"auto\">\n<br>\n</div><div dir=\"auto\">Kind regards,</div><div dir=\"auto\">\n<br>\n</div><div dir=\"auto\">Gustav</div><div dir=\"auto\">\n<div> </div>\n<div dir=\"auto\">\n<table style=\" width: 300pt; border-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;\">\n<table style=\"font-size:medium;width:300pt;\">\n<tbody>\n<tr>\n<td style=\"width:300pt;padding:0cm;\">\n<table style=\"width:300pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm;\">\n<table style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3pt 0cm 0cm;\">\n<p>\n<img src=\"/api/v1/ticket_attachment/25634/78494/132414?view=inline\" alt=\"signatureImage\" style=\"max-width:100%;max-width:100%;width:44px;\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm;\">\n<table style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<b> Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<span> PhD Student<br> DTU Entrepreneurship </span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<span> <a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>\n</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<b><span lang=\"EN-US\"> Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\"> DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\n<br>\n</p>\n<table style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div><hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavasolian &lt;amin.tavassolian@avicennaresearch.com&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> Welcome to Avicenna <div> </div>\n</div><div>\n<p>Dear Gustav,</p>\n<p><br>\n</p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p><br>\n</p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" target=\"_blank\">slide deck</a> to highlight some of the features of our product.</p>\n<p><br>\n</p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.<br>\n</p>\n<p><br>\n</p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p><span><br>\n</span></p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app</a> and get started. <br>\n</p>\n<p><br>\n</p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<br>\n<div data-signature=\"true\" data-signature-id=\"7\">\n<div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><span class=\"js-signatureMarker\"></span><br> --</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10055,
+        "created_by_id": 10055,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T04:46:29.356Z",
+        "updated_at": "2024-10-09T04:46:29.356Z",
+        "attachments": [
+            {
+                "id": 132413,
+                "store_file_id": 104514,
+                "filename": "message.html",
+                "size": "9589",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "Windows-1252"
+                }
+            },
+            {
+                "id": 132414,
+                "store_file_id": 104515,
+                "filename": "1000018036-id-8ec6d2a3-3553-495a-a53e-db864e23f519.png",
+                "size": "1698",
+                "preferences": {
+                    "Content-Type": "image/png; name=1000018036-id-8ec6d2a3-3553-495a-a53e-db864e23f519.png",
+                    "Content-Description": "1000018036-id-8ec6d2a3-3553-495a-a53e-db864e23f519.png",
+                    "Content-ID": "id-8ec6d2a3-3553-495a-a53e-db864e23f519",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "grahj@dtu.dk",
+        "updated_by": "grahj@dtu.dk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78532,
+        "ticket_id": 25634,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/478\" data-mention-user-id=\"478\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/478\">Sara Farnya</a> Please go ahead and schedule to meet with him. OK?",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T10:20:33.994Z",
+        "updated_at": "2024-10-09T10:20:33.994Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78533,
+        "ticket_id": 25634,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Sara Farnya",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "+1",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T10:23:38.140Z",
+        "updated_at": "2024-10-09T10:23:38.140Z",
+        "attachments": [],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78534,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavasolian <sales@avicennaresearch.com>",
+        "to": "grahj@dtu.dk",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241009102357.25634.a917e74f-ee12-4b3c-bcfd-17564dedcf92@zammad.avicennaresearch.com>",
+        "message_id_md5": "39204bea949bb15a4c0d656b2fcd1b96",
+        "in_reply_to": "<AS2P192MB2266A3AE4866F37A06E1AF26C87F2@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "content_type": "text/html",
+        "body": "<div>Of course. My colleague Sara can meet anytime you prefer. Let us know what time you would like to meet and she can meet then.</div><div><br></div><div>Best,</div><div>Amin</div><div><br></div><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, October 9, 2024 at 12:46:29 AM, Gustav Ravi Hjerting wrote:<br><br><div dir=\"auto\">Hi Amin,</div>\n<div dir=\"auto\">\n<br>\n</div>\n<div dir=\"auto\">I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</div>\n<div dir=\"auto\">\n<br>\n</div>\n<div dir=\"auto\">Kind regards,</div>\n<div dir=\"auto\">\n<br>\n</div>\n<div dir=\"auto\">Gustav</div>\n<div dir=\"auto\">\n<div> </div>\n<div dir=\"auto\">\n<table style=\" width: 300pt; border-collapse: collapse; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;\">\n<table style=\"font-size:medium;width:300pt;\">\n<tbody>\n<tr>\n<td style=\"width:300pt;padding:0cm;\">\n<table style=\"width:300pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm;\">\n<table style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3pt 0cm 0cm;\">\n<p>\n<img src=\"/api/v1/ticket_attachment/25634/78534/132462?view=inline\" alt=\"signatureImage\" style=\"max-width:100%;max-width:100%;max-width:100%;width:44px;\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm;\">\n<table style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<b> Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<span> PhD Student<br> DTU Entrepreneurship </span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<span> <a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>\n</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>\n<b><span lang=\"EN-US\"> Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\"> DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\n<br>\n</p>\n<table style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>From:</b> Amin Tavasolian &lt;amin.tavassolian@avicennaresearch.com&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> Welcome to Avicenna <div> </div>\n</div>\n<div>\n<p>Dear Gustav,</p>\n<p><br>\n</p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p><br>\n</p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" target=\"_blank\">slide deck</a> to highlight some of the features of our product.</p>\n<p><br>\n</p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.<br>\n</p>\n<p><br>\n</p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p><span><br>\n</span></p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app</a> and get started. <br>\n</p>\n<p><br>\n</p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<br>\n\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T10:24:04.961Z"
+        },
+        "updated_by_id": 4039,
+        "created_by_id": 4039,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T10:23:57.774Z",
+        "updated_at": "2024-10-09T10:24:04.971Z",
+        "attachments": [
+            {
+                "id": 132462,
+                "store_file_id": 104558,
+                "filename": "image1.png",
+                "size": "2178",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.3e438aca-804a-499d-b6a5-60bc3ce4bbcc@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            }
+        ],
+        "created_by": "amin.tavassolian+mohammad@avicennaresearch.com",
+        "updated_by": "amin.tavassolian+mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78546,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Gustav Ravi Hjerting <grahj@dtu.dk>",
+        "to": "Amin Tavasolian <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "RE: Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<AS2P192MB2266F3989C4B63A3D2002DF5C87F2@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "message_id_md5": "32b9c0920a1243ae9fa448c29f1848e2",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi,</p>\n<p> </p>\n<p>Anytime on Friday from 11am-4pm CEST?</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img style=\"max-width:100%;width:.375in;max-height:.5486in;\" src=\"/api/v1/ticket_attachment/25634/78546/132476?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship</span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span lang=\"DA\"> </span></p>\n</div>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Amin Tavasolian &lt;sales@avicennaresearch.com&gt; <br>\n<b>Sent:</b> 09 October 2024 12:24<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Of course. My colleague Sara can meet anytime you prefer. Let us know what time you would like to meet and she can meet then.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Amin</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 12:46:29 AM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi Amin,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Kind regards,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Gustav</p>\n</div>\n<div>\n<div>\n<p> </p>\n</div>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;background:white;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;padding:.75pt .75pt .75pt .75pt;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;width:.4652in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78546/132477?view=inline\" alt=\"signatureImage\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship </span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>\n</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"padding:.75pt .75pt .75pt .75pt;\"></td>\n</tr>\n</tbody>\n</table>\n\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<hr>\n</div>\n</div>\n<div>\n<p><b>From:</b> Amin Tavasolian &lt;<a href=\"mailto:amin.tavassolian@avicennaresearch.com\">amin.tavassolian@avicennaresearch.com</a>&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> Welcome to Avicenna </p>\n</div>\n<div>\n<p>Dear Gustav,</p>\n<p> </p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p> </p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> slide deck</a> to highlight some of the features of our product.</p>\n<p> </p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" title=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.</p>\n<p> </p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p> </p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app</a> and get started. </p>\n<p> </p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10055,
+        "created_by_id": 10055,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T11:43:52.882Z",
+        "updated_at": "2024-10-09T11:43:52.882Z",
+        "attachments": [
+            {
+                "id": 132475,
+                "store_file_id": 104569,
+                "filename": "message.html",
+                "size": "16295",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 132476,
+                "store_file_id": 104570,
+                "filename": "image001.png",
+                "size": "16402",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB1A51.3986CB90",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8"
+                }
+            },
+            {
+                "id": 132477,
+                "store_file_id": 104558,
+                "filename": "image002.png",
+                "size": "2178",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1A51.3986CB90",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "grahj@dtu.dk",
+        "updated_by": "grahj@dtu.dk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78602,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "grahj@dtu.dk",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241009163431.25634.d56f08b2-bd6c-44c5-902e-6acee0e1cdf6@zammad.avicennaresearch.com>",
+        "message_id_md5": "711571ed0e2485fa6dd9be9cbc36ea0e",
+        "in_reply_to": "<AS2P192MB2266F3989C4B63A3D2002DF5C87F2@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "content_type": "text/html",
+        "body": "<div>Hi Gustav,</div><div><br></div><div>I hope you’re doing well.</div><div><br></div><div>This is Sara from Avicenna, and I’m here to help you in any way I can.</div><div><br></div><div>Thank you for suggesting times for our meeting. I've scheduled it for Friday at 3 PM <span style=\"color:var(--text-normal);\">CEST </span><span style=\"color:var(--text-normal);\">and sent you an invite. </span><span style=\"background-color: initial; color: var(--text-normal);\">Here is the Google Meet link for your convenience: </span><a href=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" title=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://meet.google.com/zvf-wkmf-itr</a>.</div><div><span style=\"color:var(--text-normal);\"><br></span></div><div><span style=\"color:var(--text-normal);\">If you would prefer a different time, please let me know, and I’ll adjust the event accordingly.</span></div><div><br></div><div>\n<div>Looking forward to speaking with you.</div>\n<div>Best,</div>\n<div>Sara</div>\n</div><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, October 9, 2024 at 3:13:52 PM, Gustav Ravi Hjerting wrote:<br><br><div>\n<p>Hi,</p>\n<p> </p>\n<p>Anytime on Friday from 11am-4pm CEST?</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img style=\"max-width:100%;max-width:100%;width:.375in;max-height:.5486in;\" src=\"/api/v1/ticket_attachment/25634/78602/132584?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship</span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span lang=\"DA\"> </span></p>\n</div>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Amin Tavasolian &lt;sales@avicennaresearch.com&gt; <br>\n<b>Sent:</b> 09 October 2024 12:24<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Of course. My colleague Sara can meet anytime you prefer. Let us know what time you would like to meet and she can meet then.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Amin</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 12:46:29 AM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi Amin,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Kind regards,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Gustav</p>\n</div>\n<div>\n<div>\n<p> </p>\n</div>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;background:white;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;padding:.75pt .75pt .75pt .75pt;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:.4652in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78602/132585?view=inline\" alt=\"signatureImage\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship </span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>\n</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"padding:.75pt .75pt .75pt .75pt;\"></td>\n</tr>\n</tbody>\n</table>\n\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<hr>\n</div>\n</div>\n<div>\n<p><b>From:</b> Amin Tavasolian &lt;<a href=\"mailto:amin.tavassolian@avicennaresearch.com\">amin.tavassolian@avicennaresearch.com</a>&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> Welcome to Avicenna </p>\n</div>\n<div>\n<p>Dear Gustav,</p>\n<p> </p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p> </p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> slide deck</a> to highlight some of the features of our product.</p>\n<p> </p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" title=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.</p>\n<p> </p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p> </p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app</a> and get started. </p>\n<p> </p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T16:34:37.732Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T16:34:30.831Z",
+        "updated_at": "2024-10-09T16:34:37.767Z",
+        "attachments": [
+            {
+                "id": 132584,
+                "store_file_id": 104641,
+                "filename": "image1.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.3476b3a4-f6fd-4507-8ed1-57b8ba02c1d7@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            },
+            {
+                "id": 132585,
+                "store_file_id": 104641,
+                "filename": "image2.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.08d59653-01c1-4434-bc8b-dacd4b9911da@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78697,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Gustav Ravi Hjerting <grahj@dtu.dk>",
+        "to": "Sara Farnya <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "RE: Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<AS2P192MB22668B3DC19B374AA9D9FD05C8782@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "message_id_md5": "4c421b8ba0781a7663477d2260899cd5",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Thanks Sara. Looking forward to the meeting.</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img style=\"max-width:100%;width:.375in;max-height:.5486in;\" src=\"/api/v1/ticket_attachment/25634/78697/132765?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship</span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span lang=\"DA\"> </span></p>\n</div>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Sara Farnya &lt;sales@avicennaresearch.com&gt; <br>\n<b>Sent:</b> 09 October 2024 18:35<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Hi Gustav,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I hope you’re doing well.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Sara from Avicenna, and I’m here to help you in any way I can.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for suggesting times for our meeting. I've scheduled it for Friday at 3 PM CEST and sent you an invite. Here is the Google Meet link for your convenience: <a href=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" title=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://meet.google.com/zvf-wkmf-itr</a>.</p>\n</div>\n<div>\n<p><br>\n<br>\n</p>\n</div>\n<div>\n<p>If you would prefer a different time, please let me know, and I’ll adjust the event accordingly.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<p>Looking forward to speaking with you.</p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Sara</p>\n</div>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 3:13:52 PM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi,</p>\n<p> </p>\n<p>Anytime on Friday from 11am-4pm CEST?</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;width:.4722in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78697/132766?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>PhD Student<br> DTU Entrepreneurship</p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Amin Tavasolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> 09 October 2024 12:24<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Of course. My colleague Sara can meet anytime you prefer. Let us know what time you would like to meet and she can meet then.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Amin</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 12:46:29 AM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi Amin,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Kind regards,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Gustav</p>\n</div>\n<div>\n<div>\n<p> </p>\n</div>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;background:white;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;padding:.75pt .75pt .75pt .75pt;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;width:.4722in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78697/132766?view=inline\" alt=\"signatureImage\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>PhD Student<br> DTU Entrepreneurship </p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a> </p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"padding:.75pt .75pt .75pt .75pt;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<hr>\n</div>\n</div>\n</div>\n<div>\n<p><b>From:</b> Amin Tavasolian &lt;<a href=\"mailto:amin.tavassolian@avicennaresearch.com\">amin.tavassolian@avicennaresearch.com</a>&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> Welcome to Avicenna </p>\n</div>\n<div>\n<p>Dear Gustav,</p>\n<p> </p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p> </p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> slide deck</a> to highlight some of the features of our product.</p>\n<p> </p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" title=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.</p>\n<p> </p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p> </p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app</a> and get started. </p>\n<p> </p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 10055,
+        "created_by_id": 10055,
+        "origin_by_id": null,
+        "created_at": "2024-10-10T12:46:04.680Z",
+        "updated_at": "2024-10-10T12:46:04.680Z",
+        "attachments": [
+            {
+                "id": 132764,
+                "store_file_id": 104769,
+                "filename": "message.html",
+                "size": "20308",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132765,
+                "store_file_id": 104570,
+                "filename": "image001.png",
+                "size": "16402",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB1B23.08EA4DE0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8"
+                }
+            },
+            {
+                "id": 132766,
+                "store_file_id": 104641,
+                "filename": "image002.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1B23.08EA4DE0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "grahj@dtu.dk",
+        "updated_by": "grahj@dtu.dk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78698,
+        "ticket_id": 25634,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1168</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-10-08</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Presentation</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-10T12:46:10.363Z",
+        "updated_at": "2024-10-10T12:46:10.363Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78700,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "grahj@dtu.dk",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241010124925.25634.0a39dd65-47d7-47d0-bc08-a5c9c7bf6766@zammad.avicennaresearch.com>",
+        "message_id_md5": "57c8c0a57d5ba0cf0438138b55cad32c",
+        "in_reply_to": "<AS2P192MB22668B3DC19B374AA9D9FD05C8782@AS2P192MB2266.EURP192.PROD.OUTLOOK.COM>",
+        "content_type": "text/html",
+        "body": "My pleasure! <span style=\"background-color: initial; color: var(--text-normal);\">Looking forward to seeing you tomorrow!</span><div><br></div><div>Best, </div><div>Sara</div><div>\n<div><br></div>\n<div><blockquote type=\"cite\">On Thursday, October 10, 2024 at 4:16:04 PM, Gustav Ravi Hjerting wrote:<br><br><div>\n<p>Thanks Sara. Looking forward to the meeting.</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img style=\"max-width:100%;max-width:100%;width:.375in;max-height:.5486in;\" src=\"/api/v1/ticket_attachment/25634/78700/132768?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship</span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span lang=\"DA\"> </span></p>\n</div>\n<p> </p>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Sara Farnya &lt;sales@avicennaresearch.com&gt; <br>\n<b>Sent:</b> 09 October 2024 18:35<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;grahj@dtu.dk&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Hi Gustav,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I hope you’re doing well.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Sara from Avicenna, and I’m here to help you in any way I can.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for suggesting times for our meeting. I've scheduled it for Friday at 3 PM CEST and sent you an invite. Here is the Google Meet link for your convenience: <a href=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" title=\"https://meet.google.com/zvf-wkmf-itr?authuser=2\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://meet.google.com/zvf-wkmf-itr</a>.</p>\n</div>\n<div>\n<p><br>\n<br>\n</p>\n</div>\n<div>\n<p>If you would prefer a different time, please let me know, and I’ll adjust the event accordingly.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<p>Looking forward to speaking with you.</p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Sara</p>\n</div>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 3:13:52 PM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi,</p>\n<p> </p>\n<p>Anytime on Friday from 11am-4pm CEST?</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:.4722in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78700/132769?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>PhD Student<br> DTU Entrepreneurship</p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p> </p>\n<div>\n<div>\n<p><b><span lang=\"EN-US\">From:</span></b><span lang=\"EN-US\"> Amin Tavasolian &lt;<a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a>&gt; <br>\n<b>Sent:</b> 09 October 2024 12:24<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> RE: Welcome to Avicenna</span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p>Of course. My colleague Sara can meet anytime you prefer. Let us know what time you would like to meet and she can meet then.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best,</p>\n</div>\n<div>\n<p>Amin</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: <a href=\"mailto:sales@avicennaresearch.com\">sales@avicennaresearch.com</a> - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, October 9, 2024 at 12:46:29 AM, Gustav Ravi Hjerting wrote:</p>\n<div>\n<p>Hi Amin,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I need to get answers to some questions this week really. Do you have a colleague with availability or what do you suggest?</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Kind regards,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Gustav</p>\n</div>\n<div>\n<div>\n<p> </p>\n</div>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;background:white;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:262.5pt;padding:.75pt .75pt .75pt .75pt;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"3\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:.4722in;max-height:.6875in;\" src=\"/api/v1/ticket_attachment/25634/78700/132770?view=inline\" alt=\"signatureImage\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting </b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>PhD Student<br> DTU Entrepreneurship </p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a> </p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej </span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"padding:.75pt .75pt .75pt .75pt;\"></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div>\n<div>\n<div>\n<hr>\n</div>\n</div>\n</div>\n<div>\n<p><b>From:</b> Amin Tavasolian &lt;<a href=\"mailto:amin.tavassolian@avicennaresearch.com\">amin.tavassolian@avicennaresearch.com</a>&gt;<br>\n<b>Sent:</b> Tuesday, October 8, 2024 11:42:57 PM<br>\n<b>To:</b> Gustav Ravi Hjerting &lt;<a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a>&gt;<br>\n<b>Subject:</b> Welcome to Avicenna </p>\n</div>\n<div>\n<p>Dear Gustav,</p>\n<p> </p>\n<p>Thanks for reaching out. My name is Amin from Avicenna. We'd love to collaborate in this research.</p>\n<p> </p>\n<p>A bit about ourselves: We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> slide deck</a> to highlight some of the features of our product.</p>\n<p> </p>\n<p>You can certainly implement your EMA study in Avicenna, but surely you can go a lot further. Our <a href=\"https://learn.avicennaresearch.com/\" title=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> documentation</a> shows what can be done using our platform, but it might not be easy to navigate all of it at first. The best would be to set a time to meet and discuss your project and different ways we can help.</p>\n<p> </p>\n<p>You can check my calendar <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> here</a> and book a time that fits you best. I am currently travelling in EU visiting a few researchers, and my calendar is blocked until October 23rd. If you want to meet earlier, let me know your availability this coming week and we can coordinate.</p>\n<p> </p>\n<p>In the meantime, you can just sign up and play around with our platform. Just head to <a href=\"https://avicennaresearch.com/app\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app</a> and get started. </p>\n<p> </p>\n<p>Looking forward to talking to you soon,</p>\n<p>Amin</p>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-10T12:49:29.392Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-10T12:49:24.919Z",
+        "updated_at": "2024-10-10T12:49:29.406Z",
+        "attachments": [
+            {
+                "id": 132768,
+                "store_file_id": 104641,
+                "filename": "image1.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.0f9ef975-29f3-4788-8c07-974a62e2b579@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            },
+            {
+                "id": 132769,
+                "store_file_id": 104641,
+                "filename": "image2.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.f3e51e71-d183-4232-8077-72ffa8aa6aea@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            },
+            {
+                "id": 132770,
+                "store_file_id": 104641,
+                "filename": "image3.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.9140b35b-b108-4034-9191-8524403bec41@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78843,
+        "ticket_id": 25634,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "grahj@dtu.dk",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241012002101.25634.c032eb2c-26f2-4676-a9ea-e1e5820346b1@zammad.avicennaresearch.com>",
+        "message_id_md5": "4ab1615aaddd0301a077dd2e72995a13",
+        "in_reply_to": "<20241010124925.25634.0a39dd65-47d7-47d0-bc08-a5c9c7bf6766@zammad.avicennaresearch.com>",
+        "content_type": "text/html",
+        "body": "Hi Gustav,<div><br></div><div>\n<div><div>I hope all is well with you.</div></div>\n<div><br></div>\n<div>\n<span style=\"color:var(--text-normal);\">It was a pleasure speaking with you today.</span><span style=\"color:var(--text-normal);\"> </span><span style=\"color:var(--text-normal);\">I'd be more than happy to help you on your Ph.D. journey and ensure you have all you need for successful research.</span>\n</div>\n<div><br></div>\n<div>I <span style=\"color:var(--text-normal);\">have </span><span style=\"color:var(--text-normal);\">attached a document detailing Avicenna's security practices, which includes all necessary information for your IT department. Additionally, here's a summary of our discussion and additional info for your reference:</span>\n</div>\n<div>\n<ul>\n<li><span style=\"color:var(--text-normal);\">Our services are compliant with GDPR, HIPAA, PIPEDA, and FDA CFR Part 11 standards and regulations. While we don't yet have an ISO 27001 certificate, we meet their requirements and have already passed the initial audit stage. The data will be anonymized and encrypted on phones moments after the data collection and will be sent <span style=\"color:var(--text-normal);\">to our secure servers in Canada</span><span style=\"color:var(--text-normal);\"> every hour depending on the quality/security of the internet connection. The data remains encrypted during the transfer and will be instantly removed from phones right after the upload.</span></span></li>\n<li>\n<span style=\"color:var(--text-normal);\">You can create, schedule, and manage your surveys </span><span style=\"color:var(--text-normal);\">in Avicenna </span><span style=\"color:var(--text-normal);\">and add interventions as per your needs. </span><span style=\"color:var(--text-normal);\">To create your first survey, you can check <a href=\"https://learn.avicennaresearch.com/getting-started/your-first-survey/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/getting-started/your-first-survey/\">here</a></span><span style=\"color:var(--text-normal);\">.</span>\n</li>\n<li><div><div>The survey module offers different question types like text, audio, video, and others. To get a list of all question types, you can visit <a href=\"https://learn.avicennaresearch.com/reference/survey/questions/#question-types\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/survey/questions/#question-types\">here</a><span style=\"color:var(--text-normal);\">.</span>\n</div></div></li>\n<li><span style=\"color:var(--text-normal);\"><p>You can add multiple <a href=\"https://learn.avicennaresearch.com/reference/activity/triggering-logics/#time-tl\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/activity/triggering-logics/#time-tl\">Time Triggering Logics</a> (Time TLs) to your surveys <span style=\"color:var(--text-normal);\">to schedule prompts at specific times or </span><span style=\"color:var(--text-normal);\">to occur </span><span style=\"color:var(--text-normal);\">randomly within a time window as you described.</span></p></span></li>\n<li><p><span style=\"color:var(--text-normal);\">You can define different notifications and reminders across different channels such as email, SMS, and in-app, and remind participants of their tasks. </span><span style=\"color:var(--text-normal);\">You can check</span><a href=\"https://learn.ethicadata.com/reference/activity/triggering-logics\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.ethicadata.com/reference/activity/triggering-logics\"> </a><a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/notifications\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/notifications\">Notifications</a> <span style=\"color:var(--text-normal);\">regarding adding reminders to your surveys.</span></p></li>\n<li><p><span style=\"color:var(--text-normal);\">We offer a wide range of <a href=\"https://learn.avicennaresearch.com/reference/data-sources/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/data-sources/\">data collection possibilities</a>. You can read more about the </span><span style=\"color:var(--text-normal);\">GPS data source</span><span style=\"color:var(--text-normal);\"> </span><span style=\"color:var(--text-normal);\"><a href=\"https://learn.avicennaresearch.com/reference/data-sources/location#gps\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/data-sources/location#gps\">here</a>.</span></p></li>\n<li><p><span style=\"color:var(--text-normal);\">We can configure the system to collect any data type you want from Empatica wristbands. It would help us assist you better if you could share more details about your requirements.</span></p></li>\n<li><p><span style=\"color:var(--text-normal);\">You can find more about participant</span><span style=\"color:var(--text-normal);\"> </span><span style=\"color:var(--text-normal);\">enrollment</span><span style=\"color:var(--text-normal);\"> </span><span style=\"color:var(--text-normal);\">in Avicenna </span><a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/enrollment/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/enrollment/\">here</a><span style=\"color:var(--text-normal);\">.</span></p></li>\n<li><div>\n<span style=\"color:var(--text-normal);\">For detailed instructions on how to review the responses to the surveys, please refer to </span><a href=\"https://learn.avicennaresearch.com/reference/survey/view-responses/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/survey/view-responses/\">this link</a><span style=\"color:var(--text-normal);\">.</span>\n</div></li>\n<li><div>\n<span style=\"color:var(--text-normal);\">You can export your data, as many times as you want, right from your researcher dashboard. </span><span style=\"color:var(--text-normal);\">More on this </span><a href=\"https://learn.avicennaresearch.com/reference/analysis/raw-data/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/analysis/raw-data/\">here</a><span style=\"color:var(--text-normal);\">.</span>\n</div></li>\n<li><div>\n<span style=\"color:var(--text-normal);\">Please feel free to check our blog</span><span style=\"color:var(--text-normal);\"> </span><a href=\"https://avicennaresearch.com/blog/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://avicennaresearch.com/blog/\">here</a><span style=\"color:var(--text-normal);\">, some of our publications</span><span style=\"color:var(--text-normal);\"> </span><a href=\"https://avicennaresearch.com/publications/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://avicennaresearch.com/publications/\">here</a><span style=\"color:var(--text-normal);\">, and our documentation website </span><a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/\">here</a><span style=\"color:var(--text-normal);\"> to learn more about our platform.</span>\n</div></li>\n<li><div>\n<span style=\"color:var(--text-normal);\">The trial version is absolutely free of charge, you can sign up as a researcher</span><span style=\"color:var(--text-normal);\"> </span><a href=\"https://avicennaresearch.com/app/dashboard/auth/sign-up/researcher\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://avicennaresearch.com/app/dashboard/auth/sign-up/researcher\">here</a><span style=\"color:var(--text-normal);\">, and create a sample study to see how things work.</span>\n</div></li>\n<li><div>\n<span style=\"color:var(--text-normal);\">For any technical questions, please don't hesitate to reach out to our</span><span style=\"color:var(--text-normal);\"> </span><a href=\"mailto:support@avicennaresearch.com\">support team</a><span style=\"color:var(--text-normal);\">.</span>\n</div></li>\n</ul>\n<span style=\"color:var(--text-normal);\">Regarding the cost estimation</span><span style=\"color:var(--text-normal);\">, our pricing depends on 3 factors: the number of participants, the type of data that you want to collect, and the participation period. </span><br><ul>\n<li><div><span style=\"color:var(--text-normal);\">The total licensing cost to collect survey response data from 40 participants for the duration of 6 months will be CAD 1,983.90 (~ 1,315.85€).</span></div></li>\n<li><div><span style=\"color:var(--text-normal);\">Adding GPS data raises the cost to CAD 4,292.40 (~ 2,847.00€).<br></span></div></li>\n</ul>\n<div>\n<p>We genuinely care about the research work and if the provided cost estimation is not within the budget, please let me know. We may be able to find a workaround for it.<br></p>\n<p><br></p>\n</div>\n</div>\n<div>\n<div>Please take your time to explore the platform. If you have any questions, please don't hesitate to contact me. <span style=\"color:var(--text-normal);\">I'm here to support you every step of the way.</span>\n</div>\n<div><br></div>\n<div>Looking forward to hearing from you.<br>\n</div>\n<div>\n<span style=\"color:var(--text-normal);\">Best,</span><br>\n</div>\n<div>Sara</div>\n</div>\n</div><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Thursday, October 10, 2024 at 4:19:24 PM, Sara Farnya wrote:<br><br>My pleasure! <span style=\"background-color: initial; color: var(--text-normal);\">Looking forward to seeing you tomorrow!</span><div><br></div>\n<div>Best, </div>\n<div>Sara</div>\n<div>\n<div><br></div>\n<div><blockquote type=\"cite\">On Thursday, October 10, 2024 at 4:16:04 PM, Gustav Ravi Hjerting wrote:<br><br><div>\n<p>Thanks Sara. Looking forward to the meeting.</p>\n<p> </p>\n<p>Kind regards,</p>\n<p> </p>\n<p>Gustav</p>\n<p> </p>\n<div>\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;\">\n<tbody>\n<tr>\n<td style=\"width:300.0pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:300.0pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:37.5pt;\">\n<tbody>\n<tr>\n<td valign=\"top\" style=\"width:37.5pt;padding:3.0pt 0cm 0cm 0cm;\">\n<p><img style=\"max-width:100%;max-width:100%;max-width:100%;width:.375in;max-height:.5486in;\" src=\"/api/v1/ticket_attachment/25634/78843/133109?view=inline\"></p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n<td valign=\"top\" style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"width:262.5pt;border-collapse:collapse;\">\n<tbody>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b>Gustav Ravi Hjerting</b></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><span>PhD Student<br> DTU Entrepreneurship</span></p>\n<p> </p>\n<p>+45 93 91 56 88</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><a href=\"mailto:grahj@dtu.dk\">grahj@dtu.dk</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\"></td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p><b><span lang=\"EN-US\">Technical University of Denmark<br>\n</span></b><span lang=\"EN-US\">DTU Entrepreneurship<br> Diplomvej</span></p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>Building 371, 2nd floor, room 223</p>\n</td>\n</tr>\n<tr>\n<td style=\"width:262.5pt;padding:0cm 0cm 0cm 0cm;\">\n<p>DK-2800 Kgs. Lyngby</p>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span lang=\"DA\"> </span></p>\n</div>\n<p> </p>\n</div>\n</blockquote></div>\n</div>\n</blockquote></div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-12T00:21:10.956Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-12T00:21:01.328Z",
+        "updated_at": "2024-10-12T00:21:10.977Z",
+        "attachments": [
+            {
+                "id": 133108,
+                "store_file_id": 104995,
+                "filename": "AvicennaSoftwareDevelopmentAndSecurityPractices_v3.1.pdf",
+                "size": "466588",
+                "preferences": {
+                    "Content-Type": "application/pdf"
+                }
+            },
+            {
+                "id": 133109,
+                "store_file_id": 104641,
+                "filename": "image1.png",
+                "size": "2087",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25634.efdb3356-1080-4afb-9066-e6a2a333c0b9@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline"
+                }
+            }
+        ],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

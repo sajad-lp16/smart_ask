@@ -1,0 +1,582 @@
+[
+    {
+        "id": 77165,
+        "ticket_id": 25212,
+        "type_id": 5,
+        "sender_id": 2,
+        "from": "\"Alison K. Ventura\" <akventur@calpoly.edu>",
+        "to": "Support",
+        "cc": null,
+        "subject": null,
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77165/130470?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77165/130471?view=inline\" alt=\"signature_1559366886\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 9421,
+        "created_at": "2024-09-25T12:06:40.248Z",
+        "updated_at": "2024-09-25T12:06:40.248Z",
+        "attachments": [
+            {
+                "id": 130470,
+                "store_file_id": 92349,
+                "filename": "image1.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.f902cb3d-4ca3-40aa-9601-8901da9bc6c9@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130471,
+                "store_file_id": 92350,
+                "filename": "image2.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.509bf71f-c0bc-4402-a6b9-73859cc33e45@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "phone",
+        "sender": "Customer",
+        "origin_by": "akventur@calpoly.edu",
+        "time_unit": null
+    },
+    {
+        "id": 77167,
+        "ticket_id": 25212,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/9412\">Amin Ghaffari</a>:<div><br></div><div>They can download list of participants from the Participation table.</div><div><br></div><div>If they want it to be exactly in the same CSV export, that can cause issues with keeping PII protected. So we cannot do that.</div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-25T12:08:01.080Z",
+        "updated_at": "2024-09-25T12:08:01.080Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77281,
+        "ticket_id": 25212,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "to": "akventur@calpoly.edu",
+        "cc": "",
+        "subject": "Adding Participant's username and email address in exports",
+        "reply_to": null,
+        "message_id": "<20240926100605.25212.40f1cce6-565e-4812-a478-002b4fc147c9@zammad.avicennaresearch.com>",
+        "message_id_md5": "379c859283ca77bb7e4d48524bb9fd8b",
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "Good morning Alison,<div><br></div><div>My name is Mohammad and I will be happy to help you with this question.</div><div><br></div><div>You can download the list of participants including their Avicenna ID, their name, and their email address as a CSV file from the Participation tab of the dashboard. Then you can link them with the Avicenna ID that you see in the data export files.</div><div><br></div><div>We have not included these data directly in the data export file for two reasons:</div><div><br></div><div>1. To reduce the size of the file. Specially for exports with many rows, this can increase the file size unnecessarily.</div><div>2. Having participant info in another file gives better control to prevent leaking of personally identifiable information.</div><div><br></div><div>Hope it answers your question </div><div>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best,<br><span style=\"color:var(--text-normal);\">Mohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Wednesday, September 25, 2024 at 8:06:40 AM, Alison K. Ventura wrote:<br><br><div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77281/130656?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77281/130657?view=inline\" alt=\"signature_1559366886\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T10:06:10.083Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T10:06:05.173Z",
+        "updated_at": "2024-09-26T10:06:10.127Z",
+        "attachments": [
+            {
+                "id": 130656,
+                "store_file_id": 92349,
+                "filename": "image1.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.a36d69b5-0979-4c0a-99b6-9a39b3e4ef87@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130657,
+                "store_file_id": 92350,
+                "filename": "image2.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.32a0b61f-a02b-48fe-9910-3814920dc106@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77317,
+        "ticket_id": 25212,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Alison K. Ventura\" <akventur@calpoly.edu>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Adding Participant's username and email address in exports",
+        "reply_to": null,
+        "message_id": "<BYAPR08MB4135B056BED6CD81538FB88AC06A2@BYAPR08MB4135.namprd08.prod.outlook.com>",
+        "message_id_md5": "c3dab5e4e8353b2dd45ea4f9e7c57302",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>I followed your instructions, but when I go to the participation tab and click on “Export as CSV” the file that downloads does not contain names and email addresses, just Avicenna IDs and the other data displayed in the participation table. Is there a different way I am supposed to download the list of participants?</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77317/130720?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77317/130721?view=inline\" alt=\"signature_2812922941\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 3:06</span> <span>AM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Good morning Alison,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>My name is Mohammad and I will be happy to help you with this question.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can download the list of participants including their Avicenna ID, their name, and their email address as a CSV file from the Participation tab of the dashboard. Then you can link them with the Avicenna ID that you see in the data export files.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>We have not included these data directly in the data export file for two reasons:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To reduce the size of the file. Specially for exports with many rows, this can increase the file size unnecessarily.</p>\n</div>\n<div>\n<p>2. Having participant info in another file gives better control to prevent leaking of personally identifiable information.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hope it answers your question</p>\n</div>\n<div>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, September 25, 2024 at 8:06:40 AM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77317/130718?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77317/130719?view=inline\" alt=\"signature_1559366886\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9421,
+        "created_by_id": 9421,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:01:44.877Z",
+        "updated_at": "2024-09-26T19:01:44.877Z",
+        "attachments": [
+            {
+                "id": 130717,
+                "store_file_id": 103174,
+                "filename": "message.html",
+                "size": "20658",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130718,
+                "store_file_id": 92349,
+                "filename": "ATT00001.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "25212.a36d69b5-0979-4c0a-99b6-9a39b3e4ef87@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130719,
+                "store_file_id": 92350,
+                "filename": "ATT00002.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00002.png",
+                    "Content-Description": "ATT00002.png",
+                    "Content-ID": "25212.32a0b61f-a02b-48fe-9910-3814920dc106@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130720,
+                "store_file_id": 94009,
+                "filename": "image001.png",
+                "size": "25949",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB100B.6DA38800",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130721,
+                "store_file_id": 94010,
+                "filename": "image002.jpg",
+                "size": "621506",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image002.jpg",
+                    "Content-Description": "image002.jpg",
+                    "Content-ID": "image002.jpg@01DB100B.6DA38800",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "akventur@calpoly.edu",
+        "updated_by": "akventur@calpoly.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77318,
+        "ticket_id": 25212,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "to": "akventur@calpoly.edu",
+        "cc": "",
+        "subject": "Adding Participant's username and email address in exports",
+        "reply_to": null,
+        "message_id": "<20240926191710.25212.159b3fb0-e4e5-4616-a428-17dfdb1d7e9d@zammad.avicennaresearch.com>",
+        "message_id_md5": "30afa25178a8dab231d8be9432905580",
+        "in_reply_to": "<BYAPR08MB4135B056BED6CD81538FB88AC06A2@BYAPR08MB4135.namprd08.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "Sorry I assumed displaying PII is enabled for your study. By default, this is disabled and not shown, and enabling it requires contacting our support staff (better alignment with IRB requirements).<div><br></div><div>Anyway, try again. Now it should be all set. (for study #4012, iBaby Study)<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best,<br><span style=\"color:var(--text-normal);\">Mohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, September 26, 2024 at 3:01:44 PM, Alison K. Ventura wrote:<br><br><div>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>I followed your instructions, but when I go to the participation tab and click on “Export as CSV” the file that downloads does not contain names and email addresses, just Avicenna IDs and the other data displayed in the participation table. Is there a different way I am supposed to download the list of participants?</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77318/130722?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77318/130723?view=inline\" alt=\"signature_2812922941\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 3:06</span> <span>AM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Good morning Alison,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>My name is Mohammad and I will be happy to help you with this question.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can download the list of participants including their Avicenna ID, their name, and their email address as a CSV file from the Participation tab of the dashboard. Then you can link them with the Avicenna ID that you see in the data export files.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>We have not included these data directly in the data export file for two reasons:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To reduce the size of the file. Specially for exports with many rows, this can increase the file size unnecessarily.</p>\n</div>\n<div>\n<p>2. Having participant info in another file gives better control to prevent leaking of personally identifiable information.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hope it answers your question</p>\n</div>\n<div>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, September 25, 2024 at 8:06:40 AM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77318/130724?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77318/130725?view=inline\" alt=\"signature_1559366886\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T19:17:18.178Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:17:10.560Z",
+        "updated_at": "2024-09-26T19:17:18.207Z",
+        "attachments": [
+            {
+                "id": 130722,
+                "store_file_id": 92349,
+                "filename": "image1.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.3636ed87-f221-4e93-8f2d-033e6721aee4@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130723,
+                "store_file_id": 92350,
+                "filename": "image2.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.05d31e75-c066-47ce-ae9d-988abb18e1ce@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130724,
+                "store_file_id": 92349,
+                "filename": "image3.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.b7eeae4d-4d40-4abe-9b84-ecd807d1106d@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130725,
+                "store_file_id": 92350,
+                "filename": "image4.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.94f19742-59eb-4f1f-b243-c3d5e3e6eb05@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77323,
+        "ticket_id": 25212,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Alison K. Ventura\" <akventur@calpoly.edu>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Adding Participant's username and email address in exports",
+        "reply_to": null,
+        "message_id": "<BYAPR08MB4135E8395180F25C10622A69C06A2@BYAPR08MB4135.namprd08.prod.outlook.com>",
+        "message_id_md5": "fe3d87ee43eb2159e30e285df3b75436",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>That worked; thank you.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77323/130742?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77323/130743?view=inline\" alt=\"signature_1410737713\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 12:17</span> <span>PM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Sorry I assumed displaying PII is enabled for your study. By default, this is disabled and not shown, and enabling it requires contacting our support staff (better alignment with IRB requirements).</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Anyway, try again. Now it should be all set. (for study #4012, iBaby Study)</p>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Thursday, September 26, 2024 at 3:01:44 PM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>I followed your instructions, but when I go to the participation tab and click on “Export as CSV” the file that downloads does not contain names and email addresses, just Avicenna IDs and the other data displayed in the participation table. Is there a different way I am supposed to download the list of participants?</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77323/130740?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77323/130741?view=inline\" alt=\"signature_2812922941\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 3:06 AM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Good morning Alison,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>My name is Mohammad and I will be happy to help you with this question.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can download the list of participants including their Avicenna ID, their name, and their email address as a CSV file from the Participation tab of the dashboard. Then you can link them with the Avicenna ID that you see in the data export files.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>We have not included these data directly in the data export file for two reasons:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To reduce the size of the file. Specially for exports with many rows, this can increase the file size unnecessarily.</p>\n</div>\n<div>\n<p>2. Having participant info in another file gives better control to prevent leaking of personally identifiable information.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hope it answers your question</p>\n</div>\n<div>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, September 25, 2024 at 8:06:40 AM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77323/130740?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77323/130741?view=inline\" alt=\"signature_1559366886\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9421,
+        "created_by_id": 9421,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:32:11.100Z",
+        "updated_at": "2024-09-26T19:32:11.100Z",
+        "attachments": [
+            {
+                "id": 130739,
+                "store_file_id": 103182,
+                "filename": "message.html",
+                "size": "28621",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130740,
+                "store_file_id": 92349,
+                "filename": "ATT00003.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00003.png",
+                    "Content-Description": "ATT00003.png",
+                    "Content-ID": "25212.b7eeae4d-4d40-4abe-9b84-ecd807d1106d@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130741,
+                "store_file_id": 92350,
+                "filename": "ATT00004.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00004.png",
+                    "Content-Description": "ATT00004.png",
+                    "Content-ID": "25212.94f19742-59eb-4f1f-b243-c3d5e3e6eb05@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130742,
+                "store_file_id": 94009,
+                "filename": "image001.png",
+                "size": "25949",
+                "preferences": {
+                    "Content-Type": "image/png; name=image001.png",
+                    "Content-Description": "image001.png",
+                    "Content-ID": "image001.png@01DB100F.F4B184B0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130743,
+                "store_file_id": 94010,
+                "filename": "image002.jpg",
+                "size": "621506",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image002.jpg",
+                    "Content-Description": "image002.jpg",
+                    "Content-ID": "image002.jpg@01DB100F.F4B184B0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "akventur@calpoly.edu",
+        "updated_by": "akventur@calpoly.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77324,
+        "ticket_id": 25212,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "to": "akventur@calpoly.edu",
+        "cc": "",
+        "subject": "Adding Participant's username and email address in exports",
+        "reply_to": null,
+        "message_id": "<20240926193255.25212.4f0204da-9077-4835-94ba-05f138496218@zammad.avicennaresearch.com>",
+        "message_id_md5": "4c4f538ff597ba71568a43b75009752e",
+        "in_reply_to": "<BYAPR08MB4135E8395180F25C10622A69C06A2@BYAPR08MB4135.namprd08.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "Glad to hear that. Let me know if there is anything else.<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best,<br><span style=\"color:var(--text-normal);\">Mohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Thursday, September 26, 2024 at 3:32:11 PM, Alison K. Ventura wrote:<br><br><div>\n<p>That worked; thank you.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Professor</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span><span style=\"color:#201f1e;\"></span></p>\n<p> <span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#06400c;\"> </span><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b><span style=\"color:#201f1e;\"></span></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title=\"healthykids.calpoly.edu\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4062in;\" src=\"/api/v1/ticket_attachment/25212/77324/130744?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></a><span style=\"color:#201f1e;\"></span></p>\n<p><span style=\"color:#201f1e;\"> </span></p>\n<p>\n<a href=\"https://cosam.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" title=\"https://cosam.calpoly.edu/\" target=\"_blank\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:1.6562in;max-height:.4479in;\" src=\"/api/v1/ticket_attachment/25212/77324/130745?view=inline\" alt=\"signature_1410737713\"></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 12:17</span> <span>PM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Sorry I assumed displaying PII is enabled for your study. By default, this is disabled and not shown, and enabling it requires contacting our support staff (better alignment with IRB requirements).</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Anyway, try again. Now it should be all set. (for study #4012, iBaby Study)</p>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Thursday, September 26, 2024 at 3:01:44 PM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Mohammad,</p>\n<p> </p>\n<p>I followed your instructions, but when I go to the participation tab and click on “Export as CSV” the file that downloads does not contain names and email addresses, just Avicenna IDs and the other data displayed in the participation table. Is there a different way I am supposed to download the list of participants?</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77324/130746?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77324/130747?view=inline\" alt=\"signature_2812922941\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n<div>\n<div>\n<div>\n<div>\n<p><b>From: </b><span>Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Date: </b>Thursday, September 26, 2024 at 3:06 AM<br>\n<b>To: </b>Alison K. Ventura &lt;akventur@calpoly.edu&gt;<br>\n<b>Subject: </b>RE: Adding Participant's username and email address in exports</span></p>\n</div>\n<p>Good morning Alison,</p>\n<div>\n<p> </p>\n</div>\n<div>\n<p>My name is Mohammad and I will be happy to help you with this question.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can download the list of participants including their Avicenna ID, their name, and their email address as a CSV file from the Participation tab of the dashboard. Then you can link them with the Avicenna ID that you see in the data export files.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>We have not included these data directly in the data export file for two reasons:</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To reduce the size of the file. Specially for exports with many rows, this can increase the file size unnecessarily.</p>\n</div>\n<div>\n<p>2. Having participant info in another file gives better control to prevent leaking of personally identifiable information.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hope it answers your question</p>\n</div>\n<div>\n<div>\n<div>\n<p><span><br> Best,<br> Mohammad</span></p>\n</div>\n<div>\n<p><span>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25212/bd6340daec4bb158</a></span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p><span>--<br> Avicenna Research (formerly Ethica Data)</span></p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p><span>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br> --</span></p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, September 25, 2024 at 8:06:40 AM, Alison K. Ventura wrote:</p>\n<div>\n<p>Hi Hanna,</p>\n<p> </p>\n<p>Would it also be possible to update the dashboard and data export feature so that we see participants’ usernames or email addresses? As of right now we can’t tell who is who because we can only see the Avicenna ID. We are giving participants study-specific usernames and emails so they aren’t tied to identifiable information.</p>\n<p> </p>\n<p>Thanks.</p>\n<p> </p>\n<div>\n<div>\n<p><span style=\"color:#a37519;\">____</span></p>\n<p><b><span style=\"color:#a37519;\">Alison K. Ventura, PhD, LEC, FTOS</span></b></p>\n<p><span style=\"color:#06400c;\">Professor</span></p>\n<p><span style=\"color:#06400c;\">Bailey College of Science and Mathematics</span></p>\n<p><span style=\"color:#06400c;\">Department of Kinesiology and Public Health</span></p>\n<p><span style=\"color:#06400c;\">California Polytechnic State University</span></p>\n<p><span style=\"color:#06400c;\">San Luis Obispo, California 93407</span></p>\n<p><b><span style=\"color:#06400c;\">office</span></b><span style=\"color:#06400c;\"> 805-756-5693</span></p>\n<p><span style=\"color:#04400b;\"><a href=\"http://alisonkventura.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#04400b;\">alisonkventura.com</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"https://healthykids.calpoly.edu/\" title=\"https://healthykids.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthykids.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://healthresearch.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">healthresearch.calpoly.edu</span></a></span></p>\n<p><span style=\"color:#201f1e;\"><a href=\"http://kinesiology.calpoly.edu/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">kinesiology.calpoly.edu</span></a></span></p>\n<p><b><span style=\"color:#06400c;\">Need to meet? </span></b><b><span style=\"color:#201f1e;\"><a href=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" title=\"https://docs.google.com/spreadsheets/d/15DiEIs60bNN0C5BHWjQYEO4hlAXFVGDZ5M0nWLxQn0o/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#06400c;\">View my office hours and meeting scheduling options here.</span></a></span></b></p>\n<p><b><span style=\"color:#201f1e;\"><br>\n</span></b><a href=\"http://healthykids.calpoly.edu/\" title='\"healthykids.calpoly.edu\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:8.9791in;max-height:2.1979in;\" src=\"/api/v1/ticket_attachment/25212/77324/130748?view=inline\" alt=\"wMRJiVdC498qgAAAABJRU5ErkJggg==\"></span></span></a></p>\n<p><a href=\"https://cosam.calpoly.edu/\" title='\"https://cosam.calpoly.edu/\" t ' rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:windowtext;\"><span style=\"color:blue;\"><img border=\"0\" style=\"max-width:100%;max-width:100%;width:17.3437in;max-height:4.7083in;\" src=\"/api/v1/ticket_attachment/25212/77324/130749?view=inline\" alt=\"signature_1559366886\"></span></span></a></p>\n<p> </p>\n</div>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T19:33:02.783Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T19:32:55.394Z",
+        "updated_at": "2024-09-26T19:33:02.799Z",
+        "attachments": [
+            {
+                "id": 130744,
+                "store_file_id": 92349,
+                "filename": "image1.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.8b17f27e-25f0-48bf-b17e-25d92e302664@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130745,
+                "store_file_id": 92350,
+                "filename": "image2.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.706a568e-5d99-44e9-bb65-418cf0c0bcb2@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130746,
+                "store_file_id": 92349,
+                "filename": "image3.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.10476c2d-4faa-4738-9d9d-59a089642972@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130747,
+                "store_file_id": 92350,
+                "filename": "image4.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.7ab5f080-4f39-4b4f-a4e7-f9c4144c18b5@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130748,
+                "store_file_id": 92349,
+                "filename": "image5.png",
+                "size": "32174",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.a2fb7e00-e4a1-49de-8733-d1ad028e152b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130749,
+                "store_file_id": 92350,
+                "filename": "image6.png",
+                "size": "266183",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25212.b0b07e6f-a03b-4802-942e-52fd49401ed1@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

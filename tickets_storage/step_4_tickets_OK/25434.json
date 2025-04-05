@@ -1,0 +1,8 @@
+{
+    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[Shreya Jagtap] (Researcher, University of Toronto) – [October 2, 2024, 6:39 PM]:**  \n- Reported an issue with survey triggering schedule for two participants in Study 3710.  \n- Expected 10 prompts per day, but only 9 prompts were recorded for two participants.  \n- *Key quote:* \"It is important that participants receive 10 prompts a day for our schedule.\"  \n\n- **[Milad Moosavi] (Support, Avicenna Research) – [October 2, 2024, after 6:39 PM]:**  \n- Requested participant IDs to investigate the issue further.  \n- Provided escalation link for unresolved issues.  \n- *Key quote:* \"Would you mind sharing the IDs of the participants who are having this issue?\"  \n\n#### **2. Timeline**  \n- **[October 2, 2024]:** Shreya reported an issue with survey prompts.  \n- **[October 2, 2024]:** Milad requested participant IDs for investigation.  \n\n#### **3. Key Events/Issues**  \n- **Issue 1:** Survey prompts not triggering correctly for two participants in Study 3710.  \n- **Feedback Submission:** Shreya provided details about the issue.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Provide participant IDs to Milad (assigned to Shreya).  \n- Investigate survey triggering issue (assigned to Milad).  \n\n#### **5. Technical Details**  \n- **Study ID:** 3710  \n- **Contract ID:** 424  \n- **SPOC Email:** milad.moosavi+111@ethicadata.com  \n\n#### **6. Next Steps**  \n- **Action 1:** Shreya to share participant IDs with Milad.  \n- **Action 2:** Milad to investigate and resolve the survey triggering issue.",
+    "emails": [
+        "shreya.jagtap@mail.utoronto.ca",
+        "milad.moosavi+111@ethicadata.com",
+        "support@avicennaresearch.com"
+    ]
+}

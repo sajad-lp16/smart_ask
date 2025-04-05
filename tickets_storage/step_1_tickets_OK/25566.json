@@ -1,0 +1,538 @@
+[
+    {
+        "id": 78306,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Remove subject",
+        "reply_to": null,
+        "message_id": "<DFFDC8A9-617E-464E-9F97-4BBD2C54C28B@maastrichtuniversity.nl>",
+        "message_id_md5": "2cbc45a49c7921f690e1d367f9d06261",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Could you please help me to remove subject </span>90847<span lang=\"EN-US\"> from study 3519?<br> In agreement with the participant, she was invited but will now start at a later timepoint due to holiday, namely starting today. We have dropped the participant from the study, but now for some reason cannot delete the participant (network issue… but we can do everything else on our laptops that require internet connection). As we would like to re-invite the participant with the same email address the previous participation needs to be fully deleted, as now invitation is not possible as ‘this participant is already part of the study’.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78306/132123?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 8
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T08:36:47.559Z",
+        "updated_at": "2024-10-08T08:37:02.472Z",
+        "attachments": [
+            {
+                "id": 132122,
+                "store_file_id": 104304,
+                "filename": "message.html",
+                "size": "6224",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132123,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB196D.ECEE4710",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78307,
+        "ticket_id": 25566,
+        "type_id": 10,
+        "sender_id": 2,
+        "from": "-",
+        "to": null,
+        "cc": null,
+        "subject": "Note added by Integrations App",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "'<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"Amin Ghaffari\">Amin Ghaffari</a>' The client for this ticket has more than 1 Study/ContractID/SPOC  as following, please check and correct Client field if necessary: <br><div><ol>\n<li>study_id: 3519 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3891 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3345 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n</ol></div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 1,
+        "created_at": "2024-10-08T08:36:51.785Z",
+        "updated_at": "2024-10-08T08:36:51.785Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Customer",
+        "origin_by": "-",
+        "time_unit": null
+    },
+    {
+        "id": 78309,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Ghaffari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Remove subject",
+        "reply_to": null,
+        "message_id": "<20241008084431.25566.5715ef82-e48f-40bf-929b-aaf55d9f2686@zammad.avicennaresearch.com>",
+        "message_id_md5": "9610dafb25f7298ecb7b366c5955f6ba",
+        "in_reply_to": "<DFFDC8A9-617E-464E-9F97-4BBD2C54C28B@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "<div>Hi Eva<br>\n</div><div>This is Amin, Amir's colleague.</div><div>Let's do some basic checks first:</div><div>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</div><div data-signature=\"true\" data-signature-id=\"2\">\n<div>Best regards,<br><span style=\"color:var(--text-normal);\">Amin<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T08:44:37.972Z"
+        },
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T08:44:31.926Z",
+        "updated_at": "2024-10-08T08:44:38.011Z",
+        "attachments": [],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78312,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "Amin Ghaffari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Remove subject",
+        "reply_to": null,
+        "message_id": "<7914169E-9180-4B3B-A061-97C0907DF8C2@maastrichtuniversity.nl>",
+        "message_id_md5": "18db222d3e3d2cb9b80a5d48047afa43",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78312/132142?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T09:08:16.147Z",
+        "updated_at": "2024-10-08T09:08:16.147Z",
+        "attachments": [
+            {
+                "id": 132141,
+                "store_file_id": 104310,
+                "filename": "message.html",
+                "size": "9501",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132142,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB1972.5615FF90",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78315,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Ghaffari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Remove subject",
+        "reply_to": null,
+        "message_id": "<20241008095326.25566.5db9b1d9-a882-48fd-8c22-cc94d6017b44@zammad.avicennaresearch.com>",
+        "message_id_md5": "8772f66bfab1a0bceb55119a875331f1",
+        "in_reply_to": "<7914169E-9180-4B3B-A061-97C0907DF8C2@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "Of course, thanks for letting me know. Just one quick question: Can you confirm if this email address <a href=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\" title=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\">eva.vanbrabant@maastrichtuniversity.nl</a> is the owner of the study?<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">Amin<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Tuesday, October 8, 2024 at 12:38:16 PM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78315/132146?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T09:53:30.921Z"
+        },
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T09:53:26.135Z",
+        "updated_at": "2024-10-08T09:53:30.940Z",
+        "attachments": [
+            {
+                "id": 132146,
+                "store_file_id": 67992,
+                "filename": "image1.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.00b29095-0f8c-4a6d-9cd8-1eb2d6b44d8b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78316,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "Amin Ghaffari <support@avicennaresearch.com>",
+        "cc": "\"Hesen, Jikke (PSYCHOLOGY)\" <jikke.hesen@maastrichtuniversity.nl>",
+        "subject": "Re: Remove subject",
+        "reply_to": null,
+        "message_id": "<708F2571-6B00-4C4A-8EE0-F3018F631F33@maastrichtuniversity.nl>",
+        "message_id_md5": "ca8c147ad3dfa43e38ccc18d76425d16",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">My colleague Jikke Hesen: </span><a href=\"mailto:jikke.hesen@maastrichtuniversity.nl\">jikke.hesen@maastrichtuniversity.nl</a><span>\n<span lang=\"EN-US\">is the owner of this study as she originally created the study. </span></span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Hope this extra information enables you to manually delete the subject.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img border=\"0\" style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78316/132150?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 11:53<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Of course, thanks for letting me know. Just one quick question: Can you confirm if this email address <a href=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\" title=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\">eva.vanbrabant@maastrichtuniversity.nl</a> is the owner of the study?</p>\n<div>\n<div>\n<p><br> Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 12:38:16 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78316/132151?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T09:57:43.974Z",
+        "updated_at": "2024-10-08T09:57:43.974Z",
+        "attachments": [
+            {
+                "id": 132149,
+                "store_file_id": 104316,
+                "filename": "message.html",
+                "size": "14629",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132150,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB1979.31623AE0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132151,
+                "store_file_id": 67996,
+                "filename": "image002.png",
+                "size": "41046",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1979.31623AE0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78331,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Ghaffari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Remove subject",
+        "reply_to": null,
+        "message_id": "<20241008130233.25566.4f15ad10-100d-4cc5-860e-260a9ba60d1a@zammad.avicennaresearch.com>",
+        "message_id_md5": "2d79542e7ad4914449d9d1b1204b9cfe",
+        "in_reply_to": "<708F2571-6B00-4C4A-8EE0-F3018F631F33@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "Hello again Eva<div>The participant is removed from the study. Thanks for bringing it up as we detected an issue with participant deletion and we're working on a fix. Please check and let me know if there is anything else.<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">Amin<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Tuesday, October 8, 2024 at 1:27:43 PM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">My colleague Jikke Hesen: </span><a href=\"mailto:jikke.hesen@maastrichtuniversity.nl\">jikke.hesen@maastrichtuniversity.nl</a><span>\n<span lang=\"EN-US\">is the owner of this study as she originally created the study. </span></span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Hope this extra information enables you to manually delete the subject.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img border=\"0\" style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78331/132176?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 11:53<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Of course, thanks for letting me know. Just one quick question: Can you confirm if this email address <a href=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\" title=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\">eva.vanbrabant@maastrichtuniversity.nl</a> is the owner of the study?</p>\n<div>\n<div>\n<p><br> Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 12:38:16 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78331/132177?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T13:02:57.396Z"
+        },
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T13:02:32.777Z",
+        "updated_at": "2024-10-08T13:02:57.416Z",
+        "attachments": [
+            {
+                "id": 132176,
+                "store_file_id": 67992,
+                "filename": "image1.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.e0cdb8b6-d9fb-4d46-97b2-9a7ac8e57597@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132177,
+                "store_file_id": 67992,
+                "filename": "image2.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.9d1f08aa-2990-41b4-88fe-ce0724e65a8c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78335,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "Amin Ghaffari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Remove subject",
+        "reply_to": null,
+        "message_id": "<2AC1853E-97C6-40F1-9933-43055E41C166@maastrichtuniversity.nl>",
+        "message_id_md5": "022f93fa1fd55cfdf3a42a5b314a1e21",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\">Thank you very much! I have been able to add the particpant again.</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\">Best regards,</span></p>\n<p><span lang=\"NL\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78335/132184?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 15:03<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Hello again Eva</p>\n<div>\n<p>The participant is removed from the study. Thanks for bringing it up as we detected an issue with participant deletion and we're working on a fix. Please check and let me know if there is anything else.</p>\n<div>\n<div>\n<p><br> Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 1:27:43 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">My colleague Jikke Hesen: </span><a href=\"mailto:jikke.hesen@maastrichtuniversity.nl\">jikke.hesen@maastrichtuniversity.nl</a>\n<span lang=\"EN-US\">is the owner of this study as she originally created the study. </span></p>\n<p><span lang=\"EN-US\">Hope this extra information enables you to manually delete the subject.</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78335/132185?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 11:53<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Of course, thanks for letting me know. Just one quick question: Can you confirm if this email address <a href=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\" title=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\"> eva.vanbrabant@maastrichtuniversity.nl</a> is the owner of the study?</p>\n<div>\n<div>\n<p>\n<br> Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 12:38:16 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78335/132185?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T13:12:31.878Z",
+        "updated_at": "2024-10-08T13:12:31.878Z",
+        "attachments": [
+            {
+                "id": 132183,
+                "store_file_id": 104344,
+                "filename": "message.html",
+                "size": "18202",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132184,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB1994.66BB80A0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132185,
+                "store_file_id": 67996,
+                "filename": "image002.png",
+                "size": "41046",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1994.66BB80A0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78336,
+        "ticket_id": 25566,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Ghaffari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Remove subject",
+        "reply_to": null,
+        "message_id": "<20241008131401.25566.8f8abab2-e0bf-418d-b338-018773ec41a9@zammad.avicennaresearch.com>",
+        "message_id_md5": "485f573df9e8bbbc4fe31fe043af09a0",
+        "in_reply_to": "<2AC1853E-97C6-40F1-9933-43055E41C166@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "You're welcome! Anytime. Glad it's fixed.<div>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">Amin<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Tuesday, October 8, 2024 at 4:42:31 PM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\">Thank you very much! I have been able to add the particpant again.</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"NL\">Best regards,</span></p>\n<p><span lang=\"NL\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25566/78336/132186?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 15:03<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Hello again Eva</p>\n<div>\n<p>The participant is removed from the study. Thanks for bringing it up as we detected an issue with participant deletion and we're working on a fix. Please check and let me know if there is anything else.</p>\n<div>\n<div>\n<p><br> Best regards,<br> Amin<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 1:27:43 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">My colleague Jikke Hesen: </span><a href=\"mailto:jikke.hesen@maastrichtuniversity.nl\">jikke.hesen@maastrichtuniversity.nl</a>\n<span lang=\"EN-US\">is the owner of this study as she originally created the study. </span></p>\n<p><span lang=\"EN-US\">Hope this extra information enables you to manually delete the subject.</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78336/132187?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 11:53<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Of course, thanks for letting me know. Just one quick question: Can you confirm if this email address <a href=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\" title=\"mailto:eva.vanbrabant@maastrichtuniversity.nl\"> eva.vanbrabant@maastrichtuniversity.nl</a> is the owner of the study?</p>\n<div>\n<div>\n<p>\n<br> Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 12:38:16 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amin,</span></p>\n<p><span lang=\"EN-US\">Thank you for the quick reply. Unfortunately, the re-freshing of the page after log-out, and again after log-in don’t seem to help the issue.</span></p>\n<p><span lang=\"EN-US\">Could you thus manually delete the participant?</span></p>\n<p><span lang=\"EN-US\">Thank you in advance!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant </span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25566/78336/132188?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>Amin Ghaffari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 10:44<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Remove subject</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Hi Eva</p>\n</div>\n<div>\n<p>This is Amin, Amir's colleague.</p>\n</div>\n<div>\n<p>Let's do some basic checks first:</p>\n</div>\n<div>\n<p>Please logout from the platform, press Ctrl+F5 and then log back in. You can try Ctrl+F5 one more time after you've logged back in and then try to delete the participant. If the issue persisted, please let me know and I will remove them manually. Thanks.</p>\n</div>\n<div>\n<div>\n<p>Best regards,<br> Amin</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25566/ffb68759838695f6</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T13:14:05.709Z"
+        },
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T13:14:00.702Z",
+        "updated_at": "2024-10-08T13:14:05.741Z",
+        "attachments": [
+            {
+                "id": 132186,
+                "store_file_id": 67992,
+                "filename": "image1.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.63c27c50-3d0b-488c-a069-ef71e1911412@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132187,
+                "store_file_id": 67992,
+                "filename": "image2.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.44c32986-3f7c-4869-b32d-bc536c038bc5@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132188,
+                "store_file_id": 67992,
+                "filename": "image3.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25566.985cf9dd-866b-4b18-af40-a2517735c39a@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

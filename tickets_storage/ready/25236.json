@@ -1,0 +1,8 @@
+{
+    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[SAP CloudSupport Alerts] (SAP Support Team, SAP SE) – [September 28, 2024]:**  \n- Key contributions: Notification of rescheduled maintenance for SAP Business Network.  \n- Important details: The maintenance was originally scheduled for September 28, 2024, but has been rescheduled to September 29, 2024, from 12:00 AM to 4:00 AM UTC.  \n- *Key quote:* \"The maintenance originally scheduled to occur on September 28, 2024 impacting the product(s) listed below has been rescheduled.\"  \n\n#### **2. Timeline**  \n- **[September 29, 2024]:** Rescheduled maintenance window for SAP Business Network (12:00 AM - 4:00 AM UTC).  \n\n#### **3. Key Events/Issues**  \n- **Maintenance Rescheduling:** The planned downtime for SAP Business Network has been moved to September 29, 2024.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Update notification settings if necessary (assigned to SAP Business Network users).  \n- **Completed:**  \n- Notification sent to all affected users.  \n\n#### **5. Technical Details (if applicable)**  \n- **Affected Products:** SAP Business Network, SAP Business Network Discovery, SAP Business Network for Procurement, SAP Business Network for Suppliers, SAP Business Network for Supply Chain.  \n\n#### **6. Next Steps**  \n- **Action 1:** Contact SAP Support via Help Center if there are questions (assigned to SAP Business Network users).  \n- **Action 2:** Ensure SAP CloudSupport Alerts email is in the safe senders list (assigned to SAP Business Network users).",
+    "emails": [
+        "sapcloudsupport@alerts.ondemand.com"
+    ],
+    "person_ids": [],
+    "deal_ids": []
+}

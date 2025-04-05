@@ -1,0 +1,47 @@
+[
+    {
+        "id": 78819,
+        "ticket_id": 25745,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Google Meet <meetings-noreply@google.com>",
+        "to": "sales@avicennaresearch.com",
+        "cc": null,
+        "subject": "Meeting records: “Gustav (DTU) & Sara (Avicenna)” Oct 11, 2024",
+        "reply_to": null,
+        "message_id": "<autogen-java-fee56950-6fc4-4885-851e-d8753fdd94d3@google.com>",
+        "message_id_md5": "6564f3c983f0b1d065de4df5dcc98268",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div dir=\"ltr\">\n<div>\n<div>\n<div style=\"color: #202124;\">Meeting records from<br>“Gustav (DTU) &amp; Sara (Avicenna)”</div>\n<div style=\"color: #202124;\">The meeting records from your meeting have been uploaded to Drive.</div>\n</div>\n<div><table style=\"border-collapse: collapse; width: 100%;\"><tr>\n<td style=\"padding-right: 24px; vertical-align: middle;\"></td>\n<td style=\"width: 100%;\"><a href=\"https://drive.google.com/file/d/14sfcHXessZlRRJ3mVER6dmtmHiyFJMR6/view?usp=drive_web\" rel=\"nofollow noreferrer noopener\" title=\"https://drive.google.com/file/d/14sfcHXessZlRRJ3mVER6dmtmHiyFJMR6/view?usp=drive_web\" target=\"_blank\"><span style=\"color: #001d35;\">Recording</span></a></td>\n</tr></table></div>\n</div>\n<div style=\"color: #444746;\">\n<address>Google LLC, 1600 Ampitheatre Parkway, Mountain View, CA 94043, USA</address>\n<div>You have received this email because meeting artifacts were initiated in Google Meet.</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7028,
+        "created_by_id": 7028,
+        "origin_by_id": null,
+        "created_at": "2024-10-11T15:00:05.923Z",
+        "updated_at": "2024-10-11T15:00:05.923Z",
+        "attachments": [
+            {
+                "id": 133057,
+                "store_file_id": 104960,
+                "filename": "message.html",
+                "size": "2709",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "meetings-noreply@google.com",
+        "updated_by": "meetings-noreply@google.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

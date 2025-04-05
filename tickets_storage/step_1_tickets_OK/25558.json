@@ -1,0 +1,77 @@
+[
+    {
+        "id": 78270,
+        "ticket_id": 25558,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "to": "support@avicennaresearch.com",
+        "cc": null,
+        "subject": "[Avicenna Research] update available",
+        "reply_to": "Avicenna Research <no-reply@avicennaresearch.com>",
+        "message_id": "<010d019267ac927b-7669353e-eeb1-4fa7-8ffc-b848a4c3e154-000000@ca-central-1.amazonses.com>",
+        "message_id_md5": "032fb0f9658e8402065e2e36abb530d2",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<p>Hooray, a new version of <a href=\"https://www.discourse.org\" rel=\"nofollow noreferrer noopener\" title=\"https://www.discourse.org\" target=\"_blank\">Discourse</a> is available!</p><p>Your version: 3.4.0.beta1-dev<br> New version: <strong>3.4.0.beta2</strong></p><ul>\n<li>\n<p>Update using our easy <strong><a href=\"http://forum.avicennaresearch.dev/admin/update\" rel=\"nofollow noreferrer noopener\" title=\"http://forum.avicennaresearch.dev/admin/update\" target=\"_blank\">one-click browser update</a></strong></p>\n</li>\n<li>\n<p>See what’s new in the <a href=\"https://meta.discourse.org/tag/release-notes\" rel=\"nofollow noreferrer noopener\" title=\"https://meta.discourse.org/tag/release-notes\" target=\"_blank\">release notes</a> or view the <a href=\"https://github.com/discourse/discourse/commits/main\" rel=\"nofollow noreferrer noopener\" title=\"https://github.com/discourse/discourse/commits/main\" target=\"_blank\">raw GitHub changelog</a></p>\n</li>\n<li>\n<p>Visit <a href=\"https://meta.discourse.org\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">meta.discourse.org</a> for news, discussion, and support for Discourse</p>\n</li>\n</ul>\n<h3>\n<a name=\"release-notes-1\" href=\"http://#release-notes-1\" rel=\"nofollow noreferrer noopener\" title=\"http://#release-notes-1\" target=\"_blank\"></a>Release notes</h3>\n<p>Read about this release here:</p><p><a href=\"https://meta.discourse.org/t/3-4-0-beta2-better-pageview-metrics-multiple-category-moderator-groups-watch-chat-threads-and-more/329340\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://meta.discourse.org/t/3-4-0-beta2-better-pageview-metrics-multiple-category-moderator-groups-watch-chat-threads-and-more/329340</a></p><p>Please update your site as it includes security updates.</p><div> </div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": false,
+            "is-auto-response": true,
+            "signature_detection": null
+        },
+        "updated_by_id": 7228,
+        "created_by_id": 7228,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T15:50:22.709Z",
+        "updated_at": "2024-10-07T15:50:38.903Z",
+        "attachments": [
+            {
+                "id": 132079,
+                "store_file_id": 104268,
+                "filename": "message.html",
+                "size": "4385",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "no-reply@avicennaresearch.com",
+        "updated_by": "no-reply@avicennaresearch.com",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78271,
+        "ticket_id": 25558,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Amin Ghaffari",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "FYI <a href=\"https://zammad.avicennaresearch.com/#user/profile/3\" data-mention-user-id=\"3\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/3\">Bardia Salimi</a>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T15:52:39.402Z",
+        "updated_at": "2024-10-07T15:52:39.402Z",
+        "attachments": [],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

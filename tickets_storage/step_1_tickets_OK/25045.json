@@ -1,0 +1,38 @@
+[
+    {
+        "id": 76656,
+        "ticket_id": 25045,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Hanna Badalpoor <sales@avicennaresearch.com>",
+        "to": "enrique.gc@tec.mx",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20240919074914.25045.6cac948a-087b-430d-9ad8-673fc4522f5c@zammad.avicennaresearch.com>",
+        "message_id_md5": "344d34e1c4ae98502bb9661e7d208709",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<span style=\"background-color: initial; color: var(--text-normal);\">Dear Enrique, </span><br>\n</div><p><br></p><p>I hope you are doing well. </p><p><br></p><p>My name is Hanna<span style=\" color: var(--text-normal);\"> from </span>Avicenna<span style=\" color: var(--text-normal);\"> and I’d be happy to help you with your request. We built </span>Avicenna<span style=\" color: var(--text-normal);\"> to help researchers and clinicians automate their research work including field deployment, data collection, and monitoring. </span><span style=\" color: var(--text-normal);\">I’ve created a </span><a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" target=\"_blank\">slide deck</a><span style=\" color: var(--text-normal);\"> to highlight some of the features of our product.</span></p><p><br></p><p>If you have any questions, please feel free to contact me, or the <a href=\"mailto:support@avicennaresearch.com\">support team</a>. You can also visit our <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/\" target=\"_blank\">support knowledge base</a> which provides helpful hints for the entire platform as well as our <a href=\"https://forum.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://forum.avicennaresearch.com/\" target=\"_blank\">forum page</a> where other researchers share their questions and thoughts.<br></p><p><br></p><div>If you like, we can arrange a brief meeting to demo our product and discuss your project. Our calendar is shared <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" target=\"_blank\">here</a><span style=\"background-color: initial; color: var(--text-normal);\"> and our schedule is wide open these days.</span>\n</div><p><br></p><div>Sincerely,</div><div>Hanna</div><br><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-19T07:49:22.178Z"
+        },
+        "updated_by_id": 5101,
+        "created_by_id": 5101,
+        "origin_by_id": null,
+        "created_at": "2024-09-19T07:49:14.676Z",
+        "updated_at": "2024-09-19T07:49:22.227Z",
+        "attachments": [],
+        "created_by": "hanna@avicennaresearch.com",
+        "updated_by": "hanna@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

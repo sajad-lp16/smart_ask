@@ -1,0 +1,84 @@
+[
+    {
+        "id": 77650,
+        "ticket_id": 25353,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavassolian <amin@avicennaresearch.com>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Fwd: Couple of questions re Bradford/UCL study",
+        "reply_to": null,
+        "message_id": "<CAC1pbAJbo8LJKEfOGfDQtiis-NjHJCAtU46nN8HPDr0gZ7XY3Q@mail.gmail.com>",
+        "message_id_md5": "e9a8f0b9ca92d7dcf91cddfc0a34e369",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div> </div><div>\n<br><div>\n<div dir=\"ltr\">---------- Forwarded message ---------<br>From: <strong dir=\"auto\">Davies Kellock, Madelaine</strong> <span dir=\"auto\">&lt;<a href=\"mailto:madelaine.davies@ucl.ac.uk\">madelaine.davies@ucl.ac.uk</a>&gt;</span><br>Date: Tue, Oct 1, 2024 at 07:22<br>Subject: Couple of questions re Bradford/UCL study<br>To: <a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a> &lt;<a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a>&gt;<br>CC: Solmi, Francesca &lt;<a href=\"mailto:francesca.solmi@ucl.ac.uk\">francesca.solmi@ucl.ac.uk</a>&gt;<br>\n</div>\n<br><br>\n\n<div dir=\"ltr\">\n<div>Dear Amin,</div>\n<div> </div>\n<div>Hope things are all good with you?</div>\n<div> </div>\n<div>I had a couple of questions about some of the finer details of our study using Avicenna and Garmin smartwatches as we are putting together our ethics application. I'll include them below, but if it is easier to discuss over a quick call, please let me know if your availability.</div>\n<div> </div>\n<ol start=\"1\">\n<li>\n<div><b>Altering the Garmin watch face to hide tracking info for some participants</b></div>\n</li>\n</ol>\n<div>We may have discussed this already, in which case sorry for the repetition. We are interested in whether it is possible to hide the information (e.g., step count) on some participants' watches, as a way to investigate whether monitoring their activity changes their behaviour. Is it possible to set up the watches with this restricted view?</div>\n<div> </div>\n<ol start=\"2\">\n<li>\n<div><b>Time needed to calculate heart rate variability</b></div>\n</li>\n</ol>\n<div>In our testing of the Garmin devices, we noticed that it takes several weeks before heart rate variability status can be calculated. I wanted to check whether this would affect our study plans as we are interested in the HRV data - will we be able to gather sufficient HRV data in only a four-week period? I wasn't sure if the HRV status relates to Garmin algorithms, but whether the raw data would still be accessible and reliable in research?</div>\n<div> </div>\n<div>Please let me know if you need more information from me in order to answer or this would be best discussed over a call.</div>\n<div> </div>\n<div>Many thanks,</div>\n<div>Maddie</div>\n<div>\n<div>\n<span style=\"background-color:rgb(255,255,255);\">------------------------------</span>\n</div>\n<div style=\"color:rgb(0,36,81);\">\n<b>Maddie Davies Kellock</b> (she/her)</div>\n<div style=\"color:rgb(0,36,81);\">Research Fellow in Psychiatric Epidemiology</div>\n<div style=\"color:rgb(0,36,81);\">UCL Division of Psychiatry</div>\n</div>\n</div>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 37,
+        "created_by_id": 37,
+        "origin_by_id": null,
+        "created_at": "2024-10-01T16:08:51.218Z",
+        "updated_at": "2024-10-01T16:08:51.218Z",
+        "attachments": [
+            {
+                "id": 131196,
+                "store_file_id": 103550,
+                "filename": "message.html",
+                "size": "5784",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "amin@avicennaresearch.com",
+        "updated_by": "amin@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77926,
+        "ticket_id": 25353,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Amin Tavassolian <sales@avicennaresearch.com>",
+        "to": "madelaine.davies@ucl.ac.uk",
+        "cc": "francesca.solmi@ucl.ac.uk",
+        "subject": "Fwd: Couple of questions re Bradford/UCL study",
+        "reply_to": null,
+        "message_id": "<20241003014941.25353.94f8be94-0032-4a35-a1ea-95b6eb535c34@zammad.avicennaresearch.com>",
+        "message_id_md5": "ef4ca17748680d615b11a28801f0b9dd",
+        "in_reply_to": "<CAC1pbAJbo8LJKEfOGfDQtiis-NjHJCAtU46nN8HPDr0gZ7XY3Q@mail.gmail.com>",
+        "content_type": "text/html",
+        "body": "Hi Maddie,<div><br></div><div>Hope all is well.</div><div><br></div><div>I'm sorry for not getting back to you sooner. I've asked the team to help me with these questions and should be able to update you soon. Also, if needed, I'd be happy to jump on a quick call to discuss further.</div><div><br></div><div>Best,</div><div>Amin</div><div>\n<div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Tuesday, October 1, 2024 at 9:08:51 AM, Amin Tavassolian wrote:<br><br><div> </div>\n<div>\n<br><div>\n<div dir=\"ltr\">---------- Forwarded message ---------<br>From: <strong dir=\"auto\">Davies Kellock, Madelaine</strong> <span dir=\"auto\">&lt;<a href=\"mailto:madelaine.davies@ucl.ac.uk\">madelaine.davies@ucl.ac.uk</a>&gt;</span><br>Date: Tue, Oct 1, 2024 at 07:22<br>Subject: Couple of questions re Bradford/UCL study<br>To: <a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a> &lt;<a href=\"mailto:amin@avicennaresearch.com\">amin@avicennaresearch.com</a>&gt;<br>CC: Solmi, Francesca &lt;<a href=\"mailto:francesca.solmi@ucl.ac.uk\">francesca.solmi@ucl.ac.uk</a>&gt;<br>\n</div>\n<br><br>\n\n<div dir=\"ltr\">\n<div>Dear Amin,</div>\n<div> </div>\n<div>Hope things are all good with you?</div>\n<div> </div>\n<div>I had a couple of questions about some of the finer details of our study using Avicenna and Garmin smartwatches as we are putting together our ethics application. I'll include them below, but if it is easier to discuss over a quick call, please let me know if your availability.</div>\n<div> </div>\n<ol start=\"1\">\n<li>\n<div><b>Altering the Garmin watch face to hide tracking info for some participants</b></div>\n</li>\n</ol>\n<div>We may have discussed this already, in which case sorry for the repetition. We are interested in whether it is possible to hide the information (e.g., step count) on some participants' watches, as a way to investigate whether monitoring their activity changes their behaviour. Is it possible to set up the watches with this restricted view?</div>\n<div> </div>\n<ol start=\"2\">\n<li>\n<div><b>Time needed to calculate heart rate variability</b></div>\n</li>\n</ol>\n<div>In our testing of the Garmin devices, we noticed that it takes several weeks before heart rate variability status can be calculated. I wanted to check whether this would affect our study plans as we are interested in the HRV data - will we be able to gather sufficient HRV data in only a four-week period? I wasn't sure if the HRV status relates to Garmin algorithms, but whether the raw data would still be accessible and reliable in research?</div>\n<div> </div>\n<div>Please let me know if you need more information from me in order to answer or this would be best discussed over a call.</div>\n<div> </div>\n<div>Many thanks,</div>\n<div>Maddie</div>\n<div>\n<div>\n<span style=\"background-color:rgb(255,255,255);\">------------------------------</span>\n</div>\n<div style=\"color:rgb(0,36,81);\">\n<b>Maddie Davies Kellock</b> (she/her)</div>\n<div style=\"color:rgb(0,36,81);\">Research Fellow in Psychiatric Epidemiology</div>\n<div style=\"color:rgb(0,36,81);\">UCL Division of Psychiatry</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-03T01:49:47.921Z"
+        },
+        "updated_by_id": 37,
+        "created_by_id": 37,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T01:49:41.050Z",
+        "updated_at": "2024-10-03T01:49:47.932Z",
+        "attachments": [],
+        "created_by": "amin@avicennaresearch.com",
+        "updated_by": "amin@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

@@ -1,0 +1,760 @@
+[
+    {
+        "id": 78202,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": "\"Jordan, Suzan (PSYCHOLOGY)\" <suzan.jordan@maastrichtuniversity.nl>",
+        "subject": "Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<47101935-A87B-4F23-A79F-0B1C83271B01@maastrichtuniversity.nl>",
+        "message_id_md5": "b0d2cfe41c6537034820cbb92c46b8c1",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p><span lang=\"NL\"> </span></p>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78202/131972?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 12
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T05:45:45.754Z",
+        "updated_at": "2024-10-07T05:45:59.840Z",
+        "attachments": [
+            {
+                "id": 131971,
+                "store_file_id": 104178,
+                "filename": "message.html",
+                "size": "6446",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 131972,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB188C.DBEFDE60",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78203,
+        "ticket_id": 25541,
+        "type_id": 10,
+        "sender_id": 2,
+        "from": "-",
+        "to": null,
+        "cc": null,
+        "subject": "Note added by Integrations App",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "'<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"Amin Ghaffari\">Amin Ghaffari</a>' The client for this ticket has more than 1 Study/ContractID/SPOC  as following, please check and correct Client field if necessary: <br><div><ol>\n<li>study_id: 3519 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3891 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3345 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n</ol></div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 1,
+        "created_at": "2024-10-07T05:45:51.760Z",
+        "updated_at": "2024-10-07T05:45:51.760Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Customer",
+        "origin_by": "-",
+        "time_unit": null
+    },
+    {
+        "id": 78241,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<20241007123226.25541.179526e9-016a-40a8-8922-feadd6a83b6b@zammad.avicennaresearch.com>",
+        "message_id_md5": "1d1ee5fb61ea61a63e2f0f1c896f7fa9",
+        "in_reply_to": "<47101935-A87B-4F23-A79F-0B1C83271B01@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<div>Dear Eva,</div>\n<div><br></div>\n<div>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?<br><br>\n</div>\n<div>2. Could you please let me know whether the participant is using an Android or iOS device?<br><br>\n</div>\n<div>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"<br><br>\n</div>\n<div>Best regards,</div>\n<div>Amir Mohammad</div>\n<br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p><span lang=\"NL\"> </span></p>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78241/132031?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n<p> </p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-07T12:32:31.493Z"
+        },
+        "updated_by_id": 385,
+        "created_by_id": 385,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T12:32:26.561Z",
+        "updated_at": "2024-10-07T12:32:31.612Z",
+        "attachments": [
+            {
+                "id": 132031,
+                "store_file_id": 104227,
+                "filename": "image1.png",
+                "size": "42090",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.18d1032e-ef22-4757-b28d-5bdad278de3d@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amirmohammad@avicennaresearch.com",
+        "updated_by": "amirmohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78245,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<97BC0911-D356-4B36-A0A1-5753A86DD0E6@maastrichtuniversity.nl>",
+        "message_id_md5": "857d28cd4fdcd69e4d7f067e7f7e0919",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<ol start=\"1\" type=\"1\">\n<li><span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span></li>\n<li><span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span></li>\n<li><span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span></li>\n</ol>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78245/132040?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78245/132041?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T12:45:33.810Z",
+        "updated_at": "2024-10-07T12:45:33.810Z",
+        "attachments": [
+            {
+                "id": 132039,
+                "store_file_id": 104234,
+                "filename": "message.html",
+                "size": "15960",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132040,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB18C7.81EB4680",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132041,
+                "store_file_id": 104235,
+                "filename": "image002.png",
+                "size": "42091",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB18C7.81EB4680",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78246,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<20241007125223.25541.0296f79d-6caa-4e8a-bd8e-98f57ce8e13e@zammad.avicennaresearch.com>",
+        "message_id_md5": "8204271c90d03c8b53f84b5fe4ee2c8e",
+        "in_reply_to": "<97BC0911-D356-4B36-A0A1-5753A86DD0E6@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "Dear Eva, <br><br>Thanks a lot.<br>I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br>Thank you for your patience.<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">AmirMohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<ol start=\"1\" type=\"1\">\n<li><span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span></li>\n<li><span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span></li>\n<li><span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span></li>\n</ol>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78246/132042?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78246/132043?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-07T12:52:28.275Z"
+        },
+        "updated_by_id": 385,
+        "created_by_id": 385,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T12:52:23.732Z",
+        "updated_at": "2024-10-07T12:52:28.301Z",
+        "attachments": [
+            {
+                "id": 132042,
+                "store_file_id": 104227,
+                "filename": "image1.png",
+                "size": "42090",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.4232edf3-2c99-47f1-874c-b7413eaaf2bd@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132043,
+                "store_file_id": 104236,
+                "filename": "image2.png",
+                "size": "42928",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.3f65c5c2-51c8-492d-ab9b-00de7f17a3ef@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amirmohammad@avicennaresearch.com",
+        "updated_by": "amirmohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78253,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<EBBC010E-8CCB-4275-AE9A-43C4363AC0E6@maastrichtuniversity.nl>",
+        "message_id_md5": "eb166f0ef0f0a8a14bd918b54973c974",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much fort he quick action!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"NL\">Best regards,</span></p>\n<p><span lang=\"NL\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78253/132053?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:52<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Dear Eva,<br>\n<br> Thanks a lot.<br> I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br> Thank you for your patience.</p>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<ol start=\"1\" type=\"1\">\n<li>\n<span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span>\n</li>\n<li>\n<span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span>\n</li>\n<li>\n<span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span>\n</li>\n</ol>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78253/132054?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78253/132055?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-07T13:06:21.239Z",
+        "updated_at": "2024-10-07T13:06:21.239Z",
+        "attachments": [
+            {
+                "id": 132052,
+                "store_file_id": 104245,
+                "filename": "message.html",
+                "size": "18054",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132053,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB18CA.6A94D200",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132054,
+                "store_file_id": 104235,
+                "filename": "image002.png",
+                "size": "42091",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB18CA.6A94D200",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132055,
+                "store_file_id": 104246,
+                "filename": "image003.png",
+                "size": "42929",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB18CA.6A94D200",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78290,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": "\"Jordan, Suzan (PSYCHOLOGY)\" <suzan.jordan@maastrichtuniversity.nl>",
+        "subject": "Re: Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<D2675444-9010-45C8-8F48-CD4AA28C18A6@maastrichtuniversity.nl>",
+        "message_id_md5": "ab4824a8a0e7b6c4ad1e2643805d5d74",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I just received another clarification from this participant. </span></p>\n<p><span lang=\"EN-US\">It seems that when the participant misses one questionnaire, the app logs out, and then a notification for the next questionnaire is not triggered. After manually opening the app, the participant needs to log in again… thus it really seems like something is going wrong here, and that completion of questionnaires is hard if notifications are not triggered after missing just one questionnaire/the apps logs out.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you once again for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78290/132101?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:52<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Dear Eva,<br>\n<br> Thanks a lot.<br> I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br> Thank you for your patience.</p>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<ol start=\"1\" type=\"1\">\n<li>\n<span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span>\n</li>\n<li>\n<span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span>\n</li>\n<li>\n<span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span>\n</li>\n</ol>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78290/132102?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78290/132103?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T06:24:49.341Z",
+        "updated_at": "2024-10-08T06:24:49.341Z",
+        "attachments": [
+            {
+                "id": 132100,
+                "store_file_id": 104285,
+                "filename": "message.html",
+                "size": "18872",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132101,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB195B.7377A1E0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132102,
+                "store_file_id": 104235,
+                "filename": "image002.png",
+                "size": "42091",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB195B.7377A1E0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132103,
+                "store_file_id": 104246,
+                "filename": "image003.png",
+                "size": "42929",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB195B.7377A1E0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78292,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<20241008073907.25541.2c244ef6-3f87-4808-85b3-a72a06151ce5@zammad.avicennaresearch.com>",
+        "message_id_md5": "f37780a08f729f8e05b812f882a81836",
+        "in_reply_to": "<D2675444-9010-45C8-8F48-CD4AA28C18A6@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "Dear Eva, <br><br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>Thank you for the update. This information will be beneficial to our investigation.<br><br>Best regards,<br><span style=\"color:var(--text-normal);\">AmirMohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Tuesday, October 8, 2024 at 9:54:49 AM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I just received another clarification from this participant. </span></p>\n<p><span lang=\"EN-US\">It seems that when the participant misses one questionnaire, the app logs out, and then a notification for the next questionnaire is not triggered. After manually opening the app, the participant needs to log in again… thus it really seems like something is going wrong here, and that completion of questionnaires is hard if notifications are not triggered after missing just one questionnaire/the apps logs out.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you once again for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78292/132104?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:52<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Dear Eva,<br>\n<br> Thanks a lot.<br> I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br> Thank you for your patience.</p>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<ol start=\"1\" type=\"1\">\n<li>\n<span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span>\n</li>\n<li>\n<span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span>\n</li>\n<li>\n<span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span>\n</li>\n</ol>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78292/132105?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78292/132106?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T07:39:15.140Z"
+        },
+        "updated_by_id": 385,
+        "created_by_id": 385,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T07:39:07.153Z",
+        "updated_at": "2024-10-08T07:39:15.439Z",
+        "attachments": [
+            {
+                "id": 132104,
+                "store_file_id": 104286,
+                "filename": "image1.png",
+                "size": "42015",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.17f330d8-a0e0-4f85-9a9c-050526827433@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132105,
+                "store_file_id": 104287,
+                "filename": "image2.png",
+                "size": "42935",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.9f5c0174-511e-4de2-aa00-b836d28a4851@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132106,
+                "store_file_id": 104288,
+                "filename": "image3.png",
+                "size": "43618",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.6ec08641-ba69-41bd-b48f-735ac994552f@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amirmohammad@avicennaresearch.com",
+        "updated_by": "amirmohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78303,
+        "ticket_id": 25541,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Amin Ghaffari",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/3125\" data-mention-user-id=\"3125\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/3125\">Omid Dolatkia</a> please investigate this. Maybe it's due to latest iOS update... Just saying.",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 9412,
+        "created_by_id": 9412,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T08:16:26.088Z",
+        "updated_at": "2024-10-08T08:16:26.088Z",
+        "attachments": [],
+        "created_by": "amin.ghaffari@avicennaresearch.com",
+        "updated_by": "amin.ghaffari@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78340,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Alireza Javan <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<20241008133154.25541.3ad666fa-cbba-4ee5-91e3-e03c3a8bd0db@zammad.avicennaresearch.com>",
+        "message_id_md5": "a7d0b2d14a33424aaedfff5604a557f2",
+        "in_reply_to": "<D2675444-9010-45C8-8F48-CD4AA28C18A6@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<div>\n<div>\n<span style=\"background-color: initial; color: var(--text-normal);\">Dear Eva,</span><br>\n</div>\n<div><br></div>\n<div>The issue has been resolved. Please request the participant to log in again if they have been logged out. The problem should now be fixed.</div>\n<div>Thank you for reporting this.</div>\n<div><br></div>\n<div>Best regards,</div>\n<div>Alireza</div>\n</div>\n<br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Tuesday, October 8, 2024 at 9:54:49 AM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I just received another clarification from this participant. </span></p>\n<p><span lang=\"EN-US\">It seems that when the participant misses one questionnaire, the app logs out, and then a notification for the next questionnaire is not triggered. After manually opening the app, the participant needs to log in again… thus it really seems like something is going wrong here, and that completion of questionnaires is hard if notifications are not triggered after missing just one questionnaire/the apps logs out.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you once again for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78340/132194?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:52<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Dear Eva,<br>\n<br> Thanks a lot.<br> I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br> Thank you for your patience.</p>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<ol start=\"1\" type=\"1\">\n<li>\n<span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span>\n</li>\n<li>\n<span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span>\n</li>\n<li>\n<span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span>\n</li>\n</ol>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78340/132195?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78340/132196?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-08T13:31:59.317Z"
+        },
+        "updated_by_id": 313,
+        "created_by_id": 313,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T13:31:53.772Z",
+        "updated_at": "2024-10-08T13:31:59.398Z",
+        "attachments": [
+            {
+                "id": 132194,
+                "store_file_id": 67992,
+                "filename": "image1.png",
+                "size": "41045",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.387e590c-bb4e-4275-8457-d70d03e92490@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132195,
+                "store_file_id": 104227,
+                "filename": "image2.png",
+                "size": "42090",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.d5942507-896f-4226-909d-2b0b7b1f962b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132196,
+                "store_file_id": 104236,
+                "filename": "image3.png",
+                "size": "42928",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25541.a2d7991a-3af9-4d1b-a18f-4b153b47c30c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "alireza.javan@avicennaresearch.com",
+        "updated_by": "alireza.javan@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78343,
+        "ticket_id": 25541,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "Alireza Javan <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Notification issue - study 3519 - participant 90900",
+        "reply_to": null,
+        "message_id": "<40BE149F-63E0-4B70-BC4F-6F1804765771@maastrichtuniversity.nl>",
+        "message_id_md5": "d2d5ded0cd6fe2d9a05bb2e26decc29a",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"NL\">Dear Alireza,</span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much for all the quick help! We will communicate to the participant. If anything is still off, we will let you know.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25541/78343/132200?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>Alireza Javan &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 8 October 2024 at 15:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>The issue has been resolved. Please request the participant to log in again if they have been logged out. The problem should now be fixed.</p>\n</div>\n<div>\n<p>Thank you for reporting this.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Alireza</p>\n</div>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, October 8, 2024 at 9:54:49 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">I just received another clarification from this participant. </span></p>\n<p><span lang=\"EN-US\">It seems that when the participant misses one questionnaire, the app logs out, and then a notification for the next questionnaire is not triggered. After manually opening the app, the participant needs to log in again… thus it really seems like something is going wrong here, and that completion of questionnaires is hard if notifications are not triggered after missing just one questionnaire/the apps logs out.</span></p>\n<p><span lang=\"EN-US\">Thank you once again for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78343/132201?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:52<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>Dear Eva,<br>\n<br> Thanks a lot.<br> I'm communicating this with our technical team as we speak. we'll look into your study and get back to you.<br> Thank you for your patience.</p>\n<div>\n<div>\n<p>\n<br> Best regards,<br> AmirMohammad</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 4:15:33 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"NL\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Thank you fort he quick reply! Here are my replies: </span></p>\n<ol start=\"1\" type=\"1\">\n<li>\n<span lang=\"EN-US\">Yes what you are saying is correct. Participant receives limited notifications, and if a rare notification is received, the participant needs to log in again upon opening the Avicenna app.</span><span lang=\"EN-US\">\n</span>\n</li>\n<li>\n<span lang=\"EN-US\">This participant uses an iPhone 16, thus an IOS device.</span><span lang=\"EN-US\">\n</span>\n</li>\n<li>\n<span lang=\"EN-US\">I have just added you as a ‘permission manager’.</span><span lang=\"EN-US\">\n</span>\n</li>\n</ol>\n<p><span lang=\"EN-US\">Thank you once again for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78343/132202?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Monday, 7 October 2024 at 14:32<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Notification issue - study 3519 - participant 90900</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>1. To ensure I understand your issue correctly: The participant is not receiving some notifications on their mobile app. Additionally, when they do receive notifications and attempt to open the app, they are logged out and need to log in again. Is this correct?</p>\n</div>\n<div>\n<p>2. Could you please let me know whether the participant is using an Android or iOS device?</p>\n</div>\n<div>\n<p>3. Please add me as a researcher to your account and grant me the \"Permission Manager\" role so I can take a closer look at your study configurations. Thank you. My researcher account is \"<a href=\"mailto:amirmohammad@avicennaresearch.com\" title=\"mailto:amirmohammad@avicennaresearch.com\">amirmohammad@avicennaresearch.com</a>.\"</p>\n</div>\n<div>\n<p>Best regards,</p>\n</div>\n<div>\n<p>Amir Mohammad</p>\n</div>\n<p> </p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25541/3227527c91595854</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Monday, October 7, 2024 at 9:15:45 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any ‘background’ issues for participant 90900 in study 3519?<br>\n<br> Participant is not always receiving notifications, if notification is received participant needs to log in again, and hereby then also misses a lot of notifications. </span></p>\n<p><span lang=\"EN-US\">We have been in contact with this participant. Participant has all settings correct/notifications on, leaves app running in the background, has deleted and re-installed the app, the app is up to date, phone has been reset, … so we are out of options to suggest to the participant.</span></p>\n<p><span lang=\"EN-US\">Could you please check if there are any issues for this participant? </span></p>\n<p><span lang=\"EN-US\">Thank you for taking up this issue with urgency!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25541/78343/132203?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T13:36:05.354Z",
+        "updated_at": "2024-10-08T13:36:05.354Z",
+        "attachments": [
+            {
+                "id": 132199,
+                "store_file_id": 104352,
+                "filename": "message.html",
+                "size": "23250",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 132200,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB1997.B0B80E50",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132201,
+                "store_file_id": 67996,
+                "filename": "image002.png",
+                "size": "41046",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB1997.B0B80E50",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132202,
+                "store_file_id": 104235,
+                "filename": "image003.png",
+                "size": "42091",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB1997.B0B80E50",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132203,
+                "store_file_id": 104246,
+                "filename": "image004.png",
+                "size": "42929",
+                "preferences": {
+                    "Content-Type": "image/png; name=image004.png",
+                    "Content-Description": "image004.png",
+                    "Content-ID": "image004.png@01DB1997.B0B80E50",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "id": 79501,
+        "ticket_id": 25975,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Luisa Fassi <lf473@medschl.cam.ac.uk>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Luisa Fassi)",
+        "reply_to": null,
+        "message_id": "<CWXP265MB3877A92E5BB8484BB2AC1BE1E5402@CWXP265MB3877.GBRP265.PROD.OUTLOOK.COM>",
+        "message_id_md5": "d2d63b7a4865c8c832d97e6bbe65b8c4",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-GB\"> </span></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 8111,
+        "created_by_id": 8111,
+        "origin_by_id": null,
+        "created_at": "2024-10-18T10:30:11.000Z",
+        "updated_at": "2024-10-18T10:30:11.000Z",
+        "attachments": [
+            {
+                "id": 134220,
+                "store_file_id": 70797,
+                "filename": "message.html",
+                "size": "1390",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 134221,
+                "store_file_id": 105764,
+                "filename": "file",
+                "size": "1327",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "lf473@medschl.cam.ac.uk",
+        "updated_by": "lf473@medschl.cam.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 79502,
+        "ticket_id": 25975,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">955</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-02-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - More Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-18T10:30:15.067Z",
+        "updated_at": "2024-10-18T10:30:15.067Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

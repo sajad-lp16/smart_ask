@@ -1,0 +1,88 @@
+[
+    {
+        "id": 79786,
+        "ticket_id": 26067,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Marciano, Laura\" <lmarciano@hsph.harvard.edu>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Luisa Fassi)",
+        "reply_to": null,
+        "message_id": "<DM6PR07MB6555D8F774CB0290B40E37B48F432@DM6PR07MB6555.namprd07.prod.outlook.com>",
+        "message_id_md5": "ab7d9e9f656524c0a66ff6d6582faabc",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": null
+        },
+        "updated_by_id": 574,
+        "created_by_id": 574,
+        "origin_by_id": null,
+        "created_at": "2024-10-21T13:37:07.603Z",
+        "updated_at": "2024-10-21T13:37:18.153Z",
+        "attachments": [
+            {
+                "id": 134747,
+                "store_file_id": 70858,
+                "filename": "message.html",
+                "size": "1149",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 134748,
+                "store_file_id": 106074,
+                "filename": "file",
+                "size": "1338",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "lmarciano@hsph.harvard.edu",
+        "updated_by": "lmarciano@hsph.harvard.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 79787,
+        "ticket_id": 26067,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">224</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-01-25</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-06-28</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">216</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">955</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-02-12</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - More Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">714</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-02-11</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-03-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">411</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">273</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2017-03-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2018-06-01</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">143</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">4</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">27</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-06-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-06-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Lost</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">5</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">191</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2020-12-02</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2021-06-28</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Won</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">215</td>\n    </tr>\n  </tbody>\n</table><br><br><b>Contracts</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">End Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">P/W Usage (%)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">216</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">0.000000</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">1</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">411</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2024-03-15</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2025-03-15</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">1147.104444</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">2</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">143</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">79.989259</td>\n    </tr>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">3</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">215</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2022-03-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-03-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">191.171429</td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-21T13:37:15.831Z",
+        "updated_at": "2024-10-21T13:37:15.831Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

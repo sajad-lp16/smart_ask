@@ -1,0 +1,10 @@
+{
+    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[Google Meet] (Meeting Notifications, Google LLC) – [Date & Time not specified]:**  \n- Uploaded meeting records to Drive.  \n- Included chat transcript and recording.  \n- *Key quote:* \"The meeting records from your meeting have been uploaded to Drive.\"  \n\n- **[Amin Tavassolian] – [Date & Time not specified]:**  \n- Asked Sara Farnya if she could close the task.  \n- *Key quote:* \"Sara Farnya I believe you can close this. Right?\"  \n\n- **[Sara Farnya] – [Date & Time not specified]:**  \n- Responded to Amin Tavassolian, stating she would close the task after sending an email.  \n- *Key quote:* \"Amin Tavassolian I will close it after sending the email to them. Thanks.\"  \n\n#### **2. Timeline**  \n- **[Date not specified]:** Meeting records uploaded to Drive.  \n- **[Date not specified]:** Discussion about closing the task.  \n\n#### **3. Key Events/Issues**  \n- **Task Closure:** Discussion on whether the task can be closed.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Send email and close the task (assigned to Sara Farnya)  \n\n#### **5. Technical Details (if applicable)**  \n- **Meeting Records:** Uploaded to Drive.  \n\n#### **6. Next Steps**  \n- **Action 1:** Sara Farnya to send an email and close the task.",
+    "emails": [
+        "meetings-noreply@google.com",
+        "Amin Tavassolian",
+        "Sara Farnya"
+    ],
+    "person_ids": [],
+    "deal_ids": []
+}

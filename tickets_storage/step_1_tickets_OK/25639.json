@@ -1,0 +1,38 @@
+[
+    {
+        "id": 78483,
+        "ticket_id": 25639,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Sara Farnya <sales@avicennaresearch.com>",
+        "to": "\"Derya Özer\" <derya.oezer@students.unibe.ch>",
+        "cc": "",
+        "subject": "Welcome to Avicenna",
+        "reply_to": null,
+        "message_id": "<20241009010757.25639.319b388b-1478-4c74-816a-2ad4cdf4d76c@zammad.avicennaresearch.com>",
+        "message_id_md5": "7cab5bc95a3176a6eb500126b32ca039",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<p>Dear Derya,</p><p><br></p><p>I hope you are doing well. </p><p><br></p><p>My name is Sara from Avicenna. We've received your request for a meeting. Thank you for your interest in our product and for sharing information about your project with us. <span style=\"color:var(--text-normal);\">We'd be happy to help you with your study.</span></p><p><br></p><p>We built Avicenna to allow researchers and clinicians to automate their research work including field deployment, data collection, and monitoring. We’ve created a <a href=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" rel=\"nofollow noreferrer noopener\" title=\"https://docs.google.com/presentation/d/1rybAJBtBibyXltSYMVPKwuI31pGEOKwBDi2kqlHEdKQ/edit?usp=sharing\" target=\"_blank\">slide deck</a> to highlight some of the features of our product.</p><p><br></p><p>Based on what you described, our tool can be a great fit for your project. You can certainly implement your intervention study in Avicenna and prompt as many surveys as needed throughout the day.<span style=\"color:var(--text-normal);\"><br></span></p><p><span style=\"color:var(--text-normal);\"><br></span></p><p><span style=\"background-color: initial; color: var(--text-normal);\">Our trial version is absolutely free of charge, </span>and you are more than welcome to try Avicenna for as long as you want<span style=\"background-color: initial; color: var(--text-normal);\">. However,</span> we offer the trial version for test purposes only. Indeed we want to give a chance to researchers to ensure our tool meets their needs. We don't have any restrictions with regard to the features in the trial version, except the fact that we periodically remove the data to enhance our service for licensed studies. <span style=\"color:var(--text-normal);\">Therefore, a license is required if you wish to use Avicenna in a field deployment with actual participants.</span></p><p><br></p><p>Generally, our pricing depends on three factors:</p><ol>\n<li>The <a href=\"https://learn.avicennaresearch.com/reference/data-sources/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/data-sources/\" target=\"_blank\">type of data</a> you plan to collect (only surveys and experience sampling, or sensor data as well)</li>\n<li>The <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation-period/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation-period/\" target=\"_blank\">participation period</a> (how long each participant will be enrolled in your study)</li>\n<li>The maximum number of participants you expect to enroll</li>\n</ol><p><span style=\"background-color: initial; color: var(--text-normal);\">For example, t</span>he total licensing cost to collect survey responses data from 70 participants for the duration of 3 weeks will be CAD 630.00 (~ 420.37€).<span style=\"background-color: initial; color: var(--text-normal);\"> </span><span style=\"background-color: initial; color: var(--text-normal);\">We genuinely care about supporting researchers, so if budget is a concern, we would be happy</span><span style=\"background-color: initial; color: var(--text-normal);\"> to discuss it further.</span></p><p><br></p><p>If you have any questions, please feel free to contact us, or the <a href=\"mailto:support@avicennaresearch.com\">support team</a>. You can also visit our <a href=\"https://learn.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/\" target=\"_blank\">support knowledge base</a> which provides helpful hints for the entire platform as well as our <a href=\"https://forum.avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" title=\"https://forum.avicennaresearch.com/\" target=\"_blank\">forum page</a> where other researchers share their questions and thoughts.</p><p><br></p><p><span style=\"color:var(--text-normal);\">If you’d like</span>, we can arrange a brief meeting to demo our product and discuss your project. Our calendar is shared <a href=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" rel=\"nofollow noreferrer noopener\" title=\"https://calendar.app.google/k3qhxemdRRqxz5bT6\" target=\"_blank\">here</a>,<span style=\"color:var(--text-normal);\"> </span><span style=\"color:var(--text-normal);\">and we have a flexible schedule from October 23rd onward.</span><br></p><p><br></p><p>Best,</p><p></p><p>Sara</p><div data-signature=\"true\" data-signature-id=\"4\">--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: sales@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "email_address_id": 4,
+            "delivery_retry": 1,
+            "delivery_channel_id": 8,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T01:08:02.372Z"
+        },
+        "updated_by_id": 478,
+        "created_by_id": 478,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T01:07:57.330Z",
+        "updated_at": "2024-10-09T01:08:02.381Z",
+        "attachments": [],
+        "created_by": "sara@avicennaresearch.com",
+        "updated_by": "sara@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

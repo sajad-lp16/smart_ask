@@ -1,0 +1,46 @@
+[
+    {
+        "id": 76626,
+        "ticket_id": 25038,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Ma, Renkai\" <renkai@psu.edu>",
+        "to": "Avicenna Sales <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Renkai Ma)",
+        "reply_to": null,
+        "message_id": "<CH2PR02MB6711A4F3C44FC30E11A3120ECC622@CH2PR02MB6711.namprd02.prod.outlook.com>",
+        "message_id_md5": "2ddd3ba7c8f552faabf435796db0703f",
+        "in_reply_to": null,
+        "content_type": "text/plain",
+        "body": "no visible content",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9929,
+        "created_by_id": 9929,
+        "origin_by_id": null,
+        "created_at": "2024-09-18T21:16:56.983Z",
+        "updated_at": "2024-09-18T21:16:56.983Z",
+        "attachments": [
+            {
+                "id": 129703,
+                "store_file_id": 102308,
+                "filename": "file",
+                "size": "1290",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "renkai@psu.edu",
+        "updated_by": "renkai@psu.edu",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

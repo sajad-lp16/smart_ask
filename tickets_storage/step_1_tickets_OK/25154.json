@@ -1,0 +1,451 @@
+[
+    {
+        "id": 77005,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": "Suzan Jordan <ssljordan@outlook.com>",
+        "subject": "Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<19B071E9-AC63-46B8-9C16-7ED9480A098D@maastrichtuniversity.nl>",
+        "message_id_md5": "32380bef5ce77444d494a9bebd07abb4",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p>Dear Mohammad,<span lang=\"NL\"></span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77005/130257?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n<p> </p>\n<p><span lang=\"NL\"> </span></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 15
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-09-24T06:46:01.233Z",
+        "updated_at": "2024-09-24T06:46:15.645Z",
+        "attachments": [
+            {
+                "id": 130256,
+                "store_file_id": 102775,
+                "filename": "message.html",
+                "size": "6897",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130257,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB0E5E.133AD8E0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77006,
+        "ticket_id": 25154,
+        "type_id": 10,
+        "sender_id": 2,
+        "from": "-",
+        "to": null,
+        "cc": null,
+        "subject": "Note added by Integrations App",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "'<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"Amin Ghaffari\">Amin Ghaffari</a>' The client for this ticket has more than 1 Study/ContractID/SPOC  as following, please check and correct Client field if necessary: <br><div><ol>\n<li>study_id: 3519 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3891 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n<li>study_id: 3345 - contract_id: 250 - spoc_email: amirmohammad@avicennaresearch.com </li>\n</ol></div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 1,
+        "created_at": "2024-09-24T06:46:05.474Z",
+        "updated_at": "2024-09-24T06:46:05.474Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Customer",
+        "origin_by": "-",
+        "time_unit": null
+    },
+    {
+        "id": 77022,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<20240924094301.25154.fdb416f5-4173-48b4-aa76-003991bc086f@zammad.avicennaresearch.com>",
+        "message_id_md5": "c4de760d7ceb79d615889cbc61d8d654",
+        "in_reply_to": "<19B071E9-AC63-46B8-9C16-7ED9480A098D@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "<div>Dear Eva,</div><div><br></div><div>This is Amir from the Avicenna support team.</div><div><br></div><div>I wanted to let you know that I have received your email and am currently looking into your study to identify the issue.</div><div><br></div><div>I will get back to you as soon as I have found something.</div><div><br></div><div>Thank you for your patience.</div><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">AmirMohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Tuesday, September 24, 2024 at 10:16:01 AM, Eva Vanbrabant wrote:<br><br><div>\n<p>Dear Mohammad,<span lang=\"NL\"></span></p>\n<p><span lang=\"NL\"> </span></p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77022/130278?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n<p> </p>\n<p><span lang=\"NL\"> </span></p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-24T09:43:07.492Z"
+        },
+        "updated_by_id": 385,
+        "created_by_id": 385,
+        "origin_by_id": null,
+        "created_at": "2024-09-24T09:43:01.170Z",
+        "updated_at": "2024-09-24T09:43:07.514Z",
+        "attachments": [
+            {
+                "id": 130278,
+                "store_file_id": 102794,
+                "filename": "image1.png",
+                "size": "42003",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25154.3b665bf0-21ca-4c02-87b5-b751cfd95089@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amirmohammad@avicennaresearch.com",
+        "updated_by": "amirmohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77024,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": "Suzan Jordan <ssljordan@outlook.com>",
+        "subject": "Re: Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<A09FAF92-659B-498B-BB10-9B85C340BAE4@maastrichtuniversity.nl>",
+        "message_id_md5": "39103c501ea216e9ee809c8116c59d34",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you very much!</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77024/130283?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 24 September 2024 at 11:43<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Subject deleted from study - still receiving notifications</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Amir from the Avicenna support team.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to let you know that I have received your email and am currently looking into your study to identify the issue.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I will get back to you as soon as I have found something.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for your patience.</p>\n</div>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, September 24, 2024 at 10:16:01 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p>Dear Mohammad,</p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25154/77024/130284?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-09-24T09:53:52.180Z",
+        "updated_at": "2024-09-24T09:53:52.180Z",
+        "attachments": [
+            {
+                "id": 130282,
+                "store_file_id": 102798,
+                "filename": "message.html",
+                "size": "12893",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130283,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB0E78.37E2DAC0",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130284,
+                "store_file_id": 102799,
+                "filename": "image002.png",
+                "size": "42004",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB0E78.37E2DAC0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77158,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": "\"Jordan, Suzan (PSYCHOLOGY)\" <suzan.jordan@maastrichtuniversity.nl>",
+        "subject": "Re: Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<B81E2F10-9443-47DF-B1CE-6419E9FB6AE6@maastrichtuniversity.nl>",
+        "message_id_md5": "5570a58cbf56fa71dfe6a9253edec165",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Any further updates about this issue? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I have not heard from the participant anymore, but I did tell him to ignore the notifications.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77158/130461?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 24 September 2024 at 11:43<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Subject deleted from study - still receiving notifications</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Amir from the Avicenna support team.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to let you know that I have received your email and am currently looking into your study to identify the issue.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I will get back to you as soon as I have found something.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for your patience.</p>\n</div>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, September 24, 2024 at 10:16:01 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p>Dear Mohammad,</p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25154/77158/130462?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-09-25T11:33:13.763Z",
+        "updated_at": "2024-09-25T11:33:13.763Z",
+        "attachments": [
+            {
+                "id": 130460,
+                "store_file_id": 102962,
+                "filename": "message.html",
+                "size": "13516",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130461,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB0F4F.6BF25C00",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130462,
+                "store_file_id": 102799,
+                "filename": "image002.png",
+                "size": "42004",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB0F4F.6BF25C00",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77171,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "to": "eva.vanbrabant@maastrichtuniversity.nl",
+        "cc": "",
+        "subject": "Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<20240925122036.25154.dd8060a7-a4c1-43df-8cfd-b383d48be526@zammad.avicennaresearch.com>",
+        "message_id_md5": "76f6b8113dcf320bd1771b70a12c6adb",
+        "in_reply_to": "<B81E2F10-9443-47DF-B1CE-6419E9FB6AE6@maastrichtuniversity.nl>",
+        "content_type": "text/html",
+        "body": "<div>Dear Eva,</div><div><br></div><div>Thank you for your patience while I investigated the issue.</div><div><br></div><div>It appears that your participant hasn't reloaded their studies on their mobile app, as there are no such events in your study logs. This likely means they haven't opened their app recently while connected to the internet since the \"Study Reload\" happens automatically after a participant is deleted from the study.</div><div><br></div><div>Could you please instruct them to reload their studies in the app and check if the issue is resolved? Let me know if they encounter the issue again.</div><div><br></div><div>Regarding your concern:</div><div>&gt; \"As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants' participation.\"</div><div><br></div><div>You can view the history of your actions on the \"Audit Trails\" page in your researcher dashboard. I could see all the events for this user there, including a log for deleting the participant, but no study reload.</div><div><br></div><div>You can learn more about this feature on our Learn website:</div><div><a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/</a></div><div><br></div><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">AmirMohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, September 25, 2024 at 3:03:13 PM, Eva Vanbrabant wrote:<br><br><div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Any further updates about this issue? </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">I have not heard from the participant anymore, but I did tell him to ignore the notifications.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77171/130473?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 24 September 2024 at 11:43<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Subject deleted from study - still receiving notifications</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Amir from the Avicenna support team.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to let you know that I have received your email and am currently looking into your study to identify the issue.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I will get back to you as soon as I have found something.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for your patience.</p>\n</div>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, September 24, 2024 at 10:16:01 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p>Dear Mohammad,</p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25154/77171/130474?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-25T12:20:39.293Z"
+        },
+        "updated_by_id": 385,
+        "created_by_id": 385,
+        "origin_by_id": null,
+        "created_at": "2024-09-25T12:20:36.222Z",
+        "updated_at": "2024-09-25T12:20:39.308Z",
+        "attachments": [
+            {
+                "id": 130473,
+                "store_file_id": 102971,
+                "filename": "image1.png",
+                "size": "41942",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25154.a45e8ed7-95f7-4993-806f-60aa964e5b2d@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130474,
+                "store_file_id": 102972,
+                "filename": "image2.png",
+                "size": "42922",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25154.243c0bed-362e-4a4b-bfca-02921e28cd76@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "amirmohammad@avicennaresearch.com",
+        "updated_by": "amirmohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77190,
+        "ticket_id": 25154,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Vanbrabant, Eva (PSYCHOLOGY)\" <eva.vanbrabant@maastrichtuniversity.nl>",
+        "to": "AmirMohammad Askari <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: Subject deleted from study - still receiving notifications",
+        "reply_to": null,
+        "message_id": "<5503A650-2626-4AFC-A66C-170E3492D349@maastrichtuniversity.nl>",
+        "message_id_md5": "9ddda9c74de54a2afdcf5ea3f25e20aa",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Thank you fort he reply! I will get in contact with the participant to check. </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">About the “AuditTrails” study log, I indeed know we can check there but wasn’t sure if maybe something didn’t go through with my ‘deletion’ of the participant.</span></p>\n<p><span lang=\"EN-US\"> </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p>\n<img style=\"max-width:100%;width:3.2916in;max-height:.875in;\" src=\"/api/v1/ticket_attachment/25154/77190/130512?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b><span style=\"color:#eb5a18;\"></span></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i><span lang=\"EN-US\"></span></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\"> </span><span lang=\"NL\"></span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a><span lang=\"NL\" style=\"color:#808285;\"></span></p>\n</div>\n</div>\n<p> </p>\n<div>\n<span class=\"js-signatureMarker\"></span><p><b>From: </b><span>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Wednesday, 25 September 2024 at 14:20<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Subject deleted from study - still receiving notifications</span></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for your patience while I investigated the issue.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>It appears that your participant hasn't reloaded their studies on their mobile app, as there are no such events in your study logs. This likely means they haven't opened their app recently while connected to the internet since the \"Study Reload\" happens automatically after a participant is deleted from the study.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Could you please instruct them to reload their studies in the app and check if the issue is resolved? Let me know if they encounter the issue again.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Regarding your concern:</p>\n</div>\n<div>\n<p>&gt; \"As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants' participation.\"</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can view the history of your actions on the \"Audit Trails\" page in your researcher dashboard. I could see all the events for this user there, including a log for deleting the participant, but no study reload.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>You can learn more about this feature on our Learn website:</p>\n</div>\n<div>\n<p><a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://learn.avicennaresearch.com/reference/study-setup-and-deployment/audit-trail/</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<div>\n<p><br> Best regards,<br> AmirMohammad<br>\n<br>\n</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Wednesday, September 25, 2024 at 3:03:13 PM, Eva Vanbrabant wrote:</p>\n<div>\n<p><span lang=\"EN-US\">Dear Amir,</span></p>\n<p><span lang=\"EN-US\">Any further updates about this issue? </span>\n</p>\n<p><span lang=\"EN-US\">I have not heard from the participant anymore, but I did tell him to ignore the notifications.</span></p>\n<p><span lang=\"EN-US\">Thank you for the help!</span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<p> </p>\n<div>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25154/77190/130513?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n</div>\n<p> </p>\n<div>\n<p><b>From: </b>AmirMohammad Askari &lt;support@avicennaresearch.com&gt;<br>\n<b>Organisation: </b>Avicennaresearch<br>\n<b>Date: </b>Tuesday, 24 September 2024 at 11:43<br>\n<b>To: </b>\"Vanbrabant, Eva (PSYCHOLOGY)\" &lt;eva.vanbrabant@maastrichtuniversity.nl&gt;<br>\n<b>Subject: </b>RE: Subject deleted from study - still receiving notifications</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Dear Eva,</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>This is Amir from the Avicenna support team.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I wanted to let you know that I have received your email and am currently looking into your study to identify the issue.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>I will get back to you as soon as I have found something.</p>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<p>Thank you for your patience.</p>\n</div>\n<div>\n<div>\n<p>\n<br> Best regards,<br> AmirMohammad</p>\n</div>\n<div>\n<p>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25154/4007bea4cb06b868</a></p>\n</div>\n<div>\n<p> </p>\n</div>\n<p>--<br> Avicenna Research (formerly Ethica Data)</p>\n<div>\n<div>\n<p>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</p>\n</div>\n</div>\n<div>\n<p>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</p>\n</div>\n</div>\n<div>\n<p> </p>\n</div>\n<div>\n<blockquote>\n<p>On Tuesday, September 24, 2024 at 10:16:01 AM, Eva Vanbrabant wrote:</p>\n<div>\n<p>Dear Mohammad,</p>\n<p><span lang=\"EN-US\">Yesterday, I enrolled a participant in the study and later ‘deleted’ them in agreement as they will start their measurement period at a later time point. <br> However, this morning the participant emailed me that they received a notification/questionnaire this morning which should not have been the case. </span></p>\n<p><span lang=\"EN-US\">Could you please check why this participant is still receiving notifications? And possibly further delete/drop this participant from our study? </span></p>\n<p><span lang=\"EN-US\">As for the moment I cannot see/edit a ‘history of my actions’ in Avicenna, thus cannot check or change anything for the participants participation.</span></p>\n<p><span lang=\"EN-US\">Study ID: 3345</span></p>\n<p><span lang=\"EN-US\">Participant ID: 103817</span></p>\n<p><span lang=\"EN-US\">Thank you very much for prioritizing this issue as for the participant it is quite frustrating, they are receiving notifications when it was agreed that start of participation would be delayed due to personal circumstances. </span></p>\n<p><span lang=\"EN-US\">Best regards,</span></p>\n<p><span lang=\"EN-US\">Eva Vanbrabant</span></p>\n<div>\n<p><img border=\"0\" style=\"max-width:100%;width:5.4687in;max-height:1.4583in;\" src=\"/api/v1/ticket_attachment/25154/77190/130514?view=inline\" alt=\"A close-up of a logo\n\nDescription automatically generated with medium confidence\"></p>\n<p><b><span style=\"color:#eb5a18;\">Eva Vanbrabant</span></b></p>\n<p><i><span style=\"color:#616363;\">PhD Student</span></i></p>\n<p><i><span style=\"color:#616363;\">Faculty of Psychology and Neuroscience | Clinical Psychological Science</span></i></p>\n<p><u><span style=\"color:#954f72;\">eva.vanbrabant</span></u><a href=\"mailto:firstname.lastname@maastrichtuniversity.nl\"><span style=\"color:#954f72;\">@maastrichtuniversity.nl</span></a></p>\n<p><a href=\"https://www.maastrichtuniversity.nl/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span style=\"color:#954f72;\">www.maastrichtuniversity.nl</span></a></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">Universiteitssingel 40, 6229 ER Maastricht | Room 3.753</span></p>\n<p><span lang=\"NL\" style=\"color:#616363;\">P.O. Box 616, 6200 MD Maastricht, The Netherlands</span></p>\n<p><span lang=\"NL\" style=\"color:#808285;\">Disclaimer </span><a href=\"https://www.maastrichtuniversity.nl/disclaimer-emails\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"><span lang=\"NL\" style=\"color:#0563c1;\">https://www.maastrichtuniversity.nl/disclaimer-emails</span></a></p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p> </p>\n</div>\n<p> </p>\n</blockquote>\n</div>\n<div>\n<p> </p>\n</div>\n<p><br><br></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 6250,
+        "created_by_id": 6250,
+        "origin_by_id": null,
+        "created_at": "2024-09-25T13:46:25.936Z",
+        "updated_at": "2024-09-25T13:46:25.936Z",
+        "attachments": [
+            {
+                "id": 130511,
+                "store_file_id": 102998,
+                "filename": "message.html",
+                "size": "19815",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "utf-8"
+                }
+            },
+            {
+                "id": 130512,
+                "store_file_id": 56301,
+                "filename": "image001.jpg",
+                "size": "34149",
+                "preferences": {
+                    "Content-Type": "image/jpeg; name=image001.jpg",
+                    "Content-Description": "image001.jpg",
+                    "Content-ID": "image001.jpg@01DB0F62.0562E320",
+                    "Mime-Type": "image/jpeg",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130513,
+                "store_file_id": 102999,
+                "filename": "image002.png",
+                "size": "41943",
+                "preferences": {
+                    "Content-Type": "image/png; name=image002.png",
+                    "Content-Description": "image002.png",
+                    "Content-ID": "image002.png@01DB0F62.0562E320",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130514,
+                "store_file_id": 103000,
+                "filename": "image003.png",
+                "size": "42923",
+                "preferences": {
+                    "Content-Type": "image/png; name=image003.png",
+                    "Content-Description": "image003.png",
+                    "Content-ID": "image003.png@01DB0F62.0562E320",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "updated_by": "eva.vanbrabant@maastrichtuniversity.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    }
+]

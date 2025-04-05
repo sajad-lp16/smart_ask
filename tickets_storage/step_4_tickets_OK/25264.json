@@ -1,0 +1,10 @@
+{
+    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[SAP CloudSupport Alerts] (Support Team, SAP SE) – [Date not specified]:**  \n- Key contributions: Notification about the rescheduling of planned maintenance for SAP Business Network.  \n- Important details: Maintenance rescheduled from September 28, 2024, to October 6, 2024 (12:00 AM - 4:00 AM UTC). Affected products include SAP Business Network Discovery, Procurement, Suppliers, and Supply Chain.  \n- *Key quote:* \"The maintenance originally scheduled to occur on September 28, 2024 impacting the product(s) listed below has been rescheduled.\"  \n\n- **[Amin Ghaffari] – [Date not specified]:**  \n- Key contributions: Forwarded the SAP notice to Mohammad Hashemian, Bardia Salimi, and Sina Ardalan for review.  \n- High-priority and medium-priority details: Request to close the notice if it's not important.  \n- *Key quote:* \"SAP notice. Please close it if it's nothing important. FYI Bardia Salimi, Sina Ardalan.\"  \n\n#### **2. Timeline**  \n- **[October 6, 2024]:** Rescheduled maintenance for SAP Business Network (12:00 AM - 4:00 AM UTC).  \n\n#### **3. Key Events/Issues**  \n- **Maintenance Rescheduling:** Originally planned for September 28, 2024, now moved to October 6, 2024.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Review SAP notice (assigned to Mohammad Hashemian, Bardia Salimi, Sina Ardalan).  \n\n#### **5. Technical Details (if applicable)**  \n- **Account/Login Info:** Not applicable.  \n- **Study ID/Project Code:** Not applicable.  \n\n#### **6. Next Steps**  \n- **Action 1:** Review SAP notice and confirm if any action is needed (responsible: Mohammad Hashemian, Bardia Salimi, Sina Ardalan).",
+    "emails": [
+        "sapcloudsupport@alerts.ondemand.com",
+        "Amin Ghaffari",
+        "Mohammad Hashemian",
+        "Bardia Salimi",
+        "Sina Ardalan"
+    ]
+}

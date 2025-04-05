@@ -1,0 +1,87 @@
+[
+    {
+        "id": 76214,
+        "ticket_id": 24883,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "\"Jackle, Annette E\" <aejack@essex.ac.uk>",
+        "to": "'Avicenna Sales' <sales@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Accepted: Meeting with Avicenna (Amin Tavassolian) (Magda Borkowska)",
+        "reply_to": null,
+        "message_id": "<PAXPR06MB850810CCF1BF6FD2DF08F92099602@PAXPR06MB8508.eurprd06.prod.outlook.com>",
+        "message_id_md5": "e165a94ef5d94677f8ea0f7263e5ee3e",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>\n<p> </p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 9559,
+        "created_by_id": 9559,
+        "origin_by_id": null,
+        "created_at": "2024-09-16T13:24:38.653Z",
+        "updated_at": "2024-09-16T13:24:38.653Z",
+        "attachments": [
+            {
+                "id": 129093,
+                "store_file_id": 101808,
+                "filename": "message.html",
+                "size": "1107",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 129094,
+                "store_file_id": 101809,
+                "filename": "file",
+                "size": "1334",
+                "preferences": {
+                    "Content-Type": "text/calendar; charset=utf-8; method=REPLY",
+                    "Mime-Type": "text/calendar",
+                    "Charset": "UTF-8"
+                }
+            }
+        ],
+        "created_by": "aejack@essex.ac.uk",
+        "updated_by": "aejack@essex.ac.uk",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 76215,
+        "ticket_id": 24883,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": null,
+        "cc": null,
+        "subject": "Call note",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "From Bot:<br><br><b>Deals</b>:<br><br><table border=\"1\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\"></th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">ID</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Start Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Decision Made Date</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Status</th>\n      <th style=\"padding-left: 10px; padding-right: 10px;\">Contract ID</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"padding: 10px; padding-right: 10px;\">\n      <th style=\"padding-left: 10px; padding-right: 10px;\">0</th>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">829</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">2023-07-07</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\">Negotiation - More Likely</td>\n      <td style=\"padding-left: 10px; padding-right: 10px;\"></td>\n    </tr>\n  </tbody>\n</table>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-16T13:24:46.095Z",
+        "updated_at": "2024-09-16T13:24:46.095Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]

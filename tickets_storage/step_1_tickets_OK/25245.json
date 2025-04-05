@@ -1,0 +1,1424 @@
+[
+    {
+        "id": 77258,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Nora de Bode <debode@essb.eur.nl>",
+        "to": "Hamed Aghabalazadeh <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<PAVPR02MB950015966820E418778B2C68906A2@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "message_id_md5": "f8a513c33718b3e30c47397834045d96",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Dear sir, madam,</div><div> </div><div>I hope this email finds you well.</div><div> </div><div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div><div> </div><div>Thank you!</div><div> </div><div>Best wishes,</div><div>Nora de Bode</div><div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/77258/130626?view=inline\"> <img style=\"max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/77258/130627?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false,
+            "signature_detection": 8
+        },
+        "updated_by_id": 7284,
+        "created_by_id": 7284,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T06:59:23.687Z",
+        "updated_at": "2024-09-26T06:59:36.690Z",
+        "attachments": [
+            {
+                "id": 130625,
+                "store_file_id": 103103,
+                "filename": "message.html",
+                "size": "4659",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "iso-8859-1"
+                }
+            },
+            {
+                "id": 130626,
+                "store_file_id": 61099,
+                "filename": "Outlook-A picture .png",
+                "size": "652297",
+                "preferences": {
+                    "Content-Type": "image/png; name=\"Outlook-A picture .png\"",
+                    "Content-Description": "Outlook-A picture .png",
+                    "Content-ID": "2744a00d-f8f9-45cc-be0f-3a06b6fa4602",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true,
+                    "content_inline": true
+                }
+            },
+            {
+                "id": 130627,
+                "store_file_id": 84034,
+                "filename": "Outlook-0tkfrefu.png",
+                "size": "24207",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-0tkfrefu.png",
+                    "Content-Description": "Outlook-0tkfrefu.png",
+                    "Content-ID": "99e70ddf-0fcc-4bd4-8dba-d8db550dfdf0",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "debode@essb.eur.nl",
+        "updated_by": "debode@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77259,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 2,
+        "from": "-",
+        "to": null,
+        "cc": null,
+        "subject": "Note added by Integrations App",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "'<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"Amin Ghaffari\">Amin Ghaffari</a>' The client for this ticket has more than 1 Study/ContractID/SPOC  as following, please check and correct Client field if necessary: <br><div><ol>\n<li>study_id: 3880 - contract_id: 427 - spoc_email: None </li>\n<li>study_id: 3534 - contract_id: 260 - spoc_email: mohammadreza.abdolian@avicennaresearch.com </li>\n</ol></div>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": 1,
+        "created_at": "2024-09-26T06:59:26.650Z",
+        "updated_at": "2024-09-26T06:59:26.650Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Customer",
+        "origin_by": "-",
+        "time_unit": null
+    },
+    {
+        "id": 77284,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20240926101127.25245.b9f2bfa7-bfa4-4ab6-be22-59911beff986@zammad.avicennaresearch.com>",
+        "message_id_md5": "eeaaa631e64e7762acd78e99deabe429",
+        "in_reply_to": "<PAVPR02MB950015966820E418778B2C68906A2@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "Hi Nora,<div><br></div><div>My name is Mohammad and would be happy to help you with this question.</div><div><br></div><div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div><div><br></div><div>If you explain your problem, I may be able to offer a better solution.<br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best,<br><span style=\"color:var(--text-normal);\">Mohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br><br><div>Dear sir, madam,</div>\n<div> </div>\n<div>I hope this email finds you well.</div>\n<div> </div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div> </div>\n<div>Thank you!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/77284/130659?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/77284/130660?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-09-26T10:11:31.798Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-09-26T10:11:27.270Z",
+        "updated_at": "2024-09-26T10:11:31.813Z",
+        "attachments": [
+            {
+                "id": 130659,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.df62284f-b01e-4c7e-a349-22c79762abb1@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 130660,
+                "store_file_id": 103127,
+                "filename": "image2.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.c31ee04e-950c-4aab-b9b6-9e5e8662a9f9@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77535,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Nora de Bode <debode@essb.eur.nl>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: full data database access",
+        "reply_to": null,
+        "message_id": "<PAVPR02MB950088698F8D9C2D5CADE0D890762@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "message_id_md5": "7958a22a2f03f24d5cb6488c268e9e7d",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Hi Mohammad,</div><div> </div><div>Thank you for your response.</div><div> </div><div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div><div> </div><div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div><div> </div><div>Thank you so much!</div><div> </div><div>Best wishes,</div><div>Nora</div><div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/77535/131034?view=inline\"> <img style=\"max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/77535/131035?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div><hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div><div>Hi Nora,<div> </div>\n<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div> </div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div> </div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div> </div>\n<div>I hope this email finds you well.</div>\n<div> </div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div> </div>\n<div>Thank you!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/77535/131032?view=inline\">\n<img style=\"max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/77535/131033?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7284,
+        "created_by_id": 7284,
+        "origin_by_id": null,
+        "created_at": "2024-09-30T14:56:45.293Z",
+        "updated_at": "2024-09-30T14:56:45.293Z",
+        "attachments": [
+            {
+                "id": 131031,
+                "store_file_id": 103421,
+                "filename": "message.html",
+                "size": "10516",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 131032,
+                "store_file_id": 80607,
+                "filename": "ATT00001.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "25245.df62284f-b01e-4c7e-a349-22c79762abb1@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131033,
+                "store_file_id": 103127,
+                "filename": "ATT00002.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00002.png",
+                    "Content-Description": "ATT00002.png",
+                    "Content-ID": "25245.c31ee04e-950c-4aab-b9b6-9e5e8662a9f9@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131034,
+                "store_file_id": 61099,
+                "filename": "Outlook-A picture .png",
+                "size": "652297",
+                "preferences": {
+                    "Content-Type": "image/png; name=\"Outlook-A picture .png\"",
+                    "Content-Description": "Outlook-A picture .png",
+                    "Content-ID": "8c637d9b-0b28-4f9e-b3c8-6c6f916d0fbd",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true,
+                    "content_inline": true
+                }
+            },
+            {
+                "id": 131035,
+                "store_file_id": 84034,
+                "filename": "Outlook-ek32rfmv.png",
+                "size": "24207",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-ek32rfmv.png",
+                    "Content-Description": "Outlook-ek32rfmv.png",
+                    "Content-ID": "d7256ab1-4c42-4596-b5db-63eacc6fa53f",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "debode@essb.eur.nl",
+        "updated_by": "debode@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77785,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20241002125558.25245.0ac4b226-53b2-435d-8ef8-31882c1d623c@zammad.avicennaresearch.com>",
+        "message_id_md5": "078bc387de123e1bf552ce15046bfddc",
+        "in_reply_to": "<PAVPR02MB950088698F8D9C2D5CADE0D890762@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "Hi Nora,<div><br></div><div>Glad to hear that your previous question is resolved.</div><div><br></div><div>Regarding compliance, there are multiple ways you can check.</div><div><br></div><div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div><div><br></div><div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div><div><br></div><div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div><div><br></div><div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span style=\"color:var(--text-normal);\">Mohammad<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>\n<div>\n<br><br>\n</div>\n<div><blockquote type=\"cite\">On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br><br><div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for your response.</div>\n<div> </div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div> </div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div> </div>\n<div>Thank you so much!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/77785/131391?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/77785/131392?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div>\n<div>Hi Nora,<div> </div>\n<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div> </div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div> </div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div> </div>\n<div>I hope this email finds you well.</div>\n<div> </div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div> </div>\n<div>Thank you!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/77785/131393?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/77785/131394?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote></div>\n<div><br></div>\n<br><br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-02T12:56:06.962Z"
+        },
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-02T12:55:58.252Z",
+        "updated_at": "2024-10-02T12:56:06.987Z",
+        "attachments": [
+            {
+                "id": 131391,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.e74c75ad-09cb-49d3-91c5-7107aba1ef6d@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131392,
+                "store_file_id": 103127,
+                "filename": "image2.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.3fcd65f7-a9c0-4253-80fa-56ba9481c165@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131393,
+                "store_file_id": 80607,
+                "filename": "image3.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.d51736f9-f05c-47b4-9366-a1e2c459e080@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131394,
+                "store_file_id": 103127,
+                "filename": "image4.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.ab1d13eb-87d3-4511-87e5-8972ea43b89c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 77928,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Nora de Bode <debode@essb.eur.nl>",
+        "to": "Mohammad Hashemian <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: full data database access",
+        "reply_to": null,
+        "message_id": "<PAVPR02MB9500A70F880884FCDB71F9CC90712@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "message_id_md5": "84c6f799ead261e321b8d16624477941",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Hi Mohammad,</div><div> </div><div>Thank you for getting back to me!</div><div> </div><div> I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div><div> </div><div>I don't see a percentage anywhere, could you help me where to find this?</div><div> </div><div>Best wishes,</div><div>Nora</div><div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/77928/131603?view=inline\"> <img style=\"max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/77928/131604?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div><hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div><div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for your response.</div>\n<div> </div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div> </div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div> </div>\n<div>Thank you so much!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/77928/131599?view=inline\">\n<img style=\"max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/77928/131600?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div> </div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div> </div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/77928/131601?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/77928/131602?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7284,
+        "created_by_id": 7284,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T03:00:26.509Z",
+        "updated_at": "2024-10-03T03:00:26.509Z",
+        "attachments": [
+            {
+                "id": 131598,
+                "store_file_id": 103888,
+                "filename": "message.html",
+                "size": "14996",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 131599,
+                "store_file_id": 80607,
+                "filename": "ATT00001.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "25245.e74c75ad-09cb-49d3-91c5-7107aba1ef6d@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131600,
+                "store_file_id": 103127,
+                "filename": "ATT00002.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00002.png",
+                    "Content-Description": "ATT00002.png",
+                    "Content-ID": "25245.3fcd65f7-a9c0-4253-80fa-56ba9481c165@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131601,
+                "store_file_id": 80607,
+                "filename": "ATT00003.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00003.png",
+                    "Content-Description": "ATT00003.png",
+                    "Content-ID": "25245.d51736f9-f05c-47b4-9366-a1e2c459e080@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131602,
+                "store_file_id": 103127,
+                "filename": "ATT00004.png",
+                "size": "19473",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00004.png",
+                    "Content-Description": "ATT00004.png",
+                    "Content-ID": "25245.ab1d13eb-87d3-4511-87e5-8972ea43b89c@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 131603,
+                "store_file_id": 61099,
+                "filename": "Outlook-A picture .png",
+                "size": "652297",
+                "preferences": {
+                    "Content-Type": "image/png; name=\"Outlook-A picture .png\"",
+                    "Content-Description": "Outlook-A picture .png",
+                    "Content-ID": "15107b90-ce50-4f7f-91ec-715cd8e665a4",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true,
+                    "content_inline": true
+                }
+            },
+            {
+                "id": 131604,
+                "store_file_id": 84034,
+                "filename": "Outlook-momjt4e1.png",
+                "size": "24207",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-momjt4e1.png",
+                    "Content-Description": "Outlook-momjt4e1.png",
+                    "Content-ID": "701af17c-03ad-4226-98a4-5c44f2106c53",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "debode@essb.eur.nl",
+        "updated_by": "debode@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 77967,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/497\" data-mention-user-id=\"497\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/497\">Maryam Hashemian</a> Can you take this question? Thanks.",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-03T11:13:07.133Z",
+        "updated_at": "2024-10-03T11:13:07.133Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78291,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Maryam Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<p><a href=\"https://zammad.avicennaresearch.com/#user/profile/6\" data-mention-user-id=\"6\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/6\">Mohammad Hashemian</a>,<a href=\"https://zammad.avicennaresearch.com/#user/profile/9412\" data-mention-user-id=\"9412\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/9412\">Amin Ghaffari</a> I don't know how I confused this ticket with another. Sorry for being late in responding. Below is my draft:<br><br></p><p>Hi Nora,<br>I am Maryam from Avicenna Research and I am stepping in Mohammad to help you.\n<br><br>To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\">here</a>.\n\n<br><br></p><p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" target=\"_blank\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\">here</a>.<br><br>\nPlease let me know if you have any questions.<br><br>Best,<br>Maryam</p>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-08T07:26:22.880Z",
+        "updated_at": "2024-10-08T07:26:22.880Z",
+        "attachments": [],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78535,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/497\" data-mention-user-id=\"497\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/497\">Maryam Hashemian</a> Good to go.",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T10:29:09.276Z",
+        "updated_at": "2024-10-09T10:29:09.276Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78571,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Maryam Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20241009125329.25245.cfc9c8b0-07ce-48d2-a8e9-5610609feb6a@zammad.avicennaresearch.com>",
+        "message_id_md5": "1eb727bd9673d3104e00149d0e53f52e",
+        "in_reply_to": "<PAVPR02MB9500A70F880884FCDB71F9CC90712@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<p>Hi Nora,<br>This is Maryam from Avicenna Research and I am stepping in Mohammad to help you.<br><br>To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" target=\"_blank\">here</a>.<br><br></p><p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" target=\"_blank\">here</a>.<br><br>Please let me know if you need any further clarifications.<br><br>Best,<br>Maryam</p><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 6:30:26 AM, Nora de Bode wrote:<br><br><div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for getting back to me!</div>\n<div> </div>\n<div> I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div>\n<div> </div>\n<div>I don't see a percentage anywhere, could you help me where to find this?</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/78571/132510?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/78571/132511?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div>\n<div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for your response.</div>\n<div> </div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div> </div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div> </div>\n<div>Thank you so much!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78571/132512?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78571/132513?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div> </div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div> </div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78571/132514?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78571/132515?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T12:53:39.183Z"
+        },
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T12:53:29.069Z",
+        "updated_at": "2024-10-09T12:53:39.364Z",
+        "attachments": [
+            {
+                "id": 132510,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.e87ada43-af23-4736-b481-8466b817330c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132511,
+                "store_file_id": 84046,
+                "filename": "image2.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.20491800-490d-434f-a7c3-588b9e21cba4@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132512,
+                "store_file_id": 80607,
+                "filename": "image3.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.948e9692-4a2c-4120-8691-8560d624f828@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132513,
+                "store_file_id": 84046,
+                "filename": "image4.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.40e3c069-022d-4a15-b871-eaf436117c01@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132514,
+                "store_file_id": 80607,
+                "filename": "image5.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.2a549cf3-fa6d-4aae-bfec-a3025446a22c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132515,
+                "store_file_id": 84046,
+                "filename": "image6.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.b919724d-9296-444c-93d1-f60f60e3b3a8@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78572,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Maryam Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20241009125522.25245.93fbcd7c-7c6e-400f-ace6-d0df86218388@zammad.avicennaresearch.com>",
+        "message_id_md5": "b235b7a856eb0024324685ab19e9e9af",
+        "in_reply_to": "<PAVPR02MB9500A70F880884FCDB71F9CC90712@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<p>Hi Nora,<br>I am Maryam from Avicenna Research and I am stepping in Mohammad to help you.<br><br>To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" target=\"_blank\">here</a>.<br><br></p><p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" target=\"_blank\">here</a>.<br><br>Please let me know if you need any further clarifications.<br><br>Best,<br>Maryam</p><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">Maryam<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Thursday, October 3, 2024 at 6:30:26 AM, Nora de Bode wrote:<br><br><div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for getting back to me!</div>\n<div> </div>\n<div> I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div>\n<div> </div>\n<div>I don't see a percentage anywhere, could you help me where to find this?</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/78572/132517?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/78572/132518?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div>\n<div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for your response.</div>\n<div> </div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div> </div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div> </div>\n<div>Thank you so much!</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78572/132519?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78572/132520?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div> </div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div> </div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78572/132521?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78572/132522?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T12:55:31.346Z"
+        },
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T12:55:22.777Z",
+        "updated_at": "2024-10-09T12:55:31.387Z",
+        "attachments": [
+            {
+                "id": 132517,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.73a34f81-0333-433c-b0e3-e65159d61209@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132518,
+                "store_file_id": 84046,
+                "filename": "image2.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.05ebb2b3-22cb-4c36-91df-4c6defa79711@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132519,
+                "store_file_id": 80607,
+                "filename": "image3.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.d2bf76b7-e311-4b3b-a9cb-fb5d46662c1e@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132520,
+                "store_file_id": 84046,
+                "filename": "image4.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.13d0125a-24a2-4b0e-bad1-d41818318aaa@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132521,
+                "store_file_id": 80607,
+                "filename": "image5.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.2d275ee6-16b6-47ce-8735-4a3f198505cb@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132522,
+                "store_file_id": 84046,
+                "filename": "image6.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.86262dc7-14ce-4b7e-b6e4-4357026be35f@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78598,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 2,
+        "from": "Nora de Bode <debode@essb.eur.nl>",
+        "to": "Maryam Hashemian <support@avicennaresearch.com>",
+        "cc": null,
+        "subject": "Re: full data database access",
+        "reply_to": null,
+        "message_id": "<PAVPR02MB9500F9147209BB464EFD1930907F2@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "message_id_md5": "6bc0849710041c16d58ba637b9ea7d26",
+        "in_reply_to": null,
+        "content_type": "text/html",
+        "body": "<div>Hi Maryam,</div><div> </div><div>Thank you for your help.</div><div> </div><div>However, I was wondering how to see what percentage of an activity a participant has completed (like the session stats on the participation page, but then for a specific activity instead of the entire study). I think in the way you described I can only see whether a survey was filled out or not.</div><div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/78598/132577?view=inline\"> <img style=\"max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/78598/132578?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div><hr>\n<div dir=\"ltr\">\n<b>Van:</b> Maryam Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 9 oktober 2024 14:55<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div><div>\n<p>Hi Nora,<br> I am Maryam from Avicenna Research and I am stepping in Mohammad to help you.<br>\n<br> To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" target=\"_blank\">here</a>.<br>\n<br>\n</p>\n<p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" target=\"_blank\">here</a>.<br>\n<br> Please let me know if you need any further clarifications.<br>\n<br> Best,<br> Maryam</p>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best regards,<br>\n<span>Maryam<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, October 3, 2024 at 6:30:26 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for getting back to me!</div>\n<div> </div>\n<div>I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div>\n<div> </div>\n<div>I don't see a percentage anywhere, could you help me where to find this?</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78598/132571?view=inline\">\n<img style=\"max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78598/132572?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div>Thank you for your response.</div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div>Thank you so much!</div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78598/132573?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78598/132574?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access </div>\n<div>Hi Nora,<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78598/132575?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78598/132576?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>",
+        "internal": false,
+        "preferences": {
+            "send-auto-response": true,
+            "is-auto-response": false
+        },
+        "updated_by_id": 7284,
+        "created_by_id": 7284,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T16:26:57.288Z",
+        "updated_at": "2024-10-09T16:26:57.288Z",
+        "attachments": [
+            {
+                "id": 132570,
+                "store_file_id": 104635,
+                "filename": "message.html",
+                "size": "20377",
+                "preferences": {
+                    "content-alternative": true,
+                    "original-format": true,
+                    "Mime-Type": "text/html",
+                    "Charset": "us-ascii"
+                }
+            },
+            {
+                "id": 132571,
+                "store_file_id": 80607,
+                "filename": "ATT00001.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00001.png",
+                    "Content-Description": "ATT00001.png",
+                    "Content-ID": "25245.73a34f81-0333-433c-b0e3-e65159d61209@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132572,
+                "store_file_id": 84046,
+                "filename": "ATT00002.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00002.png",
+                    "Content-Description": "ATT00002.png",
+                    "Content-ID": "25245.05ebb2b3-22cb-4c36-91df-4c6defa79711@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132573,
+                "store_file_id": 80607,
+                "filename": "ATT00003.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00003.png",
+                    "Content-Description": "ATT00003.png",
+                    "Content-ID": "25245.d2bf76b7-e311-4b3b-a9cb-fb5d46662c1e@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132574,
+                "store_file_id": 84046,
+                "filename": "ATT00004.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00004.png",
+                    "Content-Description": "ATT00004.png",
+                    "Content-ID": "25245.13d0125a-24a2-4b0e-bad1-d41818318aaa@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132575,
+                "store_file_id": 80607,
+                "filename": "ATT00005.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00005.png",
+                    "Content-Description": "ATT00005.png",
+                    "Content-ID": "25245.2d275ee6-16b6-47ce-8735-4a3f198505cb@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132576,
+                "store_file_id": 84046,
+                "filename": "ATT00006.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png; name=ATT00006.png",
+                    "Content-Description": "ATT00006.png",
+                    "Content-ID": "25245.86262dc7-14ce-4b7e-b6e4-4357026be35f@zammad.avicennaresearch.com",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132577,
+                "store_file_id": 61099,
+                "filename": "Outlook-A picture .png",
+                "size": "652297",
+                "preferences": {
+                    "Content-Type": "image/png; name=\"Outlook-A picture .png\"",
+                    "Content-Description": "Outlook-A picture .png",
+                    "Content-ID": "9c59e153-fc02-494d-b848-2023ae97fede",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true,
+                    "content_inline": true
+                }
+            },
+            {
+                "id": 132578,
+                "store_file_id": 84034,
+                "filename": "Outlook-p4bkqfaw.png",
+                "size": "24207",
+                "preferences": {
+                    "Content-Type": "image/png; name=Outlook-p4bkqfaw.png",
+                    "Content-Description": "Outlook-p4bkqfaw.png",
+                    "Content-ID": "4d3f043f-20e9-4256-8ab5-6e24a73ee636",
+                    "Mime-Type": "image/png",
+                    "Charset": "UTF-8",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "debode@essb.eur.nl",
+        "updated_by": "debode@essb.eur.nl",
+        "type": "email",
+        "sender": "Customer",
+        "time_unit": null
+    },
+    {
+        "id": 78605,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Maryam Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/6\" data-mention-user-id=\"6\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/6\">Mohammad Hashemian</a><br>Dear Nora,<br><br>Unfortunately, there is no way to see what percentage of a specific activity has been completed by a participant. You can just have an overview of all the activities.<br><br>Please let me know if you have any other questions.<br><br>Best,<br>Maryam<br><br>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T16:36:40.700Z",
+        "updated_at": "2024-10-09T16:36:40.700Z",
+        "attachments": [],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78610,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "Off the top of my head i cannot remember if we show % or not. Maybe not. But she can download session completion results as CSV from the Activity Sessions page and calculate % in a spreadsheet. Not as convenient, but doable. <a href=\"https://zammad.avicennaresearch.com/#user/profile/497\" data-mention-user-id=\"497\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/497\">Maryam Hashemian</a>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T16:49:14.760Z",
+        "updated_at": "2024-10-09T16:49:14.760Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78614,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Maryam Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "<a href=\"https://zammad.avicennaresearch.com/#user/profile/6\" data-mention-user-id=\"6\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/6\">Mohammad Hashemian</a><br>I checked the Activity Sessions page and we don't have an option to download<b> session completion</b>. They just can choose an activity and download it as a CSV form. Since I need to provide clear instructions to the client on where and how to download the data,I just wanted to double check it with you to not make her more confused.<br>---<br>Dear Nora,<br><br>Unfortunately, there is no way to see what percentage of a specific activity has been completed by a participant directly however there is a workaround for that.<br><br>To do so, you can go to Activity Sessions page and choose the desired activity and participant and download the data as CSV from and calculate the desired percentage in a spreadsheet.<br><br>I understand that it's not as convenient, but it will give you access to the data that you need.<br><br>Please let me know if you have any other questions.<br><br>Best,<br>Maryam<br>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T17:38:17.285Z",
+        "updated_at": "2024-10-09T17:38:17.285Z",
+        "attachments": [],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78615,
+        "ticket_id": 25245,
+        "type_id": 10,
+        "sender_id": 1,
+        "from": "Mohammad Hashemian",
+        "to": "",
+        "cc": "",
+        "subject": "",
+        "reply_to": null,
+        "message_id": null,
+        "message_id_md5": null,
+        "in_reply_to": "",
+        "content_type": "text/html",
+        "body": "My information about details option in each page might not be accurate. If you have checked (or otherwise are sure about) these steps, then is all good. <a href=\"https://zammad.avicennaresearch.com/#user/profile/497\" data-mention-user-id=\"497\" rel=\"nofollow noreferrer noopener\" title=\"https://zammad.avicennaresearch.com/#user/profile/497\">Maryam Hashemian</a>",
+        "internal": true,
+        "preferences": {},
+        "updated_by_id": 6,
+        "created_by_id": 6,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T17:39:46.380Z",
+        "updated_at": "2024-10-09T17:39:46.380Z",
+        "attachments": [],
+        "created_by": "mohammad@avicennaresearch.com",
+        "updated_by": "mohammad@avicennaresearch.com",
+        "type": "note",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78618,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Maryam Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20241009174528.25245.f687a46c-7f86-4d75-adb9-11db3cb5303b@zammad.avicennaresearch.com>",
+        "message_id_md5": "e20206bc71cb42d43de8d6041395ef98",
+        "in_reply_to": "<PAVPR02MB9500F9147209BB464EFD1930907F2@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<div data-signature=\"true\" data-signature-id=\"2\">\n<div>Dear Nora,<br><br>Unfortunately, there is no way to see what percentage of a specific activity has been completed by a participant directly however there is a workaround for that.<br><br>To do so, you can go to the Activity Sessions page, choose the desired activity and the participant, then download the data as a CSV form and calculate the desired percentage in a spreadsheet.<br><br>I understand that it's not as convenient, but it will give you access to the data that you need.<br><br>Please let me know if you have any other questions.<br><br>Best,<br>Maryam<span style=\"color:var(--text-normal);\"><br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, October 9, 2024 at 7:56:57 PM, Nora de Bode wrote:<br><br><div>Hi Maryam,</div>\n<div> </div>\n<div>Thank you for your help.</div>\n<div> </div>\n<div>However, I was wondering how to see what percentage of an activity a participant has completed (like the session stats on the participation page, but then for a specific activity instead of the entire study). I think in the way you described I can only see whether a survey was filled out or not.</div>\n<div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/78618/132634?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/78618/132635?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Maryam Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 9 oktober 2024 14:55<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div>\n<div>\n<p>Hi Nora,<br> I am Maryam from Avicenna Research and I am stepping in Mohammad to help you.<br>\n<br> To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" target=\"_blank\">here</a>.<br>\n<br>\n</p>\n<p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" target=\"_blank\">here</a>.<br>\n<br> Please let me know if you need any further clarifications.<br>\n<br> Best,<br> Maryam</p>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best regards,<br>\n<span>Maryam<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, October 3, 2024 at 6:30:26 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for getting back to me!</div>\n<div> </div>\n<div>I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div>\n<div> </div>\n<div>I don't see a percentage anywhere, could you help me where to find this?</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78618/132636?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78618/132637?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div>Thank you for your response.</div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div>Thank you so much!</div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78618/132638?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78618/132639?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access </div>\n<div>Hi Nora,<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78618/132640?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78618/132641?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T17:45:35.251Z"
+        },
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T17:45:28.220Z",
+        "updated_at": "2024-10-09T17:45:35.264Z",
+        "attachments": [
+            {
+                "id": 132634,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.b2e6bc4a-90e3-4527-aec1-7345a0c5f822@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132635,
+                "store_file_id": 84046,
+                "filename": "image2.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.8d1c4465-3753-40de-a9ab-1db0d4baa949@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132636,
+                "store_file_id": 80607,
+                "filename": "image3.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.c9eee159-69c0-45e8-932a-3923e55396f7@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132637,
+                "store_file_id": 84046,
+                "filename": "image4.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.afa7b4f0-bef8-41a3-a8c0-7a98268a9f9a@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132638,
+                "store_file_id": 80607,
+                "filename": "image5.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.85b6c2f3-71d7-4b48-b36f-9a1121392b6a@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132639,
+                "store_file_id": 84046,
+                "filename": "image6.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.d66993cf-506b-4791-87af-44bd4f85508d@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132640,
+                "store_file_id": 80607,
+                "filename": "image7.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.58498884-4076-49fc-a644-86c5243d966a@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132641,
+                "store_file_id": 84046,
+                "filename": "image8.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.4a9258fd-4f92-4576-a356-5afd4c5a541b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    },
+    {
+        "id": 78620,
+        "ticket_id": 25245,
+        "type_id": 1,
+        "sender_id": 1,
+        "from": "Maryam Hashemian <support@avicennaresearch.com>",
+        "to": "debode@essb.eur.nl",
+        "cc": "",
+        "subject": "full data database access",
+        "reply_to": null,
+        "message_id": "<20241009175004.25245.e18f6a22-cb0c-4568-8297-c37029c20780@zammad.avicennaresearch.com>",
+        "message_id_md5": "c95e537161f3111193a335b161a89791",
+        "in_reply_to": "<PAVPR02MB9500F9147209BB464EFD1930907F2@PAVPR02MB9500.eurprd02.prod.outlook.com>",
+        "content_type": "text/html",
+        "body": "<div data-signature=\"true\" data-signature-id=\"2\">\n<div>Dear Nora,<br><br>Unfortunately, there is no way to see what percentage of a specific activity has been completed by a participant directly however there is a workaround for that.<br><br>To do so, you can go to Activity Sessions page and choose the desired activity and participant and download the data as CSV from and calculate the desired percentage in a spreadsheet.<br><br>I understand that it's not as convenient, but it will give you access to the data that you need.<br><br>Please let me know if you have any other questions.<br><br>Best,<br>Maryam<span style=\"color:var(--text-normal);\"><br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div><div>\n<br><br>\n</div><div><blockquote type=\"cite\">On Wednesday, October 9, 2024 at 7:56:57 PM, Nora de Bode wrote:<br><br><div>Hi Maryam,</div>\n<div> </div>\n<div>Thank you for your help.</div>\n<div> </div>\n<div>However, I was wondering how to see what percentage of an activity a participant has completed (like the session stats on the participation page, but then for a specific activity instead of the entire study). I think in the way you described I can only see whether a survey was filled out or not.</div>\n<div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div> </div>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Nora de Bode, PhD Candidate</span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">Erasmus University Rotterdam </span></p>\n<p>\n<span style=\" color: rgb(33, 33, 33); background-color: white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p>\n<span style=\"color: rgb(33, 33, 33);\"> </span></p>\n<p><span style=\" color: rgb(36, 36, 36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;width: 135px;max-height: 49px;min-width: auto;min-height: auto;\" src=\"/api/v1/ticket_attachment/25245/78620/132647?view=inline\"> <img style=\"max-width:100%;max-width:100%;width: 128px;max-height: 49px;\" src=\"/api/v1/ticket_attachment/25245/78620/132648?view=inline\"></span></p>\n<p>\n<br>\n</p>\n<p>\n<span style=\" color: rgb(5, 99, 193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Maryam Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 9 oktober 2024 14:55<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access <div> </div>\n</div>\n<div>\n<p>Hi Nora,<br> I am Maryam from Avicenna Research and I am stepping in Mohammad to help you.<br>\n<br> To review the completion of a specific activity for a participant, go to the Activity Sessions page and select the participant and the activities you want to review from the left panel. You can check the completion status of each survey, whether it's completed, canceled, or blocked by another session. More information about the Activity Sessions page can be found <a href=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/activity/activity-sessions\" target=\"_blank\">here</a>.<br>\n<br>\n</p>\n<p>However, on the participation page, you can only view the session stats, which provide a summary of the participant's adherence to the activity requirements. You can learn more about the Participation page <a href=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" rel=\"nofollow noreferrer noopener\" title=\"https://learn.avicennaresearch.com/reference/study-setup-and-deployment/participation\" target=\"_blank\">here</a>.<br>\n<br> Please let me know if you need any further clarifications.<br>\n<br> Best,<br> Maryam</p>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best regards,<br>\n<span>Maryam<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> <span class=\"js-signatureMarker\"></span>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Thursday, October 3, 2024 at 6:30:26 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div> </div>\n<div>Thank you for getting back to me!</div>\n<div> </div>\n<div>I am a little confused about how to do this: <i>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</i>\n</div>\n<div> </div>\n<div>I don't see a percentage anywhere, could you help me where to find this?</div>\n<div> </div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<div> </div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78620/132649?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78620/132650?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> woensdag 2 oktober 2024 14:56<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access\n\n</div>\n<div>Hi Nora,<div> </div>\n<div>Glad to hear that your previous question is resolved.</div>\n<div> </div>\n<div>Regarding compliance, there are multiple ways you can check.</div>\n<div> </div>\n<div>First, in the Participation page (left panel, click on Participation), you can see the list of participants, % of sensor data uploaded, and % of surveys completed considering all surveys that are responded.</div>\n<div> </div>\n<div>Also, in Activity Sessions page, you can check the % of completion per survey. Here you can also see the exact sessions that are completed or missed or any reason.</div>\n<div> </div>\n<div>Lastly, you can export the data of any of these pages, and import them to any software (Spreadsheets or R for example) and plot it as you need.</div>\n<div> </div>\n<div>Hope it helps,<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div> </div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div> </div>\n<div>\n<blockquote type=\"cite\"> On Monday, September 30, 2024 at 10:56:45 AM, Nora de Bode wrote:<br>\n<br>\n<div>Hi Mohammad,</div>\n<div>Thank you for your response.</div>\n<div>Please ignore my previous question, I think I misunderstood something when reading the forum.</div>\n<div>However, I do have another question: I know it is possible to see the percentage of compliance of the participant in the entire study. Is it also possible to check the compliance per survey, and if yes, how do I do that?</div>\n<div>Thank you so much!</div>\n<div>Best wishes,</div>\n<div>Nora</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78620/132651?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78620/132652?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<hr>\n<div dir=\"ltr\">\n<b>Van:</b> Mohammad Hashemian &lt;support@avicennaresearch.com&gt;<br>\n<b>Verzonden:</b> donderdag 26 september 2024 12:11<br>\n<b>Aan:</b> Nora de Bode &lt;debode@essb.eur.nl&gt;<br>\n<b>Onderwerp:</b> RE: full data database access </div>\n<div>Hi Nora,<div>My name is Mohammad and would be happy to help you with this question.</div>\n<div>Can you clarify a bit more? Do you mean using an IP/Port to connect to underlying data directly? This is not possible due to some technical restrictions, but in almost all cases, it's not needed either.</div>\n<div>If you explain your problem, I may be able to offer a better solution.<br>\n<div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br> Best,<br>\n<span>Mohammad<br>\n</span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>--<br> Avicenna Research (formerly Ethica Data)<br>\n<div>\n<div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div>\n</div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\"> https://avicennaresearch.com</a><br> --</div>\n</div>\n<div>\n<blockquote type=\"cite\"> On Thursday, September 26, 2024 at 2:59:23 AM, Nora de Bode wrote:<br>\n<br>\n<div>Dear sir, madam,</div>\n<div>I hope this email finds you well.</div>\n<div>I was wondering if it would be possible to get full access to all of the data (database) of study 3880.</div>\n<div>Thank you!</div>\n<div>Best wishes,</div>\n<div>Nora de Bode</div>\n<div>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Nora de Bode, PhD Candidate</span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">Erasmus University Rotterdam </span></p>\n<p><span style=\"color:rgb(33,33,33); background-color:white;\">P.O box 1738, 3000 DR Rotterdam</span></p>\n<p><span style=\"color:rgb(33,33,33);\"></span></p>\n<p><span style=\"color:rgb(36,36,36);\"><img alt=\"A picture containing graphics, font, graphic design, design\n\nDescription automatically generated\" style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:135px;max-height:49px;min-width:auto;min-height:auto;\" src=\"/api/v1/ticket_attachment/25245/78620/132653?view=inline\">\n<img style=\"max-width:100%;max-width:100%;max-width:100%;max-width:100%;max-width:100%;width:128px;max-height:49px;\" src=\"/api/v1/ticket_attachment/25245/78620/132654?view=inline\"></span></p>\n<p><br>\n</p>\n<p><span style=\"color:rgb(5,99,193);\"><a href=\"https://nofaresearch.com/\" title=\"Originele URL: https://nofaresearch.com/. Klik of tik als u deze koppeling vertrouwt.\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://nofaresearch.com</a></span></p>\n</div>\n<br>\n</blockquote>\n</div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n</div>\n<br>\n</blockquote>\n</div>\n<div> </div>\n<br>\n<br>\n</div>\n<br>\n</blockquote></div><div><br></div><br><br><div data-signature=\"true\" data-signature-id=\"2\">\n<div>\n<br>Best regards,<br><span style=\"color:var(--text-normal);\">Maryam<br></span><br>\n</div>\n<div>Note: If you feel like your issue is not properly being addressed and want to escalate it, please click here: <a href=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" title=\"https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com/app/public/zammad/escalate/25245/bc4b093873fb1210</a><br>\n</div>\n<div><br></div>--<br>Avicenna Research (formerly Ethica Data)<br><div><div>4109 - 295 Adelaide St W, Toronto, ON M5V 0L4, Canada</div></div>\n<div>Email: support@avicennaresearch.com - Web: <a href=\"https://avicennaresearch.com\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://avicennaresearch.com</a><br>--</div>\n</div>",
+        "internal": false,
+        "preferences": {
+            "subtype": "reply",
+            "email_address_id": 9,
+            "delivery_retry": 1,
+            "delivery_channel_id": 13,
+            "delivery_status_message": null,
+            "delivery_status": "success",
+            "delivery_status_date": "2024-10-09T17:50:14.606Z"
+        },
+        "updated_by_id": 497,
+        "created_by_id": 497,
+        "origin_by_id": null,
+        "created_at": "2024-10-09T17:50:04.206Z",
+        "updated_at": "2024-10-09T17:50:14.619Z",
+        "attachments": [
+            {
+                "id": 132647,
+                "store_file_id": 80607,
+                "filename": "image1.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.7bb45011-f4d3-4369-8871-9276233f3981@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132648,
+                "store_file_id": 84046,
+                "filename": "image2.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.fbab8e45-dfa7-4eed-8195-23a4de8d8146@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132649,
+                "store_file_id": 80607,
+                "filename": "image3.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.362b4bf3-c7b6-4855-b24d-4425d3046d1b@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132650,
+                "store_file_id": 84046,
+                "filename": "image4.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.4e4a9648-f53a-4129-b02f-1678a97189c7@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132651,
+                "store_file_id": 80607,
+                "filename": "image5.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.a7f622fb-b19e-4238-b210-2def78d05d40@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132652,
+                "store_file_id": 84046,
+                "filename": "image6.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.8bbf56c3-c884-4037-b248-567d7d1e9d0c@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132653,
+                "store_file_id": 80607,
+                "filename": "image7.png",
+                "size": "312445",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.22f79ff5-160d-4f42-b9ae-ef209b4c6e0e@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            },
+            {
+                "id": 132654,
+                "store_file_id": 84046,
+                "filename": "image8.png",
+                "size": "19488",
+                "preferences": {
+                    "Content-Type": "image/png",
+                    "Mime-Type": "image/png",
+                    "Content-ID": "25245.855c87e4-5aea-4b4c-a31f-8231f2fcf333@zammad.avicennaresearch.com",
+                    "Content-Disposition": "inline",
+                    "resizable": true,
+                    "content_preview": true
+                }
+            }
+        ],
+        "created_by": "maryam@avicennaresearch.com",
+        "updated_by": "maryam@avicennaresearch.com",
+        "type": "email",
+        "sender": "Agent",
+        "time_unit": null
+    }
+]
