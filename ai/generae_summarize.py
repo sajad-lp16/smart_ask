@@ -3,7 +3,7 @@ import json
 import asyncio
 from asyncio import Semaphore
 
-from ai.utils import get_chunks
+from ai.utils.scripts import get_chunks
 from ai.clients import CustomAsyncOpenAI, AIClient
 from core import (
     STEP_2_TICKETS_TARGET,
@@ -11,7 +11,7 @@ from core import (
 )
 from ai.fetch import fetch_ai_client
 
-from ai.prompts import (
+from ai.utils.prompts import (
     SUMMARIZE_PROMPT,
     SUMMARIZE_COMBINATION_PROMPT
 )

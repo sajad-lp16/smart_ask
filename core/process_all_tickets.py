@@ -100,16 +100,16 @@ async def main(start_over=False):
     # STEP_1 =======================================================================================================
     print("Triggering Step 1 Action [Fetching ZammadTickets]")
     await async_trigger_step(["step_1"], sem, start_over)
+    # #
+    # # # STEP_2 =======================================================================================================
+    # print("Triggering Step 2 Action [Parsing Tickets]")
+    # trigger_step("step_2", start_over)
     #
-    # # STEP_2 =======================================================================================================
-    print("Triggering Step 2 Action [Parsing Tickets]")
-    trigger_step("step_2", start_over)
-
-    # STEP_3 =======================================================================================================
-    # STEP_4 =======================================================================================================
-    print("Triggering Step 3 and 4 Actions [Generating QA, Summary from Tickets]")
-    # await async_trigger_step(["step_3", "step_4"], sem, start_over)
-    await async_trigger_step(["step_4"], sem, start_over)
+    # # STEP_3 =======================================================================================================
+    # # STEP_4 =======================================================================================================
+    # print("Triggering Step 3 and 4 Actions [Generating QA, Summary from Tickets]")
+    # # await async_trigger_step(["step_3", "step_4"], sem, start_over)
+    # await async_trigger_step(["step_4"], sem, start_over)
 
 
 if __name__ == "__main__":

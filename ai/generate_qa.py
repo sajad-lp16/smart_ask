@@ -3,7 +3,7 @@ import json
 import asyncio
 from asyncio import Semaphore
 
-from ai.utils import get_chunks
+from ai.utils.scripts import get_chunks
 from ai.clients import CustomAsyncOpenAI, AIClient
 from ai.fetch import fetch_ai_client
 from core import (
@@ -11,7 +11,7 @@ from core import (
     STEP_3_TICKETS_TARGET, TooLongTextError
 )
 
-from ai.prompts import (
+from ai.utils.prompts import (
     QA_PROMPT,
     QA_COMBINATION_PROMPT
 )

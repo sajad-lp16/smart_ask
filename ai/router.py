@@ -1,8 +1,5 @@
-from llama_index.core import VectorStoreIndex
-
 from ai.llama_index_clients import VectorStoreEngine
-from elastic.clients import ElasticVectorStore
-from prompts import ROUTER_PROMPT
+
 
 async def get_route(prompt):
     async with VectorStoreEngine() as vector_store:
