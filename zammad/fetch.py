@@ -2,25 +2,23 @@ import os
 import json
 
 import aiohttp
+from aiohttp import ClientSession
 import asyncio
 import requests
 from asyncio import Semaphore
 
-from decouple import config
+from constants import (
+    ZAMMAD_TICKET_URL,
+    ZAMMAD_HEADERS,
+    ZAMMAD_ARTICLES_URL
+)
 
 from core import STEP_1_TICKETS_TARGET
-from parsing.html_2_md import message_2_md_parser
-
-ZAMMAD_BASE_URL = config("ZAMMAD_BASE_URL", cast=str)
-ZAMMAD_TICKET_URL = ZAMMAD_BASE_URL + "/tickets?per_page=20&page={page_number}"
-ZAMMAD_ARTICLES_URL = ZAMMAD_BASE_URL + "/ticket_articles/by_ticket/{ticket_id}"
-
-HEADERS = {"Authorization": f'Bearer {config("ZAMMAD_API_KEY")}'}
 
 
 def find_last_page():
     def _fetch(page):
-        r = requests.get(ZAMMAD_TICKET_URL.format(page_number=page), headers=HEADERS)
+        r = requests.get(ZAMMAD_TICKET_URL.format(page_number=page), headers=ZAMMAD_HEADERS)
         r.raise_for_status()
 
         return len(r.json()) > 0
@@ -49,47 +47,58 @@ def find_last_page():
     return last_valid_page
 
 
-async def fetch_api(session, url):
-    async with session.get(url, headers=HEADERS) as response:
-        if response.status != 200:
-            raise Exception(f"Failed to fetch data. Status: {response.status}")
-        return await response.json()
+async def fetch_api(url: str, session: ClientSession) -> dict | None:
+    for _ in range(3):
+        try:
+            async with session.get(url, headers=ZAMMAD_HEADERS) as response:
+                if response.status != 200:
+                    raise Exception(f"Failed to fetch data. Status: {response.status}")
+                return await response.json()
+        except aiohttp.ServerTimeoutError:
+            continue
+        except aiohttp.ClientError as err:
+            raise err
 
 
-async def fetch_articles(session, ticket_id):
-    url = ZAMMAD_ARTICLES_URL.format(ticket_id=ticket_id)
-    return await fetch_api(session, url)
+async def fetch_articles(ticket_ids, session: ClientSession = None):
+    async def _trigger_fetch(_session):
+        tasks = {}
+        articles = {}
+        for ticket_id in ticket_ids:
+            url = ZAMMAD_ARTICLES_URL.format(ticket_id=ticket_id)
+            tasks[asyncio.create_task(fetch_api(url, _session))] = ticket_id
+
+        done, _ = await asyncio.wait(tasks.keys())
+        for done_task in done:
+            ticket_id = tasks[done_task]
+            articles[ticket_id] = done_task.result()
+
+        return articles
+
+    if session is not None:
+        return await _trigger_fetch(session)
+    async with ClientSession() as new_session:
+        return await _trigger_fetch(new_session)
 
 
 async def get_page_articles(sem, session, page):
     async with sem:
         url = ZAMMAD_TICKET_URL.format(page_number=page)
 
-        tickets = await fetch_api(session, url)
-        tasks = []
-        for ticket in tickets:
-            ticket_id = ticket["id"]
-            tasks.append(asyncio.create_task(fetch_articles(session, ticket_id)))
-
-        articles = {}
-        done, _ = await asyncio.wait(tasks, return_when=asyncio.ALL_COMPLETED)
-        for task in done:
-            article_set = task.result()
-            print(article_set)
-            articles[article_set[0]["ticket_id"]] = article_set
-
-        return articles
+        tickets = await fetch_api(url, session)
+        ticket_ids = [ticket["id"] for ticket in tickets]
+        return await fetch_articles(ticket_ids, session)
 
 
 async def fetch_all_articles(sem: Semaphore):
-    # last_page = find_last_page()
+    last_page = find_last_page()
     step_1_target = STEP_1_TICKETS_TARGET
 
     os.makedirs(str(step_1_target), exist_ok=True)
 
     async with aiohttp.ClientSession() as session:
-        # tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(1, last_page + 1)]
-        tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(400, 405)]
+        tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(1, last_page + 1)]
+        # tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(400, 405)]
         for done_task in asyncio.as_completed(tasks):
             task_data = await done_task
             for ticket_id, ticket_articles in task_data.items():
@@ -98,16 +107,6 @@ async def fetch_all_articles(sem: Semaphore):
 
                 with open(f"{step_1_target}/{ticket_id}.json", "w") as file:
                     json.dump(ticket_articles, file, indent=4, ensure_ascii=False)
-
-
-async def main():
-    async with aiohttp.ClientSession() as session:
-        data = await fetch_articles(session, ticket_id=2103)
-
-        res = message_2_md_parser(data)
-
-        with open("result.json", "w") as file:
-            json.dump(res, file, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":

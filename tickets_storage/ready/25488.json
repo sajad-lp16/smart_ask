@@ -1,8 +1,0 @@
-{
-    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[SMS Forwarder] (Service Provider, SMS Forwarder) – 2024-10-03 12:00 p.m.:**  \n- Sent a billing alert from Freedom Mobile.  \n- Indicated that the Prepaid service could not be renewed due to a $0 balance.  \n- Provided instructions to top up the account via website or phone.  \n- *Key quote:* \"Freedom Mobile Billing Alert: We couldn't renew your Prepaid service this month. Your current balance is $0. To top up your account, please visit us at www.freedommobile.ca/pay, or call 611 from your Freedom phone.\"  \n\n#### **2. Timeline**  \n- **[2024-10-03]:** Freedom Mobile billing alert received.  \n\n#### **3. Key Events/Issues**  \n- **Billing Issue:** Freedom Mobile could not renew the Prepaid service due to insufficient balance.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Top up the Freedom Mobile account (assigned to User).  \n\n#### **5. Technical Details (if applicable)**  \n- **Account/Login Info:** Freedom Mobile Prepaid account.  \n\n#### **6. Next Steps**  \n- **Action 1:** Top up the Freedom Mobile account (Responsible: User).",
-    "emails": [
-        "no-reply@sms-forwarder.com"
-    ],
-    "person_ids": [],
-    "deal_ids": []
-}

@@ -1,10 +1,23 @@
-from fastapi import FastAPI, HTTPException, Depends, Query, Security
+from typing import List, Optional, Union
+
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, HTTPException, Security
 from fastapi.security import APIKeyQuery
 from pydantic import BaseModel, field_validator
-from typing import List, Optional, Union, Annotated
 from pydantic_core import PydanticCustomError
 
-app = FastAPI()
+from db.sql import add_tickets, init_db
+from core.log_config import api_logger as logger
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("Initializing database...")
+    init_db()
+    logger.info("Database initialization complete")
+    yield
+    logger.info("Shutting down...")
+
+app = FastAPI(lifespan=lifespan)
 
 api_key_query = APIKeyQuery(name="api_key", auto_error=False)
 
@@ -18,6 +31,7 @@ async def get_api_client(
         api_key: str = Security(api_key_query)
 ):
     if not api_key:
+        logger.warning("API key is missing")
         raise HTTPException(
             status_code=401,
             detail="API key is required",
@@ -25,6 +39,7 @@ async def get_api_client(
         )
 
     if api_key not in VALID_API_KEYS:
+        logger.warning(f"Invalid API key attempted: {api_key[:5]}...")
         raise HTTPException(
             status_code=401,
             detail="Invalid API key",
@@ -77,6 +92,7 @@ async def update_tickets(
         request: TicketRequest,
         client: str = Security(get_api_client)
 ):
+    logger.info(f"Received update request from client: {client}")
     ids = []
 
     if request.ticket_id is not None:
@@ -88,6 +104,8 @@ async def update_tickets(
     if not ids:
         raise HTTPException(status_code=400, detail="At least one ticket ID required")
 
+    add_tickets(ticket_ids=ids)
+    logger.info(f"Successfully processed ticket update request for IDs: {ids}")
     return {
         "status": "success",
         "processed_ids": ids,

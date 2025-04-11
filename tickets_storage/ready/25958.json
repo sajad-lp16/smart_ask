@@ -1,8 +1,0 @@
-{
-    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[SAP CloudSupport Alerts] (SAP Support, SAP SE) – [Date not specified]:**  \n- Announced upcoming webcasts regarding TLS 1.3 updates for SAP Ariba, SAP Business Network, and SAP Fieldglass.  \n- Provided registration links for two sessions on October 29th.  \n- Listed affected entities and encouraged attendance from customers, partners, buyers, and suppliers.  \n- *Key quote:* \"The SAP Product Engineering support team is excited to announce an important webcast that impacts all users – customers, partners, buyers, suppliers and PMOs.\"  \n\n#### **2. Timeline**  \n- **[October 29th]:** Session 1 at 10:00am IST / 1:30pm JST / 3:30pm AEDT.  \n- **[October 29th]:** Session 2 at 11:00am EDT / 12:00pm BRT / 3:00pm GMT / 4:00pm CET.  \n\n#### **3. Key Events/Issues**  \n- **TLS 1.3 Updates:** Suspension of support for weak TLS 1.2 cipher suites and enablement of TLS 1.3 in January 2025.  \n- **Webcast Announcement:** Detailed presentation on impacts, required actions, and testing procedures.  \n\n#### **4. Action Items**  \n- **Pending:**  \n- Register for one of the webcast sessions (assigned to recipients).  \n- **Completed:**  \n- Announcement disseminated to all relevant parties.  \n\n#### **5. Technical Details (if applicable)**  \n- **Affected Products:** SAP Business Network, SAP Ariba, SAP Fieldglass, and related services.  \n\n#### **6. Next Steps**  \n- **Action 1:** Attend the webcast to understand TLS updates (assigned to recipients).  \n- **Action 2:** Verify and test TLS changes post-webcast (assigned to recipients).",
-    "emails": [
-        "sapcloudsupport@alerts.ondemand.com"
-    ],
-    "person_ids": [],
-    "deal_ids": []
-}

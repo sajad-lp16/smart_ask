@@ -4,20 +4,25 @@ import asyncio
 from asyncio import Semaphore
 
 from ai.utils.scripts import get_chunks
-from ai.clients import CustomAsyncOpenAI, AIClient
-from core import (
-    STEP_2_TICKETS_TARGET,
-    STEP_4_TICKETS_TARGET,
-)
-from ai.fetch import fetch_ai_client
+from ai.utils.ai_clients import CustomAsyncOpenAI, AIClient
 
+from ai.utils.fetch import fetch_ai_client
+from elastic.ingest_2_elastic import ingest_summary_documents
+from elastic.delete_from_elastic import delete_summary_documents
 from ai.utils.prompts import (
     SUMMARIZE_PROMPT,
     SUMMARIZE_COMBINATION_PROMPT
 )
+from core.utils.fetch_avicenna_ids import (
+    get_person_ids_from_email,
+    get_deal_ids_from_ticket_id
+)
+from core import (
+    STEP_2_TICKETS_TARGET,
+)
 
 
-async def ai_fetch_4_summarize(sem: Semaphore, conversation_data: str, client: CustomAsyncOpenAI = None) -> list:
+async def ai_fetch_4_summarize(sem: Semaphore, conversation_data: str, client: CustomAsyncOpenAI) -> list:
     async with sem:
         conversations = get_chunks(conversation_data)
         analysis_list = []
@@ -49,35 +54,45 @@ async def ai_fetch_4_summarize(sem: Semaphore, conversation_data: str, client: C
         return final_result
 
 
-async def bulk_ai_fetch_4_summarize(sem):
-    step_2_target = str(STEP_2_TICKETS_TARGET) + "_OK"
-    step_4_target = STEP_4_TICKETS_TARGET
-
-    os.makedirs(str(step_4_target), exist_ok=True)
-
-    all_files = set(os.listdir(step_2_target))
-    pre_processed = set(os.listdir(step_4_target))
-
-    files_to_process = list(all_files - pre_processed)
-
+async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]):
     tasks = pending = {}
     async with AIClient() as client:
-        for file_name in files_to_process:
-            with open(f"{step_2_target}/{file_name}") as file:
-                ticket_data = json.load(file)
-                tasks[
-                    asyncio.create_task(ai_fetch_4_summarize(sem, ticket_data["conversations"], client=client))
-                ] = ticket_data
+        for ticket_id, conversations in tickets_conversations.items():
+            tasks[
+                asyncio.create_task(ai_fetch_4_summarize(sem, conversations, client=client))
+            ] = ticket_id
 
         while pending:
-            done, pending = await asyncio.wait(tasks.keys(), return_when=asyncio.FIRST_COMPLETED)
+            done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
                 task_result = done_task.result()
                 if not task_result:
                     continue
-                ticket_data = tasks[done_task]
+                ticket_id = tasks[done_task]
+                emails = task_result["emails"]
+                id_tasks = [
+                    asyncio.create_task(get_person_ids_from_email(emails)),
+                    asyncio.create_task(get_deal_ids_from_ticket_id([ticket_id])),
+                ]
+                results = await asyncio.gather(*id_tasks)
+                person_ids = results[0]
+                deal_ids = results[1]
+                task_result["person_ids"] = person_ids
+                task_result["deal_ids"] = deal_ids
 
-                ready_data = {"ticket_id": ticket_data["ticket_id"], "body": task_result}
+                await delete_summary_documents(ticket_id)
+                await ingest_summary_documents([{"ticket_id": ticket_id, "body": task_result}])
 
-                with open(f"{step_4_target / ticket_data["ticket_id"]}.json", "w") as file:
-                    json.dump(ready_data, file, ensure_ascii=False, indent=4)
+
+async def generate_summary_for_all_tickets(sem: Semaphore):
+    step_2_target = str(STEP_2_TICKETS_TARGET) + "_OK"
+
+    tickets_conversations = {}
+
+    all_files = set(os.listdir(step_2_target))
+    for file_name in all_files:
+        with open(f"{step_2_target}/{file_name}") as file:
+            ticket_id = file_name.split(".")[0]
+            ticket_data = json.load(file)
+            tickets_conversations[ticket_id] = ticket_data["conversations"]
+    await bulk_ai_fetch_4_summarize(sem, tickets_conversations)

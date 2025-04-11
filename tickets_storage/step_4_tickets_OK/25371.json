@@ -1,8 +1,0 @@
-{
-    "summary": "#### **1. Who Said What (Sort by Date & Time)**  \n\n- **[billing@mailgun.net] (Billing, Mailgun Technologies, Inc.) – [Date not specified]:**  \n  - Acknowledged payment submission from Mohammad Hashemian.  \n  - Provided details of the payment: $35.00 for Product Usage.  \n  - Referred to the monthly invoice for more details.  \n  - *Key quote:* \"Thanks for submitting your payment to Sinch Mailgun.\"  \n\n- **[Amin Ghaffari] – [Date not specified]:**  \n  - Requested Mohammad Hashemian to review and close the ticket.  \n  - *Key quote:* \"Please review and close this ticket Mohammad Hashemian\"  \n\n#### **2. Timeline**  \n- **[Date not specified]:** Payment submitted by Mohammad Hashemian.  \n- **[Date not specified]:** Request to review and close the ticket by Amin Ghaffari.  \n\n#### **3. Key Events/Issues**  \n- **Payment Submission:** Payment of $35.00 made by Mohammad Hashemian for Product Usage.  \n- **Ticket Review:** Request to review and close the ticket by Amin Ghaffari.  \n\n#### **4. Action Items**  \n- **Pending:**  \n  - Review and close the ticket (assigned to Mohammad Hashemian).  \n\n#### **5. Technical Details (if applicable)**  \n- **Payment Details:** $35.00 for Product Usage.  \n\n#### **6. Next Steps**  \n- **Action 1:** Mohammad Hashemian to review and close the ticket.",
-    "emails": [
-        "billing@mailgun.net",
-        "Amin Ghaffari",
-        "Mohammad Hashemian"
-    ]
-}

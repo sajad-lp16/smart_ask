@@ -1,6 +1,6 @@
 ROUTER_PROMPT = """
 Analyze the following client input and determine its intent based on these STRICT categories:
-1. **"summarize"** – ONLY if the client EXPLICITLY asks to summarize (using words like "summarize", "recap", "brief") a ticket, conversation, or deal.
+1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
 3. **"help"** – For bot usage help, greetings, or unclear requests.
 
@@ -24,16 +24,17 @@ RESPONSE FORMAT:
 ```json
 {
   "message_type": "summarize|question|help",
-  "deal_ids": [<Extracted deal IDs used for response>],
+  "deal_ids": [<Extracted deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id deal id, deal#)>],
   "emails": [<Extracted emails used for response>], 
-  "person_ids": [<Extracted person IDs used for response>],
-  "ticket_ids": [<Extracted ticket IDs used for response>]
+  "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
+  "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
 }
 ```
 
 Here is the client input:
 ```
-what should be qwewefwf```
+%s 
+```
 """
 
 QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.
@@ -105,8 +106,8 @@ Here are the JSON chunks to merge:
 SUMMARIZE_PROMPT = """Analyze the following conversation and provide:
 I need the response to follow the example below, Make sure the response in standard JSON deserializable format, nothing before or after the json response.
 {
-  "emails": [""All valid emails you can find""],
-  "summary": "Extract a structured and detailed summary from the following unstructured email conversation.
+  "emails" (type=list of valid emails string): [""All valid emails you can find"" ],
+  "summary" (type=string): "Extract a structured and detailed summary from the following unstructured email conversation.
                 ### **Instructions:**  
                 1. **Sort all messages by Date & Time** before structuring the summary.  
                 2. Output **only** the structured summary with **no extra explanations before or after**.  
@@ -213,4 +214,67 @@ Analysis json objects as a list to combine:
 ```json
 %s
 ```
+"""
+
+WELCOME_MESSAGE = """### 👋 Welcome to **Avicenna Assistant Bot**! 🤖✨
+
+Here's what I can help you with:
+
+---
+
+### 🛠️ What I can do:
+
+1. 🧠 **Answer technical questions** about the platform.
+   👉 Just ask me anything!
+
+2. 📝 **Summarize tickets and conversations**  
+   📌 I can:
+   - Summarize a specific ticket (just give me the **ticket ID** 🎟️)
+   - Summarize all conversations related to a **person** or a **deal**
+   - Answer questions based on those conversations
+
+   🧾 Just provide any of the following:
+   - **person email** 📧  
+   - **person ID** 🆔  
+   - **deal ID** 💼  
+   - or a combination of them!
+
+---
+
+### 🧪 Try asking me things like:
+
+- ❓ _“can I try the application before I purchase a license?”_  
+- 📄 _“Summarize ticket `#12345`”_  
+- 🗣️ _“Summarize conversations with `john.doe@example.com` and `foo.bar@example.com`”_  
+- 🤔 _“What’s the main concern from `deal_456` conversations?”_
+
+---
+
+🧭 I’m here to guide you — just tell me what you need! 🚀💬"""
+
+
+QA_PROMPT_TEMPLATE = """
+You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
+
+Respond strictly in JSON format like:
+{
+    "related": true,
+    "answer": "Your answer here..."
+}
+
+Question: {query_str}
+
+Context:
+{context_str}
+"""
+
+QA_BASED_PROMPT_TEMPLATE = """
+You are an expert assistant. The user will ask a question and you'll try to determine to find a suitable answer from the documents provided.
+if you can't find a suitable answer, you will respond with "Sorry, I can't provide answer based on tickets you mentioned..."
+
+Question:
+{query_str}
+
+Context:
+{context_str}
 """

@@ -4,8 +4,8 @@ import shutil
 import asyncio
 from asyncio import Semaphore
 
-from ai.generate_qa import bulk_ai_fetch_4_qa
-from ai.generate_summarize import bulk_ai_fetch_4_summarize
+from ai.generate_qa import generate_qa_for_all_tickets
+from ai.generate_summarize import generate_summary_for_all_tickets
 from core import (
     STEP_1_TICKETS_TARGET,
     STEP_2_TICKETS_TARGET,
@@ -30,8 +30,8 @@ def get_step_action(step):
     step_2_action = {
         "step_1": fetch_all_articles,
         "step_2": parse_all_tickets_md,
-        "step_3": bulk_ai_fetch_4_qa,
-        "step_4": bulk_ai_fetch_4_summarize,
+        "step_3": generate_qa_for_all_tickets,
+        "step_4": generate_summary_for_all_tickets,
     }
 
     return step_2_action[step]
@@ -67,8 +67,6 @@ def trigger_step(step: str, start_over=False):
     action = get_step_action(step)
     action()
 
-    step_ok(step)
-
 
 async def async_trigger_step(steps: list[str], sem: Semaphore, start_over=False):
     steps_to_trigger = steps[:]
@@ -91,7 +89,6 @@ async def async_trigger_step(steps: list[str], sem: Semaphore, start_over=False)
     done, _ = await asyncio.wait(concurrent_tasks.keys())
     for done_task in done:
         step = concurrent_tasks[done_task]
-        step_ok(step)
 
 
 async def main(start_over=False):
@@ -100,17 +97,19 @@ async def main(start_over=False):
     # STEP_1 =======================================================================================================
     # print("Triggering Step 1 Action [Fetching ZammadTickets]")
     # await async_trigger_step(["step_1"], sem, start_over)
+    # step_ok("step_1")
+
     # # # #
     # # # # # STEP_2 =======================================================================================================
     # print("Triggering Step 2 Action [Parsing Tickets]")
     # trigger_step("step_2", start_over)
-    #
+    # step_ok("step_2")
+    # #
     # # STEP_3 =======================================================================================================
     # # STEP_4 =======================================================================================================
     print("Triggering Step 3 and 4 Actions [Generating QA, Summary from Tickets]")
-    # await async_trigger_step(["step_3", "step_4"], sem, start_over)
+    # # await async_trigger_step(["step_3", "step_4"], sem, start_over)
     await async_trigger_step(["step_4"], sem, start_over)
-
 
 if __name__ == "__main__":
     asyncio.run(main(start_over=False))

@@ -1,0 +1,29 @@
+from decouple import config
+
+ZAMMAD_API_KEY = config("ZAMMAD_API_KEY")
+ZAMMAD_HEADERS = {"Authorization": f'Bearer {ZAMMAD_API_KEY}'}
+ZAMMAD_BASE_URL = config("ZAMMAD_BASE_URL", cast=str)
+ZAMMAD_TICKET_URL = ZAMMAD_BASE_URL + "/tickets?per_page=20&page={page_number}"
+ZAMMAD_ARTICLES_URL = ZAMMAD_BASE_URL + "/ticket_articles/by_ticket/{ticket_id}"
+ZAMMAD_TICKET_PREFIX = config("ZAMMAD_TICKET_PREFIX", cast=str)
+
+ELASTIC_URL = config("ELASTIC_URL", cast=str)
+ELASTIC_URL_FOR_CLIENT = config("ELASTIC_URL_FOR_CLIENT", cast=str)
+ELASTIC_PASSWORD = config("ES_PASSWORD", cast=str)
+ELASTIC_USER = config("ES_USER", cast=str)
+ELASTIC_QA_INDEX_NAME = config("ELASTIC_QA_INDEX_NAME", cast=str)
+ELASTIC_SUMMARY_INDEX_NAME = config("ELASTIC_SUMMARY_INDEX_NAME", cast=str)
+
+OPENAI_KEY = config("OPENAI_KEY")
+DEEPSEEK_MODEL = config("DEEPSEEK_MODEL")
+OPENAI_MODEL = config("OPENAI_MODEL")
+DEEPSEEK_API_KEY = config("DEEPSEEK_API_KEY")
+DEEPSEEK_BASE_URL = config("DEEPSEEK_BASE_URL")
+OPENAI_BASE_URL = config("OPENAI_BASE_URL")
+AI_FOR_RESPONSE = config("AI_FOR_RESPONSE", cast=str)
+AI_FOR_PROCESS = config("AI_FOR_PROCESS")
+
+MATTERMOST_URL = config("MATTERMOST_URL", cast=str)
+MATTERMOST_WEBSOCKET_URL = config("MATTERMOST_WEBSOCKET_URL", cast=str)
+MATTERMOST_BOT_TOKEN = config("MATTERMOST_BOT_TOKEN", cast=str)
+MATTERMOST_BOT_USERNAME = config("MATTERMOST_BOT_USERNAME", cast=str)
