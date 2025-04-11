@@ -26,9 +26,6 @@ async def fetch_ai_client(prompt: str, client: CustomAsyncOpenAI = None) -> dict
         except APITimeoutError:
             continue
         except BadRequestError as err:
-            if err.status_code > 400:
-                raise err
-            print("ERROR LONG")
-            return None
+            raise err
         except TypeError as err:
             raise err

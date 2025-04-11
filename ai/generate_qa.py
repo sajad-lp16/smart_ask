@@ -8,7 +8,7 @@ from ai.clients import CustomAsyncOpenAI, AIClient
 from ai.fetch import fetch_ai_client
 from core import (
     STEP_2_TICKETS_TARGET,
-    STEP_3_TICKETS_TARGET, TooLongTextError
+    STEP_3_TICKETS_TARGET
 )
 
 from ai.utils.prompts import (
@@ -19,39 +19,32 @@ from ai.utils.prompts import (
 
 async def ai_fetch_4_qa(sem: Semaphore, conversation_data: str, lvl: int = 1, client: CustomAsyncOpenAI = None) -> list:
     async with sem:
-        conversations = get_chunks(conversation_data, lvl=lvl)
-        try:
-            analysis_list = []
+        conversations = get_chunks(conversation_data)
+        analysis_list = []
 
-            tasks = [
-                asyncio.create_task(fetch_ai_client(QA_PROMPT % conversation, client)) for conversation in conversations
-            ]
-            done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_EXCEPTION)
+        tasks = [
+            asyncio.create_task(fetch_ai_client(QA_PROMPT % conversation, client)) for conversation in conversations
+        ]
+        done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_EXCEPTION)
 
-            for d_task in done:
-                if d_task.exception():
-                    [p.cancel() for p in pending]
-                    raise d_task.exception()
-                task_result = d_task.result()
-                if task_result is None:
-                    raise TooLongTextError
+        for d_task in done:
+            if d_task.exception():
+                [p.cancel() for p in pending]
+                raise d_task.exception()
+            task_result = d_task.result()
 
-                if task_result:
-                    analysis_list.append(d_task.result())
+            if task_result:
+                analysis_list.append(d_task.result())
 
-            if not analysis_list:
-                return []
+        if not analysis_list:
+            return []
 
-            if len(analysis_list) > 1:
-                final_result = await fetch_ai_client(QA_COMBINATION_PROMPT % json.dumps(analysis_list), client)
-            else:
-                final_result = analysis_list[0]
-            return final_result
-        except TooLongTextError:
-            pass
+        if len(analysis_list) > 1:
+            final_result = await fetch_ai_client(QA_COMBINATION_PROMPT % json.dumps(analysis_list), client)
+        else:
+            final_result = analysis_list[0]
+        return final_result
 
-    lvl += 1
-    return await ai_fetch_4_qa(sem, conversation_data, lvl=lvl, client=client)
 
 
 async def bulk_ai_fetch_4_qa(sem):

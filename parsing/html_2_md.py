@@ -7,6 +7,21 @@ from parsing.parse_html import markup_remover
 from parsing.parse_emails import get_unique_emails
 
 
+def shorten_text(original_text, chunk_size=100):
+    chunks = [original_text[i:i + chunk_size] for i in range(0, len(original_text), chunk_size)]
+
+    seen = set()
+    unique_chunks = []
+
+    for chunk in chunks:
+        if chunk not in seen:
+            seen.add(chunk)
+            unique_chunks.append(chunk)
+
+    shortened_text = ''.join(unique_chunks)
+
+    return shortened_text
+
 def extract_conversations(current_speaker, html_source):
     text = markup_remover(html_source).strip()
 
@@ -32,22 +47,19 @@ def extract_conversations(current_speaker, html_source):
     return "\n----\n\n".join(conversation)
 
 
-def message_2_md_parser(messages: dict | list[dict], bulk=False) -> str:
+def message_2_md_parser(messages: list[dict]) -> str:
     def _process_message(_message):
         if message["body"].startswith("From Bot:"):
             return ""
-        current_speaker = message.get("origin_by") or message.get("from") or message.get("created_by")
+        current_speaker = _message.get("origin_by") or _message.get("from") or _message.get("created_by")
         return extract_conversations(current_speaker, message["body"])
 
-    if bulk:
-        articles = []
+    articles = []
 
-        for message in messages:
-            articles.append(_process_message(message))
+    for message in messages:
+        articles.append(_process_message(message))
 
-        return "------\n\n".join(list(filter(lambda item: item, articles)))
-
-    return _process_message(messages)
+    return shorten_text("------\n\n".join(list(filter(lambda item: item, articles))))
 
 
 def parse_all_tickets_md():
@@ -66,7 +78,7 @@ def parse_all_tickets_md():
             ticket_articles = json.load(file)
 
         new_data = {
-            "conversations": message_2_md_parser(ticket_articles, bulk=True),
+            "conversations": message_2_md_parser(ticket_articles),
             "all_emails": get_unique_emails(json.dumps(ticket_articles)),
             "ticket_id": file_name.split(".")[0]
         }

@@ -1,16 +1,24 @@
-def get_chunks(conversation: str, lvl: int = 1) -> list[str]:
-    if lvl > 1:
-        l_c = len(conversation)
-        offset = l_c // lvl
-        prev = 0
-        conversations = []
-        while prev <= l_c:
-            conversations.append(conversation[prev:offset + prev])
-            prev += offset
-        conversations = list(filter(lambda c: len(c) > 5, conversations))
-    else:
-        conversations = [conversation]
-    return conversations
+from typing import List
+from llama_index.core.schema import Document
+from llama_index.core.node_parser import SentenceSplitter
+
+
+def get_chunks(
+        text: str,
+        max_chunk_size: int = 60000,  # DeepSeek's 64K context window
+        chunk_overlap: int = 100  # Context overlap between chunks
+) -> List[str]:
+    if len(text) <= max_chunk_size:
+        return [text]
+
+    splitter = SentenceSplitter(
+        chunk_size=max_chunk_size,
+        chunk_overlap=chunk_overlap,
+        separator=" "  # Preserve word boundaries
+    )
+
+    nodes = splitter.get_nodes_from_documents([Document(text=text)])
+    return [node.text for node in nodes]
 
 # llm = Ollama(
 #     base_url="http://127.0.0.1:11434",
