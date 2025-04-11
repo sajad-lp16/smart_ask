@@ -12,6 +12,7 @@ from constants import (
     ZAMMAD_HEADERS,
     ZAMMAD_ARTICLES_URL
 )
+from core.log_config import update_tickets_logger as logger
 
 from core import STEP_1_TICKETS_TARGET
 
@@ -70,6 +71,9 @@ async def fetch_articles(ticket_ids, session: ClientSession = None):
 
         done, _ = await asyncio.wait(tasks.keys())
         for done_task in done:
+            if done_task.exception() is not None:
+                logger.error(done_task.exception())
+                continue
             ticket_id = tasks[done_task]
             articles[ticket_id] = done_task.result()
 

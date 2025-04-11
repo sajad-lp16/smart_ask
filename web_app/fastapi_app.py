@@ -8,6 +8,8 @@ from pydantic_core import PydanticCustomError
 
 from db.sql import add_tickets, init_db
 from core.log_config import api_logger as logger
+from constants import AVICENNA_TOKEN
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -17,13 +19,13 @@ async def lifespan(app: FastAPI):
     yield
     logger.info("Shutting down...")
 
+
 app = FastAPI(lifespan=lifespan)
 
 api_key_query = APIKeyQuery(name="api_key", auto_error=False)
 
 VALID_API_KEYS = {
-    "supportbottokeniamnotabaduserletmeindearapi": "support-bot",
-    "admintokenwithfullaccess": "admin"
+    AVICENNA_TOKEN: "support-bot",
 }
 
 

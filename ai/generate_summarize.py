@@ -76,7 +76,7 @@ async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]):
                 ]
                 results = await asyncio.gather(*id_tasks)
                 person_ids = results[0]
-                deal_ids = results[1]
+                deal_ids = results[1][ticket_id]
                 task_result["person_ids"] = person_ids
                 task_result["deal_ids"] = deal_ids
 

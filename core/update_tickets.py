@@ -48,7 +48,7 @@ async def process_tickets_beat_task():
 
                     await asyncio.gather(*analyze_tickets)
 
-                    logger.info(f"Successfully processed ticket {ticket_ids}")
+                    logger.info(f"Successfully processed ticket {list(tickets_articles.keys())}")
 
                 except Exception as e:
                     logger.error(f"Error processing ticket {ticket_ids}: {str(e)}")
