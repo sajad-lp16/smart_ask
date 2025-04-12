@@ -3,9 +3,9 @@ import json
 import asyncio
 from asyncio import Semaphore
 
+from core.log_config import ai_logger
 from ai.utils.scripts import get_chunks
 from ai.utils.ai_clients import CustomAsyncOpenAI, AIClient
-
 from ai.utils.fetch import fetch_ai_client
 from elastic.ingest_2_elastic import ingest_summary_documents
 from elastic.delete_from_elastic import delete_summary_documents
@@ -37,6 +37,7 @@ async def ai_fetch_4_summarize(sem: Semaphore, conversation_data: str, client: C
 
         for d_task in done:
             if d_task.exception():
+                ai_logger.error(d_task.exception())
                 [p.cancel() for p in pending]
                 raise d_task.exception()
 

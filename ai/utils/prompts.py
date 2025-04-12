@@ -52,7 +52,7 @@ You must respect these rules:
 10. Ensure the "solution" field is phrased as a **general recommendation or action** that can be applied to any user facing a similar issue. For example, instead of "The support staff updated the account role," use "Contact support to update your account role."
 11. Extract **as many question-answer sets as possible** from the conversation, ensuring that each problem-solution pair is distinct and addresses a unique issue.
 
-Make sure the response in standard JSON deserializable format, nothing before or after the json response.
+Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
 this is the conversation:
 
 ```
@@ -96,7 +96,8 @@ Rules:
 - Do not modify the wording of any existing questions or solutions
 - If two entries have similar but not identical problems/solutions, keep both
 - Return only the final merged JSON array, with no additional text
-- Make sure the response in standard JSON deserializable format, nothing before or after the json response.
+- Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+
 
 Here are the JSON chunks to merge:
 ```
@@ -104,7 +105,8 @@ Here are the JSON chunks to merge:
 ```
 """
 SUMMARIZE_PROMPT = """Analyze the following conversation and provide:
-I need the response to follow the example below, Make sure the response in standard JSON deserializable format, nothing before or after the json response.
+I need the response to follow the example below, Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+
 {
   "emails" (type=list of valid emails string): [""All valid emails you can find"" ],
   "summary" (type=string): "Extract a structured and detailed summary from the following unstructured email conversation.
@@ -162,7 +164,7 @@ Please make sure to:
 - Sort all messages by Date & Time from all chunks combined.
 - Maintain the structure and format for each section in the final response.
 - If any action items, issues, or next steps appear in multiple chunks, merge them appropriately, ensuring the tasks are not duplicated.
-Make sure the response in standard JSON deserializable format, nothing before or after the json response.
+Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
 
 {
   "emails": ["All valid emails from all chunks"],
@@ -252,7 +254,6 @@ Here's what I can help you with:
 
 🧭 I’m here to guide you — just tell me what you need! 🚀💬"""
 
-
 QA_PROMPT_TEMPLATE = """
 You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
 
@@ -269,12 +270,24 @@ Context:
 """
 
 QA_BASED_PROMPT_TEMPLATE = """
-You are an expert assistant. The user will ask a question and you'll try to determine to find a suitable answer from the documents provided.
-if you can't find a suitable answer, you will respond with "Sorry, I can't provide answer based on tickets you mentioned..."
+You are an expert assistant helping users extract as much relevant information as possible from ticket documents.
 
-Question:
+You will be given a user question and a context from a ticket. Your task is to interpret the question naturally and answer it using all applicable information found in the ticket. 
+
+- If the question asks about people, extract **all individuals** mentioned and include their **full details** (name, role, affiliation, actions taken, questions asked, and responses).
+- Include **quotes, timestamps, technical references, and next steps** where relevant.
+- Return the response using **Markdown formatting** for clarity (e.g., use lists, bold, headers).
+- Your answer should be **as complete and detailed as possible** based on the context provided.
+
+If the ticket does **not contain enough information** to answer the question, respond with:
+**"Sorry, the question you asked is not covered in this ticket."**
+
+---
+
+**Question:**  
 {query_str}
 
-Context:
+**Context:**  
 {context_str}
+
 """

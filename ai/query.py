@@ -104,7 +104,7 @@ async def query_documents(query_text: str) -> list[str]:
         text_preview = "### You are asking for summary based on: \n" + build_query_hint(**ai_analysis_data) + "\n\n"
         response_message = await query_elastic(**ai_analysis_data)
         if isinstance(response_message, str):
-            return [response_message]
+            return [text_preview + response_message]
         data = [text_preview + response_message[0]]
         data.extend(response_message[1:])
         return data

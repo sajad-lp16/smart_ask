@@ -6,6 +6,7 @@ from asyncio import Semaphore
 from ai.utils.scripts import get_chunks
 from ai.utils.ai_clients import CustomAsyncOpenAI, AIClient
 from ai.utils.fetch import fetch_ai_client
+from core.log_config import ai_logger
 from core import (
     STEP_2_TICKETS_TARGET,
 )
@@ -31,6 +32,7 @@ async def ai_fetch_4_qa(sem: Semaphore, conversation_data: str, client: CustomAs
         for d_task in done:
             if d_task.exception():
                 [p.cancel() for p in pending]
+                ai_logger.error(d_task.exception())
                 raise d_task.exception()
             task_result = d_task.result()
 

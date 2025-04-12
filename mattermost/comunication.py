@@ -75,7 +75,7 @@ async def handle_message(message_data: dict):
 
         processed_messages.add(message_id)
 
-        logger.info(f"Received message in channel {channel_id}: {message}")
+        logger.info(f"\033[94mReceived message in channel {channel_id}: {message}\033[0m")
 
         responses = await query_documents(message)
         logger.info(f"Generated response: {responses}")
