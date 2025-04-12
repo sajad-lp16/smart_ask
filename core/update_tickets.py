@@ -3,10 +3,14 @@ from asyncio import Semaphore
 
 from ai.generate_summarize import bulk_ai_fetch_4_summarize
 from ai.generate_qa import bulk_ai_fetch_4_qa
-from db.sql import get_tickets_for_processing
 from core.log_config import update_tickets_logger as logger
 from parsing.html_2_md import message_2_md_parser
 from zammad.fetch import fetch_articles
+from db.sql import (
+    get_tickets_for_processing,
+    delete_tickets
+)
+
 
 async def _trigger_fetch_step(ticket_ids):
     logger.info(f"Fetching tickets: {ticket_ids}")
@@ -46,7 +50,10 @@ async def process_tickets_beat_task():
                         asyncio.create_task(bulk_ai_fetch_4_summarize(semaphore, tickets_conversations)),
                     ]
 
-                    await asyncio.gather(*analyze_tickets)
+                    results = await asyncio.gather(*analyze_tickets)
+                    qa_ok, summary_ok = results
+                    successful_process = list(set(qa_ok) & set(summary_ok))
+                    delete_tickets(successful_process)
 
                     logger.info(f"Successfully processed ticket {list(tickets_articles.keys())}")
 

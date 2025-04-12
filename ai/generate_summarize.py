@@ -54,7 +54,7 @@ async def ai_fetch_4_summarize(sem: Semaphore, conversation_data: str, client: C
         return final_result
 
 
-async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]):
+async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]) -> list[int]:
     tasks = pending = {}
     async with AIClient() as client:
         for ticket_id, conversations in tickets_conversations.items():
@@ -62,6 +62,7 @@ async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]):
                 asyncio.create_task(ai_fetch_4_summarize(sem, conversations, client=client))
             ] = ticket_id
 
+        successful_fetch = []
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
@@ -76,12 +77,18 @@ async def bulk_ai_fetch_4_summarize(sem, tickets_conversations: dict[int, str]):
                 ]
                 results = await asyncio.gather(*id_tasks)
                 person_ids = results[0]
-                deal_ids = results[1][ticket_id]
+                '''
+                THIS NEEDS MODIFICATION !!!!!!!!!!!
+                deal_ids = results[1] WHEN CONNECTED TO AVICENNA
+                '''
+                deal_ids = results[1]
                 task_result["person_ids"] = person_ids
                 task_result["deal_ids"] = deal_ids
 
                 await delete_summary_documents(ticket_id)
                 await ingest_summary_documents([{"ticket_id": ticket_id, "body": task_result}])
+                successful_fetch.append(ticket_id)
+        return successful_fetch
 
 
 async def generate_summary_for_all_tickets(sem: Semaphore):

@@ -47,22 +47,25 @@ async def ai_fetch_4_qa(sem: Semaphore, conversation_data: str, client: CustomAs
         return final_result
 
 
-async def bulk_ai_fetch_4_qa(sem, tickets_conversations: dict[int, str]):
+async def bulk_ai_fetch_4_qa(sem, tickets_conversations: dict[int, str]) -> list[int]:
     tasks = pending = {}
     async with AIClient() as client:
         for ticket_id, conversations in tickets_conversations.items():
             task = asyncio.create_task(ai_fetch_4_qa(sem, conversations, client=client))
             tasks[task] = ticket_id
 
+        successful_fetch = []
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
                 task_result = done_task.result()
+                ticket_id = tasks[done_task]
+                successful_fetch.append(ticket_id)
                 if not task_result:
                     continue
-                ticket_id = tasks[done_task]
                 await delete_qa_documents(ticket_id)
                 await ingest_qa_documents(task_result, ticket_id)
+        return successful_fetch
 
 
 async def generate_qa_for_all_tickets(sem):

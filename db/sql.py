@@ -126,27 +126,17 @@ def mark_as_processing(ticket_id: str) -> bool:
         raise
 
 
-def delete_ticket(ticket_id: str) -> bool:
-    """
-    Remove ticket if it's in processing status.
-    Returns True if ticket was deleted, False otherwise.
-    """
+def delete_tickets(ticket_ids: List[str]) -> int:
     try:
         with sqlite3.connect(DB_NAME) as conn:
             cursor = conn.cursor()
-            cursor.execute(
+            cursor.executemany(
                 "DELETE FROM tickets WHERE ticket_id = ? AND status = 'processing'",
-                (ticket_id,)
+                [(ticket_id,) for ticket_id in ticket_ids]
             )
             conn.commit()
-            deleted = cursor.rowcount > 0
-            
-            if deleted:
-                logger.info(f"Successfully deleted ticket {ticket_id} (status: processing)")
-            else:
-                logger.warning(f"Failed to delete ticket {ticket_id} - not in processing status or not found")
-                
-            return deleted
+            deleted_count = cursor.rowcount
+            return deleted_count
     except Exception as e:
-        logger.error(f"Failed to delete ticket {ticket_id}: {str(e)}")
+        logger.error(f"Failed to delete tickets {ticket_ids}: {str(e)}")
         raise
