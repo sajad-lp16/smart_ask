@@ -52,26 +52,13 @@ async def get_api_client(
 
 
 class TicketRequest(BaseModel):
-    ticket_id: Optional[Union[int, str]] = None
     ticket_ids: Optional[List[Union[int, str]]] = None
 
-    @field_validator('ticket_id', 'ticket_ids', mode='before')
+    @field_validator('ticket_ids', mode='before')
     @classmethod
     def validate_ids(cls, v, info):
         field_name = info.field_name
-
-        if field_name == 'ticket_id' and v is not None:
-            if isinstance(v, str):
-                if not v.isdigit():
-                    raise PydanticCustomError(
-                        "invalid_ticket_id",
-                        "Ticket ID must be a numeric string",
-                        {"field": field_name}
-                    )
-                return int(v)
-            return v
-
-        elif field_name == 'ticket_ids' and v is not None:
+        if field_name == 'ticket_ids' and v is not None:
             validated_ids = []
             for item in v:
                 if isinstance(item, str):
@@ -96,9 +83,6 @@ async def update_tickets(
 ):
     logger.info(f"Received update request from client: {client}")
     ids = []
-
-    if request.ticket_id is not None:
-        ids.append(int(request.ticket_id))
 
     if request.ticket_ids is not None:
         ids.extend([int(tid) for tid in request.ticket_ids])
