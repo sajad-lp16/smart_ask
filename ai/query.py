@@ -13,8 +13,6 @@ from ai.utils.prompts import (
     QA_BASED_PROMPT_TEMPLATE
 )
 from constants import ZAMMAD_TICKET_PREFIX
-from core.log_config import ai_logger as logger
-from typing import List, Optional
 
 qa_prompt = PromptTemplate(QA_PROMPT_TEMPLATE)
 qa_based_prompt = PromptTemplate(QA_BASED_PROMPT_TEMPLATE)
@@ -86,7 +84,6 @@ async def query_documents(query_text: str) -> list[str]:
         return [WELCOME_MESSAGE]
 
     elif ai_analysis_data["message_type"] == "question":
-        print("query_elastic")
         del ai_analysis_data["message_type"]
         if not any(ai_analysis_data.values()):
             return [await qa_query(query_text)]
@@ -99,7 +96,6 @@ async def query_documents(query_text: str) -> list[str]:
         return [await q_based_query(query_text, related_hits, hint_text=text_preview)]
 
     elif ai_analysis_data["message_type"] == "summarize":
-        print("query_elastic")
         del ai_analysis_data["message_type"]
         text_preview = "### You are asking for summary based on: \n" + build_query_hint(**ai_analysis_data) + "\n\n"
         response_message = await query_elastic(**ai_analysis_data)

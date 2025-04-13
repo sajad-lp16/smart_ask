@@ -1,12 +1,20 @@
-from elasticsearch.exceptions import NotFoundError
 import copy
+import asyncio
+
+from elasticsearch.exceptions import NotFoundError
 from typing import List, Optional, Union
 from core.log_config import elastic_logger as logger
+from core.update_tickets import add_tickets_to_ai_source
 
 from elastic.clients import get_async_elastic_client
 from constants import ELASTIC_SUMMARY_INDEX_NAME
 
+
 class TicketsNotFoundException(BaseException):
+    pass
+
+
+class RelatedTicketIDNotFoundException(BaseException):
     pass
 
 
@@ -120,7 +128,12 @@ async def query_elastic(
             response = await elastic_client.search(index=ELASTIC_SUMMARY_INDEX_NAME, body=query)
             hits = response["hits"]["hits"]
             if not hits:
-                logger.warning("No tickets found matching query")
+                logger.warning(
+                    f"No tickets found matching query ticket_ids={
+                    ticket_ids}, emails={emails}, person_ids={person_ids}, deal_ids={deal_ids
+                    }")
+                if ticket_ids:
+                    raise RelatedTicketIDNotFoundException
                 raise TicketsNotFoundException
 
             if return_hits:
@@ -137,6 +150,9 @@ async def query_elastic(
             return "Sorry, The bot is under maintenance please try again later."
         except TicketsNotFoundException:
             return "Sorry, I couldn't find tickets based on your message"
+        except RelatedTicketIDNotFoundException:
+            asyncio.create_task(add_tickets_to_ai_source(ticket_ids))
+            return "Working on it! 🤖 This ticket isn’t in my system yet, but I’ll grab it for you. Please ask me again in 2 minutes—thanks for waiting! 🙏"
         except Exception as err:
             return "An unexpected error occurred while processing your request. Please try again later."
         finally:
