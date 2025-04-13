@@ -1,7 +1,9 @@
 from typing import List, Optional, Union
 
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, Security
+
+import uvicorn
+from fastapi import FastAPI, HTTPException, Security, WebSocket, WebSocketDisconnect
 from fastapi.security import APIKeyQuery
 from pydantic import BaseModel, field_validator
 from pydantic_core import PydanticCustomError
@@ -9,6 +11,11 @@ from pydantic_core import PydanticCustomError
 from db.sql import add_tickets, init_db
 from core.log_config import api_logger as logger
 from constants import AVICENNA_TOKEN
+from ai.query import query_documents
+
+import nest_asyncio
+
+nest_asyncio.apply()
 
 
 @asynccontextmanager
@@ -97,3 +104,36 @@ async def update_tickets(
         "processed_ids": ids,
         "message": "Tickets are scheduled for update.",
     }
+
+
+@app.get("/query")
+async def query_endpoint(message: str, client: str = Security(get_api_client)):
+    logger.info(f"Received query request from client: {client}")
+    if not message:
+        raise HTTPException(status_code=400, detail="Message is required")
+
+    responses = await query_documents(message)
+    return {"responses": responses}
+
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    try:
+        while True:
+            data = await websocket.receive_text()
+            responses = await query_documents(data)
+            await websocket.send_json({"responses": responses})
+    except WebSocketDisconnect:
+        logger.info("WebSocket connection closed")
+    except Exception as e:
+        logger.error(f"WebSocket error: {e}", exc_info=True)
+
+
+if __name__ == "__main__":
+    uvicorn.run(
+        app,
+        host="0.0.0.0",
+        port=8089,
+        loop="asyncio"
+    )
