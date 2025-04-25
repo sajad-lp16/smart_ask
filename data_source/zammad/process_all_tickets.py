@@ -12,8 +12,8 @@ from core import (
     STEP_3_TICKETS_TARGET,
     STEP_4_TICKETS_TARGET,
 )
-from zammad.fetch import fetch_all_articles
-from parsing.html_2_md import parse_all_tickets_md
+from data_source.zammad.fetch import fetch_all_articles
+from data_source.zammad.parsing import parse_all_tickets_md
 
 
 def get_step_directory(step):

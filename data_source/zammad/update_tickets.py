@@ -4,8 +4,8 @@ from asyncio import Semaphore
 from ai.generate_summarize import bulk_ai_fetch_4_summarize
 from ai.generate_qa import bulk_ai_fetch_4_qa
 from core.log_config import update_tickets_logger as logger
-from parsing.html_2_md import message_2_md_parser
-from zammad.fetch import fetch_articles
+from data_source.zammad.parsing import message_2_md_parser
+from data_source.zammad.fetch import fetch_articles
 from db.sql import (
     get_tickets_for_processing,
     delete_tickets

@@ -4,7 +4,7 @@ from llama_index.llms.openai import OpenAI
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.ollama import OllamaEmbedding
 
-from constants import (
+from config import (
     DEEPSEEK_MODEL,
     OPENAI_MODEL,
     DEEPSEEK_API_KEY,

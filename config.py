@@ -32,3 +32,14 @@ AVICENNA_TOKEN = config("AVICENNA_TOKEN", cast=str)
 AVICENNA_BASE_URL = config("AVICENNA_BASE_URL", cast=str)
 AVICENNA_PERSON_IDS_URL = AVICENNA_BASE_URL + "api/sales/person/find_by_emails/"
 AVICENNA_DEAL_IDS_URL = AVICENNA_BASE_URL + "api/sales/zammad/ticket_deal/"
+
+FORUM_BASE_URL = config("FORUM_BASE_URL")
+FORUM_TOPIC_URL = FORUM_BASE_URL + "t/"
+FORUM_API_KEY = config("FORUM_API_KEY", cast=str)
+FORUM_USERNAME = config("FORUM_USERNAME", cast=str)
+FORUM_HEADERS = {
+    "Api-Key": FORUM_API_KEY,
+    "Api-Username": FORUM_USERNAME
+}
+
+AVICENNA_LEARN_URL = config("AVICENNA_LEARN_URL", cast=str)

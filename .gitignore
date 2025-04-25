@@ -88,7 +88,10 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
+data_source/forum/source
+data_source/zammad/tickets_source
+data_source/avicenna_learn/crawling/learn
+data_source/avicenna_blog/crawling/blog
 # Jupyter Notebook
 .ipynb_checkpoints
 

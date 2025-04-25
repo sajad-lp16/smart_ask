@@ -4,10 +4,10 @@ import asyncio
 from elasticsearch.exceptions import NotFoundError
 from typing import List, Optional, Union
 from core.log_config import elastic_logger as logger
-from core.update_tickets import add_tickets_to_ai_source
+from data_source.zammad.update_tickets import add_tickets_to_ai_source
 
 from elastic.clients import get_async_elastic_client
-from constants import ELASTIC_SUMMARY_INDEX_NAME
+from config import ELASTIC_SUMMARY_INDEX_NAME
 
 
 class TicketsNotFoundException(BaseException):
@@ -111,13 +111,12 @@ def prepare_llama_source(hits: List[dict]) -> List[dict]:
 
 
 async def query_elastic(
-        ticket_ids: Optional[List[str]] = None,
-        emails: Optional[List[str]] = None,
-        person_ids: Optional[List[str]] = None,
-        deal_ids: Optional[List[str]] = None,
+        ticket_ids: list[str] | None = None,
+        emails: list[str] | None = None,
+        person_ids: list[str] | None = None,
+        deal_ids: list[str] | None = None,
         return_hits: bool = False
-) -> Union[str, List[str], List[dict]]:
-    """Query Elasticsearch and return results."""
+) -> str | list[str] | list[dict]:
     if not any([ticket_ids, emails, person_ids, deal_ids]):
         return "I know you are requesting a summary, but I don't understand what you mean. Please make a change to your request and try again."
 
@@ -129,9 +128,8 @@ async def query_elastic(
             hits = response["hits"]["hits"]
             if not hits:
                 logger.warning(
-                    f"No tickets found matching query ticket_ids={
-                    ticket_ids}, emails={emails}, person_ids={person_ids}, deal_ids={deal_ids
-                    }")
+                    f"No tickets found matching query ticket_ids={ticket_ids},"
+                    f" emails={emails}, person_ids={person_ids}, deal_ids={deal_ids}")
                 if ticket_ids:
                     raise RelatedTicketIDNotFoundException
                 raise TicketsNotFoundException

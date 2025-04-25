@@ -2,7 +2,7 @@ from elasticsearch import AsyncElasticsearch
 from core.log_config import elastic_logger as logger
 
 from llama_index.vector_stores.elasticsearch import ElasticsearchStore
-from constants import (
+from config import (
     ELASTIC_USER,
     ELASTIC_PASSWORD,
     ELASTIC_URL_FOR_CLIENT,

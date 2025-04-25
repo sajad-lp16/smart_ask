@@ -37,7 +37,7 @@ Here is the client input:
 ```
 """
 
-QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.
+ZAMMAD_QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.
 
 You must respect these rules:
 1. For each ticket, provide an array of JSON objects, where each object contains two attributes: "problem" and "solution".
@@ -59,6 +59,57 @@ this is the conversation:
 %s
 ```
 """
+
+FORUM_QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with conversations that may include:
+1. Client problems and staff solutions
+2. Feature announcements/updates
+3. Internal staff discussions about features
+
+You must respect these rules:
+
+[Problem-Solution Extraction]
+1. Output an array of JSON objects with "problem" (question form) and "solution" (detailed guide)
+2. For client issues:
+   - Generalize problems/solutions (remove personal/account info)
+   - Phrase problems as questions ("How to...")
+   - Include all technical details in solutions
+
+[Update Notes Handling]
+3. For update announcements:
+   - Focus ONLY on new features/capabilities (ignore bug fixes unless they enable new functionality)
+   - Convert feature announcements into "How to use X" format
+   - Include detailed usage instructions when available
+   - Skip trivial fixes (e.g., "fixed email composition bugs")
+
+[Technical Details]
+4. Solutions must include:
+   - Step-by-step instructions for features
+   - Configuration requirements
+   - Technical parameters/settings
+   - Usage examples when available
+
+[Formatting]
+5. Always provide:
+   - Clear problem statements as questions
+   - Complete, actionable solutions
+   - Structured steps for complex features
+   - Machine-readable JSON only (no commentary)
+
+Example Output:
+```json
+[
+  {
+    "problem": "How to use the new export notification system?",
+    "solution": "1. Enable notifications in Account Settings > Notifications\n2. Select preferred notification channels (email/SMS)\n3. Set notification triggers for export completion events"
+  }
+]
+
+Current conversation:
+
+%s
+
+"""
+
 QA_COMBINATION_PROMPT = """
 I will provide you with multiple JSON arrays containing question-answer pairs extracted from different chunks of the same conversation. Your task is to:
 
@@ -290,4 +341,62 @@ If the ticket does **not contain enough information** to answer the question, re
 **Context:**  
 {context_str}
 
+"""
+AVICENNA_LEARN_PROMPT = """DOCUMENT PROCESSING PROMPT:
+Transform the input documentation into an optimized RAG-ready format by following these exact steps:
+
+1. STRUCTURE THE CONTENT:
+- Create clear hierarchical headings (## Section, ### Subsection)
+- Group related information logically
+- Maintain original document flow while improving scannability
+
+2. CONTENT OPTIMIZATION:
+- Remove redundant explanations but preserve all key concepts
+- Maintain technical terms, proper nouns, and brand terminology
+- Preserve code snippets, commands, and UI elements exactly
+- Keep numbered steps/procedures in original order
+
+3. LINK PROCESSING:
+- Preserve ALL external links exactly as-is
+- For internal links without domain (e.g., "/reference/surveys"):
+  * Prepend with "https://learn.avicennaresearch.com"
+  * Example: "/reference/surveys" → "https://learn.avicennaresearch.com/reference/surveys"
+- Never modify:
+  * Anchor text
+  * Query parameters (#versions-import-and-export)
+  * File extensions (.pdf, .html, etc.)
+
+4. IMAGE PROCESSING:
+- Ensure all image URLs use domain: "https://learn.avicennaresearch.com"
+- Convert relative paths (e.g., "/assets/images/...") to absolute URLs
+- Maintain original alt text and image descriptions
+- Keep exact image formatting: ![alt text](https://learn.avicennaresearch.com/path/to/image.png)
+
+5. FORMATTING RULES:
+- Use strict Markdown syntax
+- Bold UI elements like *Menu Name* or *Button Text*
+- Code-related text in `monospace`
+- Bullet points for feature lists
+- Preserve all line breaks between sections
+
+6. PROTECTED CONTENT (never modify):
+- API endpoints and code samples
+- CLI commands and config parameters
+- Error messages and version numbers
+- Warning/note boxes
+- Any content between ```code blocks```
+- External URLs (always keep original)
+
+7. OUTPUT REQUIREMENTS:
+- Return only processed content (no commentary)
+- Maintain original line breaks between sections
+- Preserve exact capitalization of technical terms
+- Keep warnings/notes verbatim
+- Ensure all internal links/images use correct domain
+- Never alter external links
+
+Process this document according to these rules:
+```
+%s
+```
 """

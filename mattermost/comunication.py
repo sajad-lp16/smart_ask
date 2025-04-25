@@ -9,7 +9,7 @@ from core.log_config import mattermost_bot_logger as logger
 
 from ai.query import query_documents
 
-from constants import (
+from config import (
     MATTERMOST_URL,
     MATTERMOST_WEBSOCKET_URL,
     MATTERMOST_BOT_TOKEN,

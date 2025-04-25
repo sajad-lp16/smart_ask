@@ -3,8 +3,8 @@ import os
 import json
 
 from core import STEP_2_TICKETS_TARGET, STEP_1_TICKETS_TARGET
-from parsing.parse_html import markup_remover
-from parsing.parse_emails import get_unique_emails
+from data_source.zammad.parsing.parse_html import markup_remover
+from data_source.zammad.parsing.parse_emails import get_unique_emails
 
 
 def shorten_text(original_text, chunk_size=100):

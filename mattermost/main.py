@@ -1,6 +1,6 @@
 import asyncio
 
-from core.update_tickets import process_tickets_beat_task
+from data_source.zammad.update_tickets import process_tickets_beat_task
 from mattermost.comunication import websocket_client
 
 

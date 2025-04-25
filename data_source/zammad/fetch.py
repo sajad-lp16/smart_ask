@@ -2,50 +2,53 @@ import os
 import json
 
 import aiohttp
-from aiohttp import ClientSession
 import asyncio
-import requests
+import logging
 from asyncio import Semaphore
+from aiohttp import ClientSession
 
-from constants import (
+from core import STEP_1_TICKETS_TARGET
+from core.log_config import update_tickets_logger
+from config import (
     ZAMMAD_TICKET_URL,
     ZAMMAD_HEADERS,
     ZAMMAD_ARTICLES_URL
 )
-from core.log_config import update_tickets_logger as logger
 
-from core import STEP_1_TICKETS_TARGET
+logger = logging.getLogger()
 
 
-def find_last_page():
-    def _fetch(page):
-        r = requests.get(ZAMMAD_TICKET_URL.format(page_number=page), headers=ZAMMAD_HEADERS)
-        r.raise_for_status()
+async def find_last_page():
+    async def _fetch(page):
+        await asyncio.sleep(1)
+        logger.info(f"Trying page {page}")
+        async with session.get(ZAMMAD_TICKET_URL.format(page_number=page), headers=ZAMMAD_HEADERS) as response:
+            response.raise_for_status()
+            json_response = await response.json()
+            return len(json_response) > 0
 
-        return len(r.json()) > 0
+    async with aiohttp.ClientSession() as session:
+        low = 1
+        high = 1
 
-    low = 1
-    high = 1
+        while True:
+            data_exists = await _fetch(high)
+            if not data_exists:
+                break
 
-    while True:
-        data_exists = _fetch(high)
-        if not data_exists:
-            break
+            low = high
+            high *= 2
 
-        low = high
-        high *= 2
-
-    last_valid_page = low
-    while low <= high:
-        mid = (low + high) // 2
-        data_exists = _fetch(mid)
-        if data_exists:
-            last_valid_page = mid
-            low = mid + 1
-        else:
-            high = mid - 1
-    print(f"last page found was {last_valid_page}")
-    return last_valid_page
+        last_valid_page = low
+        while low <= high:
+            mid = (low + high) // 2
+            data_exists = await _fetch(mid)
+            if data_exists:
+                last_valid_page = mid
+                low = mid + 1
+            else:
+                high = mid - 1
+        return last_valid_page
 
 
 async def fetch_api(url: str, session: ClientSession) -> dict | None:
@@ -72,7 +75,7 @@ async def fetch_articles(ticket_ids, session: ClientSession = None):
         done, _ = await asyncio.wait(tasks.keys())
         for done_task in done:
             if done_task.exception() is not None:
-                logger.error(done_task.exception())
+                update_tickets_logger.error(done_task.exception())
                 continue
             ticket_id = tasks[done_task]
             articles[ticket_id] = done_task.result()
@@ -87,22 +90,26 @@ async def fetch_articles(ticket_ids, session: ClientSession = None):
 
 async def get_page_articles(sem, session, page):
     async with sem:
+        logger.info(f"Fetching page {page} Articles.")
         url = ZAMMAD_TICKET_URL.format(page_number=page)
 
         tickets = await fetch_api(url, session)
         ticket_ids = [ticket["id"] for ticket in tickets]
+        logger.info(f"Page {page} Articles, were fetched successfully.")
         return await fetch_articles(ticket_ids, session)
 
 
 async def fetch_all_articles(sem: Semaphore):
-    last_page = find_last_page()
+    logger.info(f"looking for the last page...")
+    last_page = await find_last_page()
+    logger.info(f"last page found was {last_page}")
+
     step_1_target = STEP_1_TICKETS_TARGET
 
     os.makedirs(str(step_1_target), exist_ok=True)
 
     async with aiohttp.ClientSession() as session:
         tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(1, last_page + 1)]
-        # tasks = [asyncio.create_task(get_page_articles(sem, session, page)) for page in range(400, 405)]
         for done_task in asyncio.as_completed(tasks):
             task_data = await done_task
             for ticket_id, ticket_articles in task_data.items():
@@ -116,5 +123,3 @@ async def fetch_all_articles(sem: Semaphore):
 if __name__ == "__main__":
     semaphore = Semaphore(100)
     asyncio.run(fetch_all_articles(semaphore))
-
-    # asyncio.run(main())

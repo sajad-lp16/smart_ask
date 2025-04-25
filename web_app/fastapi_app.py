@@ -10,7 +10,7 @@ from pydantic_core import PydanticCustomError
 
 from db.sql import add_tickets, init_db
 from core.log_config import api_logger as logger
-from constants import AVICENNA_TOKEN
+from config import AVICENNA_TOKEN
 from ai.query import query_documents
 
 import nest_asyncio
