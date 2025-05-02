@@ -6,7 +6,7 @@ from core.config import (
 )
 
 
-async def delete_llama_documents_by_source(source: str, source_id: int) -> bool:
+async def delete_llama_documents_by_source(source: str, source_id: int | str) -> bool:
     """
     At the moment MD and QA docs are indexed in one elastic index,
     If this changed in future then index arg should be configured dynamically.

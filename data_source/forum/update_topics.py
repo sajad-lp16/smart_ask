@@ -1,15 +1,13 @@
 import asyncio
 from asyncio import Semaphore
 from core.redis_service import redis_gateway
-from data_source.zammad.parsing.html_2_md import message_2_md_parser
 
-from data_source.zammad.qa import bulk_ai_fetch_for_qa
-from data_source.zammad.summary import bulk_ai_fetch_for_summarize
+from data_source.forum.qa import bulk_ai_fetch_for_qa
 from core.log_config import update_tickets_logger as logger
 from data_source.zammad.fetch import fetch_articles
 
 
-async def _trigger_fetch_step(ticket_ids):
+async def _trigger_fetch_step(topic_ids):
     logger.info(f"Fetching tickets: {ticket_ids}")
     return await fetch_articles(ticket_ids)
 

@@ -34,6 +34,4 @@ class AIClient:
         return self.client
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        # await self.client.close()
-        # self.client = None
         pass

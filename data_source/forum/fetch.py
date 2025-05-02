@@ -13,6 +13,7 @@ from core.config import (
 
 logger = logging.getLogger()
 
+
 async def find_last_page():
     async def _fetch(page):
         await asyncio.sleep(1)
@@ -69,7 +70,7 @@ async def get_topic(sem, session, topic_id):
             logger.error(f"Error fetching topic {topic_id}: {str(e)}")
 
 
-async def main():
+async def ai_fetch_all_topics():
     sem = asyncio.Semaphore(1)
     forum_source = str(BASE_DIR / "data_source" / "forum" / "source")
 
@@ -101,5 +102,6 @@ async def main():
                 with open(f"{forum_source}/{topic_id}.json", "w") as file:
                     json.dump(d_task.result(), file, indent=4, ensure_ascii=False)
 
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(ai_fetch_all_topics())

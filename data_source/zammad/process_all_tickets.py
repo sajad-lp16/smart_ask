@@ -4,8 +4,9 @@ import shutil
 import asyncio
 from asyncio import Semaphore
 
-from ai.generate_qa import generate_qa_for_all_tickets
-from ai.generate_summarize import generate_summary_for_all_tickets
+from data_source.zammad.parsing.html_2_md import parse_all_tickets_md
+from data_source.zammad.qa import generate_qa_for_all_zammad_tickets
+from data_source.zammad.summary import generate_summary_for_all_tickets
 from core import (
     STEP_1_TICKETS_TARGET,
     STEP_2_TICKETS_TARGET,
@@ -13,7 +14,6 @@ from core import (
     STEP_4_TICKETS_TARGET,
 )
 from data_source.zammad.fetch import fetch_all_articles
-from data_source.zammad.parsing import parse_all_tickets_md
 
 
 def get_step_directory(step):
@@ -30,7 +30,7 @@ def get_step_action(step):
     step_2_action = {
         "step_1": fetch_all_articles,
         "step_2": parse_all_tickets_md,
-        "step_3": generate_qa_for_all_tickets,
+        "step_3": generate_qa_for_all_zammad_tickets,
         "step_4": generate_summary_for_all_tickets,
     }
 
@@ -86,9 +86,7 @@ async def async_trigger_step(steps: list[str], sem: Semaphore, start_over=False)
         action = get_step_action(step)
         concurrent_tasks[asyncio.create_task(action(sem))] = step
 
-    done, _ = await asyncio.wait(concurrent_tasks.keys())
-    for done_task in done:
-        step = concurrent_tasks[done_task]
+        await asyncio.wait(concurrent_tasks.keys())
 
 
 async def main(start_over=False):
@@ -110,6 +108,7 @@ async def main(start_over=False):
     print("Triggering Step 3 and 4 Actions [Generating QA, Summary from Tickets]")
     # # await async_trigger_step(["step_3", "step_4"], sem, start_over)
     await async_trigger_step(["step_3", "step_4"], sem, start_over)
+
 
 if __name__ == "__main__":
     asyncio.run(main(start_over=False))

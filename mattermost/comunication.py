@@ -7,7 +7,7 @@ import aiohttp
 
 from core.log_config import mattermost_bot_logger as logger
 
-from ai.query import query_documents
+from ai.query import query_controller
 
 from core.config import (
     MATTERMOST_URL,
@@ -77,7 +77,7 @@ async def handle_message(message_data: dict):
 
         logger.info(f"\033[94mReceived message in channel {channel_id}: {message}\033[0m")
 
-        responses = await query_documents(message)
+        responses = await query_controller(message)
         logger.info(f"Generated response: {responses}")
         root_id = post.get("root_id") or message_id  # Reply in the thread
         [await send_message(channel_id, response, root_id) for response in responses]

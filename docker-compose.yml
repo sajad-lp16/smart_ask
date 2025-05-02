@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/web_app/Dockerfile
-    container_name: web
+    container_name: smart_ask
     restart: unless-stopped
     networks:
       app_network:
@@ -33,5 +33,5 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: "10.50.0.0/24"
-          gateway: "10.50.0.1"
+        - subnet: "10.50.10.0/24"
+          gateway: "10.50.10.1"
