@@ -5,7 +5,7 @@ import aiohttp
 
 from core.log_config import logging
 from core import BASE_DIR
-from config import (
+from core.config import (
     FORUM_HEADERS,
     FORUM_BASE_URL,
     FORUM_TOPIC_URL

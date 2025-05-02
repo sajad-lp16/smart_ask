@@ -7,7 +7,7 @@ from core.log_config import elastic_logger as logger
 from data_source.zammad.update_tickets import add_tickets_to_ai_source
 
 from elastic.clients import get_async_elastic_client
-from config import ELASTIC_SUMMARY_INDEX_NAME
+from core.config import ELASTIC_SUMMARY_INDEX_NAME
 
 
 class TicketsNotFoundException(BaseException):

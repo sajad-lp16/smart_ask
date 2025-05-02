@@ -1,6 +1,6 @@
 from openai import AsyncOpenAI
 
-from config import AI_FOR_PROCESS
+from core.config import AI_FOR_PROCESS
 
 from ai import (
     ai_2_model,

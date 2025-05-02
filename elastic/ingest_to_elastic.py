@@ -3,10 +3,10 @@ import asyncio
 
 from llama_index.core import VectorStoreIndex, Document
 
-from ai.utils.llama_index_clients import VectorStorageContext
+from ai.components.llama_index_clients import VectorStorageContext
 from elastic.clients import get_async_elastic_client
 from core.log_config import elastic_logger as logger
-from config import (
+from core.config import (
     ELASTIC_SUMMARY_INDEX_NAME,
     OPENAI_KEY
 )
@@ -14,18 +14,7 @@ from config import (
 os.environ.setdefault("OPENAI_API_KEY", OPENAI_KEY)
 
 
-def qa_json_2_llama_index_document(json_data: list[dict[str, str]], source_id: int):
-    docs = []
-    for item in json_data:
-        docs.append(
-            Document(text=item["problem"], metadata={"solution": item["solution"], "source_id": source_id, "source": "zammad"})
-        )
-    return docs
-
-
-async def ingest_qa_documents(json_data: list[dict[str, str]], source_id: int):
-    ready_documents = qa_json_2_llama_index_document(json_data, source_id)
-
+async def ingest_documents(ready_documents: list[Document]):
     async with VectorStorageContext(index="qa") as storage_context:
         try:
             VectorStoreIndex.from_documents(
@@ -39,7 +28,7 @@ async def ingest_qa_documents(json_data: list[dict[str, str]], source_id: int):
             return False
 
 
-async def ingest_summary_documents(ready_documents: list[dict], es_client=None) -> None:
+async def ingest_raw_documents(ready_documents: list[dict], es_client=None) -> None:
     async def _ingest(doc_id, doc_body, _es_client):
         try:
             response = await _es_client.index(

@@ -5,10 +5,11 @@ from asyncio import Semaphore
 
 from core import STEP_2_TICKETS_TARGET
 from ai.generate_qa import ai_fetch_for_qa
-from ai.utils.ai_clients import AIClient
-from ai.utils.prompts import ZAMMAD_QA_PROMPT
-from elastic.ingest_to_elastic import ingest_qa_documents
-from elastic.delete_from_elastic import delete_qa_documents
+from ai.components.ai_clients import AIClient
+from ai.components.prompts import ZAMMAD_QA_PROMPT
+from elastic.ingest_to_elastic import ingest_documents
+from elastic.delete_from_elastic import delete_llama_documents_by_source
+from data_source.zammad.prepare_to_ingest import qa_ticket_2_llama_index_document
 
 
 async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[int, str]):
@@ -25,8 +26,10 @@ async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[int, str]):
                 if not task_result:
                     continue
                 ticket_id = tasks[done_task]
-                await delete_qa_documents(ticket_id)
-                await ingest_qa_documents(task_result, ticket_id)
+                ready_docs = qa_ticket_2_llama_index_document(task_result, ticket_id)
+
+                await delete_llama_documents_by_source(ticket_id)
+                await ingest_documents(ready_docs)
 
 
 async def generate_qa_for_all_zammad_tickets(sem: Semaphore):

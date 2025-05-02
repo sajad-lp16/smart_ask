@@ -1,10 +1,8 @@
 import os
 from llama_index.core import Settings
 from llama_index.llms.openai import OpenAI
-from llama_index.llms.ollama import Ollama
-from llama_index.embeddings.ollama import OllamaEmbedding
 
-from config import (
+from core.config import (
     DEEPSEEK_MODEL,
     OPENAI_MODEL,
     DEEPSEEK_API_KEY,

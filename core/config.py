@@ -1,5 +1,7 @@
 from decouple import config
 
+from core import BASE_DIR
+
 ZAMMAD_API_KEY = config("ZAMMAD_API_KEY")
 ZAMMAD_HEADERS = {"Authorization": f'Bearer {ZAMMAD_API_KEY}'}
 ZAMMAD_BASE_URL = config("ZAMMAD_BASE_URL", cast=str)
@@ -43,3 +45,7 @@ FORUM_HEADERS = {
 }
 
 AVICENNA_LEARN_URL = config("AVICENNA_LEARN_URL", cast=str)
+AVICENNA_LEARN_CRAWL_STORING_DIRECTORY = str(BASE_DIR / "data_source" / "avicenna_learn" / "crawling" / "learn") + "/"
+
+AVICENNA_BLOG_URL = config("AVICENNA_BLOG_URL", cast=str)
+AVICENNA_BLOG_CRAWL_STORING_DIRECTORY = str(BASE_DIR / "data_source" / "avicenna_blog" / "crawling" / "blog" ) + "/"

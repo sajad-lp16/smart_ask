@@ -9,7 +9,7 @@ from aiohttp import ClientSession
 
 from core import STEP_1_TICKETS_TARGET
 from core.log_config import update_tickets_logger
-from config import (
+from core.config import (
     ZAMMAD_TICKET_URL,
     ZAMMAD_HEADERS,
     ZAMMAD_ARTICLES_URL

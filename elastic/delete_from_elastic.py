@@ -1,12 +1,16 @@
 from elastic.clients import get_async_elastic_client
 
-from config import (
+from core.config import (
     ELASTIC_QA_INDEX_NAME,
     ELASTIC_SUMMARY_INDEX_NAME
 )
 
 
-async def delete_qa_documents(source_id: int):
+async def delete_llama_documents_by_source(source: str, source_id: int) -> bool:
+    """
+    At the moment MD and QA docs are indexed in one elastic index,
+    If this changed in future then index arg should be configured dynamically.
+    """
     try:
         async with get_async_elastic_client() as es_client:
             await es_client.delete_by_query(
@@ -16,7 +20,7 @@ async def delete_qa_documents(source_id: int):
                         "bool": {
                             "must": [
                                 {"term": {"metadata.source_id.keyword": source_id}},
-                                {"term": {"metadata.source.keyword": "zammad"}}
+                                {"term": {"metadata.source.keyword": source}}
                             ]
                         }
                     }
@@ -27,7 +31,7 @@ async def delete_qa_documents(source_id: int):
         return False
 
 
-async def delete_summary_documents(source_id: int):
+async def delete_raw_documents_by_source(source_id: int) -> bool:
     try:
         async with get_async_elastic_client() as es_client:
             await es_client.delete(

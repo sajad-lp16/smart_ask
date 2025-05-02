@@ -3,7 +3,7 @@ from json import JSONDecodeError
 
 from openai import APITimeoutError, BadRequestError
 
-from ai.utils.ai_clients import CustomAsyncOpenAI, AIClient
+from ai.components.ai_clients import CustomAsyncOpenAI, AIClient
 
 
 async def fetch_ai_client(prompt: str, client: CustomAsyncOpenAI = None, parse_json=True) -> dict | str:

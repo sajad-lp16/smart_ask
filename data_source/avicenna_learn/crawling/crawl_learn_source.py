@@ -1,4 +1,3 @@
-import re
 import os
 import time
 from urllib.parse import urljoin
@@ -13,17 +12,21 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from core.log_config import logging
 
-from config import AVICENNA_LEARN_URL
+from core.log_config import logging
+from core.config import (
+    AVICENNA_LEARN_URL,
+    AVICENNA_LEARN_CRAWL_STORING_DIRECTORY,
+)
 
 logger = logging.getLogger()
 
+
+
 def sanitize_filename(url):
-    path = url.replace(AVICENNA_LEARN_URL, "")
-    path = re.sub(r'[<>:"/\\|?*]', "_", path)
-    if not path:
-        path = "index"
+    path = url.replace("https://", "").replace("/", "_")
+    if path[-1] in ["/", "_"]:
+        path = path[:-1]
     return path + ".html"
 
 
@@ -41,7 +44,7 @@ def crawl_page(url):
         html_content = content.get_attribute("outerHTML")
 
         filename = sanitize_filename(url)
-        filepath = os.path.join("learn", filename)
+        filepath = os.path.join(AVICENNA_LEARN_CRAWL_STORING_DIRECTORY, filename)
 
         os.makedirs("learn", exist_ok=True)
 
@@ -59,7 +62,7 @@ def crawl_page(url):
 
 def fetch_all_sources():
     def expand_all_collapsed():
-        max_attempts = 10  # Prevent infinite loop
+        max_attempts = 10
         attempts = 0
         while attempts < max_attempts:
             collapsed_elements = driver.find_elements(By.CSS_SELECTOR, '[aria-expanded="false"]')
@@ -128,3 +131,7 @@ def fetch_all_sources():
 
     finally:
         driver.quit()
+
+
+if __name__ == "__main__":
+    fetch_all_sources()

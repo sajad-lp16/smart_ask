@@ -5,10 +5,10 @@ from llama_index.core import VectorStoreIndex
 from llama_index.core.prompts import PromptTemplate
 from llama_index.core.response_synthesizers import get_response_synthesizer, ResponseMode
 
-from config import ZAMMAD_TICKET_PREFIX
-from ai.utils.llama_index_clients import VectorStoreEngine
+from core.config import ZAMMAD_TICKET_PREFIX
+from ai.components.llama_index_clients import VectorStoreEngine
 from elastic.query import query_elastic, build_query_hint
-from ai.utils.prompts import (
+from ai.components.prompts import (
     ROUTER_PROMPT,
     WELCOME_MESSAGE,
     QA_PROMPT_TEMPLATE,

@@ -2,11 +2,11 @@ import json
 import asyncio
 from asyncio import Semaphore
 
-from ai.utils.scripts import get_chunks
-from ai.utils.ai_clients import CustomAsyncOpenAI
-from ai.utils.fetch import fetch_ai_client
+from ai.components.scripts import get_chunks
+from ai.components.ai_clients import CustomAsyncOpenAI
+from ai.components.fetching import fetch_ai_client
 
-from ai.utils.prompts import (
+from ai.components.prompts import (
     QA_COMBINATION_PROMPT
 )
 
