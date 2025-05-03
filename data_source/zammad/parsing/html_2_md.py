@@ -22,6 +22,7 @@ def shorten_text(original_text, chunk_size=100):
 
     return shortened_text
 
+
 def extract_conversations(current_speaker, html_source):
     text = markup_remover(html_source).strip()
 

@@ -19,6 +19,7 @@ async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[int, str]):
             task = asyncio.create_task(ai_fetch_for_qa(sem, ZAMMAD_QA_PROMPT, conversations, client=client))
             tasks[task] = ticket_id
 
+        successful_fetch = []
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
@@ -26,10 +27,12 @@ async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[int, str]):
                 if not task_result:
                     continue
                 ticket_id = tasks[done_task]
+                successful_fetch.append(ticket_id)
                 ready_docs = qa_ticket_2_llama_index_document(task_result, ticket_id)
 
-                await delete_llama_documents_by_source(ticket_id)
+                await delete_llama_documents_by_source("zammad", ticket_id)
                 await ingest_documents(ready_docs)
+        return successful_fetch
 
 
 async def generate_qa_for_all_zammad_tickets(sem: Semaphore):

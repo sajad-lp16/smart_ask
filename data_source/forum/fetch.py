@@ -2,6 +2,7 @@ import os
 import json
 import asyncio
 import aiohttp
+from aiohttp import ClientSession
 
 from core.log_config import logging
 from core import BASE_DIR
@@ -68,6 +69,20 @@ async def get_topic(sem, session, topic_id):
                 return await response.json()
         except Exception as e:
             logger.error(f"Error fetching topic {topic_id}: {str(e)}")
+
+
+async def get_topics_conversation(sem, topic_ids):
+    async with sem:
+        topic_conversations = {}
+        async with ClientSession() as session:
+            tasks = {asyncio.create_task(get_topic(sem, session, topic_id)): topic_id for topic_id in topic_ids}
+
+            done, _ = await asyncio.wait(tasks)
+
+            for done_task in done:
+                topic_id = tasks[done_task]
+                topic_conversations[topic_id] = done_task.result()
+            return topic_conversations
 
 
 async def ai_fetch_all_topics():

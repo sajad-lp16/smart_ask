@@ -11,10 +11,6 @@ from core.config import AVICENNA_TOKEN
 from ai.query import query_controller
 from core.redis_service import redis_gateway
 
-import nest_asyncio
-
-nest_asyncio.apply()
-
 app = FastAPI()
 
 api_key_query = APIKeyQuery(name="api_key", auto_error=False)

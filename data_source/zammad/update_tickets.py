@@ -53,7 +53,7 @@ async def process_tickets_beat_task():
     """
     while True:
         try:
-            tickets = redis_gateway.get_pending_items("zammad")
+            tickets = await redis_gateway.get_pending_items("zammad")
             if not tickets:
                 logger.info("No tickets to process")
             else:

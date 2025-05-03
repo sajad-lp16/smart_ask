@@ -13,12 +13,14 @@ from elastic.delete_from_elastic import delete_llama_documents_by_source
 from data_source.forum.prepare_to_ingest import qa_topic_2_llama_index_document
 
 
-async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[str, str]):
+async def bulk_ai_fetch_for_qa(sem, topic_conversations: dict[str, str]):
     tasks = pending = {}
     async with AIClient() as client:
-        for topic_id, conversation in tickets_conversations.items():
+        for topic_id, conversation in topic_conversations.items():
             task = asyncio.create_task(ai_fetch_for_qa(sem, FORUM_QA_PROMPT, conversation, client=client))
             tasks[task] = topic_id
+
+        successful_fetch = []
 
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
@@ -27,10 +29,12 @@ async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[str, str]):
                 if not task_result:
                     continue
                 topic_id = tasks[done_task]
+                successful_fetch.append(topic_id)
                 ready_docs = qa_topic_2_llama_index_document(task_result, topic_id)
 
                 await delete_llama_documents_by_source("forum", topic_id)
                 await ingest_documents(ready_docs)
+        return successful_fetch
 
 
 async def generate_qa_for_all_forum_topics():

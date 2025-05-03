@@ -1,67 +1,64 @@
 import asyncio
 from asyncio import Semaphore
 from core.redis_service import redis_gateway
+from data_source.forum.parsing.topic_parser import json_topic_2_conversation
 
 from data_source.forum.qa import bulk_ai_fetch_for_qa
 from core.log_config import update_tickets_logger as logger
-from data_source.zammad.fetch import fetch_articles
+from data_source.forum.fetch import get_topics_conversation
 
 
-async def _trigger_fetch_step(topic_ids):
-    logger.info(f"Fetching tickets: {ticket_ids}")
-    return await fetch_articles(ticket_ids)
+async def _trigger_fetch_step(sem, topic_ids):
+    logger.info(f"Fetching topics: {topic_ids}")
+    return await get_topics_conversation(sem, topic_ids)
 
 
-def _trigger_cleanup_step(tickets_articles):
+def _trigger_cleanup_step(topic_conversations):
     clean_tickets = {}
-    for ticket_id, articles in tickets_articles:
-        conversations = message_2_md_parser(articles)
-        clean_tickets[ticket_id] = conversations
+    for topic_id, conversation_data in topic_conversations:
+        conversations = json_topic_2_conversation(conversation_data)
+        clean_tickets[topic_id] = conversations
     return clean_tickets
 
 
-async def add_tickets_to_ai_source(ticket_ids):
+async def add_topics_to_ai_source(topic_ids):
     try:
         semaphore = Semaphore(100)
-        logger.info(f"Processing ticket: {ticket_ids}")
-        tickets_articles = await _trigger_fetch_step(ticket_ids)
-        tickets_conversations = {}
-        for ticket_id, ticket_articles in tickets_articles.items():
-            tickets_conversations[ticket_id] = message_2_md_parser(ticket_articles)
+        logger.info(f"Processing ticket: {topic_ids}")
+        topics_conversations = await _trigger_fetch_step(semaphore, topic_ids)
 
-        analyze_tickets = [
-            asyncio.create_task(bulk_ai_fetch_for_qa(semaphore, tickets_conversations)),
-            asyncio.create_task(bulk_ai_fetch_for_summarize(semaphore, tickets_conversations)),
+        analyze_topics = [
+            asyncio.create_task(bulk_ai_fetch_for_qa(semaphore, topics_conversations)),
         ]
 
-        results = await asyncio.gather(*analyze_tickets)
-        qa_ok, summary_ok = results
-        successful_process = list(set(qa_ok) & set(summary_ok))
-        redis_gateway.mark_completed("zammad", successful_process)
+        results = await asyncio.gather(*analyze_topics)
+        qa_ok = results
+        successful_process = list(set(qa_ok))
+        redis_gateway.mark_completed("forum", successful_process)
 
-        logger.info(f"Successfully processed ticket {list(tickets_articles.keys())}")
+        logger.info(f"Successfully processed topics {qa_ok}")
 
     except Exception as e:
-        logger.error(f"Error processing ticket {ticket_ids}: {str(e)}")
+        logger.error(f"Error processing ticket {topic_ids}: {str(e)}")
 
 
-async def process_tickets_beat_task():
+async def process_topics_beat_task():
     """
     Async function that fetches tickets from SQLite and processes them.
     """
     while True:
         try:
-            tickets = redis_gateway.get_pending_items("zammad")
-            if not tickets:
-                logger.info("No tickets to process")
+            topics = await redis_gateway.get_pending_items("forum")
+            if not topics:
+                logger.info("No topics to process")
             else:
-                await add_tickets_to_ai_source(tickets)
+                await add_topics_to_ai_source(topics)
 
         except Exception as e:
-            logger.error(f"Error in process_tickets: {str(e)}")
+            logger.error(f"Error in process_topics: {str(e)}")
 
         await asyncio.sleep(120)
 
 
 if __name__ == "__main__":
-    asyncio.run(process_tickets_beat_task())
+    asyncio.run(process_topics_beat_task())
