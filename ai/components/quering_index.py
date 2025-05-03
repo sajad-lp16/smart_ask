@@ -1,20 +1,22 @@
-from ai.components.prompts import WELCOME_MESSAGE
 import json
 
 from llama_index.core import Settings, Document
 from llama_index.core import VectorStoreIndex
 from llama_index.core.prompts import PromptTemplate
-from llama_index.core.response_synthesizers import get_response_synthesizer, ResponseMode
+from llama_index.core.response_synthesizers import (
+    ResponseMode,
+    get_response_synthesizer
+)
 
 from core.config import ZAMMAD_TICKET_PREFIX
 from ai.components.llama_index_clients import VectorStoreEngine
+from elastic.query import ElasticQueryManager
+from elastic.query_factory import build_query_hint
 from ai.components.prompts import (
     WELCOME_MESSAGE,
     QA_PROMPT_TEMPLATE,
     QA_BASED_PROMPT_TEMPLATE
 )
-from elastic.query import ElasticQueryManager
-from elastic.query_factory import build_query_hint
 
 
 async def help_index(*args, **kwargs):
@@ -86,3 +88,18 @@ class QAIndicesManager:
         query_engine = index.as_query_engine(response_synthesizer=response_synthesizer, similarity_top_k=5)
         response = query_engine.query(user_input)
         return text_preview + str(response)
+
+
+class SummaryIndicesManager:
+    elastic_query_manager = ElasticQueryManager
+
+    @classmethod
+    async def summary_query(cls, user_input: str, query_based_on: dict) -> list[str]:
+        text_preview = "### You are asking for summary based on: \n" + build_query_hint(**query_based_on) + "\n\n"
+        response_message = await cls.elastic_query_manager.query_elastic_based_on_args(**query_based_on)
+        if isinstance(response_message, str):
+            return [text_preview + response_message]
+
+        data = [text_preview + response_message[0]]
+        data.extend(response_message[1:])
+        return data
