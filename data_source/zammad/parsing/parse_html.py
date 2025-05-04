@@ -4,8 +4,6 @@ import re
 
 class EmailSeparator:
     def __init__(self):
-        # Common patterns for different email clients and languages
-        # Each pattern must be very specific to avoid false positives
         outlook_style = (
             r"(?:^|\n)"
             r"[\s>]*(?:\*\*)?(?:From|Von|De|Van) *: *(?:\*\*)?.+?\n"

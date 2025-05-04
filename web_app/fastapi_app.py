@@ -5,6 +5,8 @@ from fastapi import FastAPI, HTTPException, Security, Request
 from fastapi.security import APIKeyQuery
 from pydantic import BaseModel, field_validator
 from pydantic_core import PydanticCustomError
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import HTMLResponse
 
 from core.log_config import api_logger as logger
 from core.config import AVICENNA_TOKEN
@@ -18,6 +20,8 @@ api_key_query = APIKeyQuery(name="api_key", auto_error=False)
 VALID_API_KEYS = {
     AVICENNA_TOKEN: "support-bot",
 }
+
+templates = Jinja2Templates(directory="web_app/templates")
 
 
 async def get_api_client(
@@ -116,13 +120,24 @@ async def forum_update(request: Request):
 
 
 @app.get("/query")
-async def query_endpoint(message: str, client: str = Security(get_api_client)):
-    logger.info(f"Received query request from client: {client}")
+# async def query_endpoint(message: str, client: str = Security(get_api_client)):
+async def query_endpoint(message: str):
+    # logger.info(f"Received query request from client: {client}")
     if not message:
         raise HTTPException(status_code=400, detail="Message is required")
 
     responses = await query_controller(message)
     return {"responses": responses}
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
+
+@app.get("/chat", response_class=HTMLResponse)
+async def chat_ui(request: Request):
+    return templates.TemplateResponse("chat.html", {"request": request})
 
 
 if __name__ == "__main__":

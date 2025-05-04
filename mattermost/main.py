@@ -1,7 +1,8 @@
 import asyncio
 
-from data_source.zammad.update_tickets import process_tickets_beat_task
 from mattermost.comunication import websocket_client
+from data_source.forum.update_topics import process_topics_beat_task
+from data_source.zammad.update_tickets import process_tickets_beat_task
 
 
 async def main():
@@ -10,6 +11,7 @@ async def main():
         try:
             print("connecting to bot server ...")
             _ = asyncio.create_task(process_tickets_beat_task())
+            _ = asyncio.create_task(process_topics_beat_task())
             await websocket_client()
         except Exception as e:
             print(f"Main loop error: {e}")

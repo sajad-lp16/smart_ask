@@ -1,7 +1,7 @@
+import ssl
 import json
 import websockets
 import asyncio
-import ssl
 import urllib3
 import aiohttp
 
@@ -100,7 +100,6 @@ async def websocket_client():
             async with websockets.connect(MATTERMOST_WEBSOCKET_URL, ssl=ssl_context) as websocket:
                 logger.info("Connected to WebSocket")
 
-                # Authentication
                 auth_message = {
                     "seq": seq_num,
                     "action": "authentication_challenge",
@@ -109,7 +108,6 @@ async def websocket_client():
                 await websocket.send(json.dumps(auth_message))
                 logger.info("Authentication message sent")
 
-                # Wait for auth response
                 auth_response = await websocket.recv()
                 logger.info(f"Auth response: {auth_response}")
 

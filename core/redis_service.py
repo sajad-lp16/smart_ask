@@ -1,10 +1,5 @@
 import time
 import pickle
-from typing import (
-    List,
-    Dict,
-    Optional
-)
 
 import redis.asyncio as redis
 
@@ -16,10 +11,7 @@ class RedisGateway:
         self.redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=True)
         self.processing_timeout = 5 * 60
 
-    async def queue_items(self, source_name: str, item_ids: List[str]) -> None:
-        """
-        Queue multiple items for processing with status "pending"
-        """
+    async def queue_items(self, source_name: str, item_ids: list[str]) -> None:
         async with self.redis_client.pipeline() as pipe:
             current_time = int(time.time())
             for item_id in item_ids:
@@ -28,10 +20,7 @@ class RedisGateway:
                 await pipe.set(key, value)
             await pipe.execute()
 
-    async def mark_processing(self, source_name: str, item_ids: List[str]) -> None:
-        """
-        Mark multiple items as being processed
-        """
+    async def mark_processing(self, source_name: str, item_ids: list[str]) -> None:
         async with self.redis_client.pipeline() as pipe:
             current_time = int(time.time())
             for item_id in item_ids:
@@ -40,25 +29,18 @@ class RedisGateway:
                 await pipe.set(key, value)
             await pipe.execute()
 
-    async def mark_completed(self, source_name: str, item_ids: List[str]) -> None:
-        """
-        Mark multiple items as completed and remove them from Redis
-        """
+    async def mark_completed(self, source_name: str, item_ids: list[str]) -> None:
         async with self.redis_client.pipeline() as pipe:
             for item_id in item_ids:
                 key = f"{source_name}_update_{item_id}"
                 await pipe.delete(key)
             await pipe.execute()
 
-    async def get_pending_items(self, source_name: str) -> List[Dict[str, str]]:
-        """
-        Get all pending items and processing items that have been processing for more than 5 minutes
-        """
+    async def get_pending_items(self, source_name: str) -> list[dict[str, str]]:
         pattern = f"{source_name}_update_*"
-        pending_items = []
+        pending_ids = []
         current_time = int(time.time())
 
-        # Use SCAN to iterate through all keys matching the pattern
         cursor = 0
         while True:
             cursor, keys = await self.redis_client.scan(cursor, match=pattern)
@@ -68,23 +50,18 @@ class RedisGateway:
                 if value:
                     status, timestamp = value.split("_")
                     timestamp = int(timestamp)
-
-                    # Check if item is pending or has been processing for too long
                     if status == "pending" or (status == "processing" and
                                                current_time - timestamp > self.processing_timeout):
                         item_id = key.split("_")[-1]
-                        pending_items.append({
-                            "item_id": item_id,
-                            "status": status,
-                            "timestamp": timestamp
-                        })
+                        pending_ids.append(item_id)
 
             if cursor == 0:
                 break
 
-        return pending_items
+        await self.mark_processing(source_name, pending_ids)
+        return pending_ids
 
-    async def get_item_status(self, source_name: str, item_id: str) -> Optional[str]:
+    async def get_item_status(self, source_name: str, item_id: str) -> str | None:
         key = f"{source_name}_update_{item_id}"
         value = await self.redis_client.get(key)
         if value:

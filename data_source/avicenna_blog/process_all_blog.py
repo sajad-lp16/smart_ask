@@ -6,6 +6,7 @@ from ai.genrate_md import ai_fetch_for_md
 from ai.components.ai_clients import AIClient
 from ai.components.prompts import AVICENNA_LEARN_PROMPT
 from core.config import AVICENNA_BLOG_CRAWL_STORING_DIRECTORY
+from core.log_config import ai_logger as logger
 from elastic.delete_from_elastic import delete_llama_documents_by_source
 from elastic.ingest_to_elastic import ingest_documents
 from data_source.avicenna_blog.prepare_to_ingest import md_learn_doc_2_llama_index_document
@@ -22,7 +23,8 @@ async def bulk_ai_fetch_for_md(sem: Semaphore, doc_source: dict[str: str]) -> No
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
                 if done_task.exception():
-                    raise done_task.exception()
+                    logger.exception(exception=done_task.exception())
+                    continue
 
                 task_result = done_task.result()
                 source_id = tasks[done_task]

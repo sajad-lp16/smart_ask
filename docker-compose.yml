@@ -12,7 +12,14 @@ services:
     env_file:
       - .env
     depends_on:
-      - redis
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8089/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
     command: /start.sh
 
   redis:
@@ -24,6 +31,12 @@ services:
     volumes:
       - redis_data:/data
     command: redis-server --save 60 1 --loglevel warning
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
 volumes:
   redis_data:

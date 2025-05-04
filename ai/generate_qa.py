@@ -6,9 +6,7 @@ from ai.components.scripts import get_chunks
 from ai.components.ai_clients import CustomAsyncOpenAI
 from ai.components.fetching import fetch_ai_client
 
-from ai.components.prompts import (
-    QA_COMBINATION_PROMPT
-)
+from ai.components.prompts import QA_COMBINATION_PROMPT
 
 
 async def ai_fetch_for_qa(sem: Semaphore, qa_prompt, conversation_data: str, client: CustomAsyncOpenAI) -> list:

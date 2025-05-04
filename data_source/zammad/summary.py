@@ -8,6 +8,7 @@ from ai.generate_summarize import ai_fetch_for_summarize
 
 from elastic.ingest_to_elastic import ingest_raw_documents
 from elastic.delete_from_elastic import delete_raw_documents_by_source
+from ai.components.prompts import SUMMARIZE_PROMPT
 from core import STEP_2_TICKETS_TARGET
 from core.utils.fetch_avicenna_ids import (
     get_person_ids_from_email,
@@ -20,9 +21,10 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
     async with AIClient() as client:
         for ticket_id, conversations in tickets_conversations.items():
             tasks[
-                asyncio.create_task(ai_fetch_for_summarize(sem, prompt, conversations, client=client))
+                asyncio.create_task(ai_fetch_for_summarize(sem, SUMMARIZE_PROMPT, conversations, client=client))
             ] = ticket_id
 
+        successful_fetch = []
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
@@ -30,6 +32,7 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
                 if not task_result:
                     continue
                 ticket_id = tasks[done_task]
+                successful_fetch.append(ticket_id)
                 emails = task_result["emails"]
                 id_tasks = [
                     asyncio.create_task(get_person_ids_from_email(emails)),
@@ -43,6 +46,7 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
 
                 await delete_raw_documents_by_source(ticket_id)
                 await ingest_raw_documents([{"source_id": ticket_id, "body": task_result}])
+        return successful_fetch
 
 
 async def generate_summary_for_all_tickets(sem: Semaphore):

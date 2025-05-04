@@ -1,7 +1,3 @@
-import os
-import json
-
-
 def json_topic_2_conversation(topic_json: dict) -> str:
     conversation = ""
 

@@ -34,18 +34,15 @@ async def add_topics_to_ai_source(topic_ids):
         results = await asyncio.gather(*analyze_topics)
         qa_ok = results
         successful_process = list(set(qa_ok))
-        redis_gateway.mark_completed("forum", successful_process)
+        await redis_gateway.mark_completed("forum", successful_process)
 
         logger.info(f"Successfully processed topics {qa_ok}")
 
     except Exception as e:
-        logger.error(f"Error processing ticket {topic_ids}: {str(e)}")
+        logger.exception(f"Error processing topic {topic_ids}: {str(e)}", exc_info=True, stack_info=True)
 
 
 async def process_topics_beat_task():
-    """
-    Async function that fetches tickets from SQLite and processes them.
-    """
     while True:
         try:
             topics = await redis_gateway.get_pending_items("forum")

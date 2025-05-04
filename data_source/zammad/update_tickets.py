@@ -27,6 +27,12 @@ async def add_tickets_to_ai_source(ticket_ids):
         semaphore = Semaphore(100)
         logger.info(f"Processing ticket: {ticket_ids}")
         tickets_articles = await _trigger_fetch_step(ticket_ids)
+
+        not_fetched_tickets = set(ticket_ids) - set(tickets_articles.keys())
+        await asyncio.gather(  # Removes not fetched tickets (>400 Errors)
+            *[asyncio.create_task(redis_gateway.mark_completed(not_fetched)) for not_fetched in not_fetched_tickets]
+        )
+
         tickets_conversations = {}
         for ticket_id, ticket_articles in tickets_articles.items():
             tickets_conversations[ticket_id] = message_2_md_parser(ticket_articles)
@@ -39,12 +45,13 @@ async def add_tickets_to_ai_source(ticket_ids):
         results = await asyncio.gather(*analyze_tickets)
         qa_ok, summary_ok = results
         successful_process = list(set(qa_ok) & set(summary_ok))
-        redis_gateway.mark_completed("zammad", successful_process)
+
+        await redis_gateway.mark_completed("zammad", successful_process)
 
         logger.info(f"Successfully processed ticket {list(tickets_articles.keys())}")
 
     except Exception as e:
-        logger.error(f"Error processing ticket {ticket_ids}: {str(e)}")
+        logger.exception(f"Error processing ticket {ticket_ids}: {str(e)}", exc_info=True, stack_info=True)
 
 
 async def process_tickets_beat_task():

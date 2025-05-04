@@ -1,7 +1,8 @@
-import time
 import os
-from concurrent.futures import ProcessPoolExecutor
+import time
 import multiprocessing
+from concurrent.futures import ProcessPoolExecutor
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -38,11 +39,8 @@ def extract_article_content(url):
         main_content = wait.until(
             EC.presence_of_element_located((By.TAG_NAME, "main"))
         )
-
         html_content = main_content.get_attribute('outerHTML')
-
         filename = sanitize_filename(url)
-
         os.makedirs("blog", exist_ok=True)
 
         filepath = os.path.join(AVICENNA_BLOG_CRAWL_STORING_DIRECTORY, filename)

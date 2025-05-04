@@ -1,7 +1,7 @@
 import os
 import time
-from urllib.parse import urljoin
 import multiprocessing
+from urllib.parse import urljoin
 from concurrent.futures import ProcessPoolExecutor
 
 from bs4 import BeautifulSoup
