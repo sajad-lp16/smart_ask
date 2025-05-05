@@ -36,7 +36,7 @@ class Router:
         response_schema.update(json.loads(ai_analysis))
         message_type = response_schema.pop("message_type")
 
-        await memory_manager.update_memory_chat(user_id, user_input, ai_analysis)
+        await memory_manager.update_memory_context(user_id, user_input, ai_analysis)
 
         if message_type == "help":
             return help_index(response_schema)
