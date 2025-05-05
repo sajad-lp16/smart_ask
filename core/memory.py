@@ -14,8 +14,8 @@ class MemoryManager:
 
     async def update_memory_context(self, user_id, user_input, assistant_input):
         memory = await self.memory_source.load_memory(user_id)
-        memory.put("user", user_input)
-        memory.put("assistant", assistant_input)
+        memory.put(f"user: {user_input}")
+        memory.put(f"assistant: {assistant_input}")
 
         await self.memory_source.save_memory(user_id, memory)
 
