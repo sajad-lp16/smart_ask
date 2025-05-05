@@ -49,15 +49,16 @@ async def send_message(channel_id: str, message: str, root_id: str = None):
 
 async def handle_message(message_data: dict):
     try:
-        if message_data.get('event') != 'posted':
+        if message_data.get("event") != "posted":
             return
 
-        post = json.loads(message_data['data']['post'])
-        message_id = post['id']
-        channel_id = post['channel_id']
-        message = post['message']
+        post = json.loads(message_data["data"]["post"])
+        message_id = post["id"]
+        user_id = post["user_id"]
+        channel_id = post["channel_id"]
+        message = post["message"]
 
-        if message_id in processed_messages or post.get('props', {}).get('from_bot', False):
+        if message_id in processed_messages or post.get("props", {}).get("from_bot", False):
             return
 
         is_direct_message = False
@@ -77,7 +78,7 @@ async def handle_message(message_data: dict):
 
         logger.info(f"\033[94mReceived message in channel {channel_id}: {message}\033[0m")
 
-        responses = await query_controller(message)
+        responses = await query_controller(message, user_id)
         logger.info(f"Generated response: {responses}")
         root_id = post.get("root_id") or message_id  # Reply in the thread
         [await send_message(channel_id, response, root_id) for response in responses]

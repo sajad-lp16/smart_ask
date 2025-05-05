@@ -126,7 +126,7 @@ async def query_endpoint(message: str):
     if not message:
         raise HTTPException(status_code=400, detail="Message is required")
 
-    responses = await query_controller(message)
+    responses = await query_controller(message, "1")
     return {"responses": responses}
 
 

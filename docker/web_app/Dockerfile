@@ -41,6 +41,7 @@ COPY --chown=web_app:web_app ./docker/web_app/start.sh /start.sh
 RUN sed -i 's/\r$//g' /entrypoint.sh /start.sh  && \
     chmod +x /entrypoint.sh /start.sh
 
+RUN mkdir -p ${APP_HOME}/logs && chown -R web_app:web_app ${APP_HOME}/logs
 COPY --chown=web_app:web_app . ${APP_HOME}
 
 USER web_app
