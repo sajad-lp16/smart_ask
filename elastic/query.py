@@ -16,16 +16,17 @@ from elastic.exceptions import (
 
 
 class ElasticQueryManager:
-    UNCLEAR_SUMMARY_QUERY_MESSAGE = ("I know you are requesting a summary, but I it's unclear for me."
-                                     " Please make a change to your request and try again.")
-    MISSING_SUMMARY_QUERY_MESSAGE = ("Working on it! 🤖 This ticket isn’t in my system yet, but I’ll grab it for you. "
-                                     "Please ask me again in 2 minutes—thanks for waiting! 🙏")
-    BOT_UNDER_MAINTENANCE_MESSAGE = "Sorry, The bot is under maintenance please try again later."
-    REFERENCE_ARGS_ARE_NOT_FOUND = "Sorry, I couldn't find information based on provided arguments."
-    BROAD_ERROR_MESSAGE = "An unexpected error occurred while processing your request. Please try again later."
+    def __init__(self):
+        self.unclear_summary_request_message = ("I know you are requesting a summary, but I it's unclear for me."
+                                                " Please make a change to your request and try again.")
+        self.missing_summary_message = (
+            "Working on it! 🤖 This ticket isn’t in my system yet, but I’ll grab it for you. "
+            "Please ask me again in 2 minutes—thanks for waiting! 🙏")
+        self.bot_under_maintenance_message = "Sorry, The bot is under maintenance please try again later."
+        self.reference_args_404_message = "Sorry, I couldn't find information based on provided arguments."
+        self.broad_error_message = "An unexpected error occurred while processing your request. Please try again later."
 
-    @classmethod
-    async def get_related_elastic_hits(cls, **kwargs) -> str | list[dict[str, Any]]:
+    async def get_related_elastic_hits(self, **kwargs) -> str | list[dict[str, Any]]:
 
         async with get_async_elastic_client() as elastic_client:
             query = query_builder(**kwargs)
@@ -41,25 +42,24 @@ class ElasticQueryManager:
 
             except NotFoundError as err:
                 logger.warning(err)
-                return cls.BOT_UNDER_MAINTENANCE_MESSAGE
+                return self.bot_under_maintenance_message
             except TicketsNotFoundException:
-                return cls.REFERENCE_ARGS_ARE_NOT_FOUND
+                return self.reference_args_404_message
             except RelatedTicketIDNotFoundException:
                 _ = asyncio.create_task(add_tickets_to_ai_source(kwargs["ticket_ids"]))
-                return cls.MISSING_SUMMARY_QUERY_MESSAGE
+                return self.missing_summary_message
             except Exception as err:
                 logger.warning(err)
-                return cls.BROAD_ERROR_MESSAGE
+                return self.broad_error_message
             finally:
                 await elastic_client.close()
 
-    @classmethod
     async def query_elastic_based_on_args(
-            cls, **kwargs: Unpack[dict[str: list[str]]]
+            self, **kwargs: Unpack[dict[str: list[str]]]
     ) -> str | list[str] | list[dict]:
 
         if not any(kwargs.values()):
-            return cls.UNCLEAR_SUMMARY_QUERY_MESSAGE
+            return self.unclear_summary_request_message
 
         hits = await cls.get_related_elastic_hits(**kwargs)
         if isinstance(hits, str):
@@ -71,3 +71,6 @@ class ElasticQueryManager:
 
         logger.info(f"Successfully processed {len(all_s)} summaries")
         return all_s
+
+
+elastic_query_manager = ElasticQueryManager()

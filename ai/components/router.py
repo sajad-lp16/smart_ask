@@ -2,19 +2,20 @@ import json
 
 from llama_index.core import Settings
 
+from core.memory import memory_manager
 from ai.components.prompts import ROUTER_PROMPT
 from ai.components.quering_index import (
     help_index,
-    QAIndicesManager,
-    SummaryIndicesManager
+    qa_index_manager,
+    summary_index_manager
 )
 
 
 class Router:
-    ROUTING_PROMPT = ROUTER_PROMPT
+    def __init__(self):
+        self.routing_prompt = ROUTER_PROMPT  # needs user_input & chat history for formating
 
-    @classmethod
-    def get_routing_schema(cls):
+    def get_routing_schema(self):
         return {
             "message_type": None,
             "deal_ids": None,
@@ -23,23 +24,30 @@ class Router:
             "ticket_ids": None,
         }
 
-    @classmethod
-    async def index_path(cls, user_input: str):
-        routing_prompt = cls.ROUTING_PROMPT % user_input
-        ai_analysis = (await Settings.llm.acomplete(routing_prompt)).text.strip().replace("```json", "").replace("`", "")
-        response_schema = cls.get_routing_schema()
+    async def index_path(self, user_id: str, user_input: str):
+        chat_context = await memory_manager.load_memory_context(user_id)
+
+        routing_prompt = self.routing_prompt % (user_input, chat_context)
+        ai_analysis = (
+            await Settings.llm.acomplete(routing_prompt)
+        ).text.strip().replace("```json", "").replace("`", "")
+        response_schema = self.get_routing_schema()
 
         response_schema.update(json.loads(ai_analysis))
-        print(response_schema)
         message_type = response_schema.pop("message_type")
+
+        await memory_manager.update_memory_chat(user_id, user_input, ai_analysis)
 
         if message_type == "help":
             return help_index(response_schema)
 
         elif message_type == "question":
             if not any(response_schema.values()):
-                return QAIndicesManager.qa_query(user_input)
-            return QAIndicesManager.qa_based_query(user_input, response_schema)
+                return qa_index_manager.qa_query(user_id, user_input)
+            return qa_index_manager.qa_based_query(user_id, user_input, response_schema)
 
         elif message_type == "summarize":
-            return SummaryIndicesManager.summary_query(user_input, response_schema)
+            return summary_index_manager.summary_query(user_id, user_input, response_schema)
+
+
+router = Router()

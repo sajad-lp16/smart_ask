@@ -1,5 +1,6 @@
 from elastic.clients import get_async_elastic_client
 
+from core.log_config import elastic_logger as logger
 from core.config import (
     ELASTIC_QA_INDEX_NAME,
     ELASTIC_SUMMARY_INDEX_NAME
@@ -28,6 +29,7 @@ async def delete_llama_documents_by_source(source: str, source_id: int | str) ->
             )
             return True
     except Exception as err:
+        logger.exception(f"error while deleting llama documents source={source}, source_id={source_id}", exc_info=err)
         return False
 
 
@@ -38,7 +40,8 @@ async def delete_raw_documents_by_source(source_id: int) -> bool:
                 index=ELASTIC_SUMMARY_INDEX_NAME,
                 id=str(source_id)
             )
-            print(f"Deleted summary document for ticket {source_id}")
+            logger.info(f"Deleted summary document for ticket {source_id}")
             return True
     except Exception as err:
+        logger.exception(f"error while deleting ticket summary source_id={source_id}", exc_info=err)
         return False

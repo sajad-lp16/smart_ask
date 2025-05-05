@@ -1,16 +1,16 @@
 import json
 
-from llama_index.core import Settings, Document
+from llama_index.core import Document
 from llama_index.core import VectorStoreIndex
 from llama_index.core.prompts import PromptTemplate
 from llama_index.core.response_synthesizers import (
     ResponseMode,
     get_response_synthesizer
 )
-
+from core.memory import memory_manager
 from core.config import ZAMMAD_TICKET_PREFIX
 from ai.components.llama_index_clients import VectorStoreEngine
-from elastic.query import ElasticQueryManager
+from elastic.query import elastic_query_manager
 from elastic.query_factory import build_query_hint
 from ai.components.prompts import (
     WELCOME_MESSAGE,
@@ -24,16 +24,17 @@ async def help_index(*args, **kwargs):
 
 
 class QAIndicesManager:
-    SIMPLE_QA_PROMPT = PromptTemplate(QA_PROMPT_TEMPLATE)
-    QA_BASED_ON_ARGS_PROMPT = PromptTemplate(QA_BASED_PROMPT_TEMPLATE)
-    elastic_query_manager = ElasticQueryManager
+    def __init__(self):
+        self.simple_qa_prompt = PromptTemplate(QA_PROMPT_TEMPLATE)
+        self.qa_based_on_args_prompt = PromptTemplate(QA_BASED_PROMPT_TEMPLATE)
+        self.i_dont_know_simple_qa_message = (
+            "Sorry, I can't provide you answer for this question yet, "
+            "you can try other questions:)"
+        )
 
-    I_DONT_KNOW_SIMPLE_QA_QUERY_MESSAGE = "Sorry, I can't provide you answer for this question yet, you can try other questions:)"
-
-    @classmethod
-    async def qa_query(cls, user_input: str, score_threshold: float = 0.9) -> str:
+    async def qa_query(self, user_id, user_input: str, score_threshold: float = 0.9) -> str:
         response_synthesizer = get_response_synthesizer(
-            response_mode=ResponseMode.COMPACT, text_qa_template=cls.SIMPLE_QA_PROMPT
+            response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
         )
 
         async with VectorStoreEngine(
@@ -59,13 +60,16 @@ class QAIndicesManager:
                 reference_str += f"- {ZAMMAD_TICKET_PREFIX + reference_id}\n"
 
         if reference_str:
-            return f"{answer} \n\n {reference_str}"
-        return cls.I_DONT_KNOW_SIMPLE_QA_QUERY_MESSAGE
+            response = f"{answer} \n\n {reference_str}"
+            await memory_manager.update_memory_context(user_id, user_input, response)
+            return response
 
-    @classmethod
-    async def qa_based_query(cls, user_input: str, query_based_on: dict) -> str:
+        await memory_manager.update_memory_context(user_id, user_input, self.i_dont_know_simple_qa_message)
+        return self.i_dont_know_simple_qa_message
+
+    async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
-        related_hits = await cls.elastic_query_manager.get_related_elastic_hits(**query_based_on, return_hits=True)
+        related_hits = await elastic_query_manager.get_related_elastic_hits(**query_based_on, return_hits=True)
 
         docs = []
         for item in related_hits:
@@ -82,24 +86,33 @@ class QAIndicesManager:
         index = VectorStoreIndex.from_documents(docs)
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT,
-            text_qa_template=cls.QA_BASED_ON_ARGS_PROMPT
+            text_qa_template=self.qa_based_on_args_prompt
         )
 
         query_engine = index.as_query_engine(response_synthesizer=response_synthesizer, similarity_top_k=5)
-        response = query_engine.query(user_input)
-        return text_preview + str(response)
+        response = text_preview + str(query_engine.query(user_input))
+
+        await memory_manager.update_memory_context(user_id, user_input, response)
+
+        return response
 
 
 class SummaryIndicesManager:
-    elastic_query_manager = ElasticQueryManager
-
-    @classmethod
-    async def summary_query(cls, user_input: str, query_based_on: dict) -> list[str]:
+    async def summary_query(self, user_id, user_input: str, query_based_on: dict) -> list[str]:
         text_preview = "### You are asking for summary based on: \n" + build_query_hint(**query_based_on) + "\n\n"
-        response_message = await cls.elastic_query_manager.query_elastic_based_on_args(**query_based_on)
+        response_message = await elastic_query_manager.query_elastic_based_on_args(**query_based_on)
         if isinstance(response_message, str):
+            response = [text_preview + response_message]
+            await memory_manager.update_memory_context(user_id, user_input, f"{response}")
             return [text_preview + response_message]
 
-        data = [text_preview + response_message[0]]
-        data.extend(response_message[1:])
-        return data
+        response = [text_preview + response_message[0]]
+        response.extend(response_message[1:])
+
+        await memory_manager.update_memory_context(user_id, user_input, f"{response}")
+
+        return response
+
+
+qa_index_manager = QAIndicesManager()
+summary_index_manager = SummaryIndicesManager()
