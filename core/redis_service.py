@@ -4,10 +4,15 @@ import pickle
 import redis.asyncio as redis
 
 from llama_index.core.memory import ChatMemoryBuffer
+from core.config import (
+    REDIS_HOST,
+    REDIS_PORT,
+    REDIS_DB
+)
 
 
 class RedisGateway:
-    def __init__(self, host: str = "redis", port: int = 6379, db: int = 0):
+    def __init__(self, host: str = REDIS_HOST, port: int = REDIS_PORT, db: int = REDIS_DB):
         self.redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=True)
         self.processing_timeout = 5 * 60
 
@@ -71,7 +76,7 @@ class RedisGateway:
     async def load_memory(self, user_id: str, token_limit=30000) -> ChatMemoryBuffer:
         key = f"memory:{user_id}"
         if await self.redis_client.exists(key):
-            return pickle.loads(redis_gateway.redis_client.get(key))
+            return pickle.loads(await redis_gateway.redis_client.get(key))
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 

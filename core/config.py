@@ -2,6 +2,10 @@ from decouple import config
 
 from core import BASE_DIR
 
+REDIS_HOST = config("REDIS_HOST", cast=str, default="redis")
+REDIS_PORT = config("REDIS_PORT", cast=int, default=6379)
+REDIS_DB = config("REDIS_DB", cast=str, default=0)
+
 ZAMMAD_API_KEY = config("ZAMMAD_API_KEY")
 ZAMMAD_HEADERS = {"Authorization": f'Bearer {ZAMMAD_API_KEY}'}
 ZAMMAD_BASE_URL = config("ZAMMAD_BASE_URL", cast=str)
@@ -48,4 +52,4 @@ AVICENNA_LEARN_URL = config("AVICENNA_LEARN_URL", cast=str)
 AVICENNA_LEARN_CRAWL_STORING_DIRECTORY = str(BASE_DIR / "data_source" / "avicenna_learn" / "crawling" / "learn") + "/"
 
 AVICENNA_BLOG_URL = config("AVICENNA_BLOG_URL", cast=str)
-AVICENNA_BLOG_CRAWL_STORING_DIRECTORY = str(BASE_DIR / "data_source" / "avicenna_blog" / "crawling" / "blog" ) + "/"
+AVICENNA_BLOG_CRAWL_STORING_DIRECTORY = str(BASE_DIR / "data_source" / "avicenna_blog" / "crawling" / "blog") + "/"
