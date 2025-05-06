@@ -36,9 +36,9 @@ class QAIndicesManager:
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
         )
-
+        chat_history = await memory_manager.load_memory_context(user_id)
         async with VectorStoreEngine(
-                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5
+                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5, chat_history=chat_history
         ) as query_engine:
             response = await query_engine.aquery(user_input)
 
@@ -70,7 +70,7 @@ class QAIndicesManager:
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
         related_hits = await elastic_query_manager.get_related_elastic_hits(**query_based_on, return_hits=True)
-
+        chat_history = await memory_manager.load_memory_context(user_id)
         docs = []
         for item in related_hits:
             docs.append(
@@ -89,7 +89,9 @@ class QAIndicesManager:
             text_qa_template=self.qa_based_on_args_prompt
         )
 
-        query_engine = index.as_query_engine(response_synthesizer=response_synthesizer, similarity_top_k=5)
+        query_engine = index.as_query_engine(
+            response_synthesizer=response_synthesizer, similarity_top_k=5, chat_history=chat_history
+        )
         response = text_preview + str(query_engine.query(user_input))
 
         await memory_manager.update_memory_context(user_id, user_input, response)
