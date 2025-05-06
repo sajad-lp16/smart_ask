@@ -76,7 +76,8 @@ class RedisGateway:
     async def load_memory(self, user_id: str, token_limit=30000) -> ChatMemoryBuffer:
         key = f"memory:{user_id}"
         if await self.redis_client.exists(key):
-            return pickle.loads(await redis_gateway.redis_client.get(key))
+            serialized_mem = await redis_gateway.redis_client.get(key)
+            return pickle.loads(serialized_mem.encode())
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 
