@@ -14,6 +14,7 @@ from core.config import (
 class RedisGateway:
     def __init__(self, host: str = REDIS_HOST, port: int = REDIS_PORT, db: int = REDIS_DB):
         self.redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=True)
+        self.raw_redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=False)
         self.processing_timeout = 5 * 60
 
     async def queue_items(self, source_name: str, item_ids: list[str]) -> None:
@@ -76,8 +77,7 @@ class RedisGateway:
     async def load_memory(self, user_id: str, token_limit=30000) -> ChatMemoryBuffer:
         key = f"memory:{user_id}"
         if await self.redis_client.exists(key):
-            serialized_mem = await redis_gateway.redis_client.get(key)
-            return pickle.loads(serialized_mem.encode())
+            return pickle.loads(await redis_gateway.raw_redis_client.get(key))
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 
