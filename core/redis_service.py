@@ -81,9 +81,9 @@ class RedisGateway:
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 
-    async def save_memory(self, user_id: str, memory: ChatMemoryBuffer):
+    async def save_memory(self, user_id: str, memory: ChatMemoryBuffer, timeout: int = 604800):
         key = f"memory:{user_id}"
-        await self.redis_client.set(key, pickle.dumps(memory))
+        await self.redis_client.set(key, pickle.dumps(memory), ex=timeout)
 
 
 redis_gateway = RedisGateway()
