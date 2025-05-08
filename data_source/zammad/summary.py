@@ -29,10 +29,10 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
-                task_result = done_task.result()
-                if task_result.exception:
+                if done_task.exception():
                     logger.exception(task_result.exception())
                     continue
+                task_result = done_task.result()
                 ticket_id = tasks[done_task]
                 successful_fetch.append(ticket_id)
                 if not task_result:
