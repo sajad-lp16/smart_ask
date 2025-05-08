@@ -4,6 +4,9 @@ Analyze the following client input and conversation history to determine its int
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
 3. **"help"** – For bot usage help, greetings, or unclear requests.
 
+CRITICAL RULE:
+- Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
+
 ENHANCED CLASSIFICATION RULES:
 For ticket response assistance ("help me respond to this ticket"):
 - Classify as "question" if the request involves platform functionality
