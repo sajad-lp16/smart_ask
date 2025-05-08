@@ -27,6 +27,17 @@ async def add_topics_to_ai_source(topic_ids):
         logger.info(f"Processing ticket: {topic_ids}")
         topics_conversations = await _trigger_fetch_step(semaphore, topic_ids)
 
+        not_fetched_topics = set(topic_ids) - set(topics_conversations.keys())
+        remove_from_queue_tasks = [
+            asyncio.create_task(
+                redis_gateway.mark_completed("forum", not_fetched)
+            ) for not_fetched in not_fetched_topics
+        ]
+
+        await asyncio.gather(  # Removes not fetched tickets (>400 Errors)
+            *remove_from_queue_tasks
+        )
+
         analyze_topics = [
             asyncio.create_task(bulk_ai_fetch_for_qa(semaphore, topics_conversations)),
         ]
