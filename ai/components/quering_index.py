@@ -65,7 +65,8 @@ class QAIndicesManager:
             answer = {"answer": str(response), "related": True}
 
         high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
-        references_data = set([(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes])
+        references_data = set(
+            [(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes])
 
         reference_str = ""
         if is_related and references_data:
@@ -90,11 +91,11 @@ class QAIndicesManager:
             docs.append(
                 Document(
                     metadata={
-                        "ticket_id": item["source_id"],
-                        "person_ids": item["person_ids"],
-                        "deal_ids": item["deal_ids"],
+                        "ticket_id": item["_source"]["source_id"],
+                        "person_ids": item["_source"]["person_ids"],
+                        "deal_ids": item["_source"]["deal_ids"],
                     },
-                    text=item["summary"]
+                    text=item["_source"]["summary"]
                 )
             )
         index = VectorStoreIndex.from_documents(docs)
