@@ -3,11 +3,11 @@ from core.log_config import elastic_logger as logger
 
 from llama_index.vector_stores.elasticsearch import ElasticsearchStore
 from core.config import (
+    ELASTIC_URL,
     ELASTIC_USER,
     ELASTIC_PASSWORD,
     ELASTIC_URL_FOR_CLIENT,
     ELASTIC_QA_INDEX_NAME,
-    ELASTIC_URL,
     ELASTIC_SUMMARY_INDEX_NAME
 )
 

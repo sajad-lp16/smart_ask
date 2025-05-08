@@ -29,9 +29,7 @@ async def add_tickets_to_ai_source(ticket_ids):
         tickets_articles = await _trigger_fetch_step(ticket_ids)
 
         not_fetched_tickets = set(ticket_ids) - set(tickets_articles.keys())
-        await asyncio.gather(  # Removes not fetched tickets (>400 Errors)
-            *[asyncio.create_task(redis_gateway.mark_completed("zammad", not_fetched)) for not_fetched in not_fetched_tickets]
-        )
+        await redis_gateway.mark_completed("zammad", not_fetched_tickets)
 
         tickets_conversations = {}
         for ticket_id, ticket_articles in tickets_articles.items():
