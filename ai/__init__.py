@@ -40,11 +40,11 @@ ai_2_base_url = {
 }
 
 ai_2_client = {
-    "openai": OpenAI(model=OPENAI_MODEL),
-    "gemini": Gemini(model=GEMINI_MODEL),
+    "openai": lambda: OpenAI(model=OPENAI_MODEL),
+    "gemini": lambda: Gemini(model=GEMINI_MODEL),
 }
 
 response_model: str = AI_FOR_RESPONSE
 
-llm = ai_2_client[response_model]
+llm = ai_2_client[response_model]()
 Settings.llm = llm
