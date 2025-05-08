@@ -83,7 +83,7 @@ class QAIndicesManager:
 
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
-        related_hits = await elastic_query_manager.get_related_elastic_hits(**query_based_on, return_hits=True)
+        related_hits = await elastic_query_manager.get_related_elastic_hits(**query_based_on)
         chat_history = await memory_manager.load_memory_context(user_id)
         docs = []
         for item in related_hits:
