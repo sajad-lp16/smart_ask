@@ -40,8 +40,8 @@ class QAIndicesManager:
         source_url_mapping = {
             "zammad": lambda: ZAMMAD_TICKET_PREFIX + str(source_id),
             "forum": lambda: FORUM_TOPIC_URL + str(source_id),
-            "avicenna_learn": lambda: source_id,
-            "avicenna_blog": lambda: source_id,
+            "avicenna_learn": lambda: "https://" + source_id.split(".html")[0].replace("_", "/"),
+            "avicenna_blog": lambda: "https://" + source_id.split(".html")[0].replace("_", "/"),
         }
         source_url_builder = source_url_mapping[source]
         return source_url_builder()
