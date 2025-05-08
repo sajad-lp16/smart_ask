@@ -9,7 +9,7 @@ class MemoryManager:
     async def load_memory_context(self, user_id):
         memory = await self.memory_source.load_memory(user_id)
         history = memory.get_all()
-        chat_context = "\n".join(reversed(history[-self.history_load_count:]))
+        chat_context = "\n".join(history[-self.history_load_count:])
         return chat_context
 
     async def update_memory_context(self, user_id, user_input, assistant_input):
