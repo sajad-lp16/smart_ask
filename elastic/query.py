@@ -61,7 +61,7 @@ class ElasticQueryManager:
         if not any(kwargs.values()):
             return self.unclear_summary_request_message
 
-        hits = await cls.get_related_elastic_hits(**kwargs)
+        hits = await self.get_related_elastic_hits(**kwargs)
         if isinstance(hits, str):
             return hits
 
