@@ -6,6 +6,7 @@ Analyze the following client input and conversation history to determine its int
 
 CRITICAL RULE:
 - Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
+- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
 
 ENHANCED CLASSIFICATION RULES:
 For ticket response assistance ("help me respond to this ticket"):
@@ -15,6 +16,11 @@ For ticket response assistance ("help me respond to this ticket"):
   b) The client’s message (if the client requests action using an identifier)
 - Do **NOT** extract any identifiers if they are merely mentioned and not directly referenced for action.
 - **IGNORE** the ticket content entirely in case of ticket response assistance and focus on the client’s direct request.
+- For ticket queries ("show me X in ticket"):
+  - Classify as "question".
+  - Extract ticket_id from either:
+    a) Current request ("ticket 123"), OR
+    b) Last referenced ticket_id in history.
 
 STRICT EXTRACTION RULES:
 1. **ALWAYS** extract identifiers when:
