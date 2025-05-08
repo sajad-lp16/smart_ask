@@ -40,8 +40,8 @@ ai_2_base_url = {
 }
 
 ai_2_client = {
-    "openai": OpenAI(model=ai_2_model[OPENAI_MODEL]),
-    "gemini": Gemini(model=ai_2_model[GEMINI_MODEL]),
+    "openai": OpenAI(model=OPENAI_MODEL),
+    "gemini": Gemini(model=GEMINI_MODEL),
 }
 
 response_model: str = AI_FOR_RESPONSE
