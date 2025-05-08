@@ -90,7 +90,7 @@ class QAIndicesManager:
             docs.append(
                 Document(
                     metadata={
-                        "ticket_id": item["ticket_id"],
+                        "ticket_id": item["source_id"],
                         "person_ids": item["person_ids"],
                         "deal_ids": item["deal_ids"],
                     },
