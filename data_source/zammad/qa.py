@@ -3,6 +3,7 @@ import json
 import asyncio
 from asyncio import Semaphore
 
+from core.log_config import ai_logger as logger, ai_logger
 from core import STEP_2_TICKETS_TARGET
 from ai.generate_qa import ai_fetch_for_qa
 from ai.components.ai_clients import AIClient
@@ -23,11 +24,14 @@ async def bulk_ai_fetch_for_qa(sem, tickets_conversations: dict[int, str]):
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
-                task_result = done_task.result()
-                if not task_result:
+                if done_task.exception():
+                    ai_logger.exception(done_task.exception())
                     continue
+                task_result = done_task.result()
                 ticket_id = tasks[done_task]
                 successful_fetch.append(ticket_id)
+                if not task_result:
+                    continue
                 ready_docs = qa_ticket_2_llama_index_document(task_result, ticket_id)
 
                 await delete_llama_documents_by_source("zammad", ticket_id)

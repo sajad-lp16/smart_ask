@@ -8,7 +8,10 @@ from llama_index.core.response_synthesizers import (
     get_response_synthesizer
 )
 from core.memory import memory_manager
-from core.config import ZAMMAD_TICKET_PREFIX
+from core.config import (
+    ZAMMAD_TICKET_PREFIX,
+    FORUM_TOPIC_URL
+)
 from ai.components.llama_index_clients import VectorStoreEngine
 from elastic.query import elastic_query_manager
 from elastic.query_factory import build_query_hint
@@ -32,6 +35,17 @@ class QAIndicesManager:
             "you can try other questions:)"
         )
 
+    @staticmethod
+    def _reference_builder(source: str, source_id):
+        source_url_mapping = {
+            "zammad": lambda: ZAMMAD_TICKET_PREFIX + str(source_id),
+            "forum": lambda: FORUM_TOPIC_URL + str(source_id),
+            "avicenna_learn": lambda: source_id,
+            "avicenna_blog": lambda: source_id,
+        }
+        source_url_builder = source_url_mapping[source]
+        return source_url_builder()
+
     async def qa_query(self, user_id, user_input: str, score_threshold: float = 0.9) -> str:
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
@@ -51,13 +65,13 @@ class QAIndicesManager:
             answer = {"answer": str(response), "related": True}
 
         high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
-        reference_ids = set([node.metadata.get("ticket_id") for node in high_score_nodes])
+        references_data = set([(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes])
 
         reference_str = ""
-        if is_related and reference_ids:
+        if is_related and references_data:
             reference_str += "**reference_ticket**:\n"
-            for reference_id in reference_ids:
-                reference_str += f"- {ZAMMAD_TICKET_PREFIX + reference_id}\n"
+            for source, source_id in references_data:
+                reference_str += f"- {self._reference_builder(source, source_id)}\n"
 
         if reference_str:
             response = f"{answer} \n\n {reference_str}"

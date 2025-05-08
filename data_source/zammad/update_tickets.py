@@ -45,7 +45,6 @@ async def add_tickets_to_ai_source(ticket_ids):
         results = await asyncio.gather(*analyze_tickets)
         qa_ok, summary_ok = results
         successful_process = list(set(qa_ok) & set(summary_ok))
-
         await redis_gateway.mark_completed("zammad", successful_process)
 
         logger.info(f"Successfully processed ticket {list(tickets_articles.keys())}")

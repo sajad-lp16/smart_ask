@@ -10,6 +10,7 @@ from elastic.ingest_to_elastic import ingest_raw_documents
 from elastic.delete_from_elastic import delete_raw_documents_by_source
 from ai.components.prompts import SUMMARIZE_PROMPT
 from core import STEP_2_TICKETS_TARGET
+from core.log_config import ai_logger as logger
 from core.utils.fetch_avicenna_ids import (
     get_person_ids_from_email,
     get_deal_ids_from_ticket_id
@@ -29,10 +30,13 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
                 task_result = done_task.result()
-                if not task_result:
+                if task_result.exception:
+                    logger.exception(task_result.exception())
                     continue
                 ticket_id = tasks[done_task]
                 successful_fetch.append(ticket_id)
+                if not task_result:
+                    continue
                 emails = task_result["emails"]
                 id_tasks = [
                     asyncio.create_task(get_person_ids_from_email(emails)),
@@ -46,6 +50,7 @@ async def bulk_ai_fetch_for_summarize(sem, tickets_conversations: dict[int, str]
 
                 await delete_raw_documents_by_source(ticket_id)
                 await ingest_raw_documents([{"source_id": ticket_id, "body": task_result}])
+
         return successful_fetch
 
 
