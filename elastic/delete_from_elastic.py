@@ -28,8 +28,7 @@ async def delete_llama_documents_by_source(source: str, source_id: int | str) ->
                 }
             )
             return True
-    except Exception as err:
-        logger.exception(f"error while deleting llama documents source={source}, source_id={source_id}", exc_info=err)
+    except Exception:
         return False
 
 
@@ -42,6 +41,5 @@ async def delete_raw_documents_by_source(source_id: int) -> bool:
             )
             logger.info(f"Deleted summary document for ticket {source_id}")
             return True
-    except Exception as err:
-        logger.exception(f"error while deleting ticket summary source_id={source_id}", exc_info=err)
+    except Exception:
         return False
