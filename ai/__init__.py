@@ -1,6 +1,7 @@
 import os
 from llama_index.core import Settings
 from llama_index.llms.openai import OpenAI
+from llama_index.llms.gemini import Gemini
 
 from core.config import (
     OPENAI_BASE_URL,
@@ -38,19 +39,12 @@ ai_2_base_url = {
     "gemini": GEMINI_BASE_URL
 }
 
+ai_2_client = {
+    "openai": OpenAI(model=ai_2_model[OPENAI_MODEL]),
+    "gemini": Gemini(model=ai_2_model[GEMINI_MODEL]),
+}
+
 response_model: str = AI_FOR_RESPONSE
 
-llm = OpenAI(model=ai_2_model[response_model])  # llama index only supports OpenAI
+llm = ai_2_client[response_model]
 Settings.llm = llm
-
-# embed_model = OllamaEmbedding(
-#     model_name="nomic-embed-text:latest",
-#     base_url="http://127.0.0.1:11434",
-# )
-# llm = Ollama(
-#     model="llama3.2:3b",
-#     base_url="http://127.0.0.1:11434",
-#     temperature=0.1
-# )
-# Settings.llm = llm
-# Settings.embed_model = embed_model
