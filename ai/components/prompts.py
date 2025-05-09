@@ -111,6 +111,8 @@ RESPONSE FORMAT:
   "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
   "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
 }
+```
+Avoid any slashes before underscore, that is invalid in JSON.
 HERE IS THE CLIENT INPUT:
 
 ```
@@ -134,6 +136,7 @@ You must respect these rules:
 11. Extract **as many question-answer sets as possible** from the conversation, ensuring that each problem-solution pair is distinct and addresses a unique issue.
 
 Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+Avoid any slashes before underscore, that is invalid in JSON.
 this is the conversation:
 
 ```
@@ -184,7 +187,8 @@ Example Output:
     "solution": "1. Enable notifications in Account Settings > Notifications\n2. Select preferred notification channels (email/SMS)\n3. Set notification triggers for export completion events"
   }
 ]
-
+```
+Avoid any slashes before underscore, that is invalid in JSON.
 Current conversation:
 
 %s
@@ -229,6 +233,7 @@ Rules:
 - If two entries have similar but not identical problems/solutions, keep both
 - Return only the final merged JSON array, with no additional text
 - Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+- Avoid any slashes before underscore, that is invalid in JSON.
 
 
 Here are the JSON chunks to merge:
@@ -238,6 +243,7 @@ Here are the JSON chunks to merge:
 """
 SUMMARIZE_PROMPT = """Analyze the following conversation and provide:
 I need the response to follow the example below, Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+Avoid any slashes before underscore, that is invalid in JSON.
 
 {
   "emails" (type=list of valid emails string): [""All valid emails you can find"" ],
@@ -297,6 +303,7 @@ Please make sure to:
 - Maintain the structure and format for each section in the final response.
 - If any action items, issues, or next steps appear in multiple chunks, merge them appropriately, ensuring the tasks are not duplicated.
 Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
+Avoid any slashes before underscore, that is invalid in JSON.
 
 {
   "emails": ["All valid emails from all chunks"],
@@ -342,7 +349,7 @@ Make sure the response in standard JSON deserializable format, nothing before or
                 - **Action 1:** Description and responsible person  
                 - **Action 2:** Description and responsible person"
 }
-
+```
 Analysis json objects as a list to combine:
 
 ```json
@@ -390,12 +397,15 @@ QA_PROMPT_TEMPLATE = """
 You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
 
 Respond strictly in JSON format like:
+```json
 {
     "related": true,
     "answer": "Your answer here..."
 }
-
-Question: {query_str}
+```
+Avoid any slashes before underscore, that is invalid in JSON.
+Question:
+{query_str}
 
 Context:
 {context_str}
