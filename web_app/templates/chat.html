@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Chat with AI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add marked library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             background: #f7f7f8;
@@ -101,6 +103,25 @@
                 height: 100vh;
             }
         }
+        /* Add styles for markdown content */
+        .bubble pre {
+            background: #f6f8fa;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        .bubble code {
+            background: #f6f8fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .bubble p {
+            margin: 0 0 12px 0;
+        }
+        .bubble p:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -122,7 +143,12 @@
             msgDiv.className = 'message ' + (sender === 'You' ? 'user' : 'ai');
             const bubble = document.createElement('div');
             bubble.className = 'bubble';
-            bubble.innerHTML = text.replace(/\n/g, '<br>');
+            // Convert markdown to HTML for AI responses
+            if (sender === 'AI') {
+                bubble.innerHTML = marked.parse(text);
+            } else {
+                bubble.innerHTML = text.replace(/\n/g, '<br>');
+            }
             msgDiv.appendChild(bubble);
             chatBox.appendChild(msgDiv);
             chatBox.scrollTop = chatBox.scrollHeight;
