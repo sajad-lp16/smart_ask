@@ -1,3 +1,55 @@
+# ROUTER_PROMPT = """
+# Analyze the following client input and conversation history with STRICT PRIORITY:
+# 1. **USER INPUT** - Primary source for intent and identifiers
+# 2. **HISTORY** - Only consult for context if input is ambiguous (prioritize recent)
+#
+# STRICT CATEGORIES:
+# 1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
+# 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
+# 3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
+#
+# CRITICAL RULE:
+# - Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
+# - Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
+#
+# ENHANCED CLASSIFICATION RULES:
+# For ticket response assistance ("help me respond to this ticket"):
+# - Classify as "question" if the request involves platform functionality
+# - Extract ALL relevant identifiers (email/person_id/deal_id/ticket_id) from:
+#   a) The direct request ("using conversation from X")
+#   b) The client’s message (if the client requests action using an identifier)
+# - Do **NOT** extract any identifiers if they are merely mentioned and not directly referenced for action.
+# - **IGNORE** the ticket content entirely in case of ticket response assistance and focus on the client’s direct request.
+# - For ticket queries ("show me X in ticket"):
+#   - Classify as "question".
+#   - Extract ticket_id from either:
+#     a) Current request ("ticket 123"), OR
+#     b) Last referenced ticket_id in history.
+#
+# STRICT EXTRACTION RULES:
+# 1. **ALWAYS** extract identifiers when:
+#    - They are preceded by action verbs like "using", "based on", "from" and are clearly referenced for response/summary purposes.
+# 2. **NEVER** extract identifiers that are merely mentioned without an explicit request for action.
+# 3. **IGNORE** any irrelevant content such as mere mentions of "person id", "ticket id", or "deal id" unless explicitly referenced for a specific action.
+#
+# RESPONSE FORMAT:
+#
+# ```json
+# {
+#   "message_type": "summarize|question|help",
+#   "deal_ids": [<Extracted deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id deal id, deal#)>],
+#   "emails": [<Extracted emails used for response>],
+#   "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
+#   "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
+# }
+# ```
+#
+# HERE IS THE CLIENT INPUT:
+# ```
+# %s
+# ```
+# """
+
 ROUTER_PROMPT = """
 Analyze the following client input and conversation history with STRICT PRIORITY:
 1. **USER INPUT** - Primary source for intent and identifiers
@@ -8,29 +60,35 @@ STRICT CATEGORIES:
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
 3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
 
-CRITICAL RULE:
-- Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
-- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
+CONVERSATION CONTINUITY RULES:
+- If the previous interaction was "question" AND current input is ambiguous (short phrases like "more details", "explain", "how about", "what about", "and?", "go on"), maintain "question" classification
+- For follow-ups like "give me more details", "explain further", "what else", continue the previous message_type unless explicitly changed
+- Only classify as "help" if there's no relevant previous context OR input is clearly a new help request
+
+CRITICAL RULES:
+- Prioritize the MOST RECENT interactions in the conversation history to infer intent
+- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize"
+- Follow-up questions maintain their previous classification unless explicitly changed
 
 ENHANCED CLASSIFICATION RULES:
 For ticket response assistance ("help me respond to this ticket"):
 - Classify as "question" if the request involves platform functionality
 - Extract ALL relevant identifiers (email/person_id/deal_id/ticket_id) from:
   a) The direct request ("using conversation from X")
-  b) The client’s message (if the client requests action using an identifier)
-- Do **NOT** extract any identifiers if they are merely mentioned and not directly referenced for action.
-- **IGNORE** the ticket content entirely in case of ticket response assistance and focus on the client’s direct request.
+  b) The client's message (if the client requests action using an identifier)
+- Do NOT extract any identifiers if they are merely mentioned and not directly referenced for action
+- IGNORE the ticket content entirely in case of ticket response assistance and focus on the client's direct request
 - For ticket queries ("show me X in ticket"):
-  - Classify as "question".
+  - Classify as "question"
   - Extract ticket_id from either:
     a) Current request ("ticket 123"), OR
-    b) Last referenced ticket_id in history.
+    b) Last referenced ticket_id in history
 
 STRICT EXTRACTION RULES:
-1. **ALWAYS** extract identifiers when:
-   - They are preceded by action verbs like "using", "based on", "from" and are clearly referenced for response/summary purposes.
-2. **NEVER** extract identifiers that are merely mentioned without an explicit request for action.
-3. **IGNORE** any irrelevant content such as mere mentions of "person id", "ticket id", or "deal id" unless explicitly referenced for a specific action.
+1. ALWAYS extract identifiers when:
+   - They are preceded by action verbs like "using", "based on", "from" and are clearly referenced for response/summary purposes
+2. NEVER extract identifiers that are merely mentioned without an explicit request for action
+3. IGNORE any irrelevant content such as mere mentions of "person id", "ticket id", or "deal id" unless explicitly referenced for a specific action
 
 RESPONSE FORMAT:
 
@@ -42,12 +100,6 @@ RESPONSE FORMAT:
   "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
   "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
 }
-```
-
-HERE IS THE CLIENT INPUT:
-```
-%s 
-```
 """
 
 ZAMMAD_QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.
