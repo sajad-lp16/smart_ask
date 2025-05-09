@@ -16,6 +16,7 @@ class RedisGateway:
         self.redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=True)
         self.raw_redis_client = redis.Redis(host=host, port=port, db=db, decode_responses=False)
         self.processing_timeout = 5 * 60
+        self.memory_cache_key = "chat-memory:{user_id}"
 
     async def queue_items(self, source_name: str, item_ids: list[str]) -> None:
         async with self.redis_client.pipeline() as pipe:
@@ -75,14 +76,14 @@ class RedisGateway:
         return None
 
     async def load_memory(self, user_id: str, token_limit=30000) -> ChatMemoryBuffer:
-        key = f"chat-memory:{user_id}"
+        key = self.memory_cache_key.format(user_id=user_id)
         if await self.redis_client.exists(key):
             return pickle.loads(await redis_gateway.raw_redis_client.get(key))
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 
     async def save_memory(self, user_id: str, memory: ChatMemoryBuffer, timeout: int = 7200):
-        key = f"chat-memory:{user_id}"
+        key = self.memory_cache_key.format(user_id=user_id)
         await self.redis_client.set(key, pickle.dumps(memory), ex=timeout)
 
 
