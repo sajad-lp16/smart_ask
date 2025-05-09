@@ -1,7 +1,5 @@
 import json
 
-from llama_index.core import Settings
-
 from core.memory import memory_manager
 from ai.components.prompts import ROUTER_PROMPT
 from ai.components.llama_index_clients import BasicChatEngine
