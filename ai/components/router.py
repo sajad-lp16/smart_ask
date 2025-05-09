@@ -31,7 +31,7 @@ class Router:
         async with BasicChatEngine(memory=user_chat_memory) as chat_engine:
             ai_analysis = (
                 await chat_engine.achat(routing_prompt)
-            ).text.strip().replace("```json", "").replace("`", "")
+            ).response.strip().replace("```json", "").replace("`", "")
 
         response_schema = self.get_routing_schema()
         response_schema.update(json.loads(ai_analysis))
