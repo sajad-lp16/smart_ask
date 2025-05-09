@@ -35,6 +35,7 @@ class MemoryManager:
 
         await memory.aput(user_message)
         await memory.aput(assistant_message)
+        await self.memory_source.save_memory(user_id, memory)
 
 
 memory_manager = MemoryManager()
