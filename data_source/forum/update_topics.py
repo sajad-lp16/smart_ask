@@ -24,7 +24,7 @@ def _trigger_cleanup_step(topic_conversations):
 async def add_topics_to_ai_source(topic_ids):
     try:
         semaphore = Semaphore(100)
-        logger.info(f"Processing ticket: {topic_ids}")
+        logger.info(f"Processing topic: {topic_ids}")
         topics_conversations = await _trigger_fetch_step(semaphore, topic_ids)
 
         not_fetched_topics = set(topic_ids) - set(topics_conversations.keys())

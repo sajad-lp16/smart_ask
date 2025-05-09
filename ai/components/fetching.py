@@ -13,7 +13,7 @@ async def fetch_ai_client(prompt: str, client: CustomAsyncOpenAI = None, parse_j
             completion = await _client.chat.completions.create(
                 **client.get_template(prompt)
             )
-            response = completion.choices[0].message.content.strip('```json')
+            response = completion.choices[0].message.content.strip('```json').repalce("`", "")
             if parse_json:
                 return json.loads(response)
             return response
