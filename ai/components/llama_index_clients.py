@@ -59,6 +59,9 @@ class ContextAwareChatEngine:
 
         return chat_engine
 
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        pass
+
 
 class VectorStorageContext:
     def __init__(self, index: str):
