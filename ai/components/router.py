@@ -4,12 +4,12 @@ from llama_index.core import Settings
 
 from core.memory import memory_manager
 from ai.components.prompts import ROUTER_PROMPT
+from ai.components.llama_index_clients import BasicChatEngine
 from ai.components.quering_index import (
     help_index,
     qa_index_manager,
     summary_index_manager
 )
-
 
 class Router:
     def __init__(self):
@@ -25,14 +25,15 @@ class Router:
         }
 
     async def index_path(self, user_id: str, user_input: str):
-        chat_context = await memory_manager.load_memory_context(user_id)
+        user_chat_memory = await memory_manager.get_user_memory(user_id)
+        routing_prompt = self.routing_prompt % user_input
 
-        routing_prompt = self.routing_prompt % (user_input, chat_context)
-        ai_analysis = (
-            await Settings.llm.acomplete(routing_prompt)
-        ).text.strip().replace("```json", "").replace("`", "")
+        async with BasicChatEngine(memory=user_chat_memory) as chat_engine:
+            ai_analysis = (
+                await chat_engine.achat(routing_prompt)
+            ).text.strip().replace("```json", "").replace("`", "")
+
         response_schema = self.get_routing_schema()
-
         response_schema.update(json.loads(ai_analysis))
         message_type = response_schema.pop("message_type")
 

@@ -48,11 +48,6 @@ HERE IS THE CLIENT INPUT:
 ```
 %s 
 ```
-
-HERE IS THE CLIENT CONVERSATION HISTORY:
-```
-%s
-```
 """
 
 ZAMMAD_QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.

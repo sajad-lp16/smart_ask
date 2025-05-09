@@ -1,5 +1,8 @@
 from llama_index.core import VectorStoreIndex, StorageContext, Document
-from llama_index.core.chat_engine import CondenseQuestionChatEngine
+from llama_index.core.chat_engine import (
+    SimpleChatEngine,
+    CondenseQuestionChatEngine,
+)
 
 from elastic.clients import get_elasticsearch_store
 
@@ -57,6 +60,21 @@ class ContextAwareChatEngine:
         query_engine = index.as_query_engine(**self.query_engine_config)
         chat_engine = CondenseQuestionChatEngine.from_defaults(query_engine=query_engine, memory=self.memory)
 
+        return chat_engine
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        pass
+
+
+class BasicChatEngine:
+    def __init__(
+            self,
+            memory=None
+    ):
+        self.memory = memory
+
+    async def __aenter__(self) -> SimpleChatEngine:
+        chat_engine = SimpleChatEngine.from_defaults(memory=self.memory)
         return chat_engine
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
