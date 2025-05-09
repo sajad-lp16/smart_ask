@@ -39,11 +39,11 @@ LOGGING_CONFIG = {
             "filename": os.path.join(log_dir, f"database.log"),
             "mode": "a"
         },
-        "update_tickets_file": {
+        "update_pipeline_file": {
             "class": "logging.FileHandler",
             "level": "INFO",
             "formatter": "standard",
-            "filename": os.path.join(log_dir, f"update_tickets.log"),
+            "filename": os.path.join(log_dir, f"update_pipeline.log"),
             "mode": "a"
         },
         "mattermost_bot_file": {
@@ -83,8 +83,8 @@ LOGGING_CONFIG = {
             "level": "INFO",
             "propagate": False
         },
-        "update_tickets": {
-            "handlers": ["update_tickets_file", "console"],
+        "update_pipeline": {
+            "handlers": ["update_pipeline_file", "console"],
             "level": "INFO",
             "propagate": False
         },
@@ -110,7 +110,7 @@ logging.config.dictConfig(LOGGING_CONFIG)
 
 # Create logger instances
 api_logger = logging.getLogger("api")
-update_tickets_logger = logging.getLogger("update_tickets")
+update_pipeline_logger = logging.getLogger("update_pipeline")
 elastic_logger = logging.getLogger("elastic")
 db_logger = logging.getLogger("database")
 mattermost_bot_logger = logging.getLogger("mattermost_bot")

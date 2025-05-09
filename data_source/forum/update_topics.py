@@ -4,7 +4,7 @@ from core.redis_service import redis_gateway
 from data_source.forum.parsing.topic_parser import json_topic_2_conversation
 
 from data_source.forum.qa import bulk_ai_fetch_for_qa
-from core.log_config import update_tickets_logger as logger
+from core.log_config import update_pipeline_logger as logger
 from data_source.forum.fetch import get_topics_conversation
 
 

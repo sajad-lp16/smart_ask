@@ -5,7 +5,7 @@ from data_source.zammad.parsing.html_2_md import message_2_md_parser
 
 from data_source.zammad.qa import bulk_ai_fetch_for_qa
 from data_source.zammad.summary import bulk_ai_fetch_for_summarize
-from core.log_config import update_tickets_logger as logger
+from core.log_config import update_pipeline_logger as logger
 from data_source.zammad.fetch import fetch_articles
 
 
