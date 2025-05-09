@@ -66,7 +66,8 @@ class QAIndicesManager:
 
         high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
         references_data = set(
-            [(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes])
+            [(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes]
+        )
 
         reference_str = ""
         if is_related and references_data:
@@ -79,8 +80,8 @@ class QAIndicesManager:
             await memory_manager.update_memory_context(user_id, user_input, response)
             return response
 
-        await memory_manager.update_memory_context(user_id, user_input, self.i_dont_know_simple_qa_message)
-        return self.i_dont_know_simple_qa_message
+        await memory_manager.update_memory_context(user_id, user_input, answer)
+        return answer
 
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
