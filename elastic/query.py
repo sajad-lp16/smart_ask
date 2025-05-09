@@ -44,7 +44,7 @@ class ElasticQueryManager:
                 logger.warning(err)
                 return [], self.bot_under_maintenance_message
             except TicketsNotFoundException:
-                return [], self.bot_under_maintenance_message
+                return [], self.reference_args_404_message
             except RelatedTicketIDNotFoundException:
                 _ = asyncio.create_task(add_tickets_to_ai_source(kwargs["ticket_ids"]))
                 return [], self.missing_summary_message
