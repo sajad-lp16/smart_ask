@@ -26,7 +26,7 @@ class ElasticQueryManager:
         self.reference_args_404_message = "Sorry, I couldn't find information based on provided arguments."
         self.broad_error_message = "An unexpected error occurred while processing your request. Please try again later."
 
-    async def get_related_elastic_hits(self, **kwargs) -> str | list[dict[str, Any]]:
+    async def get_related_elastic_hits(self, **kwargs) -> tuple[list[dict[str, Any]], str]:
 
         async with get_async_elastic_client() as elastic_client:
             query = query_builder(**kwargs)
@@ -38,19 +38,19 @@ class ElasticQueryManager:
                     if kwargs["ticket_ids"]:
                         raise RelatedTicketIDNotFoundException
                     raise TicketsNotFoundException
-                return hits
+                return hits, ""
 
             except NotFoundError as err:
                 logger.warning(err)
-                return self.bot_under_maintenance_message
+                return [], self.bot_under_maintenance_message
             except TicketsNotFoundException:
-                return self.reference_args_404_message
+                return [], self.bot_under_maintenance_message
             except RelatedTicketIDNotFoundException:
                 _ = asyncio.create_task(add_tickets_to_ai_source(kwargs["ticket_ids"]))
-                return self.missing_summary_message
+                return [], self.missing_summary_message
             except Exception as err:
                 logger.warning(err)
-                return self.broad_error_message
+                return [], self.broad_error_message
             finally:
                 await elastic_client.close()
 
@@ -61,9 +61,9 @@ class ElasticQueryManager:
         if not any(kwargs.values()):
             return self.unclear_summary_request_message
 
-        hits = await self.get_related_elastic_hits(**kwargs)
-        if isinstance(hits, str):
-            return hits
+        hits, err_msg = await self.get_related_elastic_hits(**kwargs)
+        if not hits:
+            return err_msg
 
         all_s = []
         for hit in hits:

@@ -74,15 +74,15 @@ class RedisGateway:
             return value.split("_")[0]
         return None
 
-    async def load_memory(self, user_id: str, token_limit=30000) -> ChatMemoryBuffer:
+    async def load_memory(self, user_id: str, token_limit=6000) -> ChatMemoryBuffer:
         key = f"memory:{user_id}"
         if await self.redis_client.exists(key):
             return pickle.loads(await redis_gateway.raw_redis_client.get(key))
         else:
             return ChatMemoryBuffer.from_defaults(token_limit=token_limit)
 
-    async def save_memory(self, user_id: str, memory: ChatMemoryBuffer, timeout: int = 604800):
-        key = f"memory:{user_id}"
+    async def save_memory(self, user_id: str, memory: ChatMemoryBuffer, timeout: int = 7200):
+        key = f"chat-memory:{user_id}"
         await self.redis_client.set(key, pickle.dumps(memory), ex=timeout)
 
 

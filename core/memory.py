@@ -12,10 +12,13 @@ class MemoryManager:
         chat_context = "\n".join(history[-self.history_load_count:])
         return chat_context
 
+    async def get_user_memory(self, user_id):
+        return await self.memory_source.load_memory(user_id)
+
     async def update_memory_context(self, user_id, user_input, assistant_input):
         memory = await self.memory_source.load_memory(user_id)
-        memory.put(f"user: {user_input}")
-        memory.put(f"assistant: {assistant_input}")
+        await memory.aput(f"user: {user_input}")
+        await memory.aput(f"assistant: {assistant_input}")
 
         await self.memory_source.save_memory(user_id, memory)
 

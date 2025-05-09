@@ -1,7 +1,5 @@
 import json
 
-from llama_index.core import Document
-from llama_index.core import VectorStoreIndex
 from llama_index.core.prompts import PromptTemplate
 from llama_index.core.response_synthesizers import (
     ResponseMode,
@@ -12,7 +10,10 @@ from core.config import (
     ZAMMAD_TICKET_PREFIX,
     FORUM_TOPIC_URL
 )
-from ai.components.llama_index_clients import VectorStoreEngine
+from ai.components.llama_index_clients import (
+    FullContextChatEngine,
+    ContextAwareChatEngine
+)
 from elastic.query import elastic_query_manager
 from elastic.query_factory import build_query_hint
 from ai.components.prompts import (
@@ -50,12 +51,11 @@ class QAIndicesManager:
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
         )
-        chat_history = await memory_manager.load_memory_context(user_id)
-        async with VectorStoreEngine(
-                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5, chat_history=chat_history
-        ) as query_engine:
-            response = await query_engine.aquery(user_input)
-
+        user_chat_memory = await memory_manager.get_user_memory(user_id)
+        async with FullContextChatEngine(
+                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5, memory=user_chat_memory
+        ) as chat_engine:
+            response = await chat_engine.achat(user_input)
         try:
             response_json = json.loads(str(response).strip().replace("```json", "").replace("`", ""))
             answer = response_json.get("answer", "")
@@ -84,33 +84,19 @@ class QAIndicesManager:
 
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
-        related_hits = await elastic_query_manager.get_related_elastic_hits(**query_based_on)
-        chat_history = await memory_manager.load_memory_context(user_id)
-        docs = []
-        for item in related_hits:
-            docs.append(
-                Document(
-                    metadata={
-                        "ticket_id": item["_id"],
-                        "person_ids": item["_source"]["person_ids"],
-                        "deal_ids": item["_source"]["deal_ids"],
-                    },
-                    text=item["_source"]["summary"]
-                )
-            )
-        index = VectorStoreIndex.from_documents(docs)
+        related_hits, _ = await elastic_query_manager.get_related_elastic_hits(**query_based_on) # TODO: Enhance this
+        user_chat_memory = await memory_manager.get_user_memory(user_id)
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT,
             text_qa_template=self.qa_based_on_args_prompt
         )
 
-        query_engine = index.as_query_engine(
-            response_synthesizer=response_synthesizer, similarity_top_k=5, chat_history=chat_history
-        )
-        response = text_preview + str(query_engine.query(user_input))
+        async with ContextAwareChatEngine(
+                elastic_hits=related_hits, memory=user_chat_memory, response_synthesizer=response_synthesizer
+        ) as chat_engine:
+            response = text_preview + str(await chat_engine.achat(user_input))
 
         await memory_manager.update_memory_context(user_id, user_input, response)
-
         return response
 
 
