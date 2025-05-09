@@ -62,7 +62,8 @@ class QAIndicesManager:
             is_related = response_json.get("related", True)
         except json.JSONDecodeError:
             is_related = True
-            answer = {"answer": str(response), "related": True}
+            answer = str(response)
+
 
         high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
         references_data = set(

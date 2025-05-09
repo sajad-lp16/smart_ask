@@ -60,15 +60,26 @@ STRICT CATEGORIES:
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
 3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
 
-CONVERSATION CONTINUITY RULES:
-- If the previous interaction was "question" AND current input is ambiguous (short phrases like "more details", "explain", "how about", "what about", "and?", "go on"), maintain "question" classification
-- For follow-ups like "give me more details", "explain further", "what else", continue the previous message_type unless explicitly changed
-- Only classify as "help" if there's no relevant previous context OR input is clearly a new help request
+
+CONVERSATION CONTINUITY & IDENTIFIER INHERITANCE RULES:
+- If previous interaction involved a ticket (summary or question) AND current input references that ticket WITHOUT new identifiers:
+  - Maintain the ticket_id from previous context
+  - Classify as "question" for ticket details (participants, status, history)
+  - Classify as "summarize" only for explicit summary requests
+- For follow-ups about the same subject (using words like "this", "that", "it", "the ticket"):
+  - Inherit all relevant identifiers from previous context
+  - Example: 
+    Previous: "summarize ticket 123" → ticket_ids: [123]
+    Current: "who were participants in it" → keeps ticket_ids: [123]
 
 CRITICAL RULES:
 - Prioritize the MOST RECENT interactions in the conversation history to infer intent
 - Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize"
-- Follow-up questions maintain their previous classification unless explicitly changed
+- Ticket references ALWAYS inherit identifiers when:
+    - Using pronouns ("it", "this ticket")
+    - Using generic references ("the ticket", "that request")
+- NEVER reset identifiers unless new ones are explicitly provided
+- ALWAYS maintain ticket context through a conversation thread
 
 ENHANCED CLASSIFICATION RULES:
 For ticket response assistance ("help me respond to this ticket"):
