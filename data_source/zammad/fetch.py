@@ -3,20 +3,16 @@ import json
 
 import aiohttp
 import asyncio
-import logging
 from asyncio import Semaphore
 from aiohttp import ClientSession
 
 from core import STEP_1_TICKETS_TARGET
-from core.log_config import update_tickets_logger
+from core.log_config import update_pipeline_logger as logger
 from core.config import (
     ZAMMAD_TICKET_URL,
     ZAMMAD_HEADERS,
     ZAMMAD_ARTICLES_URL
 )
-
-logger = logging.getLogger()
-
 
 async def find_last_page():
     async def _fetch(page):
@@ -75,7 +71,7 @@ async def fetch_articles(ticket_ids, session: ClientSession = None):
         done, _ = await asyncio.wait(tasks.keys())
         for done_task in done:
             if done_task.exception() is not None:
-                update_tickets_logger.error(done_task.exception())
+                logger.error(done_task.exception())
                 continue
             ticket_id = tasks[done_task]
             articles[ticket_id] = done_task.result()
