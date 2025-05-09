@@ -6,7 +6,6 @@ from core.redis_service import redis_gateway
 
 class MemoryManager:
     def __init__(self):
-        self.memories = {}
         self.memory_source = redis_gateway
         self.history_load_count = 10
 
@@ -17,9 +16,7 @@ class MemoryManager:
         return chat_context
 
     async def get_user_memory(self, user_id: str) -> ChatMemoryBuffer:
-        if user_id not in self.memories:
-            self.memories[user_id] = ChatMemoryBuffer.from_defaults()
-        return self.memories[user_id]
+        return await redis_gateway.load_memory(user_id)
 
     async def update_memory_context(self, user_id: str, user_input: str, response: str) -> None:
         memory = await self.get_user_memory(user_id)

@@ -13,7 +13,7 @@ from ai.components.quering_index import (
 
 class Router:
     def __init__(self):
-        self.routing_prompt = ROUTER_PROMPT  # needs user_input & chat history for formating
+        self.routing_prompt = ROUTER_PROMPT
 
     def get_routing_schema(self):
         return {
