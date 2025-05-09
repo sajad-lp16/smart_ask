@@ -6,7 +6,7 @@ Analyze the following client input and conversation history with STRICT PRIORITY
 STRICT CATEGORIES:
 1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
-3. **"help"** – For bot usage help, greetings, or unclear requests.
+3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
 
 CRITICAL RULE:
 - Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
