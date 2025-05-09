@@ -35,7 +35,7 @@ async def add_topics_to_ai_source(topic_ids):
         ]
 
         results = await asyncio.gather(*analyze_topics)
-        qa_ok = results
+        qa_ok = results[0]
         successful_process = list(set(qa_ok))
 
         await redis_gateway.mark_completed("forum", successful_process)
