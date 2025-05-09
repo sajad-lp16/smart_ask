@@ -189,10 +189,12 @@ Example Output:
 ]
 ```
 Avoid any backslashes before underscore, and any `\n`s that is invalid in JSON.
+If you can't find any QA pairs just return empty array, nothing before or after it so it can be deserializable.
 Current conversation:
 
+```
 %s
-
+```
 """
 
 QA_COMBINATION_PROMPT = """
