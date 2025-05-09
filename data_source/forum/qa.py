@@ -5,6 +5,7 @@ from asyncio import Semaphore
 
 from core import BASE_DIR
 from ai.generate_qa import ai_fetch_for_qa
+from core.log_config import ai_logger as logger
 from ai.components.ai_clients import AIClient
 from ai.components.prompts import FORUM_QA_PROMPT
 from data_source.forum.parsing.topic_parser import json_topic_2_conversation
@@ -25,11 +26,14 @@ async def bulk_ai_fetch_for_qa(sem, topic_conversations: dict[str, str]):
         while pending:
             done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
             for done_task in done:
-                task_result = done_task.result()
-                if not task_result:
+                if done_task.exception():
+                    logger.exception(done_task.exception())
                     continue
+                task_result = done_task.result()
                 topic_id = tasks[done_task]
                 successful_fetch.append(topic_id)
+                if not task_result:
+                    continue
                 ready_docs = qa_topic_2_llama_index_document(task_result, topic_id)
 
                 await delete_llama_documents_by_source("forum", topic_id)
