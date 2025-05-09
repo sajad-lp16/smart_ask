@@ -112,7 +112,7 @@ RESPONSE FORMAT:
   "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
 }
 ```
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 HERE IS THE CLIENT INPUT:
 
 ```
@@ -136,7 +136,7 @@ You must respect these rules:
 11. Extract **as many question-answer sets as possible** from the conversation, ensuring that each problem-solution pair is distinct and addresses a unique issue.
 
 Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 this is the conversation:
 
 ```
@@ -188,7 +188,7 @@ Example Output:
   }
 ]
 ```
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 Current conversation:
 
 %s
@@ -233,7 +233,7 @@ Rules:
 - If two entries have similar but not identical problems/solutions, keep both
 - Return only the final merged JSON array, with no additional text
 - Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
-- Avoid any slashes before underscore, that is invalid in JSON.
+- Avoid any backslashes before underscore, that is invalid in JSON.
 
 
 Here are the JSON chunks to merge:
@@ -243,7 +243,7 @@ Here are the JSON chunks to merge:
 """
 SUMMARIZE_PROMPT = """Analyze the following conversation and provide:
 I need the response to follow the example below, Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 
 {
   "emails" (type=list of valid emails string): [""All valid emails you can find"" ],
@@ -303,7 +303,7 @@ Please make sure to:
 - Maintain the structure and format for each section in the final response.
 - If any action items, issues, or next steps appear in multiple chunks, merge them appropriately, ensuring the tasks are not duplicated.
 Make sure the response in standard JSON deserializable format, nothing before or after the json response, wanna deserialize your response directly.
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 
 {
   "emails": ["All valid emails from all chunks"],
@@ -403,7 +403,7 @@ Respond strictly in JSON format like:
     "answer": "Your answer here..."
 }
 ```
-Avoid any slashes before underscore, that is invalid in JSON.
+Avoid any backslashes before underscore, that is invalid in JSON.
 Question:
 {query_str}
 
