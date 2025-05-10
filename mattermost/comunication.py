@@ -57,6 +57,7 @@ async def handle_message(message_data: dict):
         user_id = post["user_id"]
         channel_id = post["channel_id"]
         message = post["message"]
+        thread_id = post.get("root_id") or message_id  # Get thread ID
 
         if message_id in processed_messages or post.get("props", {}).get("from_bot", False):
             return
@@ -78,9 +79,11 @@ async def handle_message(message_data: dict):
 
         logger.info(f"\033[94mReceived message in channel {channel_id}: {message}\033[0m")
 
-        responses = await query_controller(message, user_id)
+        user_in_thread = f"{user_id}_{thread_id}"
+
+        responses = await query_controller(message, user_in_thread)  # Pass thread_id to query_controller
         logger.info(f"Generated response: {responses}")
-        root_id = post.get("root_id") or message_id  # Reply in the thread
+        root_id = thread_id  # Use thread_id for replies
         [await send_message(channel_id, response, root_id) for response in responses]
 
         logger.info(f"Response sent to channel {channel_id}: {responses}")
