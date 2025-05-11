@@ -20,6 +20,8 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    volumes:
+      - webapp_logs:/app/logs
     command: /start.sh
 
   redis:
@@ -40,6 +42,7 @@ services:
 
 volumes:
   redis_data:
+  webapp_logs:
 
 networks:
   app_network:
@@ -47,4 +50,4 @@ networks:
     ipam:
       config:
         - subnet: "10.50.10.0/24"
-          gateway: "10.50.10.1"
+          gateway: "10.50.10.1" 
