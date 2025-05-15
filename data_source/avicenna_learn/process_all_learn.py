@@ -30,7 +30,7 @@ async def bulk_ai_fetch_for_md(sem: Semaphore, doc_source: dict[str: str]):
                 ready_docs = md_learn_doc_2_llama_index_document(task_result, source_id)
 
                 await delete_llama_documents_by_source("avicenna_learn", source_id)
-                await ingest_documents([ready_docs])
+                await ingest_documents(ready_docs)
 
 
 async def process_all_avicenna_learn_source():

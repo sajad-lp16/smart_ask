@@ -2,7 +2,7 @@ from llama_index.core import Document
 from llama_index.core.node_parser import SentenceSplitter
 
 
-def md_blog_doc_2_llama_index_document(document_content, source_id: str):
+def md_blog_doc_2_llama_index_document(document_content, source_id: str) -> list[Document]:
     text_splitter = SentenceSplitter(
         chunk_size=200,
         chunk_overlap=50
