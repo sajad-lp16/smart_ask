@@ -8,7 +8,7 @@ from ai.components.prompts import AVICENNA_LEARN_PROMPT
 from core.config import AVICENNA_LEARN_CRAWL_STORING_DIRECTORY
 from elastic.delete_from_elastic import delete_llama_documents_by_source
 from elastic.ingest_to_elastic import ingest_documents
-from data_source.avicenna_learn.prepare_to_ingest import md_blog_doc_2_llama_index_document
+from data_source.avicenna_learn.prepare_to_ingest import md_learn_doc_2_llama_index_document
 
 
 async def bulk_ai_fetch_for_md(sem: Semaphore, doc_source: dict[str: str]):
@@ -27,7 +27,7 @@ async def bulk_ai_fetch_for_md(sem: Semaphore, doc_source: dict[str: str]):
                 task_result = done_task.result()
                 source_id = tasks[done_task]
 
-                ready_docs = md_blog_doc_2_llama_index_document(task_result, source_id)
+                ready_docs = md_learn_doc_2_llama_index_document(task_result, source_id)
 
                 await delete_llama_documents_by_source("avicenna_learn", source_id)
                 await ingest_documents([ready_docs])
