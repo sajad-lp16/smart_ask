@@ -15,7 +15,7 @@ def md_learn_doc_2_llama_index_document(document_content, source_id: str) -> lis
             metadata={
                 "solution": "",
                 "source_id": source_id,
-                "source": "avicenna_blog",
+                "source": "avicenna_learn",
                 "chunk_index": index,
                 "total_chunks": len(split_text)
             }
