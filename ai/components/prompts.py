@@ -1,55 +1,3 @@
-# ROUTER_PROMPT = """
-# Analyze the following client input and conversation history with STRICT PRIORITY:
-# 1. **USER INPUT** - Primary source for intent and identifiers
-# 2. **HISTORY** - Only consult for context if input is ambiguous (prioritize recent)
-#
-# STRICT CATEGORIES:
-# 1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
-# 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
-# 3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
-#
-# CRITICAL RULE:
-# - Prioritize the MOST RECENT interactions in the conversation history to infer intent and identifiers.
-# - Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
-#
-# ENHANCED CLASSIFICATION RULES:
-# For ticket response assistance ("help me respond to this ticket"):
-# - Classify as "question" if the request involves platform functionality
-# - Extract ALL relevant identifiers (email/person_id/deal_id/ticket_id) from:
-#   a) The direct request ("using conversation from X")
-#   b) The client’s message (if the client requests action using an identifier)
-# - Do **NOT** extract any identifiers if they are merely mentioned and not directly referenced for action.
-# - **IGNORE** the ticket content entirely in case of ticket response assistance and focus on the client’s direct request.
-# - For ticket queries ("show me X in ticket"):
-#   - Classify as "question".
-#   - Extract ticket_id from either:
-#     a) Current request ("ticket 123"), OR
-#     b) Last referenced ticket_id in history.
-#
-# STRICT EXTRACTION RULES:
-# 1. **ALWAYS** extract identifiers when:
-#    - They are preceded by action verbs like "using", "based on", "from" and are clearly referenced for response/summary purposes.
-# 2. **NEVER** extract identifiers that are merely mentioned without an explicit request for action.
-# 3. **IGNORE** any irrelevant content such as mere mentions of "person id", "ticket id", or "deal id" unless explicitly referenced for a specific action.
-#
-# RESPONSE FORMAT:
-#
-# ```json
-# {
-#   "message_type": "summarize|question|help",
-#   "deal_ids": [<Extracted deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id deal id, deal#)>],
-#   "emails": [<Extracted emails used for response>],
-#   "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
-#   "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
-# }
-# ```
-#
-# HERE IS THE CLIENT INPUT:
-# ```
-# %s
-# ```
-# """
-
 ROUTER_PROMPT = """
 Analyze the following client input and conversation history with STRICT PRIORITY:
 1. **USER INPUT** - Primary source for intent and identifiers
@@ -398,14 +346,22 @@ Here's what I can help you with:
 QA_PROMPT_TEMPLATE = """
 You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
 
-Respond strictly in JSON format like:
-```json
-{
-    "related": true,
-    "answer": "Your answer here..."
-}
-```
-Avoid any backslashes before underscore, and any `\n`s that is invalid in JSON.
+IMPORTANT INSTRUCTION ON USING CONTEXT:
+Analyze the provided context thoroughly to answer the user's question.
+- If the context contains specific details, steps, or facts that directly answer the question, synthesize a **comprehensive answer** using **all relevant information** from those parts of the context. Include as many pertinent details as possible to fully address the query based on the provided text.
+- If the context includes a phrase like "contact support", "refer to customer service", or similar instructions:
+    - DO NOT immediately default to this instruction.
+    - First, check if *other* parts of the provided context contain information to answer the question directly.
+    - Only include the instruction to "contact support" (or the equivalent phrase found in the context) in your final answer IF AND ONLY IF the provided context contains ABSOLUTELY NO OTHER relevant information to answer the user's question. In this specific case, clearly state that according to the provided information, the user should contact support.
+- If ABSOLUTELY NO relevant information (including any 'contact support' instructions) is found in the context, state in the `answer` field that you could not find the answer in the provided context.
+
+Respond strictly in JSON format with exactly two keys: "related" and "answer".
+- Set the value of "related" to `true` (boolean) IF and only IF you were able to find and use relevant information from the provided context to populate the `answer` field (this includes the specific case where the only relevant information found was a 'contact support' instruction).
+- Set the value of "related" to `false` (boolean) IF the provided context contained no relevant information at all to answer the question.
+- The value of "answer" should be the synthesized answer based on the context (if `related` is true) or a concise statement indicating that the information was not found in the context (if `related` is false).
+
+Ensure the JSON is valid and can be parsed by json.loads(). Specifically, make sure string values are properly quoted and escaped (e.g., backslashes `\\`, quotes `\"`, and newlines `\n` within the "answer" string must be correctly escaped according to JSON rules). Avoid any non-standard backslashes (like before underscores `\_` unless they are part of an escaped sequence) or unescaped newlines outside of string values.
+
 Question:
 {query_str}
 

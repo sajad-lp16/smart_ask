@@ -3,6 +3,7 @@ from llama_index.core.chat_engine import (
     SimpleChatEngine,
     CondenseQuestionChatEngine,
 )
+from llama_index.core.postprocessor.types import BaseNodePostprocessor
 
 from elastic.clients import get_elasticsearch_store
 
@@ -13,11 +14,16 @@ class FullContextChatEngine:
             index: str,
             response_synthesizer=None,
             similarity_top_k=5,
-            memory=None
+            memory=None,
+            node_postprocessors: list[BaseNodePostprocessor] = None
     ):
         self.elasticsearch_store = get_elasticsearch_store(index)
-        self.query_engine_config = {"response_synthesizer": response_synthesizer, "similarity_top_k": similarity_top_k}
         self.memory = memory
+        self.query_engine_config = {
+            "response_synthesizer": response_synthesizer,
+            "similarity_top_k": similarity_top_k,
+            "node_postprocessors": node_postprocessors or []
+        }
 
     async def __aenter__(self) -> CondenseQuestionChatEngine:
         index = VectorStoreIndex.from_vector_store(vector_store=self.elasticsearch_store)

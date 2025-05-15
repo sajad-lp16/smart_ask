@@ -5,6 +5,7 @@ from llama_index.core.response_synthesizers import (
     ResponseMode,
     get_response_synthesizer
 )
+
 from core.memory import memory_manager
 from core.config import (
     ZAMMAD_TICKET_PREFIX,
@@ -21,6 +22,7 @@ from ai.components.prompts import (
     QA_PROMPT_TEMPLATE,
     QA_BASED_PROMPT_TEMPLATE
 )
+from ai.components.llama_index_post_processors import MixedScoreHeaderPostprocessor
 
 
 async def help_index(*args, **kwargs):
@@ -35,6 +37,7 @@ class QAIndicesManager:
             "Sorry, I can't provide you answer for this question yet, "
             "you can try other questions:)"
         )
+        self.rank_by_source_postprocessor = MixedScoreHeaderPostprocessor(top_k=3)
 
     @staticmethod
     def _reference_builder(source: str, source_id):
@@ -49,11 +52,12 @@ class QAIndicesManager:
 
     async def qa_query(self, user_id, user_input: str, score_threshold: float = 0.9) -> str:
         response_synthesizer = get_response_synthesizer(
-            response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
+            response_mode=ResponseMode.REFINE, text_qa_template=self.simple_qa_prompt
         )
         user_chat_memory = await memory_manager.get_user_memory(user_id)
         async with FullContextChatEngine(
-                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5, memory=user_chat_memory
+                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5,
+                memory=user_chat_memory, node_postprocessors=[self.rank_by_source_postprocessor]
         ) as chat_engine:
             response = await chat_engine.achat(user_input)
         try:
@@ -64,7 +68,6 @@ class QAIndicesManager:
             is_related = True
             answer = str(response)
 
-
         high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
         references_data = set(
             [(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes]
@@ -72,7 +75,7 @@ class QAIndicesManager:
 
         reference_str = ""
         if is_related and references_data:
-            reference_str += "**reference_ticket**:\n"
+            reference_str += "**reference_sources**:\n"
             for source, source_id in references_data:
                 reference_str += f"- {self._reference_builder(source, source_id)}\n"
 
@@ -86,7 +89,7 @@ class QAIndicesManager:
 
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:
         text_preview = "### You are asking question based on: \n" + build_query_hint(**query_based_on) + "\n\n"
-        related_hits, _ = await elastic_query_manager.get_related_elastic_hits(**query_based_on) # TODO: Enhance this
+        related_hits, _ = await elastic_query_manager.get_related_elastic_hits(**query_based_on)  # TODO: Enhance this
         user_chat_memory = await memory_manager.get_user_memory(user_id)
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT,
