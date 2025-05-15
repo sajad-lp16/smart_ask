@@ -7,18 +7,17 @@ def md_learn_doc_2_llama_index_document(document_content, source_id: str):
         chunk_size=200,
         chunk_overlap=50
     )
-    nodes = text_splitter.get_nodes_from_text(document_content)
-
+    split_text = text_splitter.split_text(document_content)
     documents = []
-    for index, node in enumerate(nodes):
+    for index, text in enumerate(split_text):
         document = Document(
-            text=node.text,
+            text=text,
             metadata={
                 "solution": "",
                 "source_id": source_id,
-                "source": "avicenna_learn",
+                "source": "avicenna_blog",
                 "chunk_index": index,
-                "total_chunks": len(nodes)
+                "total_chunks": len(split_text)
             }
         )
         documents.append(document)
