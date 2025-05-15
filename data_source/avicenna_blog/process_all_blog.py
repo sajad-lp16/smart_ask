@@ -45,3 +45,7 @@ async def process_all_avicenna_blog_source():
             url_2_source_mapping[filename] = file.read()
 
     await bulk_ai_fetch_for_md(sem, url_2_source_mapping)
+
+
+if __name__ == "__main__":
+    asyncio.run(process_all_avicenna_blog_source())
