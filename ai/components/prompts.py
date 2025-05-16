@@ -27,11 +27,16 @@ CRITICAL RULES:
 - Explicit identifiers in the current input (e.g., "summarize ticket 789") ALWAYS establish the identifiers for the current turn, overriding any previous implicit or explicit context.
 - Implicit ticket context is maintained through a conversation thread *only when the user's input continues to clearly refer to that ticket subject or its details*. A clear shift to a new, unrelated subject breaks this implicit ticket context chain for follow-ups.
 
-ENHANCED CLASSIFICATION RULES:
-... (Keep this section as is, it seems focused on explicit identifiers and classification for specific tasks)
-
-STRICT EXTRACTION RULES:
-... (Keep this section as is, it seems focused on explicit identifier extraction)
+HISTORY HANDLING RULES:
+- Set `ignore_history` to `true` ONLY when:
+  1. The query introduces a completely new, unrelated subject
+  2. The query is a standalone question that doesn't need any context
+  3. The query contains explicit identifiers that override any previous context
+- Set `ignore_history` to `false` when:
+  1. The query is a follow-up question using pronouns or references to previous context
+  2. The query is asking for more details about the previous subject
+  3. The query is related to the same ticket, person, or deal as the previous turn
+  4. The query uses terms like "it", "this", "that", "the ticket", "that request" in reference to the previous context
 
 RESPONSE FORMAT:
 
@@ -42,7 +47,7 @@ RESPONSE FORMAT:
   "emails": [<Extracted or inherited emails used for response>],
   "person_ids": [<Extracted or inherited person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id, person id, person#)>],
   "ticket_ids": [<Extracted or inherited ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id, ticket id, ticket#)>],
-  "ignore_history": <boolean>  # Set to true if the query introduces a new, unrelated subject or is a standalone question that doesn't need context
+  "ignore_history": <boolean>  # Set to true ONLY for new, unrelated subjects or standalone questions
 }
 ```
 
