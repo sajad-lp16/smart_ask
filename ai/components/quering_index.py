@@ -59,7 +59,7 @@ class QAIndicesManager:
         async with FullContextChatEngine(
                 "qa", 
                 response_synthesizer=response_synthesizer, 
-                similarity_top_k=5,
+                similarity_top_k=10,
                 memory=None if ignore_history else user_chat_memory,
                 node_postprocessors=[self.rank_by_source_postprocessor],
         ) as chat_engine:

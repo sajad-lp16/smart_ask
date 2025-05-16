@@ -13,7 +13,7 @@ class FullContextChatEngine:
             self,
             index: str,
             response_synthesizer=None,
-            similarity_top_k=5,
+            similarity_top_k=10,
             memory=None,
             node_postprocessors: list[BaseNodePostprocessor] = None
     ):
@@ -40,7 +40,7 @@ class ContextAwareChatEngine:
     def __init__(
             self,
             elastic_hits=None,
-            similarity_top_k=5,
+            similarity_top_k=10,
             memory=None,
             response_synthesizer=None
     ):
