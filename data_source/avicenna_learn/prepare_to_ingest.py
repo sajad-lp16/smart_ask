@@ -4,8 +4,8 @@ from llama_index.core.node_parser import SentenceSplitter
 
 def md_learn_doc_2_llama_index_document(document_content, source_id: str) -> list[Document]:
     text_splitter = SentenceSplitter(
-        chunk_size=200,
-        chunk_overlap=50
+        chunk_size=150,
+        chunk_overlap=30
     )
     split_text = text_splitter.split_text(document_content)
     documents = []
