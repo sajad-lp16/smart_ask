@@ -41,8 +41,11 @@ RESPONSE FORMAT:
   "deal_ids": [<Extracted or inherited deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id, deal id, deal#)>],
   "emails": [<Extracted or inherited emails used for response>],
   "person_ids": [<Extracted or inherited person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id, person id, person#)>],
-  "ticket_ids": [<Extracted or inherited ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id, ticket id, ticket#)>]
+  "ticket_ids": [<Extracted or inherited ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id, ticket id, ticket#)>],
+  "ignore_history": <boolean>  # Set to true if the query introduces a new, unrelated subject or is a standalone question that doesn't need context
 }
+```
+
 HERE IS THE CLIENT INPUT:
 
 %s

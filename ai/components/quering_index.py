@@ -50,16 +50,21 @@ class QAIndicesManager:
         source_url_builder = source_url_mapping[source]
         return source_url_builder()
 
-    async def qa_query(self, user_id, user_input: str) -> str:
+    async def qa_query(self, user_id, user_input: str, ignore_history: bool = False) -> str:
         response_synthesizer = get_response_synthesizer(
             response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
         )
         user_chat_memory = await memory_manager.get_user_memory(user_id)
+        
         async with FullContextChatEngine(
-                "qa", response_synthesizer=response_synthesizer, similarity_top_k=5,
-                memory=user_chat_memory, node_postprocessors=[self.rank_by_source_postprocessor]
+                "qa", 
+                response_synthesizer=response_synthesizer, 
+                similarity_top_k=5,
+                memory=None if ignore_history else user_chat_memory,
+                node_postprocessors=[self.rank_by_source_postprocessor],
         ) as chat_engine:
             response = await chat_engine.achat(user_input)
+        
         try:
             response_json = json.loads(str(response).strip().replace("```json", "").replace("`", ""))
             answer = response_json.get("answer", "")

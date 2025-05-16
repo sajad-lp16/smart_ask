@@ -20,6 +20,7 @@ class Router:
             "emails": None,
             "person_ids": None,
             "ticket_ids": None,
+            "ignore_history": False
         }
 
     async def index_path(self, user_id: str, user_input: str):
@@ -34,6 +35,7 @@ class Router:
         response_schema = self.get_routing_schema()
         response_schema.update(json.loads(ai_analysis))
         message_type = response_schema.pop("message_type")
+        ignore_history = response_schema.pop("ignore_history", False)
 
         await memory_manager.update_memory_context(user_id, user_input, ai_analysis)
 
@@ -42,7 +44,7 @@ class Router:
 
         elif message_type == "question":
             if not any(response_schema.values()):
-                return qa_index_manager.qa_query(user_id, user_input)
+                return qa_index_manager.qa_query(user_id, user_input, ignore_history=ignore_history)
             return qa_index_manager.qa_based_query(user_id, user_input, response_schema)
 
         elif message_type == "summarize":
