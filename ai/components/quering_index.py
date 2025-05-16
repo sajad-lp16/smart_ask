@@ -84,7 +84,7 @@ class QAIndicesManager:
             reference_str += "\n\n---\n\n"
             reference_str += "**Reference Sources:**\n\n"
             for source, source_id in references_data:
-                reference_str += f"• {self._reference_builder(source, source_id)}\n"
+                reference_str += f"- {self._reference_builder(source, source_id)}\n"
 
         if reference_str:
             response = f"{answer}{reference_str}"
