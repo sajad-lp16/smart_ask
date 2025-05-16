@@ -50,9 +50,9 @@ class QAIndicesManager:
         source_url_builder = source_url_mapping[source]
         return source_url_builder()
 
-    async def qa_query(self, user_id, user_input: str, score_threshold: float = 0.9) -> str:
+    async def qa_query(self, user_id, user_input: str) -> str:
         response_synthesizer = get_response_synthesizer(
-            response_mode=ResponseMode.REFINE, text_qa_template=self.simple_qa_prompt
+            response_mode=ResponseMode.COMPACT, text_qa_template=self.simple_qa_prompt
         )
         user_chat_memory = await memory_manager.get_user_memory(user_id)
         async with FullContextChatEngine(
@@ -68,23 +68,21 @@ class QAIndicesManager:
             is_related = True
             answer = str(response)
 
-        high_score_nodes = [node for node in response.source_nodes if getattr(node, "score", 1.0) >= score_threshold]
+        await memory_manager.update_memory_context(user_id, user_input, answer)
+
         references_data = set(
-            [(node.metadata.get("source"), node.metadata.get("source_id")) for node in high_score_nodes]
+            [(node.metadata.get("source"), node.metadata.get("source_id")) for node in response.source_nodes]
         )
 
         reference_str = ""
         if is_related and references_data:
-            reference_str += "**reference_sources**:\n"
+            reference_str += "\n\n **reference_sources**:\n"
             for source, source_id in references_data:
                 reference_str += f"- {self._reference_builder(source, source_id)}\n"
 
         if reference_str:
             response = f"{answer} \n\n {reference_str}"
-            await memory_manager.update_memory_context(user_id, user_input, response)
             return response
-
-        await memory_manager.update_memory_context(user_id, user_input, answer)
         return answer
 
     async def qa_based_query(self, user_id, user_input: str, query_based_on: dict) -> str:

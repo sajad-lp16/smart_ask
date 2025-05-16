@@ -23,7 +23,7 @@ class MixedScoreHeaderPostprocessor(BaseNodePostprocessor):
             header_level = node_with_score.node.metadata.get(self.header_key)
             boost = self.boost_factors.get(header_level, self.default_boost)
 
-            node_with_score.score += boost
+            node_with_score.score *= boost
 
         sorted_nodes = sorted(nodes, key=lambda x: x.score, reverse=True)
 

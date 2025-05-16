@@ -24,7 +24,7 @@ WORKDIR ${APP_HOME}
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     sudo git bash-completion vim ssh \
-    gettext \
+    gettext wget \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && rm -rf /var/lib/apt/lists/*
 

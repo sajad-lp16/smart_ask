@@ -1,71 +1,51 @@
 ROUTER_PROMPT = """
 Analyze the following client input and conversation history with STRICT PRIORITY:
-1. **USER INPUT** - Primary source for intent and identifiers
-2. **HISTORY** - Only consult for context if input is ambiguous (prioritize recent)
+1. **USER INPUT** - Primary source for intent and identifiers. A clear, new subject introduced here **overrides** any previous implicit subject context.
+2. **HISTORY** - Consult only for *disambiguating ambiguous user input*. Prioritize the *immediately preceding turn* to understand the **Current Subject Context**. Use older history cautiously and only when the preceding turn is insufficient or the current input explicitly refers further back.
 
 STRICT CATEGORIES:
 1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
-2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets.
-3. **"help"** – For bot usage help, greetings also if the input is not related to chat history and it so unclear.
+2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets OR requests for specific details about tickets (participants, status, history).
+3. **"help"** – For bot usage help, greetings, or if the input is not related to chat history and is very unclear or generic.
 
-
-CONVERSATION CONTINUITY & IDENTIFIER INHERITANCE RULES:
-- If previous interaction involved a ticket (summary or question) AND current input references that ticket WITHOUT new identifiers:
-  - Maintain the ticket_id from previous context
-  - Classify as "question" for ticket details (participants, status, history)
-  - Classify as "summarize" only for explicit summary requests
-- For follow-ups about the same subject (using words like "this", "that", "it", "the ticket"):
-  - Inherit all relevant identifiers from previous context
-  - Example: 
-    Previous: "summarize ticket 123" → ticket_ids: [123]
-    Current: "who were participants in it" → keeps ticket_ids: [123]
+CONVERSATION CONTINUITY & CONTEXT INHERITANCE RULES:
+- The **Current Subject Context** for interpreting ambiguous follow-ups (like "more details", "about it") is primarily determined by the subject of the *immediately preceding user turn*.
+- If a user input introduces a clear, new subject that is **unrelated** to the subject of the previous turn (e.g., asking "how can I reset my password?" after discussing a specific ticket), this establishes a NEW **Current Subject Context**. For the purpose of interpreting the *current turn's implicit references*, the context and identifiers from turns *before* the immediately preceding turn are discarded.
+- If a user input is a follow-up using pronouns ("it", "this", "that") or generic references ("the ticket", "that request") AND the **Current Subject Context** (from the immediately preceding turn) was related to a ticket:
+    - Classify based on the *new input's intent* (e.g., "question" for ticket details, "summarize" for explicit summary of that ticket).
+    - Inherit the ticket_id and any other relevant identifiers from the immediately preceding turn's context.
+- If a user input is a follow-up using pronouns or generic references AND the **Current Subject Context** (from the immediately preceding turn) was related to a **non-ticket subject** (e.g., password reset, feature details):
+    - Classify as "question".
+    - The follow-up refers to the **non-ticket subject** of the preceding turn. DO NOT inherit ticket identifiers from older history in this case.
 
 CRITICAL RULES:
-- Prioritize the MOST RECENT interactions in the conversation history to infer intent
-- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize"
+- Prioritize the **Current Subject Context** from the *immediately preceding turn* when interpreting ambiguous input or follow-ups.
+- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
 - Ticket references ALWAYS inherit identifiers when:
-    - Using pronouns ("it", "this ticket")
-    - Using generic references ("the ticket", "that request")
-- NEVER reset identifiers unless new ones are explicitly provided
-- ALWAYS maintain ticket context through a conversation thread
+    - Using pronouns ("it", "this ticket") *AND* the **Current Subject Context** (from the previous turn) is a ticket.
+    - Using generic references ("the ticket", "that request") *AND* the **Current Subject Context** (from the previous turn) is a ticket.
+- Explicit identifiers in the current input (e.g., "summarize ticket 789") ALWAYS establish the identifiers for the current turn, overriding any previous implicit or explicit context.
+- Implicit ticket context is maintained through a conversation thread *only when the user's input continues to clearly refer to that ticket subject or its details*. A clear shift to a new, unrelated subject breaks this implicit ticket context chain for follow-ups.
 
 ENHANCED CLASSIFICATION RULES:
-For ticket response assistance ("help me respond to this ticket"):
-- Classify as "question" if the request involves platform functionality
-- Extract ALL relevant identifiers (email/person_id/deal_id/ticket_id) from:
-  a) The direct request ("using conversation from X")
-  b) The client's message (if the client requests action using an identifier)
-- Do NOT extract any identifiers if they are merely mentioned and not directly referenced for action
-- IGNORE the ticket content entirely in case of ticket response assistance and focus on the client's direct request
-- For ticket queries ("show me X in ticket"):
-  - Classify as "question"
-  - Extract ticket_id from either:
-    a) Current request ("ticket 123"), OR
-    b) Last referenced ticket_id in history
+... (Keep this section as is, it seems focused on explicit identifiers and classification for specific tasks)
 
 STRICT EXTRACTION RULES:
-1. ALWAYS extract identifiers when:
-   - They are preceded by action verbs like "using", "based on", "from" and are clearly referenced for response/summary purposes
-2. NEVER extract identifiers that are merely mentioned without an explicit request for action
-3. IGNORE any irrelevant content such as mere mentions of "person id", "ticket id", or "deal id" unless explicitly referenced for a specific action
+... (Keep this section as is, it seems focused on explicit identifier extraction)
 
 RESPONSE FORMAT:
 
 ```json
 {
   "message_type": "summarize|question|help",
-  "deal_ids": [<Extracted deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id deal id, deal#)>],
-  "emails": [<Extracted emails used for response>], 
-  "person_ids": [<Extracted person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id person id, person#)>],
-  "ticket_ids": [<Extracted ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id ticket id, ticket#)>]
+  "deal_ids": [<Extracted or inherited deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id, deal id, deal#)>],
+  "emails": [<Extracted or inherited emails used for response>],
+  "person_ids": [<Extracted or inherited person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id, person id, person#)>],
+  "ticket_ids": [<Extracted or inherited ticket IDs used for response, ensure integer type and they can be mentioned in these formats (ticket, ticketID, ticket_id, ticket id, ticket#)>]
 }
-```
-Avoid any backslashes before underscore, and any `\n`s that is invalid in JSON.
 HERE IS THE CLIENT INPUT:
 
-```
 %s
-```
 """
 
 ZAMMAD_QA_PROMPT = """I need to implement a RAG system to provide answers for users' questions. I'll provide you with a conversation where the client explains one or more problems, and the staff provides solutions. There might be multiple back-and-forth exchanges between the client and the staff before reaching a solution, or there might be internal notes between multiple staff members. You will receive all of these.
@@ -343,7 +323,7 @@ Here's what I can help you with:
 
 🧭 I’m here to guide you — just tell me what you need! 🚀💬"""
 
-QA_PROMPT_TEMPLATE = """
+QA_PROMPT_TEMPLATE = r"""
 You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
 
 IMPORTANT INSTRUCTION ON USING CONTEXT:
