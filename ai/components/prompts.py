@@ -39,6 +39,8 @@ HISTORY HANDLING RULES:
   4. The query uses terms like "it", "this", "that", "the ticket", "that request" in reference to the previous context
 
 RESPONSE FORMAT:
+Make sure the response is in standard JSON deserializable format, with nothing before or after the json response. I want to deserialize your response directly with json.loads().
+Avoid any backslashes before underscore, and any `\\n`s that are invalid in JSON.
 
 ```json
 {
