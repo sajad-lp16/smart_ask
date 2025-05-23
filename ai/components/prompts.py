@@ -6,25 +6,32 @@ Analyze the following client input and conversation history with STRICT PRIORITY
 STRICT CATEGORIES:
 1. **"summarize"** – ONLY If the client EXPLICITLY or IMPLICITLY requests a summary using words like "summarize", "recap", "brief", **OR** asks for the "main concern", "key point", or "what happened" in a ticket, conversation, or deal.
 2. **"question"** – For CLEAR technical/platform functionality questions (password reset, features, purchases) OR requests for help responding to tickets OR requests for specific details about tickets (participants, status, history).
-3. **"help"** – For bot usage help, greetings, or if the input is not related to chat history and is very unclear or generic.
+3. **"ticket_response"** – When the client EXPLICITLY or IMPLICITLY asks for help **answering** a ticket, using phrases like:
+   - "help me answer ticket 1234"
+   - "can you help respond to ticket 123"
+   - "draft a reply to ticket 123"
+   - "how should I answer ticket 123"
+   - CRITICAL: Only one ticket ID must be identified and returned in the `ticket_ids` list. If multiple ticket references are present, **choose the most directly referenced one** and ignore others. If no ticket ID is found, **do not classify as `ticket_response`**.
+4. **"help"** – For bot usage help, greetings, or if the input is not related to chat history and is very unclear or generic.
 
 CONVERSATION CONTINUITY & CONTEXT INHERITANCE RULES:
 - The **Current Subject Context** for interpreting ambiguous follow-ups (like "more details", "about it") is primarily determined by the subject of the *immediately preceding user turn*.
 - If a user input introduces a clear, new subject that is **unrelated** to the subject of the previous turn (e.g., asking "how can I reset my password?" after discussing a specific ticket), this establishes a NEW **Current Subject Context**. For the purpose of interpreting the *current turn's implicit references*, the context and identifiers from turns *before* the immediately preceding turn are discarded.
-- If a user input is a follow-up using pronouns ("it", "this", "that") or generic references ("the ticket", "that request") AND the **Current Subject Context** (from the immediately preceding turn) was related to a ticket:
-    - Classify based on the *new input's intent* (e.g., "question" for ticket details, "summarize" for explicit summary of that ticket).
+- If a user input is a follow-up using pronouns ("it", "this", "that") or generic references ("the ticket", "that request") AND the **Current Subject Context** (from the previous turn) was related to a ticket:
+    - Classify based on the *new input's intent* (e.g., "question" for ticket details, "summarize" for explicit summary, "ticket_response" for asking how to answer the ticket).
     - Inherit the ticket_id and any other relevant identifiers from the immediately preceding turn's context.
-- If a user input is a follow-up using pronouns or generic references AND the **Current Subject Context** (from the immediately preceding turn) was related to a **non-ticket subject** (e.g., password reset, feature details):
+- If a user input is a follow-up using pronouns or generic references AND the **Current Subject Context** (from the previous turn) was related to a **non-ticket subject** (e.g., password reset, feature details):
     - Classify as "question".
     - The follow-up refers to the **non-ticket subject** of the preceding turn. DO NOT inherit ticket identifiers from older history in this case.
 
 CRITICAL RULES:
 - Prioritize the **Current Subject Context** from the *immediately preceding turn* when interpreting ambiguous input or follow-ups.
-- Any request about ticket details (participants, status, history, ...) is ALWAYS "question", NEVER "summarize".
+- Any request about ticket details (participants, status, history, etc.) is ALWAYS "question", NEVER "summarize".
+- Any request for help responding to or answering a ticket is ALWAYS "ticket_response".
 - Ticket references ALWAYS inherit identifiers when:
     - Using pronouns ("it", "this ticket") *AND* the **Current Subject Context** (from the previous turn) is a ticket.
     - Using generic references ("the ticket", "that request") *AND* the **Current Subject Context** (from the previous turn) is a ticket.
-- Explicit identifiers in the current input (e.g., "summarize ticket 789") ALWAYS establish the identifiers for the current turn, overriding any previous implicit or explicit context.
+- Explicit identifiers in the current input (e.g., "summarize ticket 789", "respond to ticket 4654") ALWAYS establish the identifiers for the current turn, overriding any previous implicit or explicit context.
 - Implicit ticket context is maintained through a conversation thread *only when the user's input continues to clearly refer to that ticket subject or its details*. A clear shift to a new, unrelated subject breaks this implicit ticket context chain for follow-ups.
 
 HISTORY HANDLING RULES:
@@ -44,7 +51,7 @@ Avoid any backslashes before underscore, and any `\\n`s that are invalid in JSON
 
 ```json
 {
-  "message_type": "summarize|question|help",
+  "message_type": "summarize|question|ticket_response|help",
   "deal_ids": [<Extracted or inherited deal IDs used for response, ensure integer type and they can be mentioned in these formats (deal, dealID, deal_id, deal id, deal#)>],
   "emails": [<Extracted or inherited emails used for response>],
   "person_ids": [<Extracted or inherited person IDs used for response, ensure integer type and they can be mentioned in these formats (person, personID, person_id, person id, person#)>],
@@ -324,33 +331,80 @@ Here's what I can help you with:
 
 ### 🧪 Try asking me things like:
 
-- ❓ _“can I try the application before I purchase a license?”_  
-- 📄 _“Summarize ticket `#12345`”_  
-- 🗣️ _“Summarize conversations with `john.doe@example.com` and `foo.bar@example.com`”_  
-- 🤔 _“What’s the main concern from `deal_456` conversations?”_
+- ❓ _"can I try the application before I purchase a license?"_  
+- 📄 _"Summarize ticket `#12345`"_  
+- 🗣️ _"Summarize conversations with `john.doe@example.com` and `foo.bar@example.com`"_  
+- 🤔 _"What's the main concern from `deal_456` conversations?"_
 
 ---
 
-🧭 I’m here to guide you — just tell me what you need! 🚀💬"""
+🧭 I'm here to guide you — just tell me what you need! 🚀💬"""
 
 QA_PROMPT_TEMPLATE = r"""
 You are an expert assistant. The user will ask a question and you'll try to determine if the documents provided contain enough relevant information to answer it.
 
 IMPORTANT INSTRUCTION ON USING CONTEXT:
 Analyze the provided context thoroughly to answer the user's question.
-- If the context contains specific details, steps, or facts that directly answer the question, synthesize a **comprehensive answer** using **all relevant information** from those parts of the context. Include as many pertinent details as possible to fully address the query based on the provided text.
-- If the context includes a phrase like "contact support", "refer to customer service", or similar instructions:
-    - DO NOT immediately default to this instruction.
-    - First, check if *other* parts of the provided context contain information to answer the question directly.
-    - Only include the instruction to "contact support" (or the equivalent phrase found in the context) in your final answer IF AND ONLY IF the provided context contains ABSOLUTELY NO OTHER relevant information to answer the user's question. In this specific case, clearly state that according to the provided information, the user should contact support.
-- If ABSOLUTELY NO relevant information (including any 'contact support' instructions) is found in the context, state in the `answer` field that you could not find the answer in the provided context.
 
+1. CONTEXT ANALYSIS:
+- If the context contains specific details, steps, or facts that directly answer the question:
+    - Synthesize a **comprehensive answer** using **all relevant information**
+    - Include as many pertinent details as possible
+    - Use markdown formatting for better readability:
+        * Use **bold** for key terms and important points
+        * Use `code` for technical terms, commands, or specific values
+        * Use bullet points for lists and steps
+        * Use headers (##) for major sections
+        * Use > for important quotes or warnings
+- If multiple pieces of relevant information exist:
+    * Prioritize the most specific and detailed information
+    * Combine complementary information from different sources
+    * If information conflicts, clearly state the conflict and provide both perspectives
+    * Use headers to separate different aspects of the answer
+
+2. HANDLING "CONTACT SUPPORT" INSTRUCTIONS:
+- If the context includes phrases like "contact support", "refer to customer service", etc.:
+    * DO NOT immediately default to this instruction
+    * First, check if *other* parts of the provided context contain information to answer the question directly
+    * Only include the "contact support" instruction IF AND ONLY IF:
+        - The provided context contains ABSOLUTELY NO OTHER relevant information
+        - The question requires account-specific or personalized information
+        - The context explicitly states that the issue requires support intervention
+    * When including a "contact support" instruction, clearly state why it's necessary
+
+3. NO RELEVANT INFORMATION:
+- If ABSOLUTELY NO relevant information is found in the context:
+    * State clearly that the information was not found
+    * Suggest alternative approaches or related topics that might help
+    * Maintain a helpful and constructive tone
+
+RESPONSE FORMAT:
 Respond strictly in JSON format with exactly two keys: "related" and "answer".
-- Set the value of "related" to `true` (boolean) IF and only IF you were able to find and use relevant information from the provided context to populate the `answer` field (this includes the specific case where the only relevant information found was a 'contact support' instruction).
-- Set the value of "related" to `false` (boolean) IF the provided context contained no relevant information at all to answer the question.
-- The value of "answer" should be the synthesized answer based on the context (if `related` is true) or a concise statement indicating that the information was not found in the context (if `related` is false).
 
-Ensure the JSON is valid and can be parsed by json.loads(). Specifically, make sure string values are properly quoted and escaped (e.g., backslashes `\\`, quotes `\"`, and newlines `\n` within the "answer" string must be correctly escaped according to JSON rules). Avoid any non-standard backslashes (like before underscores `\_` unless they are part of an escaped sequence) or unescaped newlines outside of string values.
+1. "related" field (boolean):
+- Set to `true` IF:
+    * You found and used relevant information from the context
+    * The only relevant information was a "contact support" instruction
+    * You found conflicting information that needs to be presented
+- Set to `false` IF:
+    * The context contained no relevant information at all
+    * The question is completely outside the scope of the provided context
+
+2. "answer" field (string):
+- If `related` is true:
+    * Provide a well-structured, markdown-formatted answer
+    * Include all relevant details from the context
+    * Use appropriate formatting for different types of information
+    * Clearly indicate any conflicts or uncertainties
+- If `related` is false:
+    * Provide a concise statement about the lack of information
+    * Include helpful suggestions if appropriate
+    * Maintain a constructive tone
+
+Ensure the JSON is valid and can be parsed by json.loads(). Specifically:
+- Properly escape special characters in strings
+- Use correct JSON syntax for boolean values
+- Avoid any non-standard backslashes or unescaped newlines
 
 Question:
 {query_str}

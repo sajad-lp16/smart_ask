@@ -126,5 +126,16 @@ class SummaryIndicesManager:
         return response
 
 
+# class TicketResponseQueryManager:
+#     async def respond_to_ticket_query(self, user_id, user_input: str, query_based_on: dict) -> str:
+#         text_preview = "### you are asking for response to to ticket: \n" + build_query_hint(**query_based_on) + "\n\n"
+#         response_message = await elastic_query_manager.query_elastic_based_on_args(**query_based_on)
+#         if isinstance(response_message, str):
+#             response = [text_preview + response_message]
+#             await memory_manager.update_memory_context(user_id, user_input, f"{response}")
+#             return text_preview + response_message
+#
+#         collected_question =
+
 qa_index_manager = QAIndicesManager()
 summary_index_manager = SummaryIndicesManager()

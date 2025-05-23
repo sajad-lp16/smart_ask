@@ -50,5 +50,8 @@ class Router:
         elif message_type == "summarize":
             return summary_index_manager.summary_query(user_id, user_input, response_schema)
 
+        # elif message_type == "ticket_response":
+        #
+
 
 router = Router()
